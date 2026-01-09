@@ -126,6 +126,158 @@ const faqSchema = {
   }))
 };
 
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Side by Side Therapy",
+  "url": "https://sidebysidetherapy.ca",
+  "logo": "https://sidebysidetherapy.ca/logo.png",
+  "description": "Toronto's leading provider of in-home autism therapy and ABA services for children and families across the Greater Toronto Area.",
+  "telephone": "+1-647-955-5995",
+  "email": "info@sidebysidetherapy.ca",
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Toronto",
+      "containedInPlace": {
+        "@type": "AdministrativeArea",
+        "name": "Ontario"
+      }
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Peel Region",
+      "containedInPlace": {
+        "@type": "AdministrativeArea",
+        "name": "Ontario"
+      }
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "York Region",
+      "containedInPlace": {
+        "@type": "AdministrativeArea",
+        "name": "Ontario"
+      }
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Durham Region",
+      "containedInPlace": {
+        "@type": "AdministrativeArea",
+        "name": "Ontario"
+      }
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Halton Region",
+      "containedInPlace": {
+        "@type": "AdministrativeArea",
+        "name": "Ontario"
+      }
+    }
+  ],
+  "sameAs": []
+};
+
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "MedicalBusiness",
+  "name": "Side by Side Therapy",
+  "description": "In-home autism therapy and ABA services for children across the Greater Toronto Area. Evidence-based support including behaviour analysis, caregiver coaching, and individualized treatment plans.",
+  "url": "https://sidebysidetherapy.ca",
+  "telephone": "+1-647-955-5995",
+  "email": "info@sidebysidetherapy.ca",
+  "image": "https://sidebysidetherapy.ca/logo.png",
+  "priceRange": "$$",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "09:00",
+      "closes": "19:00"
+    }
+  ],
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Toronto",
+    "addressRegion": "ON",
+    "addressCountry": "CA"
+  },
+  "areaServed": [
+    {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.6532,
+        "longitude": -79.3832
+      },
+      "geoRadius": "50000"
+    },
+    { "@type": "City", "name": "Toronto" },
+    { "@type": "City", "name": "Mississauga" },
+    { "@type": "City", "name": "Brampton" },
+    { "@type": "City", "name": "Vaughan" },
+    { "@type": "City", "name": "Markham" },
+    { "@type": "City", "name": "Richmond Hill" },
+    { "@type": "City", "name": "Oakville" },
+    { "@type": "City", "name": "Burlington" },
+    { "@type": "City", "name": "Milton" },
+    { "@type": "City", "name": "Pickering" },
+    { "@type": "City", "name": "Ajax" },
+    { "@type": "City", "name": "Whitby" },
+    { "@type": "City", "name": "Oshawa" },
+    { "@type": "City", "name": "Newmarket" },
+    { "@type": "City", "name": "Aurora" },
+    { "@type": "City", "name": "Scarborough" },
+    { "@type": "City", "name": "North York" },
+    { "@type": "City", "name": "Etobicoke" }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Autism Therapy Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "In-Home ABA Therapy",
+          "description": "Applied Behavior Analysis therapy delivered in your home environment"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Caregiver Coaching",
+          "description": "Training and support for parents and caregivers"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Behaviour Support",
+          "description": "Strategies for managing challenging behaviours"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Skills Assessment",
+          "description": "Comprehensive evaluation and individualized treatment planning"
+        }
+      }
+    ]
+  }
+};
+
 const FAQPage = () => {
   return (
     <>
@@ -136,8 +288,21 @@ const FAQPage = () => {
         <meta property="og:description" content="Top 25 FAQs about in-home autism therapy across the GTA and surrounding areas." />
         <meta property="og:type" content="website" />
         <link rel="canonical" href="https://sidebysidetherapy.ca/faq" />
+        
+        {/* Geo meta tags for local SEO */}
+        <meta name="geo.region" content="CA-ON" />
+        <meta name="geo.placename" content="Toronto" />
+        <meta name="geo.position" content="43.6532;-79.3832" />
+        <meta name="ICBM" content="43.6532, -79.3832" />
+        
         <script type="application/ld+json">
           {JSON.stringify(faqSchema)}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify(organizationSchema)}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify(localBusinessSchema)}
         </script>
       </Helmet>
 
