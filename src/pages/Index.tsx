@@ -1,4 +1,3 @@
-import { HelmetProvider } from "react-helmet-async";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
@@ -10,7 +9,7 @@ import SEOSchema from "@/components/SEOSchema";
 
 const Index = () => {
   return (
-    <HelmetProvider>
+    <>
       <SEOSchema />
       <div className="min-h-screen">
         <Header />
@@ -23,7 +22,7 @@ const Index = () => {
         </main>
         <Footer />
       </div>
-    </HelmetProvider>
+    </>
   );
 };
 
