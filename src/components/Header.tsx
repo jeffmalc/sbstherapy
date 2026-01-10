@@ -1,14 +1,31 @@
 import { useState } from "react";
-import { Menu, X, Phone } from "lucide-react";
+import { Menu, X, Phone, ChevronDown, Brain, MessageCircle, HandHeart, Gamepad2, Heart, Users, GraduationCap, BookOpen } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 import logo from "@/assets/logo.png";
+
+const serviceItems = [
+  { name: "Applied Behaviour Analysis", href: "/#services", icon: Brain },
+  { name: "Speech Therapy", href: "/#services", icon: MessageCircle },
+  { name: "Occupational Therapy", href: "/#services", icon: HandHeart },
+  { name: "Therapeutic Recreation", href: "/#services", icon: Gamepad2 },
+  { name: "Respite Services", href: "/#services", icon: Heart },
+  { name: "Social Skills Training", href: "/#services", icon: Users },
+  { name: "BCBA Mentorship & Supervision", href: "/#services", icon: GraduationCap },
+  { name: "Psycho-Educational Assessments", href: "/#services", icon: BookOpen },
+];
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isServicesOpen, setIsServicesOpen] = useState(false);
 
   const navLinks = [
     { name: "Home", href: "/#home" },
-    { name: "Services", href: "/#services" },
     { name: "Service Areas", href: "/#service-area" },
     { name: "About", href: "/#about" },
     { name: "FAQ", href: "/faq" },
@@ -26,7 +43,35 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8">
-            {navLinks.map((link) => (
+            <a
+              href="/#home"
+              className="text-foreground/80 hover:text-primary font-medium transition-colors duration-300"
+            >
+              Home
+            </a>
+            
+            {/* Services Dropdown */}
+            <DropdownMenu>
+              <DropdownMenuTrigger className="flex items-center gap-1 text-foreground/80 hover:text-primary font-medium transition-colors duration-300 outline-none">
+                Services
+                <ChevronDown className="h-4 w-4" />
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="start" className="w-72">
+                {serviceItems.map((item) => (
+                  <DropdownMenuItem key={item.name} asChild>
+                    <a
+                      href={item.href}
+                      className="flex items-center gap-3 cursor-pointer"
+                    >
+                      <item.icon className="h-4 w-4 text-primary" />
+                      <span>{item.name}</span>
+                    </a>
+                  </DropdownMenuItem>
+                ))}
+              </DropdownMenuContent>
+            </DropdownMenu>
+
+            {navLinks.slice(1).map((link) => (
               <a
                 key={link.name}
                 href={link.href}
@@ -62,7 +107,41 @@ const Header = () => {
         {isMenuOpen && (
           <nav className="lg:hidden py-6 border-t border-border animate-slide-up">
             <div className="flex flex-col gap-4">
-              {navLinks.map((link) => (
+              <a
+                href="/#home"
+                className="text-foreground/80 hover:text-primary font-medium py-2 transition-colors"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Home
+              </a>
+              
+              {/* Mobile Services Accordion */}
+              <div>
+                <button
+                  className="flex items-center justify-between w-full text-foreground/80 hover:text-primary font-medium py-2 transition-colors"
+                  onClick={() => setIsServicesOpen(!isServicesOpen)}
+                >
+                  Services
+                  <ChevronDown className={`h-4 w-4 transition-transform ${isServicesOpen ? 'rotate-180' : ''}`} />
+                </button>
+                {isServicesOpen && (
+                  <div className="pl-4 mt-2 space-y-2 border-l-2 border-primary/20">
+                    {serviceItems.map((item) => (
+                      <a
+                        key={item.name}
+                        href={item.href}
+                        className="flex items-center gap-2 text-foreground/70 hover:text-primary text-sm py-1.5 transition-colors"
+                        onClick={() => setIsMenuOpen(false)}
+                      >
+                        <item.icon className="h-4 w-4 text-primary" />
+                        {item.name}
+                      </a>
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              {navLinks.slice(1).map((link) => (
                 <a
                   key={link.name}
                   href={link.href}
