@@ -9,29 +9,31 @@ import lindseyImage from "@/assets/lindsey-malc.jpg";
 import marciImage from "@/assets/marci-mccluskey.jpg";
 import madisonImage from "@/assets/madison-bartley.jpg";
 
-// Lindsey Malc is the real founder - verified from sidebysidetherapy.ca
-const founderInfo = {
-  name: "Lindsey Malc",
-  title: "Founder & Clinical Director",
-  image: lindseyImage,
-  credentials: ["BCBA", "Registered Behaviour Analyst (Ont.)", "M.ADS", "Hon. B.S.W."],
-  specializations: ["Autism Spectrum Disorder", "Applied Behaviour Analysis", "Parent/Caregiver Coaching", "Ontario Autism Program"],
-  bio: "Hello, my name is Lindsey Malc. I'm the founder and Clinical Director of Side by Side Therapy. In 2013, I became a Board Certified Behaviour Analyst. I have spent my entire career working with children with special needs and their families. I have extensive experience in clinical as well as community settings. I have worked primarily with autistic children but have considerable experience working with typically developing children with challenging behaviour as well.",
-  education: "M.ADS (Master of Applied Disability Studies) from Brock University, Honours B.S.W. from Lakehead University",
-  experience: "Over 14 years at Zareinu Educational Centre (now Kayla's Children Centre), holding positions from classroom assistant to Behaviour Analyst. Listed on the Ontario Autism Program provider list as a Clinical Supervisor."
-};
-
-// Additional team members
-const teamMembers = [
+// Founders
+const founders = [
+  {
+    name: "Lindsey Malc",
+    title: "Founder & Clinical Director",
+    image: lindseyImage,
+    credentials: ["BCBA", "Registered Behaviour Analyst (Ont.)", "M.ADS", "Hon. B.S.W."],
+    specializations: ["Autism Spectrum Disorder", "Applied Behaviour Analysis", "Parent/Caregiver Coaching", "Ontario Autism Program"],
+    bio: "Hello, my name is Lindsey Malc. I'm the founder and Clinical Director of Side by Side Therapy. In 2013, I became a Board Certified Behaviour Analyst. I have spent my entire career working with children with special needs and their families. I have extensive experience in clinical as well as community settings. I have worked primarily with autistic children but have considerable experience working with typically developing children with challenging behaviour as well.",
+    education: "M.ADS (Master of Applied Disability Studies) from Brock University, Honours B.S.W. from Lakehead University",
+    experience: "Over 14 years at Zareinu Educational Centre (now Kayla's Children Centre), holding positions from classroom assistant to Behaviour Analyst. Listed on the Ontario Autism Program provider list as a Clinical Supervisor."
+  },
   {
     name: "Marci McCluskey",
-    title: "Senior Therapist",
+    title: "Co-Founder & Senior Therapist",
     image: marciImage,
     credentials: ["RBT", "B.A."],
     specializations: ["ABA Therapy", "Early Intervention", "Behaviour Support", "Parent Training"],
-    bio: "Marci is a dedicated Senior Therapist and experienced member of our therapy team. She brings passion and expertise to help children with autism reach their full potential through evidence-based interventions and individualized care.",
+    bio: "Marci is a co-founder of Side by Side Therapy and a dedicated Senior Therapist. She brings passion and expertise to help children with autism reach their full potential through evidence-based interventions and individualized care.",
     linkedin: "https://ca.linkedin.com/in/marci-mccluskey-6a794444"
-  },
+  }
+];
+
+// Additional team members
+const teamMembers = [
   {
     name: "Madison Bartley",
     title: "Instructor Therapist",
@@ -105,34 +107,12 @@ const teamSchema = {
   "url": "https://www.sidebysidetherapy.ca",
   "telephone": "647-955-5995",
   "email": "info@sidebysidetherapy.ca",
-  "founder": {
+  "founder": founders.map(founder => ({
     "@type": "Person",
-    "name": "Lindsey Malc",
-    "jobTitle": "Founder & Clinical Director",
-    "description": founderInfo.bio,
-    "hasCredential": [
-      {
-        "@type": "EducationalOccupationalCredential",
-        "credentialCategory": "Professional Certification",
-        "name": "Board Certified Behaviour Analyst (BCBA)"
-      },
-      {
-        "@type": "EducationalOccupationalCredential",
-        "credentialCategory": "Professional Certification",
-        "name": "Registered Behaviour Analyst (Ontario)"
-      }
-    ],
-    "alumniOf": [
-      {
-        "@type": "EducationalOrganization",
-        "name": "Brock University"
-      },
-      {
-        "@type": "EducationalOrganization",
-        "name": "Lakehead University"
-      }
-    ]
-  },
+    "name": founder.name,
+    "jobTitle": founder.title,
+    "description": founder.bio
+  })),
   "employee": teamDisciplines.map(discipline => ({
     "@type": "Role",
     "roleName": discipline.title,
@@ -215,78 +195,90 @@ const Team = () => {
           </div>
         </section>
 
-        {/* Founder Section */}
+        {/* Founders Section */}
         <section className="py-20 bg-background">
           <div className="container mx-auto px-4">
-            <div className="max-w-5xl mx-auto">
+            <div className="max-w-6xl mx-auto">
               <div className="text-center mb-12">
                 <Badge className="mb-4 bg-primary/20 text-primary">
                   <Star className="w-4 h-4 mr-2" />
                   Leadership
                 </Badge>
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-                  Meet Our Founder
+                  Meet Our Founders
                 </h2>
               </div>
               
-              <Card className="overflow-hidden border-primary/20 shadow-xl">
-                <div className="grid md:grid-cols-3 gap-0">
-                  <div className="relative md:col-span-1">
-                    <img
-                      src={founderInfo.image}
-                      alt={`${founderInfo.name} - ${founderInfo.title} at Side by Side Therapy`}
-                      className="w-full h-full object-cover min-h-[300px] md:min-h-full"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent md:bg-gradient-to-r" />
-                  </div>
-                  <CardContent className="p-8 md:col-span-2 flex flex-col justify-center">
-                    <div className="mb-4">
-                      <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-2">{founderInfo.name}</h3>
-                      <p className="text-primary font-semibold text-lg">{founderInfo.title}</p>
-                    </div>
-                    
-                    <div className="flex flex-wrap gap-2 mb-6">
-                      {founderInfo.credentials.map((credential, idx) => (
-                        <Badge key={idx} variant="secondary" className="text-sm">
-                          {credential}
-                        </Badge>
-                      ))}
-                    </div>
-                    
-                    <p className="text-muted-foreground mb-6 leading-relaxed">
-                      {founderInfo.bio}
-                    </p>
-                    
-                    <div className="space-y-4 mb-6">
-                      <div className="flex items-start gap-3">
-                        <GraduationCap className="w-5 h-5 mt-0.5 text-primary flex-shrink-0" />
-                        <div>
-                          <p className="font-medium text-foreground text-sm">Education</p>
-                          <p className="text-muted-foreground text-sm">{founderInfo.education}</p>
+              <div className="grid md:grid-cols-2 gap-8">
+                {founders.map((founder, index) => (
+                  <Card key={index} className="overflow-hidden border-primary/20 shadow-xl">
+                    <div className="flex flex-col">
+                      <div className="relative h-64">
+                        <img
+                          src={founder.image}
+                          alt={`${founder.name} - ${founder.title} at Side by Side Therapy`}
+                          className="w-full h-full object-cover object-top"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+                        <div className="absolute bottom-4 left-4 right-4">
+                          <h3 className="text-2xl font-bold text-white mb-1">{founder.name}</h3>
+                          <p className="text-white/90 font-medium">{founder.title}</p>
                         </div>
                       </div>
-                      <div className="flex items-start gap-3">
-                        <Briefcase className="w-5 h-5 mt-0.5 text-primary flex-shrink-0" />
-                        <div>
-                          <p className="font-medium text-foreground text-sm">Experience</p>
-                          <p className="text-muted-foreground text-sm">{founderInfo.experience}</p>
+                      <CardContent className="p-6">
+                        <div className="flex flex-wrap gap-2 mb-4">
+                          {founder.credentials.map((credential, idx) => (
+                            <Badge key={idx} variant="secondary" className="text-sm">
+                              {credential}
+                            </Badge>
+                          ))}
                         </div>
-                      </div>
+                        
+                        <p className="text-muted-foreground mb-4 leading-relaxed text-sm">
+                          {founder.bio}
+                        </p>
+                        
+                        {founder.education && (
+                          <div className="flex items-start gap-3 mb-3">
+                            <GraduationCap className="w-4 h-4 mt-0.5 text-primary flex-shrink-0" />
+                            <p className="text-muted-foreground text-sm">{founder.education}</p>
+                          </div>
+                        )}
+                        
+                        {founder.experience && (
+                          <div className="flex items-start gap-3 mb-4">
+                            <Briefcase className="w-4 h-4 mt-0.5 text-primary flex-shrink-0" />
+                            <p className="text-muted-foreground text-sm">{founder.experience}</p>
+                          </div>
+                        )}
+                        
+                        <div className="pt-4 border-t border-border">
+                          <p className="text-sm font-medium text-muted-foreground mb-2">Specializations:</p>
+                          <div className="flex flex-wrap gap-1">
+                            {founder.specializations.map((spec, idx) => (
+                              <span key={idx} className="text-xs text-primary/80 bg-primary/10 px-2 py-0.5 rounded-full">
+                                {spec}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
+                        
+                        {founder.linkedin && (
+                          <a 
+                            href={founder.linkedin} 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-1 text-sm text-primary hover:text-primary/80 transition-colors mt-4"
+                          >
+                            <Linkedin className="w-4 h-4" />
+                            View LinkedIn Profile
+                          </a>
+                        )}
+                      </CardContent>
                     </div>
-                    
-                    <div className="pt-4 border-t border-border">
-                      <p className="text-sm font-medium text-muted-foreground mb-3">Specializations:</p>
-                      <div className="flex flex-wrap gap-2">
-                        {founderInfo.specializations.map((spec, idx) => (
-                          <span key={idx} className="text-sm text-primary/80 bg-primary/10 px-3 py-1 rounded-full">
-                            {spec}
-                          </span>
-                        ))}
-                      </div>
-                    </div>
-                  </CardContent>
-                </div>
-              </Card>
+                  </Card>
+                ))}
+              </div>
             </div>
           </div>
         </section>
