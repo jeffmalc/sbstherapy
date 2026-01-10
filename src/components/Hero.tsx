@@ -43,7 +43,7 @@ const useCountUp = (end: number, duration: number = 2000) => {
 };
 
 const Hero = () => {
-  const { count: familiesCount, ref: familiesRef } = useCountUp(150, 2000);
+  const { count: familiesCount, ref: familiesRef } = useCountUp(150, 2500);
 
   return (
     <section id="home" className="relative min-h-screen flex items-center pt-20 overflow-hidden">
