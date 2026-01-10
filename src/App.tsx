@@ -19,6 +19,7 @@ import RespiteServices from "./pages/services/RespiteServices";
 import SocialSkillsTraining from "./pages/services/SocialSkillsTraining";
 import BCBAMentorship from "./pages/services/BCBAMentorship";
 import PsychoEducationalAssessments from "./pages/services/PsychoEducationalAssessments";
+import ServiceAreaPage from "./pages/ServiceAreaPage";
 
 const queryClient = new QueryClient();
 
@@ -44,6 +45,7 @@ const App = () => (
             <Route path="/services/social-skills-training" element={<SocialSkillsTraining />} />
             <Route path="/services/bcba-mentorship" element={<BCBAMentorship />} />
             <Route path="/services/psycho-educational-assessments" element={<PsychoEducationalAssessments />} />
+            <Route path="/service-area/:slug" element={<ServiceAreaPage />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
