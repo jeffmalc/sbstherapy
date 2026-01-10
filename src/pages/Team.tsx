@@ -5,12 +5,13 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Phone, Mail, Award, GraduationCap, Heart, Users, Briefcase, Star } from "lucide-react";
+import lindseyImage from "@/assets/lindsey-malc.jpg";
 
 // Lindsey Malc is the real founder - verified from sidebysidetherapy.ca
 const founderInfo = {
   name: "Lindsey Malc",
   title: "Founder & Clinical Director",
-  image: "https://i.ytimg.com/vi/KvrUusVp8fo/hqdefault.jpg",
+  image: lindseyImage,
   credentials: ["BCBA", "Registered Behaviour Analyst (Ont.)", "M.ADS", "Hon. B.S.W."],
   specializations: ["Autism Spectrum Disorder", "Applied Behaviour Analysis", "Parent/Caregiver Coaching", "Ontario Autism Program"],
   bio: "Hello, my name is Lindsey Malc. I'm the founder and Clinical Director of Side by Side Therapy. In 2013, I became a Board Certified Behaviour Analyst. I have spent my entire career working with children with special needs and their families. I have extensive experience in clinical as well as community settings. I have worked primarily with autistic children but have considerable experience working with typically developing children with challenging behaviour as well.",
