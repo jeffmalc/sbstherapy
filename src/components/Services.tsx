@@ -1,6 +1,7 @@
 import { Brain, BookOpen, MessageCircle, HandHeart, Gamepad2, Users, GraduationCap, Heart, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import { StaggeredItem } from "@/components/AnimatedSection";
 
 const services = [
   {
@@ -87,29 +88,29 @@ const Services = () => {
         {/* Services Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map((service, index) => (
-            <Link
-              key={service.title}
-              to={service.link}
-              className="group relative bg-card rounded-2xl p-6 shadow-soft hover:shadow-elevated transition-all duration-500 hover:-translate-y-1 block"
-              style={{ animationDelay: `${index * 0.1}s` }}
-            >
-              <div className={`w-14 h-14 rounded-xl flex items-center justify-center mb-5 transition-all duration-300 ${colorClasses[service.color as keyof typeof colorClasses]}`}>
-                <service.icon className="h-7 w-7" />
-              </div>
-              
-              <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">
-                {service.title}
-              </h3>
-              
-              <p className="text-muted-foreground text-sm leading-relaxed mb-4">
-                {service.description}
-              </p>
-              
-              <div className="flex items-center text-sm font-semibold text-primary group-hover:text-primary transition-colors">
-                Learn More
-                <ArrowRight className="h-4 w-4 ml-1 transition-transform group-hover:translate-x-1" />
-              </div>
-            </Link>
+            <StaggeredItem key={service.title} index={index} staggerDelay={75} animation="fade-up">
+              <Link
+                to={service.link}
+                className="group relative bg-card rounded-2xl p-6 shadow-soft hover:shadow-elevated transition-all duration-500 hover:-translate-y-1 block h-full"
+              >
+                <div className={`w-14 h-14 rounded-xl flex items-center justify-center mb-5 transition-all duration-300 ${colorClasses[service.color as keyof typeof colorClasses]}`}>
+                  <service.icon className="h-7 w-7" />
+                </div>
+                
+                <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">
+                  {service.title}
+                </h3>
+                
+                <p className="text-muted-foreground text-sm leading-relaxed mb-4">
+                  {service.description}
+                </p>
+                
+                <div className="flex items-center text-sm font-semibold text-primary group-hover:text-primary transition-colors">
+                  Learn More
+                  <ArrowRight className="h-4 w-4 ml-1 transition-transform group-hover:translate-x-1" />
+                </div>
+              </Link>
+            </StaggeredItem>
           ))}
         </div>
         
