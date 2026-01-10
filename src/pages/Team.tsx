@@ -18,6 +18,26 @@ const founderInfo = {
   experience: "Over 14 years at Zareinu Educational Centre (now Kayla's Children Centre), holding positions from classroom assistant to Behaviour Analyst. Listed on the Ontario Autism Program provider list as a Clinical Supervisor."
 };
 
+// Additional team members
+const teamMembers = [
+  {
+    name: "Marci McCluskey",
+    title: "Senior Therapist",
+    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop&crop=face",
+    credentials: ["RBT", "B.A."],
+    specializations: ["ABA Therapy", "Early Intervention", "Behaviour Support"],
+    bio: "Marci is a dedicated member of our therapy team, bringing passion and expertise to help children with autism reach their full potential through evidence-based interventions."
+  },
+  {
+    name: "Madison Bartley",
+    title: "Instructor Therapist",
+    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop&crop=face",
+    credentials: ["RBT", "B.Sc."],
+    specializations: ["ABA Therapy", "Social Skills", "Play-Based Learning"],
+    bio: "Madison works one-on-one with children diagnosed with Autism Spectrum Disorder, implementing individualized ABA therapy programs with compassion and skill."
+  }
+];
+
 // Representing the diverse team of contractors and specialists
 const teamDisciplines = [
   {
@@ -262,6 +282,63 @@ const Team = () => {
                   </CardContent>
                 </div>
               </Card>
+            </div>
+          </div>
+        </section>
+
+        {/* Team Members Section */}
+        <section className="py-20 bg-muted/30">
+          <div className="container mx-auto px-4">
+            <div className="max-w-5xl mx-auto">
+              <div className="text-center mb-12">
+                <Badge className="mb-4 bg-primary/20 text-primary">
+                  <Users className="w-4 h-4 mr-2" />
+                  Our Team
+                </Badge>
+                <h2 className="text-3xl md:text-4xl font-bold text-foreground">
+                  Meet Our Therapists
+                </h2>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-8">
+                {teamMembers.map((member, index) => (
+                  <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow duration-300 border-border/50">
+                    <div className="flex flex-col sm:flex-row">
+                      <div className="relative sm:w-1/3">
+                        <img
+                          src={member.image}
+                          alt={`${member.name} - ${member.title} at Side by Side Therapy`}
+                          className="w-full h-48 sm:h-full object-cover"
+                        />
+                      </div>
+                      <CardContent className="p-6 sm:w-2/3 flex flex-col justify-center">
+                        <h3 className="text-xl font-bold text-foreground mb-1">{member.name}</h3>
+                        <p className="text-primary font-medium text-sm mb-3">{member.title}</p>
+                        
+                        <div className="flex flex-wrap gap-1 mb-3">
+                          {member.credentials.map((credential, idx) => (
+                            <Badge key={idx} variant="secondary" className="text-xs">
+                              {credential}
+                            </Badge>
+                          ))}
+                        </div>
+                        
+                        <p className="text-muted-foreground text-sm mb-4">
+                          {member.bio}
+                        </p>
+                        
+                        <div className="flex flex-wrap gap-1">
+                          {member.specializations.map((spec, idx) => (
+                            <span key={idx} className="text-xs text-primary/80 bg-primary/10 px-2 py-0.5 rounded-full">
+                              {spec}
+                            </span>
+                          ))}
+                        </div>
+                      </CardContent>
+                    </div>
+                  </Card>
+                ))}
+              </div>
             </div>
           </div>
         </section>
