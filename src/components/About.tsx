@@ -1,6 +1,7 @@
 import { CheckCircle2, Award, Users, Clock, Heart, Target, Sparkles, Phone, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import { StaggeredItem } from "@/components/AnimatedSection";
 
 const coreValues = [
   {
@@ -29,6 +30,14 @@ const qualifications = [
   "Comprehensive psycho-educational assessments",
 ];
 
+const disciplines = [
+  { name: "ABA Therapy", desc: "Behaviour analysis & skill building", link: "/services/aba-therapy" },
+  { name: "Speech Therapy", desc: "Communication & language development", link: "/services/speech-therapy" },
+  { name: "Occupational Therapy", desc: "Independence & daily living skills", link: "/services/occupational-therapy" },
+  { name: "Therapeutic Recreation", desc: "Learning through play & recreation", link: "/services/therapeutic-recreation" },
+  { name: "Respite Services", desc: "Quality care & family support", link: "/services/respite-services" },
+];
+
 const About = () => {
   return (
     <section id="about" className="py-24 bg-card relative overflow-hidden">
@@ -55,16 +64,15 @@ const About = () => {
         {/* Core Values Grid */}
         <div className="grid md:grid-cols-3 gap-8 mb-20">
           {coreValues.map((value, index) => (
-            <div 
-              key={index}
-              className="bg-background rounded-2xl p-8 shadow-soft border border-border/50 hover:shadow-lg hover:border-primary/30 transition-all duration-300 group"
-            >
-              <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                <value.icon className="h-7 w-7 text-primary" />
+            <StaggeredItem key={index} index={index} staggerDelay={150} animation="fade-up">
+              <div className="bg-background rounded-2xl p-8 shadow-soft border border-border/50 hover:shadow-lg hover:border-primary/30 transition-all duration-300 group h-full">
+                <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                  <value.icon className="h-7 w-7 text-primary" />
+                </div>
+                <h3 className="text-xl font-bold mb-3">{value.title}</h3>
+                <p className="text-muted-foreground leading-relaxed">{value.description}</p>
               </div>
-              <h3 className="text-xl font-bold mb-3">{value.title}</h3>
-              <p className="text-muted-foreground leading-relaxed">{value.description}</p>
-            </div>
+            </StaggeredItem>
           ))}
         </div>
 
@@ -91,11 +99,13 @@ const About = () => {
             
             {/* Qualifications List */}
             <div className="grid sm:grid-cols-2 gap-3 mb-8">
-              {qualifications.map((qualification) => (
-                <div key={qualification} className="flex items-center gap-2">
-                  <CheckCircle2 className="h-5 w-5 text-secondary flex-shrink-0" />
-                  <span className="text-sm font-medium">{qualification}</span>
-                </div>
+              {qualifications.map((qualification, index) => (
+                <StaggeredItem key={qualification} index={index} staggerDelay={75} animation="fade-left">
+                  <div className="flex items-center gap-2">
+                    <CheckCircle2 className="h-5 w-5 text-secondary flex-shrink-0" />
+                    <span className="text-sm font-medium">{qualification}</span>
+                  </div>
+                </StaggeredItem>
               ))}
             </div>
             
@@ -109,28 +119,36 @@ const About = () => {
           
           {/* Stats Cards */}
           <div className="grid grid-cols-2 gap-6">
-            <div className="bg-background rounded-2xl p-8 shadow-soft text-center border border-border/50 hover:border-primary/30 transition-colors">
-              <Award className="h-12 w-12 text-primary mx-auto mb-4" />
-              <div className="text-4xl font-bold text-primary mb-2">BCBA</div>
-              <p className="text-sm text-muted-foreground">Certified Analysts</p>
-            </div>
+            <StaggeredItem index={0} staggerDelay={100} animation="zoom-in">
+              <div className="bg-background rounded-2xl p-8 shadow-soft text-center border border-border/50 hover:border-primary/30 transition-colors">
+                <Award className="h-12 w-12 text-primary mx-auto mb-4" />
+                <div className="text-4xl font-bold text-primary mb-2">BCBA</div>
+                <p className="text-sm text-muted-foreground">Certified Analysts</p>
+              </div>
+            </StaggeredItem>
             
-            <div className="bg-background rounded-2xl p-8 shadow-soft text-center border border-border/50 hover:border-secondary/30 transition-colors">
-              <Users className="h-12 w-12 text-secondary mx-auto mb-4" />
-              <div className="text-4xl font-bold text-secondary mb-2">500+</div>
-              <p className="text-sm text-muted-foreground">Families Served</p>
-            </div>
+            <StaggeredItem index={1} staggerDelay={100} animation="zoom-in">
+              <div className="bg-background rounded-2xl p-8 shadow-soft text-center border border-border/50 hover:border-secondary/30 transition-colors">
+                <Users className="h-12 w-12 text-secondary mx-auto mb-4" />
+                <div className="text-4xl font-bold text-secondary mb-2">500+</div>
+                <p className="text-sm text-muted-foreground">Families Served</p>
+              </div>
+            </StaggeredItem>
             
-            <div className="bg-background rounded-2xl p-8 shadow-soft text-center border border-border/50 hover:border-accent/30 transition-colors">
-              <Clock className="h-12 w-12 text-accent mx-auto mb-4" />
-              <div className="text-4xl font-bold text-accent mb-2">5+</div>
-              <p className="text-sm text-muted-foreground">Years Experience</p>
-            </div>
+            <StaggeredItem index={2} staggerDelay={100} animation="zoom-in">
+              <div className="bg-background rounded-2xl p-8 shadow-soft text-center border border-border/50 hover:border-accent/30 transition-colors">
+                <Clock className="h-12 w-12 text-accent mx-auto mb-4" />
+                <div className="text-4xl font-bold text-accent mb-2">5+</div>
+                <p className="text-sm text-muted-foreground">Years Experience</p>
+              </div>
+            </StaggeredItem>
             
-            <div className="gradient-hero rounded-2xl p-8 text-center text-primary-foreground">
-              <div className="text-4xl font-bold mb-2">OAP</div>
-              <p className="text-sm opacity-90">Approved Provider</p>
-            </div>
+            <StaggeredItem index={3} staggerDelay={100} animation="zoom-in">
+              <div className="gradient-hero rounded-2xl p-8 text-center text-primary-foreground">
+                <div className="text-4xl font-bold mb-2">OAP</div>
+                <p className="text-sm opacity-90">Approved Provider</p>
+              </div>
+            </StaggeredItem>
           </div>
         </div>
 
@@ -144,28 +162,23 @@ const About = () => {
           </div>
           
           <div className="grid md:grid-cols-5 gap-4">
-            {[
-              { name: "ABA Therapy", desc: "Behaviour analysis & skill building", link: "/services/aba-therapy" },
-              { name: "Speech Therapy", desc: "Communication & language development", link: "/services/speech-therapy" },
-              { name: "Occupational Therapy", desc: "Independence & daily living skills", link: "/services/occupational-therapy" },
-              { name: "Therapeutic Recreation", desc: "Learning through play & recreation", link: "/services/therapeutic-recreation" },
-              { name: "Respite Services", desc: "Quality care & family support", link: "/services/respite-services" },
-            ].map((discipline, index) => (
-              <Link 
-                key={index}
-                to={discipline.link}
-                className="text-center p-6 rounded-xl bg-muted/30 hover:bg-primary/10 transition-all duration-300 group hover:-translate-y-1 block"
-              >
-                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-secondary mx-auto mb-3 flex items-center justify-center text-primary-foreground font-bold">
-                  {index + 1}
-                </div>
-                <h4 className="font-semibold mb-1 group-hover:text-primary transition-colors">{discipline.name}</h4>
-                <p className="text-xs text-muted-foreground mb-2">{discipline.desc}</p>
-                <div className="flex items-center justify-center text-xs font-medium text-primary opacity-0 group-hover:opacity-100 transition-opacity">
-                  Learn More
-                  <ArrowRight className="h-3 w-3 ml-1" />
-                </div>
-              </Link>
+            {disciplines.map((discipline, index) => (
+              <StaggeredItem key={index} index={index} staggerDelay={100} animation="fade-up">
+                <Link 
+                  to={discipline.link}
+                  className="text-center p-6 rounded-xl bg-muted/30 hover:bg-primary/10 transition-all duration-300 group hover:-translate-y-1 block h-full"
+                >
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-secondary mx-auto mb-3 flex items-center justify-center text-primary-foreground font-bold">
+                    {index + 1}
+                  </div>
+                  <h4 className="font-semibold mb-1 group-hover:text-primary transition-colors">{discipline.name}</h4>
+                  <p className="text-xs text-muted-foreground mb-2">{discipline.desc}</p>
+                  <div className="flex items-center justify-center text-xs font-medium text-primary opacity-0 group-hover:opacity-100 transition-opacity">
+                    Learn More
+                    <ArrowRight className="h-3 w-3 ml-1" />
+                  </div>
+                </Link>
+              </StaggeredItem>
             ))}
           </div>
         </div>
