@@ -35,11 +35,11 @@ const serviceLocations = [
 ];
 
 const regions = [
-  { name: "Toronto", color: "bg-primary" },
-  { name: "Peel", color: "bg-accent" },
-  { name: "York", color: "bg-secondary" },
-  { name: "Halton", color: "bg-primary/80" },
-  { name: "Durham", color: "bg-accent/80" },
+  { name: "Toronto", color: "bg-primary", tagColor: "bg-primary/90" },
+  { name: "Peel", color: "bg-accent", tagColor: "bg-accent/90" },
+  { name: "York", color: "bg-emerald-600", tagColor: "bg-emerald-500" },
+  { name: "Halton", color: "bg-amber-600", tagColor: "bg-amber-500" },
+  { name: "Durham", color: "bg-violet-600", tagColor: "bg-violet-500" },
 ];
 
 const getRegionStyle = (regionName: string) => {
@@ -82,7 +82,7 @@ const ServiceAreaMap = () => {
                   {region.locations.map((location) => (
                     <span
                       key={location.name}
-                      className={`px-3 py-1.5 rounded-full text-sm font-medium ${region.color} text-primary-foreground`}
+                      className={`px-3 py-1.5 rounded-full text-sm font-medium ${region.tagColor} text-white`}
                     >
                       {location.name}
                     </span>
