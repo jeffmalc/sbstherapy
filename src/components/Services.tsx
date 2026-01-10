@@ -1,5 +1,6 @@
 import { Brain, BookOpen, MessageCircle, HandHeart, Gamepad2, Users, GraduationCap, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const services = [
   {
@@ -7,48 +8,56 @@ const services = [
     title: "Applied Behaviour Analysis",
     description: "Evidence-based therapy to teach helpful behaviours while reducing challenging ones. Comprehensive, focused, or consultation models available.",
     color: "primary",
+    link: "/services/aba-therapy",
   },
   {
     icon: MessageCircle,
     title: "Speech Therapy",
     description: "Speech-Language Pathologists work to improve your child's verbal and nonverbal communication skills.",
     color: "secondary",
+    link: "/services/speech-therapy",
   },
   {
     icon: HandHeart,
     title: "Occupational Therapy",
     description: "Addressing challenges that prevent your child from being successful at school and home with targeted interventions.",
     color: "accent",
+    link: "/services/occupational-therapy",
   },
   {
     icon: Gamepad2,
     title: "Therapeutic Recreation",
     description: "Recreation therapists engage with your child to address social, emotional, cognitive and physical development through play.",
     color: "primary",
+    link: "/services/therapeutic-recreation",
   },
   {
     icon: Heart,
     title: "Respite Services",
     description: "Providing caregivers a much-needed break while your child enjoys fun, engaging activities with trained professionals.",
     color: "secondary",
+    link: "/services/respite-services",
   },
   {
     icon: Users,
     title: "Social Skills Training",
     description: "Dedicated learning opportunities in groups or dyads to help your child practice and master essential social skills.",
     color: "accent",
+    link: "/services/social-skills-training",
   },
   {
     icon: GraduationCap,
     title: "BCBA Mentorship & Supervision",
     description: "Interested in becoming a BCBA or BCaBA? Let us help you achieve your professional certification goals.",
     color: "primary",
+    link: "/services/bcba-mentorship",
   },
   {
     icon: BookOpen,
     title: "Psycho-Educational Assessments",
     description: "Standardized testing to identify your child's strengths and areas for growth, providing invaluable support for school accommodations.",
     color: "secondary",
+    link: "/services/psycho-educational-assessments",
   },
 ];
 
@@ -78,9 +87,10 @@ const Services = () => {
         {/* Services Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map((service, index) => (
-            <article
+            <Link
               key={service.title}
-              className="group relative bg-card rounded-2xl p-6 shadow-soft hover:shadow-elevated transition-all duration-500 hover:-translate-y-1"
+              to={service.link}
+              className="group relative bg-card rounded-2xl p-6 shadow-soft hover:shadow-elevated transition-all duration-500 hover:-translate-y-1 block"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className={`w-14 h-14 rounded-xl flex items-center justify-center mb-5 transition-all duration-300 ${colorClasses[service.color as keyof typeof colorClasses]}`}>
@@ -94,7 +104,7 @@ const Services = () => {
               <p className="text-muted-foreground text-sm leading-relaxed">
                 {service.description}
               </p>
-            </article>
+            </Link>
           ))}
         </div>
         
