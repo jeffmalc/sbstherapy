@@ -6,6 +6,7 @@ import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import SEOSchema from "@/components/SEOSchema";
+import ServiceAreaMap from "@/components/ServiceAreaMap";
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
         <main>
           <Hero />
           <Services />
+          <ServiceAreaMap />
           <About />
           <FAQ />
           <Contact />
