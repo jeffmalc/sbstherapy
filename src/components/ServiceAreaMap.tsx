@@ -2,33 +2,44 @@ import { MapPin } from 'lucide-react';
 
 const serviceLocations = [
   { name: "Toronto", region: "Toronto" },
+  { name: "North York", region: "Toronto" },
+  { name: "Scarborough", region: "Toronto" },
+  { name: "Etobicoke", region: "Toronto" },
+  { name: "East York", region: "Toronto" },
   { name: "Mississauga", region: "Peel" },
   { name: "Brampton", region: "Peel" },
+  { name: "Caledon", region: "Peel" },
   { name: "Vaughan", region: "York" },
   { name: "Markham", region: "York" },
   { name: "Richmond Hill", region: "York" },
-  { name: "Oakville", region: "Halton" },
-  { name: "Burlington", region: "Halton" },
-  { name: "Milton", region: "Halton" },
-  { name: "Ajax", region: "Durham" },
-  { name: "Pickering", region: "Durham" },
-  { name: "Whitby", region: "Durham" },
-  { name: "Oshawa", region: "Durham" },
   { name: "Aurora", region: "York" },
   { name: "Newmarket", region: "York" },
   { name: "Thornhill", region: "York" },
   { name: "Stouffville", region: "York" },
   { name: "King", region: "York" },
   { name: "Georgina", region: "York" },
+  { name: "East Gwillimbury", region: "York" },
+  { name: "Oakville", region: "Halton" },
+  { name: "Burlington", region: "Halton" },
+  { name: "Milton", region: "Halton" },
+  { name: "Halton Hills", region: "Halton" },
+  { name: "Georgetown", region: "Halton" },
+  { name: "Ajax", region: "Durham" },
+  { name: "Pickering", region: "Durham" },
+  { name: "Whitby", region: "Durham" },
+  { name: "Oshawa", region: "Durham" },
+  { name: "Clarington", region: "Durham" },
   { name: "Uxbridge", region: "Durham" },
+  { name: "Scugog", region: "Durham" },
+  { name: "Brock", region: "Durham" },
 ];
 
 const regions = [
-  { name: "Toronto", color: "bg-violet-500", textColor: "text-violet-600" },
-  { name: "Peel", color: "bg-orange-500", textColor: "text-orange-600" },
-  { name: "York", color: "bg-sky-500", textColor: "text-sky-600" },
-  { name: "Halton", color: "bg-emerald-500", textColor: "text-emerald-600" },
-  { name: "Durham", color: "bg-yellow-500", textColor: "text-yellow-600" },
+  { name: "Toronto", color: "bg-primary" },
+  { name: "Peel", color: "bg-accent" },
+  { name: "York", color: "bg-secondary" },
+  { name: "Halton", color: "bg-primary/80" },
+  { name: "Durham", color: "bg-accent/80" },
 ];
 
 const getRegionStyle = (regionName: string) => {
@@ -61,7 +72,7 @@ const ServiceAreaMap = () => {
               className="bg-card rounded-xl border shadow-sm overflow-hidden hover:shadow-md transition-shadow"
             >
               <div className={`${region.color} px-4 py-3`}>
-                <h3 className="font-semibold text-white flex items-center gap-2">
+                <h3 className="font-semibold text-primary-foreground flex items-center gap-2">
                   <MapPin className="h-4 w-4" />
                   {region.name} Region
                 </h3>
@@ -71,7 +82,7 @@ const ServiceAreaMap = () => {
                   {region.locations.map((location) => (
                     <span
                       key={location.name}
-                      className={`px-3 py-1.5 rounded-full text-sm font-medium ${region.color} text-white`}
+                      className={`px-3 py-1.5 rounded-full text-sm font-medium ${region.color} text-primary-foreground`}
                     >
                       {location.name}
                     </span>
