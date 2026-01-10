@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import PageTransition from "@/components/PageTransition";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -419,7 +420,7 @@ const Blog = () => {
   });
 
   return (
-    <>
+    <PageTransition>
       <Helmet>
         <title>Blog & Resources | Autism & ABA Therapy Articles | Side by Side Therapy</title>
         <meta 
@@ -634,7 +635,7 @@ const Blog = () => {
       </main>
 
       <Footer />
-    </>
+    </PageTransition>
   );
 };
 

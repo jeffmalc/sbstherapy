@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import PageTransition from "@/components/PageTransition";
 import { Button } from "@/components/ui/button";
 import { Heart, CheckCircle, Phone, ArrowLeft, Home, Users, Shield, Clock } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -127,7 +128,7 @@ const RespiteServices = () => {
   };
 
   return (
-    <>
+    <PageTransition>
       <Helmet>
         <title>Respite Care Services for Autism Families Toronto | Side by Side Therapy</title>
         <meta name="description" content="Quality respite care for families of children with autism in Toronto & GTA. Trained professionals, flexible scheduling, in-home & community options. Free consultation: 647-955-5995" />
@@ -279,7 +280,7 @@ const RespiteServices = () => {
       </main>
 
       <Footer />
-    </>
+    </PageTransition>
   );
 };
 

@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import PageTransition from "@/components/PageTransition";
 import {
   Accordion,
   AccordionContent,
@@ -178,7 +179,7 @@ const organizationSchema = {
 
 const FAQPage = () => {
   return (
-    <>
+    <PageTransition>
       <Helmet>
         <title>Side by Side Therapy | In-Home Autism Therapy in the GTA — Top 25 FAQs</title>
         <meta name="description" content="Side by Side Therapy provides in-home autism therapy across Toronto, Peel, York Region, Durham, and surrounding areas. Read our top 25 FAQs about services, approach, funding, and what to expect." />
@@ -353,7 +354,7 @@ const FAQPage = () => {
       </main>
 
       <Footer />
-    </>
+    </PageTransition>
   );
 };
 

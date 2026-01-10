@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import PageTransition from "@/components/PageTransition";
 import { Button } from "@/components/ui/button";
 import { HandHeart, CheckCircle, Phone, ArrowLeft, Paintbrush, Activity, Eye, Home } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -148,7 +149,7 @@ const OccupationalTherapy = () => {
   };
 
   return (
-    <>
+    <PageTransition>
       <Helmet>
         <title>Occupational Therapy for Autism Toronto | Sensory Processing | Side by Side</title>
         <meta name="description" content="Expert occupational therapy for children with autism in Toronto & GTA. Sensory processing, fine motor skills, daily living skills. Free consultation: 647-955-5995" />
@@ -320,7 +321,7 @@ const OccupationalTherapy = () => {
       </main>
 
       <Footer />
-    </>
+    </PageTransition>
   );
 };
 

@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet-async";
 import { MapPin, Phone, Mail, ArrowRight, CheckCircle2, Clock, Heart, Users } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import PageTransition from "@/components/PageTransition";
 import { Button } from "@/components/ui/button";
 import { getServiceAreaBySlug, serviceAreas, regions } from "@/data/serviceAreas";
 
@@ -253,7 +254,7 @@ const ServiceAreaPage = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <PageTransition className="min-h-screen flex flex-col">
       <Helmet>
         <title>Autism Therapy in {area.name} | In-Home ABA, Speech & OT Therapy | Side by Side Therapy</title>
         <meta 
@@ -474,7 +475,7 @@ const ServiceAreaPage = () => {
       </main>
 
       <Footer />
-    </div>
+    </PageTransition>
   );
 };
 

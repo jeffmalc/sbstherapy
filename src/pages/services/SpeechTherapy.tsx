@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import PageTransition from "@/components/PageTransition";
 import { Button } from "@/components/ui/button";
 import { MessageCircle, CheckCircle, Phone, ArrowLeft, Mic, Volume2, BookOpen, Users } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -149,7 +150,7 @@ const SpeechTherapy = () => {
   };
 
   return (
-    <>
+    <PageTransition>
       <Helmet>
         <title>Speech Therapy for Autism Toronto | Speech-Language Pathology | Side by Side</title>
         <meta name="description" content="Expert speech therapy for children with autism in Toronto & GTA. Speech-Language Pathologists specializing in autism, AAC, social communication. Free consultation: 647-955-5995" />
@@ -321,7 +322,7 @@ const SpeechTherapy = () => {
       </main>
 
       <Footer />
-    </>
+    </PageTransition>
   );
 };
 
