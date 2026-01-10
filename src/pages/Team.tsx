@@ -219,10 +219,10 @@ const Team = () => {
                           alt={`${founder.name} - ${founder.title} at Side by Side Therapy`}
                           className="w-full h-full object-cover object-center"
                         />
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+                        <div className="absolute inset-0 bg-gradient-to-t from-foreground/60 via-transparent to-transparent" />
                         <div className="absolute bottom-4 left-4 right-4">
-                          <h3 className="text-2xl font-bold text-white mb-1">{founder.name}</h3>
-                          <p className="text-white/90 font-medium">{founder.title}</p>
+                          <h3 className="text-2xl font-bold text-primary-foreground mb-1">{founder.name}</h3>
+                          <p className="text-primary-foreground/90 font-medium">{founder.title}</p>
                         </div>
                       </div>
                       <CardContent className="p-6">
@@ -377,7 +377,7 @@ const Team = () => {
                   <Card key={index} className="relative overflow-hidden hover:shadow-lg transition-shadow duration-300 border-border/50">
                     {discipline.hiring && (
                       <div className="absolute top-3 right-3">
-                        <Badge className="bg-green-500/90 text-white hover:bg-green-500">
+                        <Badge className="bg-secondary/90 text-secondary-foreground hover:bg-secondary">
                           Now Hiring
                         </Badge>
                       </div>
@@ -459,7 +459,7 @@ const Team = () => {
         <section className="py-20 bg-gradient-to-br from-primary to-primary/80 text-primary-foreground">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <Badge className="mb-4 bg-white/20 text-white hover:bg-white/30">
+              <Badge className="mb-4 bg-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/30">
                 <Briefcase className="w-4 h-4 mr-2" />
                 We're Hiring
               </Badge>

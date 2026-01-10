@@ -257,7 +257,7 @@ const RespiteServices = () => {
         </section>
 
         {/* CTA */}
-        <section className="py-16 md:py-20 bg-rose-500 text-white">
+        <section className="py-16 md:py-20 gradient-hero text-primary-foreground">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">You Deserve a Break</h2>
             <p className="mb-8 max-w-2xl mx-auto opacity-90">
@@ -270,7 +270,7 @@ const RespiteServices = () => {
                   Call 647-955-5995
                 </a>
               </Button>
-              <Button variant="outline" size="lg" className="bg-transparent border-white text-white hover:bg-white hover:text-rose-500" asChild>
+              <Button variant="outline" size="lg" className="bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary" asChild>
                 <a href="mailto:info@sidebysidetherapy.ca">Email Us</a>
               </Button>
             </div>

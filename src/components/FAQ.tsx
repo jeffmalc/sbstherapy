@@ -72,7 +72,7 @@ const FAQ = () => {
     <section id="faq" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <span className="text-teal font-semibold text-sm uppercase tracking-wider">
+          <span className="text-secondary font-semibold text-sm uppercase tracking-wider">
             Common Questions
           </span>
           <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mt-2 mb-4">
@@ -87,7 +87,7 @@ const FAQ = () => {
           {faqs.map((category, categoryIndex) => (
             <div key={categoryIndex}>
               <h3 className="text-xl font-display font-semibold text-primary mb-4 flex items-center gap-2">
-                <span className="w-2 h-2 rounded-full bg-teal"></span>
+                <span className="w-2 h-2 rounded-full bg-secondary"></span>
                 {category.category}
               </h3>
               <Accordion type="single" collapsible className="space-y-3">
@@ -116,7 +116,7 @@ const FAQ = () => {
           </p>
           <a
             href="#contact"
-            className="inline-flex items-center text-primary font-semibold hover:text-magenta transition-colors"
+            className="inline-flex items-center text-primary font-semibold hover:text-accent transition-colors"
           >
             Contact us for more information
             <svg
