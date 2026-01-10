@@ -10,14 +10,14 @@ import {
 import logo from "@/assets/logo.png";
 
 const serviceItems = [
-  { name: "Applied Behaviour Analysis", href: "/#services", icon: Brain },
-  { name: "Speech Therapy", href: "/#services", icon: MessageCircle },
-  { name: "Occupational Therapy", href: "/#services", icon: HandHeart },
-  { name: "Therapeutic Recreation", href: "/#services", icon: Gamepad2 },
-  { name: "Respite Services", href: "/#services", icon: Heart },
-  { name: "Social Skills Training", href: "/#services", icon: Users },
-  { name: "BCBA Mentorship & Supervision", href: "/#services", icon: GraduationCap },
-  { name: "Psycho-Educational Assessments", href: "/#services", icon: BookOpen },
+  { name: "Applied Behaviour Analysis", href: "/services/aba-therapy", icon: Brain },
+  { name: "Speech Therapy", href: "/services/speech-therapy", icon: MessageCircle },
+  { name: "Occupational Therapy", href: "/services/occupational-therapy", icon: HandHeart },
+  { name: "Therapeutic Recreation", href: "/services/therapeutic-recreation", icon: Gamepad2 },
+  { name: "Respite Services", href: "/services/respite-services", icon: Heart },
+  { name: "Social Skills Training", href: "/services/social-skills-training", icon: Users },
+  { name: "BCBA Mentorship & Supervision", href: "/services/bcba-mentorship", icon: GraduationCap },
+  { name: "Psycho-Educational Assessments", href: "/services/psycho-educational-assessments", icon: BookOpen },
 ];
 
 const Header = () => {
