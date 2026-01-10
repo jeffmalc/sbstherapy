@@ -1,4 +1,4 @@
-import { Heart, Facebook, Instagram } from "lucide-react";
+import { Heart, Facebook, Instagram, Youtube, Linkedin } from "lucide-react";
 import OptimizedImage from "@/components/OptimizedImage";
 import footerLogo from "@/assets/footer-logo.png";
 
@@ -33,6 +33,24 @@ const Footer = () => {
                 aria-label="Instagram"
               >
                 <Instagram className="h-6 w-6" />
+              </a>
+              <a
+                href="https://www.youtube.com/c/SidebySideTherapy-Autism-and-ABA-Therapy-Services"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary-foreground/70 hover:text-primary-foreground transition-colors"
+                aria-label="YouTube"
+              >
+                <Youtube className="h-6 w-6" />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/side-by-side-therapy"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary-foreground/70 hover:text-primary-foreground transition-colors"
+                aria-label="LinkedIn"
+              >
+                <Linkedin className="h-6 w-6" />
               </a>
             </div>
           </div>
