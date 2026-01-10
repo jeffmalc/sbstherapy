@@ -1,7 +1,50 @@
 import { Phone, Heart, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useEffect, useState, useRef } from "react";
+
+const useCountUp = (end: number, duration: number = 2000) => {
+  const [count, setCount] = useState(0);
+  const [hasStarted, setHasStarted] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting && !hasStarted) {
+          setHasStarted(true);
+        }
+      },
+      { threshold: 0.5 }
+    );
+
+    if (ref.current) {
+      observer.observe(ref.current);
+    }
+
+    return () => observer.disconnect();
+  }, [hasStarted]);
+
+  useEffect(() => {
+    if (!hasStarted) return;
+
+    let startTime: number;
+    const animate = (currentTime: number) => {
+      if (!startTime) startTime = currentTime;
+      const progress = Math.min((currentTime - startTime) / duration, 1);
+      setCount(Math.floor(progress * end));
+      if (progress < 1) {
+        requestAnimationFrame(animate);
+      }
+    };
+    requestAnimationFrame(animate);
+  }, [hasStarted, end, duration]);
+
+  return { count, ref };
+};
 
 const Hero = () => {
+  const { count: familiesCount, ref: familiesRef } = useCountUp(150, 2000);
+
   return (
     <section id="home" className="relative min-h-screen flex items-center pt-20 overflow-hidden">
       {/* Background Elements */}
@@ -48,17 +91,22 @@ const Hero = () => {
           
           {/* Trust Indicators */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto animate-fade-in" style={{ animationDelay: "0.3s" }}>
-            {[
-              { number: "15+", label: "Years Experience" },
-              { number: "500+", label: "Families Helped" },
-              { number: "8", label: "Therapy Services" },
-              { number: "100%", label: "OAP Approved" },
-            ].map((stat) => (
-              <div key={stat.label} className="text-center p-4 bg-card rounded-xl shadow-soft">
-                <div className="text-2xl md:text-3xl font-bold text-primary">{stat.number}</div>
-                <div className="text-sm text-muted-foreground">{stat.label}</div>
-              </div>
-            ))}
+            <div className="text-center p-4 bg-card rounded-xl shadow-soft">
+              <div className="text-2xl md:text-3xl font-bold text-primary">15+</div>
+              <div className="text-sm text-muted-foreground">Years Experience</div>
+            </div>
+            <div ref={familiesRef} className="text-center p-4 bg-card rounded-xl shadow-soft">
+              <div className="text-2xl md:text-3xl font-bold text-primary">{familiesCount}+</div>
+              <div className="text-sm text-muted-foreground">Families Helped</div>
+            </div>
+            <div className="text-center p-4 bg-card rounded-xl shadow-soft">
+              <div className="text-2xl md:text-3xl font-bold text-primary">8</div>
+              <div className="text-sm text-muted-foreground">Therapy Services</div>
+            </div>
+            <div className="text-center p-4 bg-card rounded-xl shadow-soft">
+              <div className="text-2xl md:text-3xl font-bold text-primary">100%</div>
+              <div className="text-sm text-muted-foreground">OAP Approved</div>
+            </div>
           </div>
         </div>
       </div>
