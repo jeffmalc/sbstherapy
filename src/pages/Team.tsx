@@ -6,6 +6,8 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Phone, Mail, Award, GraduationCap, Heart, Users, Briefcase, Star, Linkedin } from "lucide-react";
 import lindseyImage from "@/assets/lindsey-malc.jpg";
+import marciImage from "@/assets/marci-mccluskey.jpg";
+import madisonImage from "@/assets/madison-bartley.jpg";
 
 // Lindsey Malc is the real founder - verified from sidebysidetherapy.ca
 const founderInfo = {
@@ -24,7 +26,7 @@ const teamMembers = [
   {
     name: "Marci McCluskey",
     title: "Senior Therapist",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop&crop=face",
+    image: marciImage,
     credentials: ["RBT", "B.A."],
     specializations: ["ABA Therapy", "Early Intervention", "Behaviour Support", "Parent Training"],
     bio: "Marci is a dedicated Senior Therapist and experienced member of our therapy team. She brings passion and expertise to help children with autism reach their full potential through evidence-based interventions and individualized care.",
@@ -33,7 +35,7 @@ const teamMembers = [
   {
     name: "Madison Bartley",
     title: "Instructor Therapist",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop&crop=face",
+    image: madisonImage,
     credentials: ["RBT"],
     specializations: ["ABA Therapy", "Autism Spectrum Disorder", "One-on-One Therapy", "Behaviour Intervention"],
     bio: "Madison is a dedicated Instructor Therapist who works one-on-one with children diagnosed with Autism Spectrum Disorder. She implements individualized ABA therapy programs with compassion and skill, helping children develop essential skills for independence and improved quality of life.",
