@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import PageTransition from "@/components/PageTransition";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -141,7 +142,7 @@ const breadcrumbSchema = {
 
 const Team = () => {
   return (
-    <>
+    <PageTransition>
       <Helmet>
         <title>Our Team - BCBAs, Therapists & Specialists | Side by Side Therapy Toronto</title>
         <meta name="description" content="Meet Lindsey Malc, BCBA, founder of Side by Side Therapy, and our trans-disciplinary team of BCBAs, speech therapists, occupational therapists, and specialists serving the Greater Toronto Area." />
@@ -523,7 +524,7 @@ const Team = () => {
       </main>
 
       <Footer />
-    </>
+    </PageTransition>
   );
 };
 
