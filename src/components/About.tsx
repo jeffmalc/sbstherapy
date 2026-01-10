@@ -1,5 +1,6 @@
-import { CheckCircle2, Award, Users, Clock, Heart, Target, Sparkles, Phone } from "lucide-react";
+import { CheckCircle2, Award, Users, Clock, Heart, Target, Sparkles, Phone, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const coreValues = [
   {
@@ -144,22 +145,27 @@ const About = () => {
           
           <div className="grid md:grid-cols-5 gap-4">
             {[
-              { name: "ABA Therapy", desc: "Behaviour analysis & skill building" },
-              { name: "Speech Therapy", desc: "Communication & language development" },
-              { name: "Occupational Therapy", desc: "Independence & daily living skills" },
-              { name: "Therapeutic Recreation", desc: "Learning through play & recreation" },
-              { name: "Respite Services", desc: "Quality care & family support" },
+              { name: "ABA Therapy", desc: "Behaviour analysis & skill building", link: "/services/aba-therapy" },
+              { name: "Speech Therapy", desc: "Communication & language development", link: "/services/speech-therapy" },
+              { name: "Occupational Therapy", desc: "Independence & daily living skills", link: "/services/occupational-therapy" },
+              { name: "Therapeutic Recreation", desc: "Learning through play & recreation", link: "/services/therapeutic-recreation" },
+              { name: "Respite Services", desc: "Quality care & family support", link: "/services/respite-services" },
             ].map((discipline, index) => (
-              <div 
+              <Link 
                 key={index}
-                className="text-center p-6 rounded-xl bg-muted/30 hover:bg-primary/10 transition-colors group"
+                to={discipline.link}
+                className="text-center p-6 rounded-xl bg-muted/30 hover:bg-primary/10 transition-all duration-300 group hover:-translate-y-1 block"
               >
                 <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-secondary mx-auto mb-3 flex items-center justify-center text-primary-foreground font-bold">
                   {index + 1}
                 </div>
                 <h4 className="font-semibold mb-1 group-hover:text-primary transition-colors">{discipline.name}</h4>
-                <p className="text-xs text-muted-foreground">{discipline.desc}</p>
-              </div>
+                <p className="text-xs text-muted-foreground mb-2">{discipline.desc}</p>
+                <div className="flex items-center justify-center text-xs font-medium text-primary opacity-0 group-hover:opacity-100 transition-opacity">
+                  Learn More
+                  <ArrowRight className="h-3 w-3 ml-1" />
+                </div>
+              </Link>
             ))}
           </div>
         </div>
