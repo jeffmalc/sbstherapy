@@ -70,8 +70,8 @@ const timeline = [
   },
   {
     year: "2023",
-    title: "Growing Our Reach",
-    description: "We expanded our service area across the GTA, bringing quality autism therapy to more communities and families in need."
+    title: "Reducing Wait Times",
+    description: "Through strategic growth and efficient processes, we reduced family wait times by 50-75%, getting children the support they need faster than ever."
   },
   {
     year: "2024",
@@ -81,7 +81,7 @@ const timeline = [
   {
     year: "Present",
     title: "Continuing Our Mission",
-    description: "Today, we continue to serve hundreds of families across the GTA, constantly evolving our practices to provide the best possible outcomes."
+    description: "Today, we continue to serve hundreds of families across the GTA with minimal wait times, constantly evolving our practices to provide the best possible outcomes."
   }
 ];
 
@@ -316,9 +316,9 @@ const About = () => {
                 <p className="text-primary-foreground/80">Families Served</p>
               </div>
               <div className="text-center">
-                <GraduationCap className="h-12 w-12 mx-auto mb-4 opacity-80" />
-                <div className="text-4xl md:text-5xl font-bold mb-2">BCBA</div>
-                <p className="text-primary-foreground/80">Certified Team</p>
+                <Clock className="h-12 w-12 mx-auto mb-4 opacity-80" />
+                <div className="text-4xl md:text-5xl font-bold mb-2">50-75%</div>
+                <p className="text-primary-foreground/80">Reduced Wait Times</p>
               </div>
               <div className="text-center">
                 <Star className="h-12 w-12 mx-auto mb-4 opacity-80" />
