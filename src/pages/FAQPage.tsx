@@ -11,10 +11,11 @@ import { Button } from "@/components/ui/button";
 import { Phone, Mail, MapPin, Clock, Globe } from "lucide-react";
 
 const serviceAreas = [
-  "Toronto", "Mississauga", "Brampton", "Oakville", "Burlington", "Milton",
-  "Vaughan", "Markham", "Richmond Hill", "Thornhill", "Aurora", "Newmarket",
-  "Georgina", "King", "Pickering", "Ajax", "Whitby", "Oshawa", "Uxbridge",
-  "Stouffville", "Peel", "Durham", "Halton", "York Region"
+  "Toronto", "North York", "Scarborough", "Etobicoke", "East York",
+  "Mississauga", "Brampton", "Caledon", "Oakville", "Burlington", "Milton", "Halton Hills", "Georgetown",
+  "Vaughan", "Markham", "Richmond Hill", "Thornhill", "Aurora", "Newmarket", "East Gwillimbury",
+  "Georgina", "King", "Stouffville", "Pickering", "Ajax", "Whitby", "Oshawa", "Clarington",
+  "Uxbridge", "Scugog", "Brock", "Peel", "Durham", "Halton", "York Region"
 ];
 
 const faqData = [
@@ -24,7 +25,7 @@ const faqData = [
   },
   {
     question: "Which areas does Side by Side Therapy serve?",
-    answer: "We serve the Greater Toronto Area and surrounding regions, including Ajax, Burlington, Halton, Mississauga, Oakville, Pickering, Toronto, Vaughan, Aurora, Durham, King, Milton, Oshawa, Richmond Hill, Uxbridge, Stouffville, Brampton, Georgina, Markham, Newmarket, Peel, Thornhill, York Region, and Whitby. Availability can vary by clinician coverage."
+    answer: "We serve the Greater Toronto Area and surrounding regions, including Toronto (North York, Scarborough, Etobicoke, East York), Mississauga, Brampton, Caledon, Oakville, Burlington, Milton, Halton Hills, Georgetown, Vaughan, Markham, Richmond Hill, Thornhill, Aurora, Newmarket, East Gwillimbury, Georgina, King, Stouffville, Pickering, Ajax, Whitby, Oshawa, Clarington, Uxbridge, Scugog, and Brock. Availability can vary by clinician coverage."
   },
   {
     question: "What ages do you work with?",
@@ -142,9 +143,11 @@ const localBusinessSchema = {
   "telephone": "+1-647-955-5995",
   "email": "info@sidebysidetherapy.ca",
   "areaServed": [
-    "Ajax", "Burlington", "Halton", "Mississauga", "Oakville", "Pickering", "Toronto", "Vaughan",
-    "Aurora", "Durham", "King", "Milton", "Oshawa", "Richmond Hill", "Uxbridge", "Stouffville",
-    "Brampton", "Georgina", "Markham", "Newmarket", "Peel", "Thornhill", "York Region", "Whitby"
+    "Toronto", "North York", "Scarborough", "Etobicoke", "East York",
+    "Mississauga", "Brampton", "Caledon", "Oakville", "Burlington", "Milton", "Halton Hills", "Georgetown",
+    "Vaughan", "Markham", "Richmond Hill", "Thornhill", "Aurora", "Newmarket", "East Gwillimbury",
+    "Georgina", "King", "Stouffville", "Pickering", "Ajax", "Whitby", "Oshawa", "Clarington",
+    "Uxbridge", "Scugog", "Brock", "Peel", "Durham", "Halton", "York Region"
   ],
   "knowsAbout": [
     "In-home autism therapy",
@@ -339,7 +342,7 @@ const FAQPage = () => {
                   <div>
                     <p className="font-semibold text-foreground mb-2">Service Area</p>
                     <p className="text-muted-foreground text-sm">
-                      Ajax • Aurora • Brampton • Burlington • Durham • Georgina • Halton • King • Markham • Milton • Mississauga • Newmarket • Oakville • Oshawa • Peel • Pickering • Richmond Hill • Stouffville • Thornhill • Toronto • Uxbridge • Vaughan • Whitby • York Region
+                      Toronto • North York • Scarborough • Etobicoke • Mississauga • Brampton • Caledon • Oakville • Burlington • Milton • Halton Hills • Vaughan • Markham • Richmond Hill • Aurora • Newmarket • Thornhill • Stouffville • King • Georgina • Pickering • Ajax • Whitby • Oshawa • Clarington • Uxbridge
                     </p>
                   </div>
                 </div>
