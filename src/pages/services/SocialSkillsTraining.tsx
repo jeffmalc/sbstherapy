@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import PageTransition from "@/components/PageTransition";
 import { Button } from "@/components/ui/button";
 import { Users, CheckCircle, Phone, ArrowLeft, MessageSquare, Heart, Target, Sparkles } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -146,7 +147,7 @@ const SocialSkillsTraining = () => {
   };
 
   return (
-    <>
+    <PageTransition>
       <Helmet>
         <title>Social Skills Training for Autism Toronto | Groups & Individual | Side by Side</title>
         <meta name="description" content="Social skills groups and training for children with autism in Toronto & GTA. Build friendship skills, conversation abilities, and social awareness. Free consultation: 647-955-5995" />
@@ -325,7 +326,7 @@ const SocialSkillsTraining = () => {
       </main>
 
       <Footer />
-    </>
+    </PageTransition>
   );
 };
 

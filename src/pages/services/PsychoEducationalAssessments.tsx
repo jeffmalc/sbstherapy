@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import PageTransition from "@/components/PageTransition";
 import { Button } from "@/components/ui/button";
 import { BookOpen, CheckCircle, Phone, ArrowLeft, FileText, Brain, Target, School } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -176,7 +177,7 @@ const PsychoEducationalAssessments = () => {
   };
 
   return (
-    <>
+    <PageTransition>
       <Helmet>
         <title>Psycho-Educational Assessment Toronto | Learning Disability Testing | Side by Side</title>
         <meta name="description" content="Comprehensive psycho-educational assessments in Toronto & GTA. Identify learning disabilities, ADHD, giftedness. Get school accommodations and IEP support. Free consultation: 647-955-5995" />
@@ -378,7 +379,7 @@ const PsychoEducationalAssessments = () => {
       </main>
 
       <Footer />
-    </>
+    </PageTransition>
   );
 };
 

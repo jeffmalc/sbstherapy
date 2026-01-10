@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import PageTransition from "@/components/PageTransition";
 import { Button } from "@/components/ui/button";
 import { Brain, CheckCircle, Phone, ArrowLeft, Clock, Users, Target, Award, BookOpen, Heart } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -189,7 +190,7 @@ const ABATherapy = () => {
   };
 
   return (
-    <>
+    <PageTransition>
       <Helmet>
         <title>Applied Behaviour Analysis (ABA) Therapy Toronto | Side by Side Therapy</title>
         <meta name="description" content="Evidence-based ABA therapy for children with autism in Toronto & GTA. BCBA-supervised programs, OAP approved provider. Comprehensive, focused & consultation models. Free consultation: 647-955-5995" />
@@ -441,7 +442,7 @@ const ABATherapy = () => {
       </main>
 
       <Footer />
-    </>
+    </PageTransition>
   );
 };
 

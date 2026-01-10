@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import PageTransition from "@/components/PageTransition";
 import { Button } from "@/components/ui/button";
 import { 
   Heart, 
@@ -115,7 +116,7 @@ const disciplines = [
 
 const About = () => {
   return (
-    <>
+    <PageTransition>
       <Helmet>
         <title>About Side by Side Therapy | Our Mission, History & Philosophy | Toronto</title>
         <meta 
@@ -386,7 +387,7 @@ const About = () => {
       </main>
       
       <Footer />
-    </>
+    </PageTransition>
   );
 };
 

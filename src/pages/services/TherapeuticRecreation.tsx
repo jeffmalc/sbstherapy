@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import PageTransition from "@/components/PageTransition";
 import { Button } from "@/components/ui/button";
 import { Gamepad2, CheckCircle, Phone, ArrowLeft, Smile, Heart, Users, Trophy } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -119,7 +120,7 @@ const TherapeuticRecreation = () => {
   };
 
   return (
-    <>
+    <PageTransition>
       <Helmet>
         <title>Therapeutic Recreation for Autism Toronto | Side by Side Therapy</title>
         <meta name="description" content="Therapeutic recreation for children with autism in Toronto & GTA. Develop social, emotional, and physical skills through fun recreational activities. Free consultation: 647-955-5995" />
@@ -271,7 +272,7 @@ const TherapeuticRecreation = () => {
       </main>
 
       <Footer />
-    </>
+    </PageTransition>
   );
 };
 

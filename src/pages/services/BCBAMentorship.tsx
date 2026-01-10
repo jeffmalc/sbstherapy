@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import PageTransition from "@/components/PageTransition";
 import { Button } from "@/components/ui/button";
 import { GraduationCap, CheckCircle, Phone, ArrowLeft, Users, BookOpen, Award, Clock } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -152,7 +153,7 @@ const BCBAMentorship = () => {
   };
 
   return (
-    <>
+    <PageTransition>
       <Helmet>
         <title>BCBA Supervision & Mentorship Toronto | Fieldwork Hours | Side by Side</title>
         <meta name="description" content="BCBA and BCaBA supervision in Toronto & GTA. Accumulate fieldwork hours with experienced supervisors. Diverse clinical experience, exam support, career guidance. Contact us today!" />
@@ -331,7 +332,7 @@ const BCBAMentorship = () => {
       </main>
 
       <Footer />
-    </>
+    </PageTransition>
   );
 };
 
