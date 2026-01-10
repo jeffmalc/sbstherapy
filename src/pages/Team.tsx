@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageTransition from "@/components/PageTransition";
+import OptimizedImage from "@/components/OptimizedImage";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -215,10 +216,11 @@ const Team = () => {
                   <Card key={index} className="overflow-hidden border-primary/20 shadow-xl">
                     <div className="flex flex-col">
                       <div className="relative h-72">
-                        <img
+                        <OptimizedImage
                           src={founder.image}
                           alt={`${founder.name} - ${founder.title} at Side by Side Therapy`}
                           className="w-full h-full object-cover object-center"
+                          height={288}
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-foreground/60 via-transparent to-transparent" />
                         <div className="absolute bottom-4 left-4 right-4">
@@ -303,10 +305,11 @@ const Team = () => {
                   <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow duration-300 border-border/50">
                     <div className="flex flex-col sm:flex-row">
                       <div className="relative sm:w-1/3 min-h-[200px]">
-                        <img
+                        <OptimizedImage
                           src={member.image}
                           alt={`${member.name} - ${member.title} at Side by Side Therapy`}
                           className="w-full h-48 sm:h-full object-cover object-top"
+                          height={200}
                         />
                       </div>
                       <CardContent className="p-6 sm:w-2/3 flex flex-col justify-center">
