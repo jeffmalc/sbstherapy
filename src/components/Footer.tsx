@@ -1,4 +1,5 @@
 import { Heart, Facebook, Instagram } from "lucide-react";
+import OptimizedImage from "@/components/OptimizedImage";
 import footerLogo from "@/assets/footer-logo.png";
 
 const Footer = () => {
@@ -9,7 +10,7 @@ const Footer = () => {
           {/* Logo & Description */}
           <div className="md:col-span-2">
             <a href="/" aria-label="Side by Side Therapy - Home">
-              <img src={footerLogo} alt="Side by Side Therapy" className="h-16 w-auto mb-4 hover:opacity-80 transition-opacity" />
+              <OptimizedImage src={footerLogo} alt="Side by Side Therapy" className="h-16 w-auto mb-4 hover:opacity-80 transition-opacity" height={64} />
             </a>
             <p className="text-primary-foreground/70 max-w-md mb-4">
               Supporting families with compassionate, evidence-based autism therapy services in the Greater Toronto Area.

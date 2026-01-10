@@ -7,6 +7,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import OptimizedImage from "@/components/OptimizedImage";
 import logo from "@/assets/logo.png";
 
 const serviceItems = [
@@ -47,7 +48,7 @@ const Header = () => {
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <a href="/" className="flex items-center focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 rounded-lg" aria-label="Side by Side Therapy - Home">
-              <img src={logo} alt="Side by Side Therapy" className="h-14 w-auto" width={56} height={56} />
+              <OptimizedImage src={logo} alt="Side by Side Therapy" className="h-14 w-auto" width={56} height={56} loading="eager" />
             </a>
 
           {/* Desktop Navigation */}
