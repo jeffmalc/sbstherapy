@@ -18,15 +18,32 @@ const SEOSchema = () => {
       "addressRegion": "ON",
       "addressCountry": "CA"
     },
-    "areaServed": {
-      "@type": "GeoCircle",
-      "geoMidpoint": {
-        "@type": "GeoCoordinates",
-        "latitude": 43.6532,
-        "longitude": -79.3832
-      },
-      "geoRadius": "50000"
-    },
+    "areaServed": [
+      { "@type": "City", "name": "Ajax", "containedInPlace": { "@type": "AdministrativeArea", "name": "Durham Region" } },
+      { "@type": "City", "name": "Aurora", "containedInPlace": { "@type": "AdministrativeArea", "name": "York Region" } },
+      { "@type": "City", "name": "Brampton", "containedInPlace": { "@type": "AdministrativeArea", "name": "Peel Region" } },
+      { "@type": "City", "name": "Burlington", "containedInPlace": { "@type": "AdministrativeArea", "name": "Halton Region" } },
+      { "@type": "City", "name": "Georgina", "containedInPlace": { "@type": "AdministrativeArea", "name": "York Region" } },
+      { "@type": "City", "name": "King", "containedInPlace": { "@type": "AdministrativeArea", "name": "York Region" } },
+      { "@type": "City", "name": "Markham", "containedInPlace": { "@type": "AdministrativeArea", "name": "York Region" } },
+      { "@type": "City", "name": "Milton", "containedInPlace": { "@type": "AdministrativeArea", "name": "Halton Region" } },
+      { "@type": "City", "name": "Mississauga", "containedInPlace": { "@type": "AdministrativeArea", "name": "Peel Region" } },
+      { "@type": "City", "name": "Newmarket", "containedInPlace": { "@type": "AdministrativeArea", "name": "York Region" } },
+      { "@type": "City", "name": "Oakville", "containedInPlace": { "@type": "AdministrativeArea", "name": "Halton Region" } },
+      { "@type": "City", "name": "Oshawa", "containedInPlace": { "@type": "AdministrativeArea", "name": "Durham Region" } },
+      { "@type": "City", "name": "Pickering", "containedInPlace": { "@type": "AdministrativeArea", "name": "Durham Region" } },
+      { "@type": "City", "name": "Richmond Hill", "containedInPlace": { "@type": "AdministrativeArea", "name": "York Region" } },
+      { "@type": "City", "name": "Stouffville", "containedInPlace": { "@type": "AdministrativeArea", "name": "York Region" } },
+      { "@type": "City", "name": "Thornhill", "containedInPlace": { "@type": "AdministrativeArea", "name": "York Region" } },
+      { "@type": "City", "name": "Toronto", "containedInPlace": { "@type": "AdministrativeArea", "name": "Ontario" } },
+      { "@type": "City", "name": "Uxbridge", "containedInPlace": { "@type": "AdministrativeArea", "name": "Durham Region" } },
+      { "@type": "City", "name": "Vaughan", "containedInPlace": { "@type": "AdministrativeArea", "name": "York Region" } },
+      { "@type": "City", "name": "Whitby", "containedInPlace": { "@type": "AdministrativeArea", "name": "Durham Region" } },
+      { "@type": "AdministrativeArea", "name": "Durham Region", "containedInPlace": { "@type": "AdministrativeArea", "name": "Ontario" } },
+      { "@type": "AdministrativeArea", "name": "Halton Region", "containedInPlace": { "@type": "AdministrativeArea", "name": "Ontario" } },
+      { "@type": "AdministrativeArea", "name": "Peel Region", "containedInPlace": { "@type": "AdministrativeArea", "name": "Ontario" } },
+      { "@type": "AdministrativeArea", "name": "York Region", "containedInPlace": { "@type": "AdministrativeArea", "name": "Ontario" } }
+    ],
     "priceRange": "$$",
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",
@@ -80,6 +97,12 @@ const SEOSchema = () => {
     },
     "url": "https://sidebysidetherapy.ca",
     "priceRange": "$$",
+    "areaServed": [
+      "Ajax", "Aurora", "Brampton", "Burlington", "Durham", "Georgina", "Halton",
+      "King", "Markham", "Milton", "Mississauga", "Newmarket", "Oakville", "Oshawa",
+      "Peel", "Pickering", "Richmond Hill", "Stouffville", "Thornhill", "Toronto",
+      "Uxbridge", "Vaughan", "Whitby", "York Region"
+    ],
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
