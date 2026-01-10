@@ -69,7 +69,7 @@ const Contact = () => {
                   <Clock className="h-6 w-6" />
                   <div>
                     <div className="font-semibold">Hours</div>
-                    <span className="opacity-90">Mon-Fri: 9am-6pm</span>
+                    <span className="opacity-90">24/7</span>
                   </div>
                 </div>
               </div>

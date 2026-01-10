@@ -330,7 +330,7 @@ const FAQPage = () => {
                     <Clock className="h-5 w-5 text-primary mt-0.5" />
                     <div>
                       <p className="font-semibold text-foreground">Hours</p>
-                      <p className="text-muted-foreground">Mon–Fri 9am–7pm (some evenings/weekends available)</p>
+                      <p className="text-muted-foreground">24/7</p>
                     </div>
                   </div>
                 </div>
