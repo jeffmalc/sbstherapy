@@ -23,11 +23,11 @@ const founders = [
   },
   {
     name: "Marci McCluskey",
-    title: "Co-Founder & Senior Therapist",
+    title: "Founder & Senior Therapist",
     image: marciImage,
     credentials: ["RBT", "B.A."],
     specializations: ["ABA Therapy", "Early Intervention", "Behaviour Support", "Parent Training"],
-    bio: "Marci is a co-founder of Side by Side Therapy and a dedicated Senior Therapist. She brings passion and expertise to help children with autism reach their full potential through evidence-based interventions and individualized care.",
+    bio: "Marci is a founder of Side by Side Therapy and a dedicated Senior Therapist. She brings passion and expertise to help children with autism reach their full potential through evidence-based interventions and individualized care.",
     linkedin: "https://ca.linkedin.com/in/marci-mccluskey-6a794444"
   }
 ];
