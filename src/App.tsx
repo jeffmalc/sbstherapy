@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import FAQPage from "./pages/FAQPage";
 import Team from "./pages/Team";
 import Blog from "./pages/Blog";
+import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 import ABATherapy from "./pages/services/ABATherapy";
 import SpeechTherapy from "./pages/services/SpeechTherapy";
@@ -29,6 +30,7 @@ const App = () => (
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Index />} />
+            <Route path="/about" element={<About />} />
             <Route path="/faq" element={<FAQPage />} />
             <Route path="/team" element={<Team />} />
             <Route path="/blog" element={<Blog />} />
