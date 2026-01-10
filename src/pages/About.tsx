@@ -54,29 +54,29 @@ const coreValues = [
 
 const timeline = [
   {
-    year: "2009",
+    year: "2020",
     title: "Our Beginning",
     description: "Side by Side Therapy was founded with a vision to provide exceptional, family-centered therapy services to children with autism and special needs in the Greater Toronto Area."
   },
   {
-    year: "2012",
+    year: "2021",
     title: "Expanding Our Team",
     description: "We grew our team to include Speech-Language Pathologists and Occupational Therapists, enabling us to offer truly trans-disciplinary care."
   },
   {
-    year: "2015",
+    year: "2022",
     title: "OAP Approval",
     description: "Side by Side Therapy became an approved Ontario Autism Program (OAP) provider, helping more families access funded services."
   },
   {
-    year: "2018",
+    year: "2023",
     title: "Comprehensive Services",
     description: "We added Therapeutic Recreation and expanded our Respite Services, providing families with more comprehensive support options."
   },
   {
-    year: "2020",
-    title: "Adapting & Growing",
-    description: "We successfully adapted our services during challenging times, implementing virtual therapy options while maintaining quality care."
+    year: "2024",
+    title: "Growing Impact",
+    description: "We expanded our reach across the GTA, serving more families and building a reputation for excellence in autism therapy services."
   },
   {
     year: "Present",
@@ -120,7 +120,7 @@ const About = () => {
         <title>About Side by Side Therapy | Our Mission, History & Philosophy | Toronto</title>
         <meta 
           name="description" 
-          content="Learn about Side by Side Therapy's mission, history, and philosophy. Our trans-disciplinary team has been supporting families with autism and special needs in Toronto since 2009." 
+          content="Learn about Side by Side Therapy's mission, history, and philosophy. Our trans-disciplinary team has been supporting families with autism and special needs in Toronto since 2020." 
         />
         <meta name="keywords" content="about side by side therapy, autism therapy history, ABA therapy philosophy, Toronto therapy services, OAP provider" />
       </Helmet>
@@ -139,10 +139,10 @@ const About = () => {
                 Our Story
               </span>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-                Supporting Families <span className="text-gradient">Side by Side</span> Since 2009
+                Supporting Families <span className="text-gradient">Side by Side</span> Since 2020
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed mb-8 max-w-3xl mx-auto">
-                For over 15 years, Side by Side Therapy has been dedicated to helping children with autism and special needs 
+                For over 5 years, Side by Side Therapy has been dedicated to helping children with autism and special needs 
                 reach their full potential through compassionate, evidence-based care.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
@@ -307,7 +307,7 @@ const About = () => {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
               <div className="text-center">
                 <Award className="h-12 w-12 mx-auto mb-4 opacity-80" />
-                <div className="text-4xl md:text-5xl font-bold mb-2">15+</div>
+                <div className="text-4xl md:text-5xl font-bold mb-2">5+</div>
                 <p className="text-primary-foreground/80">Years of Service</p>
               </div>
               <div className="text-center">

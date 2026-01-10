@@ -122,7 +122,7 @@ const About = () => {
             
             <div className="bg-background rounded-2xl p-8 shadow-soft text-center border border-border/50 hover:border-accent/30 transition-colors">
               <Clock className="h-12 w-12 text-accent mx-auto mb-4" />
-              <div className="text-4xl font-bold text-accent mb-2">15+</div>
+              <div className="text-4xl font-bold text-accent mb-2">5+</div>
               <p className="text-sm text-muted-foreground">Years Experience</p>
             </div>
             
