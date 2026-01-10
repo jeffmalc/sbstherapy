@@ -213,11 +213,11 @@ const Team = () => {
                 {founders.map((founder, index) => (
                   <Card key={index} className="overflow-hidden border-primary/20 shadow-xl">
                     <div className="flex flex-col">
-                      <div className="relative h-64">
+                      <div className="relative h-72">
                         <img
                           src={founder.image}
                           alt={`${founder.name} - ${founder.title} at Side by Side Therapy`}
-                          className="w-full h-full object-cover object-top"
+                          className="w-full h-full object-cover object-center"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
                         <div className="absolute bottom-4 left-4 right-4">
@@ -301,11 +301,11 @@ const Team = () => {
                 {teamMembers.map((member, index) => (
                   <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow duration-300 border-border/50">
                     <div className="flex flex-col sm:flex-row">
-                      <div className="relative sm:w-1/3">
+                      <div className="relative sm:w-1/3 min-h-[200px]">
                         <img
                           src={member.image}
                           alt={`${member.name} - ${member.title} at Side by Side Therapy`}
-                          className="w-full h-48 sm:h-full object-cover"
+                          className="w-full h-48 sm:h-full object-cover object-top"
                         />
                       </div>
                       <CardContent className="p-6 sm:w-2/3 flex flex-col justify-center">
