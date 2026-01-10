@@ -36,11 +36,11 @@ const founders = [
 const teamMembers = [
   {
     name: "Madison Bartley",
-    title: "Instructor Therapist",
+    title: "Senior Therapist & Human Resources Coordinator",
     image: madisonImage,
     credentials: ["RBT"],
-    specializations: ["ABA Therapy", "Autism Spectrum Disorder", "One-on-One Therapy", "Behaviour Intervention"],
-    bio: "Madison is a dedicated Instructor Therapist who works one-on-one with children diagnosed with Autism Spectrum Disorder. She implements individualized ABA therapy programs with compassion and skill, helping children develop essential skills for independence and improved quality of life.",
+    specializations: ["ABA Therapy", "Autism Spectrum Disorder", "Human Resources", "Team Coordination", "Behaviour Intervention"],
+    bio: "Madison is a Senior Therapist and Human Resources Coordinator at Side by Side Therapy. She works one-on-one with children diagnosed with Autism Spectrum Disorder while also coordinating HR functions, helping build and support our exceptional therapy team.",
     linkedin: "https://ca.linkedin.com/in/madison-bartley-a6796566"
   }
 ];
