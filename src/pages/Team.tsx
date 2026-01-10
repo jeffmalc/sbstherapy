@@ -26,8 +26,9 @@ const teamMembers = [
     title: "Senior Therapist",
     image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop&crop=face",
     credentials: ["RBT", "B.A."],
-    specializations: ["ABA Therapy", "Early Intervention", "Behaviour Support"],
-    bio: "Marci is a dedicated member of our therapy team, bringing passion and expertise to help children with autism reach their full potential through evidence-based interventions."
+    specializations: ["ABA Therapy", "Early Intervention", "Behaviour Support", "Parent Training"],
+    bio: "Marci is a dedicated Senior Therapist and experienced member of our therapy team. She brings passion and expertise to help children with autism reach their full potential through evidence-based interventions and individualized care.",
+    linkedin: "https://ca.linkedin.com/in/marci-mccluskey-6a794444"
   },
   {
     name: "Madison Bartley",
