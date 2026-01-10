@@ -1,4 +1,4 @@
-import { Brain, BookOpen, MessageCircle, HandHeart, Gamepad2, Users, GraduationCap, Heart } from "lucide-react";
+import { Brain, BookOpen, MessageCircle, HandHeart, Gamepad2, Users, GraduationCap, Heart, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
@@ -101,9 +101,14 @@ const Services = () => {
                 {service.title}
               </h3>
               
-              <p className="text-muted-foreground text-sm leading-relaxed">
+              <p className="text-muted-foreground text-sm leading-relaxed mb-4">
                 {service.description}
               </p>
+              
+              <div className="flex items-center text-sm font-semibold text-primary group-hover:text-primary transition-colors">
+                Learn More
+                <ArrowRight className="h-4 w-4 ml-1 transition-transform group-hover:translate-x-1" />
+              </div>
             </Link>
           ))}
         </div>
