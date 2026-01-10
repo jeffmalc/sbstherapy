@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Phone, Mail, Award, GraduationCap, Heart, Users, Briefcase, Star } from "lucide-react";
+import { Phone, Mail, Award, GraduationCap, Heart, Users, Briefcase, Star, Linkedin } from "lucide-react";
 import lindseyImage from "@/assets/lindsey-malc.jpg";
 
 // Lindsey Malc is the real founder - verified from sidebysidetherapy.ca
@@ -33,9 +33,10 @@ const teamMembers = [
     name: "Madison Bartley",
     title: "Instructor Therapist",
     image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop&crop=face",
-    credentials: ["RBT", "B.Sc."],
-    specializations: ["ABA Therapy", "Social Skills", "Play-Based Learning"],
-    bio: "Madison works one-on-one with children diagnosed with Autism Spectrum Disorder, implementing individualized ABA therapy programs with compassion and skill."
+    credentials: ["RBT"],
+    specializations: ["ABA Therapy", "Autism Spectrum Disorder", "One-on-One Therapy", "Behaviour Intervention"],
+    bio: "Madison is a dedicated Instructor Therapist who works one-on-one with children diagnosed with Autism Spectrum Disorder. She implements individualized ABA therapy programs with compassion and skill, helping children develop essential skills for independence and improved quality of life.",
+    linkedin: "https://ca.linkedin.com/in/madison-bartley-a6796566"
   }
 ];
 
@@ -328,13 +329,25 @@ const Team = () => {
                           {member.bio}
                         </p>
                         
-                        <div className="flex flex-wrap gap-1">
+                        <div className="flex flex-wrap gap-1 mb-3">
                           {member.specializations.map((spec, idx) => (
                             <span key={idx} className="text-xs text-primary/80 bg-primary/10 px-2 py-0.5 rounded-full">
                               {spec}
                             </span>
                           ))}
                         </div>
+                        
+                        {member.linkedin && (
+                          <a 
+                            href={member.linkedin} 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-1 text-sm text-primary hover:text-primary/80 transition-colors"
+                          >
+                            <Linkedin className="w-4 h-4" />
+                            View LinkedIn Profile
+                          </a>
+                        )}
                       </CardContent>
                     </div>
                   </Card>
