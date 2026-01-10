@@ -71,7 +71,7 @@ const ServiceAreaMap = () => {
                   {region.locations.map((location) => (
                     <span
                       key={location.name}
-                      className={`px-3 py-1.5 rounded-full text-sm font-medium bg-secondary ${region.textColor}`}
+                      className={`px-3 py-1.5 rounded-full text-sm font-medium ${region.color} text-white`}
                     >
                       {location.name}
                     </span>
