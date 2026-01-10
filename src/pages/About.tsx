@@ -56,7 +56,7 @@ const timeline = [
   {
     year: "2020",
     title: "Our Beginning",
-    description: "Side by Side Therapy was founded with a vision to provide exceptional, family-centered therapy services to children with autism and special needs in the Greater Toronto Area."
+    description: "Side by Side Therapy was founded as an Ontario Autism Program (OAP) approved provider, offering exceptional, family-centered therapy services to children with autism and special needs in the Greater Toronto Area."
   },
   {
     year: "2021",
@@ -65,18 +65,18 @@ const timeline = [
   },
   {
     year: "2022",
-    title: "OAP Approval",
-    description: "Side by Side Therapy became an approved Ontario Autism Program (OAP) provider, helping more families access funded services."
-  },
-  {
-    year: "2023",
     title: "Comprehensive Services",
     description: "We added Therapeutic Recreation and expanded our Respite Services, providing families with more comprehensive support options."
   },
   {
+    year: "2023",
+    title: "Growing Our Reach",
+    description: "We expanded our service area across the GTA, bringing quality autism therapy to more communities and families in need."
+  },
+  {
     year: "2024",
-    title: "Growing Impact",
-    description: "We expanded our reach across the GTA, serving more families and building a reputation for excellence in autism therapy services."
+    title: "Building Excellence",
+    description: "We continued to build our reputation for excellence, serving more families and refining our evidence-based practices."
   },
   {
     year: "Present",
