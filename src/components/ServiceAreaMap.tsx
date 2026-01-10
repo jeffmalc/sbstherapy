@@ -25,7 +25,7 @@ const ServiceAreaMap = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
           {groupedLocations.map((region, regionIndex) => (
             <StaggeredItem key={region.name} index={regionIndex} staggerDelay={100} animation="fade-up">
-              <div className="bg-card rounded-xl border shadow-sm overflow-hidden hover:shadow-md transition-shadow h-full">
+              <div className="bg-card rounded-xl border shadow-sm overflow-hidden hover:shadow-[0_8px_25px_-8px_hsl(289_35%_36%_/_0.2)] hover:scale-[1.02] transition-all duration-300 h-full">
                 <div className={`${region.color} px-4 py-3`}>
                   <h3 className="font-semibold text-white flex items-center gap-2">
                     <MapPin className="h-4 w-4" />
@@ -38,7 +38,7 @@ const ServiceAreaMap = () => {
                       <Link
                         key={location.slug}
                         to={`/service-area/${location.slug}`}
-                        className={`px-3 py-1.5 rounded-full text-sm font-medium ${region.tagColor} text-white hover:opacity-80 transition-all hover:scale-105`}
+                        className={`px-3 py-1.5 rounded-full text-sm font-medium ${region.tagColor} text-white hover:opacity-90 transition-all duration-200 hover:scale-110 hover:-translate-y-0.5 hover:shadow-[0_4px_12px_hsl(289_35%_36%_/_0.3)] active:scale-100`}
                         style={{
                           animationDelay: `${(regionIndex * 100) + (locIndex * 30)}ms`
                         }}

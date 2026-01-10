@@ -91,7 +91,7 @@ const Services = () => {
             <StaggeredItem key={service.title} index={index} staggerDelay={75} animation="fade-up">
               <Link
                 to={service.link}
-                className="group relative bg-card rounded-2xl p-6 shadow-soft hover:shadow-elevated transition-all duration-500 hover:-translate-y-1 block h-full"
+                className="group relative bg-card rounded-2xl p-6 shadow-soft hover:shadow-[0_8px_30px_-8px_hsl(289_35%_36%_/_0.3),0_0_20px_hsl(327_48%_43%_/_0.15)] transition-all duration-300 hover:-translate-y-2 hover:scale-[1.02] block h-full active:scale-[0.98]"
               >
                 <div className={`w-14 h-14 rounded-xl flex items-center justify-center mb-5 transition-all duration-300 ${colorClasses[service.color as keyof typeof colorClasses]}`}>
                   <service.icon className="h-7 w-7" />

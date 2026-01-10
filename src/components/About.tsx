@@ -65,8 +65,8 @@ const About = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-20">
           {coreValues.map((value, index) => (
             <StaggeredItem key={index} index={index} staggerDelay={150} animation="fade-up">
-              <div className="bg-background rounded-2xl p-8 shadow-soft border border-border/50 hover:shadow-lg hover:border-primary/30 transition-all duration-300 group h-full">
-                <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+              <div className="bg-background rounded-2xl p-8 shadow-soft border border-border/50 hover:shadow-[0_8px_30px_-8px_hsl(289_35%_36%_/_0.25),0_0_15px_hsl(327_48%_43%_/_0.1)] hover:border-primary/30 transition-all duration-300 group h-full hover:-translate-y-1 hover:scale-[1.01]">
+                <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center mb-6 group-hover:scale-110 group-hover:shadow-[0_0_20px_hsl(289_35%_36%_/_0.3)] transition-all duration-300">
                   <value.icon className="h-7 w-7 text-primary" />
                 </div>
                 <h3 className="text-xl font-bold mb-3">{value.title}</h3>
@@ -120,15 +120,15 @@ const About = () => {
           {/* Stats Cards */}
           <div className="grid grid-cols-2 gap-6">
             <StaggeredItem index={0} staggerDelay={100} animation="zoom-in">
-              <div className="bg-background rounded-2xl p-8 shadow-soft text-center border border-border/50 hover:border-primary/30 transition-colors">
-                <Award className="h-12 w-12 text-primary mx-auto mb-4" />
+              <div className="bg-background rounded-2xl p-8 shadow-soft text-center border border-border/50 hover:border-primary/30 hover:shadow-[0_0_25px_hsl(289_35%_36%_/_0.3)] hover:scale-[1.03] transition-all duration-300">
+                <Award className="h-12 w-12 text-primary mx-auto mb-4 transition-transform duration-300 group-hover:scale-110" />
                 <div className="text-4xl font-bold text-primary mb-2">BCBA</div>
                 <p className="text-sm text-muted-foreground">Certified Analysts</p>
               </div>
             </StaggeredItem>
             
             <StaggeredItem index={1} staggerDelay={100} animation="zoom-in">
-              <div className="bg-background rounded-2xl p-8 shadow-soft text-center border border-border/50 hover:border-secondary/30 transition-colors">
+              <div className="bg-background rounded-2xl p-8 shadow-soft text-center border border-border/50 hover:border-secondary/30 hover:shadow-[0_0_25px_hsl(191_31%_51%_/_0.3)] hover:scale-[1.03] transition-all duration-300">
                 <Users className="h-12 w-12 text-secondary mx-auto mb-4" />
                 <div className="text-4xl font-bold text-secondary mb-2">500+</div>
                 <p className="text-sm text-muted-foreground">Families Served</p>
@@ -136,7 +136,7 @@ const About = () => {
             </StaggeredItem>
             
             <StaggeredItem index={2} staggerDelay={100} animation="zoom-in">
-              <div className="bg-background rounded-2xl p-8 shadow-soft text-center border border-border/50 hover:border-accent/30 transition-colors">
+              <div className="bg-background rounded-2xl p-8 shadow-soft text-center border border-border/50 hover:border-accent/30 hover:shadow-[0_0_25px_hsl(327_48%_43%_/_0.3)] hover:scale-[1.03] transition-all duration-300">
                 <Clock className="h-12 w-12 text-accent mx-auto mb-4" />
                 <div className="text-4xl font-bold text-accent mb-2">5+</div>
                 <p className="text-sm text-muted-foreground">Years Experience</p>
@@ -144,7 +144,7 @@ const About = () => {
             </StaggeredItem>
             
             <StaggeredItem index={3} staggerDelay={100} animation="zoom-in">
-              <div className="gradient-hero rounded-2xl p-8 text-center text-primary-foreground">
+              <div className="gradient-hero rounded-2xl p-8 text-center text-primary-foreground hover:shadow-[0_0_30px_hsl(289_35%_36%_/_0.5)] hover:scale-[1.03] transition-all duration-300">
                 <div className="text-4xl font-bold mb-2">OAP</div>
                 <p className="text-sm opacity-90">Approved Provider</p>
               </div>
@@ -166,7 +166,7 @@ const About = () => {
               <StaggeredItem key={index} index={index} staggerDelay={100} animation="fade-up">
                 <Link 
                   to={discipline.link}
-                  className="text-center p-6 rounded-xl bg-muted/30 hover:bg-primary/10 transition-all duration-300 group hover:-translate-y-1 block h-full"
+                  className="text-center p-6 rounded-xl bg-muted/30 hover:bg-primary/10 transition-all duration-300 group hover:-translate-y-2 hover:scale-[1.03] hover:shadow-[0_8px_25px_-8px_hsl(289_35%_36%_/_0.3)] block h-full active:scale-[0.98]"
                 >
                   <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-secondary mx-auto mb-3 flex items-center justify-center text-primary-foreground font-bold">
                     {index + 1}
