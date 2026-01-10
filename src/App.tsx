@@ -9,6 +9,7 @@ import FAQPage from "./pages/FAQPage";
 import Team from "./pages/Team";
 import Blog from "./pages/Blog";
 import About from "./pages/About";
+import OAP from "./pages/OAP";
 import NotFound from "./pages/NotFound";
 import ABATherapy from "./pages/services/ABATherapy";
 import SpeechTherapy from "./pages/services/SpeechTherapy";
@@ -31,6 +32,7 @@ const App = () => (
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/about" element={<About />} />
+            <Route path="/oap" element={<OAP />} />
             <Route path="/faq" element={<FAQPage />} />
             <Route path="/team" element={<Team />} />
             <Route path="/blog" element={<Blog />} />
