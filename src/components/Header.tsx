@@ -36,16 +36,22 @@ const Header = () => {
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-card/95 backdrop-blur-md shadow-soft">
-      <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-20">
-          {/* Logo */}
-          <a href="#home" className="flex items-center">
-            <img src={logo} alt="Side by Side Therapy" className="h-14 w-auto" />
-          </a>
+    <>
+      {/* Skip to main content link for accessibility */}
+      <a href="#home" className="skip-link">
+        Skip to main content
+      </a>
+      
+      <header className="fixed top-0 left-0 right-0 z-50 bg-card/95 backdrop-blur-md shadow-soft" role="banner">
+        <div className="container mx-auto px-4">
+          <div className="flex items-center justify-between h-20">
+            {/* Logo */}
+            <a href="#home" className="flex items-center focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 rounded-lg" aria-label="Side by Side Therapy - Home">
+              <img src={logo} alt="Side by Side Therapy" className="h-14 w-auto" width={56} height={56} />
+            </a>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-8">
+          <nav className="hidden lg:flex items-center gap-8" role="navigation" aria-label="Main navigation">
             <a
               href="/#home"
               className="text-foreground/80 hover:text-primary font-medium transition-colors duration-300"
@@ -96,15 +102,17 @@ const Header = () => {
             </Button>
           </div>
 
-          {/* Mobile Menu Button */}
-          <button
-            className="lg:hidden p-2 text-foreground"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            aria-label="Toggle menu"
-          >
-            {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-          </button>
-        </div>
+            {/* Mobile Menu Button */}
+            <button
+              className="lg:hidden p-2 text-foreground focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 rounded-lg min-w-[44px] min-h-[44px] flex items-center justify-center"
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+              aria-expanded={isMenuOpen}
+              aria-controls="mobile-menu"
+            >
+              {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            </button>
+          </div>
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
@@ -165,6 +173,7 @@ const Header = () => {
         )}
       </div>
     </header>
+    </>
   );
 };
 
