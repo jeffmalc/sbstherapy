@@ -4,98 +4,114 @@ import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Phone, Mail, Award, GraduationCap, Heart, Users } from "lucide-react";
+import { Phone, Mail, Award, GraduationCap, Heart, Users, Briefcase, Star } from "lucide-react";
 
-const teamMembers = [
+// Lindsey Malc is the real founder - verified from sidebysidetherapy.ca
+const founderInfo = {
+  name: "Lindsey Malc",
+  title: "Founder & Clinical Director",
+  image: "https://i.ytimg.com/vi/KvrUusVp8fo/hqdefault.jpg",
+  credentials: ["BCBA", "Registered Behaviour Analyst (Ont.)", "M.ADS", "Hon. B.S.W."],
+  specializations: ["Autism Spectrum Disorder", "Applied Behaviour Analysis", "Parent/Caregiver Coaching", "Ontario Autism Program"],
+  bio: "Hello, my name is Lindsey Malc. I'm the founder and Clinical Director of Side by Side Therapy. In 2013, I became a Board Certified Behaviour Analyst. I have spent my entire career working with children with special needs and their families. I have extensive experience in clinical as well as community settings. I have worked primarily with autistic children but have considerable experience working with typically developing children with challenging behaviour as well.",
+  education: "M.ADS (Master of Applied Disability Studies) from Brock University, Honours B.S.W. from Lakehead University",
+  experience: "Over 14 years at Zareinu Educational Centre (now Kayla's Children Centre), holding positions from classroom assistant to Behaviour Analyst. Listed on the Ontario Autism Program provider list as a Clinical Supervisor."
+};
+
+// Representing the diverse team of contractors and specialists
+const teamDisciplines = [
   {
-    name: "Dr. Sarah Mitchell",
-    title: "Clinical Director & BCBA-D",
-    image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=400&fit=crop&crop=face",
-    credentials: ["BCBA-D", "Ph.D. in Applied Behavior Analysis", "Licensed Psychologist"],
-    specializations: ["Autism Spectrum Disorder", "Early Intervention", "Parent Training"],
-    bio: "Dr. Mitchell brings over 15 years of experience in applied behavior analysis and developmental psychology. She founded Side by Side ABA Therapy with a vision to provide compassionate, evidence-based care to children and families in the Greater Toronto Area.",
-    education: "Ph.D. in Applied Behavior Analysis from Western University"
+    title: "Board Certified Behaviour Analysts (BCBAs)",
+    description: "Our BCBAs conduct assessments and supervise the implementation of applied behaviour analysis programs for autistic children. They develop individualized treatment plans and provide clinical oversight.",
+    icon: Award,
+    hiring: true,
+    payRange: "$85 - $120/hour"
   },
   {
-    name: "Jennifer Chen",
-    title: "Senior BCBA & Clinical Supervisor",
-    image: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=400&h=400&fit=crop&crop=face",
-    credentials: ["BCBA", "M.A. in Psychology", "Certified Autism Specialist"],
-    specializations: ["Verbal Behavior", "Social Skills Development", "School Integration"],
-    bio: "Jennifer has been instrumental in developing our social skills training programs. Her expertise in verbal behavior therapy has helped countless children develop meaningful communication skills.",
-    education: "M.A. in Psychology from University of Toronto"
+    title: "Registered Behaviour Analysts (RBAs)",
+    description: "RBAs work under the supervision of BCBAs to deliver comprehensive ABA programs, conduct assessments, and implement behaviour intervention strategies.",
+    icon: Award,
+    hiring: true,
+    payRange: "Competitive rates"
   },
   {
-    name: "Michael Thompson",
-    title: "Lead Speech-Language Pathologist",
-    image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=400&fit=crop&crop=face",
-    credentials: ["M.S. CCC-SLP", "PROMPT Certified", "Hanen Certified"],
-    specializations: ["Articulation Disorders", "Language Development", "AAC"],
-    bio: "Michael specializes in helping children find their voice, whether through traditional speech therapy or augmentative and alternative communication (AAC) devices. His patient, playful approach makes therapy sessions engaging and effective.",
-    education: "M.S. in Speech-Language Pathology from McGill University"
+    title: "Instructor Therapists / RBTs",
+    description: "Our Instructor Therapists work one-on-one with children diagnosed with Autism Spectrum Disorder in their homes, implementing ABA therapy programs designed by our BCBAs.",
+    icon: Users,
+    hiring: true,
+    payRange: "$25 - $35/hour"
   },
   {
-    name: "Dr. Amanda Rodriguez",
-    title: "Occupational Therapist & Sensory Specialist",
-    image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=400&h=400&fit=crop&crop=face",
-    credentials: ["OT Reg. (Ont.)", "Ph.D. in Rehabilitation Sciences", "Sensory Integration Certified"],
-    specializations: ["Sensory Processing", "Fine Motor Skills", "Self-Care Independence"],
-    bio: "Dr. Rodriguez is passionate about helping children develop the skills they need for everyday independence. Her expertise in sensory processing disorders has transformed the lives of many families struggling with sensory challenges.",
-    education: "Ph.D. in Rehabilitation Sciences from Queen's University"
+    title: "Speech-Language Pathologists",
+    description: "Our SLPs work to improve your child's verbal and nonverbal communication, addressing speech disorders, language disorders, and social communication challenges.",
+    icon: Star,
+    hiring: false
   },
   {
-    name: "David Park",
-    title: "Therapeutic Recreation Specialist",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
-    credentials: ["CTRS", "B.A. in Recreation Therapy", "Certified Inclusive Recreation Specialist"],
-    specializations: ["Adaptive Sports", "Social Recreation", "Community Integration"],
-    bio: "David believes that every child deserves to experience the joy of play and recreation. He designs adaptive programs that allow children of all abilities to participate in sports, games, and community activities.",
-    education: "B.A. in Recreation Therapy from Brock University"
+    title: "Occupational Therapists",
+    description: "OTs help children develop skills for everyday independence, addressing sensory processing, fine motor skills, self-care, and participation in school and community activities.",
+    icon: Star,
+    hiring: false
   },
   {
-    name: "Lisa Nguyen",
-    title: "Registered Behavior Technician Team Lead",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop&crop=face",
-    credentials: ["RBT", "B.Sc. in Psychology", "Crisis Prevention Certified"],
-    specializations: ["Direct ABA Therapy", "Data Collection", "Behavior Reduction"],
-    bio: "Lisa leads our team of Registered Behavior Technicians, ensuring consistent, high-quality therapy delivery. Her dedication to each child's progress and her mentorship of new therapists exemplifies our commitment to excellence.",
-    education: "B.Sc. in Psychology from York University"
+    title: "Therapeutic Recreation Specialists",
+    description: "Recreation Therapists engage with your child to address social, emotional, cognitive and physical development using recreation and leisure as therapeutic modalities.",
+    icon: Heart,
+    hiring: false
   },
   {
-    name: "Dr. Robert Kim",
-    title: "Psycho-Educational Assessment Specialist",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
-    credentials: ["Ph.D. in School Psychology", "Registered Psychologist", "Licensed School Psychologist"],
-    specializations: ["Learning Disabilities", "ADHD Assessment", "Giftedness Evaluation"],
-    bio: "Dr. Kim specializes in comprehensive psycho-educational assessments that help families and schools understand each child's unique learning profile. His detailed reports provide actionable recommendations for educational planning.",
-    education: "Ph.D. in School Psychology from OISE, University of Toronto"
+    title: "Psychometrists",
+    description: "Our psycho-educational assessment specialists work with children to establish learning baselines, identify areas of difficulty, and suggest strategies for educational success.",
+    icon: GraduationCap,
+    hiring: false
   },
   {
-    name: "Maria Santos",
-    title: "Family Support Coordinator & Respite Specialist",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop&crop=face",
-    credentials: ["B.S.W.", "Developmental Services Worker Diploma", "Family Mediation Certificate"],
-    specializations: ["Family Support", "Respite Care Coordination", "Resource Navigation"],
-    bio: "Maria understands the challenges families face when caring for a child with special needs. She coordinates our respite services and helps families connect with community resources, funding opportunities, and support networks.",
-    education: "B.S.W. from Ryerson University"
+    title: "Respite Workers",
+    description: "Trained respite workers provide quality care for children with special needs, allowing families to take a much-needed break while ensuring their child is engaged and safe.",
+    icon: Heart,
+    hiring: false
   }
 ];
 
 const teamSchema = {
   "@context": "https://schema.org",
   "@type": "MedicalOrganization",
-  "name": "Side by Side ABA Therapy",
-  "url": "https://sidebysideaba.ca",
-  "employee": teamMembers.map(member => ({
+  "name": "Side by Side Therapy",
+  "url": "https://www.sidebysidetherapy.ca",
+  "telephone": "647-955-5995",
+  "email": "info@sidebysidetherapy.ca",
+  "founder": {
     "@type": "Person",
-    "name": member.name,
-    "jobTitle": member.title,
-    "description": member.bio,
-    "hasCredential": member.credentials.map(cred => ({
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": cred
-    }))
+    "name": "Lindsey Malc",
+    "jobTitle": "Founder & Clinical Director",
+    "description": founderInfo.bio,
+    "hasCredential": [
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Professional Certification",
+        "name": "Board Certified Behaviour Analyst (BCBA)"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Professional Certification",
+        "name": "Registered Behaviour Analyst (Ontario)"
+      }
+    ],
+    "alumniOf": [
+      {
+        "@type": "EducationalOrganization",
+        "name": "Brock University"
+      },
+      {
+        "@type": "EducationalOrganization",
+        "name": "Lakehead University"
+      }
+    ]
+  },
+  "employee": teamDisciplines.map(discipline => ({
+    "@type": "Role",
+    "roleName": discipline.title,
+    "description": discipline.description
   }))
 };
 
@@ -107,13 +123,13 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://sidebysideaba.ca"
+      "item": "https://www.sidebysidetherapy.ca"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Our Team",
-      "item": "https://sidebysideaba.ca/team"
+      "item": "https://www.sidebysidetherapy.ca/team"
     }
   ]
 };
@@ -122,14 +138,14 @@ const Team = () => {
   return (
     <>
       <Helmet>
-        <title>Our Team - Expert Therapists & BCBAs | Side by Side ABA Therapy</title>
-        <meta name="description" content="Meet our team of experienced BCBAs, speech therapists, occupational therapists, and specialists dedicated to helping children with autism and developmental needs in the GTA." />
-        <meta name="keywords" content="BCBA Toronto, ABA therapists GTA, speech therapist autism, occupational therapist children, autism specialists Ontario" />
-        <link rel="canonical" href="https://sidebysideaba.ca/team" />
-        <meta property="og:title" content="Our Team - Expert Therapists & BCBAs | Side by Side ABA Therapy" />
-        <meta property="og:description" content="Meet our team of experienced BCBAs, speech therapists, occupational therapists, and specialists dedicated to helping children with autism and developmental needs." />
+        <title>Our Team - BCBAs, Therapists & Specialists | Side by Side Therapy Toronto</title>
+        <meta name="description" content="Meet Lindsey Malc, BCBA, founder of Side by Side Therapy, and our trans-disciplinary team of BCBAs, speech therapists, occupational therapists, and specialists serving the Greater Toronto Area." />
+        <meta name="keywords" content="Lindsey Malc BCBA, Side by Side Therapy team, ABA therapists Toronto, BCBA GTA, autism therapists Ontario, speech therapist autism Toronto" />
+        <link rel="canonical" href="https://www.sidebysidetherapy.ca/team" />
+        <meta property="og:title" content="Our Team - BCBAs, Therapists & Specialists | Side by Side Therapy Toronto" />
+        <meta property="og:description" content="Meet Lindsey Malc, BCBA, founder of Side by Side Therapy, and our trans-disciplinary team serving children with autism in the GTA." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://sidebysideaba.ca/team" />
+        <meta property="og:url" content="https://www.sidebysidetherapy.ca/team" />
         <script type="application/ld+json">
           {JSON.stringify(teamSchema)}
         </script>
@@ -147,14 +163,14 @@ const Team = () => {
             <div className="max-w-4xl mx-auto text-center">
               <Badge className="mb-4 bg-primary/20 text-primary hover:bg-primary/30">
                 <Users className="w-4 h-4 mr-2" />
-                Meet Our Experts
+                Trans-Disciplinary Team
               </Badge>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6">
-                Our <span className="text-primary">Dedicated Team</span>
+                Meet Our <span className="text-primary">Expert Team</span>
               </h1>
               <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-                Our multidisciplinary team of certified professionals is committed to providing 
-                compassionate, evidence-based care to help every child reach their full potential.
+                Side by Side Therapy is a trans-disciplinary team of paediatric therapists who work with 
+                parents and their special needs children to teach skills that improve the child and family's quality of life.
               </p>
               <div className="flex flex-wrap justify-center gap-6 text-sm text-muted-foreground">
                 <div className="flex items-center gap-2">
@@ -163,81 +179,156 @@ const Team = () => {
                 </div>
                 <div className="flex items-center gap-2">
                   <GraduationCap className="w-5 h-5 text-primary" />
-                  <span>Advanced Degrees</span>
+                  <span>Evidence-Based Practice</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Heart className="w-5 h-5 text-primary" />
-                  <span>Passionate About Care</span>
+                  <span>In-Home Services</span>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Team Grid */}
+        {/* Founder Section */}
         <section className="py-20 bg-background">
           <div className="container mx-auto px-4">
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-              {teamMembers.map((member, index) => (
-                <Card key={index} className="group overflow-hidden hover:shadow-xl transition-all duration-300 border-border/50">
-                  <div className="relative overflow-hidden">
+            <div className="max-w-5xl mx-auto">
+              <div className="text-center mb-12">
+                <Badge className="mb-4 bg-primary/20 text-primary">
+                  <Star className="w-4 h-4 mr-2" />
+                  Leadership
+                </Badge>
+                <h2 className="text-3xl md:text-4xl font-bold text-foreground">
+                  Meet Our Founder
+                </h2>
+              </div>
+              
+              <Card className="overflow-hidden border-primary/20 shadow-xl">
+                <div className="grid md:grid-cols-3 gap-0">
+                  <div className="relative md:col-span-1">
                     <img
-                      src={member.image}
-                      alt={`${member.name} - ${member.title}`}
-                      className="w-full h-64 object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                      src={founderInfo.image}
+                      alt={`${founderInfo.name} - ${founderInfo.title} at Side by Side Therapy`}
+                      className="w-full h-full object-cover min-h-[300px] md:min-h-full"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent md:bg-gradient-to-r" />
                   </div>
-                  <CardContent className="p-6">
-                    <h3 className="text-xl font-bold text-foreground mb-1">{member.name}</h3>
-                    <p className="text-primary font-medium text-sm mb-3">{member.title}</p>
+                  <CardContent className="p-8 md:col-span-2 flex flex-col justify-center">
+                    <div className="mb-4">
+                      <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-2">{founderInfo.name}</h3>
+                      <p className="text-primary font-semibold text-lg">{founderInfo.title}</p>
+                    </div>
                     
-                    <div className="flex flex-wrap gap-1 mb-4">
-                      {member.credentials.slice(0, 3).map((credential, idx) => (
-                        <Badge key={idx} variant="secondary" className="text-xs">
+                    <div className="flex flex-wrap gap-2 mb-6">
+                      {founderInfo.credentials.map((credential, idx) => (
+                        <Badge key={idx} variant="secondary" className="text-sm">
                           {credential}
                         </Badge>
                       ))}
                     </div>
                     
-                    <p className="text-muted-foreground text-sm mb-4 line-clamp-3">
-                      {member.bio}
+                    <p className="text-muted-foreground mb-6 leading-relaxed">
+                      {founderInfo.bio}
                     </p>
                     
-                    <div className="space-y-2">
-                      <p className="text-xs text-muted-foreground flex items-start gap-2">
-                        <GraduationCap className="w-4 h-4 mt-0.5 text-primary flex-shrink-0" />
-                        {member.education}
-                      </p>
+                    <div className="space-y-4 mb-6">
+                      <div className="flex items-start gap-3">
+                        <GraduationCap className="w-5 h-5 mt-0.5 text-primary flex-shrink-0" />
+                        <div>
+                          <p className="font-medium text-foreground text-sm">Education</p>
+                          <p className="text-muted-foreground text-sm">{founderInfo.education}</p>
+                        </div>
+                      </div>
+                      <div className="flex items-start gap-3">
+                        <Briefcase className="w-5 h-5 mt-0.5 text-primary flex-shrink-0" />
+                        <div>
+                          <p className="font-medium text-foreground text-sm">Experience</p>
+                          <p className="text-muted-foreground text-sm">{founderInfo.experience}</p>
+                        </div>
+                      </div>
                     </div>
                     
-                    <div className="mt-4 pt-4 border-t border-border">
-                      <p className="text-xs font-medium text-muted-foreground mb-2">Specializations:</p>
-                      <div className="flex flex-wrap gap-1">
-                        {member.specializations.map((spec, idx) => (
-                          <span key={idx} className="text-xs text-primary/80 bg-primary/10 px-2 py-0.5 rounded-full">
+                    <div className="pt-4 border-t border-border">
+                      <p className="text-sm font-medium text-muted-foreground mb-3">Specializations:</p>
+                      <div className="flex flex-wrap gap-2">
+                        {founderInfo.specializations.map((spec, idx) => (
+                          <span key={idx} className="text-sm text-primary/80 bg-primary/10 px-3 py-1 rounded-full">
                             {spec}
                           </span>
                         ))}
                       </div>
                     </div>
                   </CardContent>
-                </Card>
-              ))}
+                </div>
+              </Card>
             </div>
           </div>
         </section>
 
-        {/* Values Section */}
+        {/* Team Disciplines Section */}
         <section className="py-20 bg-muted/30">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center mb-12">
+              <Badge className="mb-4 bg-primary/20 text-primary">
+                <Users className="w-4 h-4 mr-2" />
+                Our Disciplines
+              </Badge>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                Our Commitment to Excellence
+                A Trans-Disciplinary Approach
               </h2>
               <p className="text-lg text-muted-foreground">
-                Every member of our team shares a deep commitment to providing the highest quality care 
-                and making a meaningful difference in the lives of children and families.
+                Our team of BCBAs, Senior Therapists, Instructor Therapists, Speech-Language Pathologists, 
+                Occupational Therapists, Recreation Therapists, and Respite Workers work together to ensure 
+                comprehensive care for your child and family.
+              </p>
+            </div>
+            
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+              {teamDisciplines.map((discipline, index) => {
+                const IconComponent = discipline.icon;
+                return (
+                  <Card key={index} className="relative overflow-hidden hover:shadow-lg transition-shadow duration-300 border-border/50">
+                    {discipline.hiring && (
+                      <div className="absolute top-3 right-3">
+                        <Badge className="bg-green-500/90 text-white hover:bg-green-500">
+                          Now Hiring
+                        </Badge>
+                      </div>
+                    )}
+                    <CardContent className="p-6">
+                      <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+                        <IconComponent className="w-6 h-6 text-primary" />
+                      </div>
+                      <h3 className="text-lg font-bold text-foreground mb-3 pr-16">{discipline.title}</h3>
+                      <p className="text-muted-foreground text-sm leading-relaxed mb-4">
+                        {discipline.description}
+                      </p>
+                      {discipline.payRange && (
+                        <p className="text-sm font-medium text-primary">
+                          Pay Range: {discipline.payRange}
+                        </p>
+                      )}
+                    </CardContent>
+                  </Card>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+
+        {/* Mission & Values Section */}
+        <section className="py-20 bg-background">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+                Our Mission
+              </h2>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Parents of children with autism or other special needs often have a very difficult time 
+                helping their child overcome their challenges. We work as a trans-disciplinary team to create 
+                individualized, functional, evidence-based interventions that teach these missing skills. 
+                <span className="font-semibold text-foreground"> As a result, the family achieves an improved quality of life.</span>
               </p>
             </div>
             
@@ -246,10 +337,10 @@ const Team = () => {
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Award className="w-8 h-8 text-primary" />
                 </div>
-                <h3 className="text-xl font-bold text-foreground mb-2">Certified Expertise</h3>
+                <h3 className="text-xl font-bold text-foreground mb-2">Evidence-Based Practice</h3>
                 <p className="text-muted-foreground">
-                  All our therapists hold current certifications and engage in ongoing professional development 
-                  to stay at the forefront of evidence-based practices.
+                  All our therapists use proven, evidence-based interventions. Our BCBAs are listed on the 
+                  Ontario Autism Program provider list as Clinical Supervisors.
                 </p>
               </Card>
               
@@ -257,10 +348,10 @@ const Team = () => {
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Heart className="w-8 h-8 text-primary" />
                 </div>
-                <h3 className="text-xl font-bold text-foreground mb-2">Compassionate Care</h3>
+                <h3 className="text-xl font-bold text-foreground mb-2">Family-Centred Care</h3>
                 <p className="text-muted-foreground">
-                  We believe in treating every child and family with dignity, respect, and genuine compassion. 
-                  Your child's wellbeing is our top priority.
+                  We believe that families are integral parts of the treatment team. All services happen 
+                  in your home so parents can be aware of and involved in therapy.
                 </p>
               </Card>
               
@@ -270,8 +361,8 @@ const Team = () => {
                 </div>
                 <h3 className="text-xl font-bold text-foreground mb-2">Collaborative Approach</h3>
                 <p className="text-muted-foreground">
-                  Our multidisciplinary team works together, ensuring comprehensive care that addresses 
-                  all aspects of your child's development.
+                  Our multidisciplinary team works together seamlessly, ensuring comprehensive care that 
+                  addresses all aspects of your child's development.
                 </p>
               </Card>
             </div>
@@ -282,21 +373,33 @@ const Team = () => {
         <section className="py-20 bg-gradient-to-br from-primary to-primary/80 text-primary-foreground">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
+              <Badge className="mb-4 bg-white/20 text-white hover:bg-white/30">
+                <Briefcase className="w-4 h-4 mr-2" />
+                We're Hiring
+              </Badge>
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
                 Join Our Growing Team
               </h2>
-              <p className="text-xl opacity-90 mb-8">
-                Are you a passionate therapist looking to make a difference? We're always looking 
-                for dedicated professionals to join our team.
+              <p className="text-xl opacity-90 mb-4">
+                At Side by Side Therapy, we aim to improve the quality of life for special needs children 
+                and their families by providing evidence-based, effective, functional interventions.
+              </p>
+              <p className="text-lg opacity-80 mb-8">
+                We're currently hiring Instructor Therapists, RBTs, BCBAs, and RBAs for independent contractor positions 
+                in the Greater Toronto Area and Durham Region.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" variant="secondary" className="text-lg px-8">
-                  <Mail className="mr-2 h-5 w-5" />
-                  View Career Opportunities
+                <Button size="lg" variant="secondary" className="text-lg px-8" asChild>
+                  <a href="https://www.sidebysidetherapy.ca/careers-side-by-side-therapy-in-toronto/" target="_blank" rel="noopener noreferrer">
+                    <Briefcase className="mr-2 h-5 w-5" />
+                    View Career Opportunities
+                  </a>
                 </Button>
-                <Button size="lg" variant="outline" className="text-lg px-8 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
-                  <Phone className="mr-2 h-5 w-5" />
-                  (647) 555-0123
+                <Button size="lg" variant="outline" className="text-lg px-8 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary" asChild>
+                  <a href="mailto:info@sidebysidetherapy.ca">
+                    <Mail className="mr-2 h-5 w-5" />
+                    info@sidebysidetherapy.ca
+                  </a>
                 </Button>
               </div>
             </div>
@@ -311,17 +414,21 @@ const Team = () => {
                 Ready to Get Started?
               </h2>
               <p className="text-lg text-muted-foreground mb-8">
-                Contact us today to schedule a consultation and learn how our team can support 
+                Contact us today to schedule a free 30-minute consultation and learn how our team can support 
                 your child's development journey.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" className="text-lg px-8">
-                  <Phone className="mr-2 h-5 w-5" />
-                  Schedule a Consultation
+                <Button size="lg" className="text-lg px-8" asChild>
+                  <a href="tel:647-955-5995">
+                    <Phone className="mr-2 h-5 w-5" />
+                    647-955-5995
+                  </a>
                 </Button>
-                <Button size="lg" variant="outline" className="text-lg px-8">
-                  <Mail className="mr-2 h-5 w-5" />
-                  info@sidebysideaba.ca
+                <Button size="lg" variant="outline" className="text-lg px-8" asChild>
+                  <a href="tel:1-877-797-0437">
+                    <Phone className="mr-2 h-5 w-5" />
+                    1-877-797-0437 (Toll Free)
+                  </a>
                 </Button>
               </div>
             </div>
