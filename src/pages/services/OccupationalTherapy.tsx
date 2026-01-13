@@ -126,16 +126,51 @@ const OccupationalTherapy = () => {
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "MedicalTherapy",
-    "name": "Occupational Therapy",
+    "name": "Occupational Therapy for Autism",
+    "alternateName": ["Pediatric OT", "Sensory Integration Therapy", "Sensory Processing Therapy"],
     "description": "Occupational therapy for children with autism in the Greater Toronto Area. Address motor skills, sensory processing, and daily living skills with experienced OTs.",
     "medicineSystem": "WesternConventional",
     "relevantSpecialty": "OccupationalTherapy",
+    "image": "https://sidebysidetherapy.ca/og-image.png",
     "provider": {
       "@type": "MedicalOrganization",
       "name": "Side by Side Therapy",
       "telephone": "+1-647-955-5995",
-      "url": "https://sidebysidetherapy.ca"
+      "email": "info@sidebysidetherapy.ca",
+      "url": "https://sidebysidetherapy.ca",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Toronto",
+        "addressRegion": "Ontario",
+        "addressCountry": "CA"
+      }
+    },
+    "areaServed": [
+      { "@type": "City", "name": "Toronto" },
+      { "@type": "City", "name": "Mississauga" },
+      { "@type": "City", "name": "Brampton" },
+      { "@type": "City", "name": "Vaughan" },
+      { "@type": "City", "name": "Markham" },
+      { "@type": "City", "name": "Richmond Hill" }
+    ],
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "CAD"
+    },
+    "audience": {
+      "@type": "MedicalAudience",
+      "audienceType": "Children with sensory processing and motor skill challenges"
     }
+  };
+
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "MedicalOrganization",
+    "name": "Side by Side Therapy",
+    "url": "https://sidebysidetherapy.ca",
+    "telephone": "+1-647-955-5995",
+    "medicalSpecialty": ["OccupationalTherapy", "Pediatrics"]
   };
 
   const breadcrumbSchema = {
@@ -155,8 +190,20 @@ const OccupationalTherapy = () => {
         <meta name="description" content="Expert occupational therapy for children with autism in Toronto & GTA. Sensory processing, fine motor skills, daily living skills. Free consultation: 647-955-5995" />
         <meta name="keywords" content="occupational therapy Toronto, OT autism, sensory processing therapy, fine motor skills, sensory integration, pediatric OT, autism therapy GTA" />
         <link rel="canonical" href="https://sidebysidetherapy.ca/services/occupational-therapy" />
+        <meta property="og:title" content="Occupational Therapy for Autism Toronto | Side by Side Therapy" />
+        <meta property="og:description" content="Expert occupational therapy for children with autism. Sensory processing, fine motor skills, daily living." />
+        <meta property="og:url" content="https://sidebysidetherapy.ca/services/occupational-therapy" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://sidebysidetherapy.ca/og-image.png" />
+        <meta property="og:locale" content="en_CA" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Occupational Therapy Toronto | Side by Side Therapy" />
+        <meta name="twitter:description" content="Expert OT for children with autism. Sensory processing, motor skills, self-care." />
+        <meta name="geo.region" content="CA-ON" />
+        <meta name="geo.placename" content="Toronto" />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(serviceSchema)}</script>
+        <script type="application/ld+json">{JSON.stringify(organizationSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
       </Helmet>
       

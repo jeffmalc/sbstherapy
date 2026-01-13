@@ -156,14 +156,39 @@ const PsychoEducationalAssessments = () => {
     "@context": "https://schema.org",
     "@type": "MedicalTest",
     "name": "Psycho-Educational Assessment",
+    "alternateName": ["Educational Assessment", "Learning Disability Testing", "Cognitive Assessment"],
     "description": "Comprehensive psycho-educational assessments for children in the Greater Toronto Area. Identify learning disabilities, giftedness, and get school accommodation recommendations.",
-    "usedToDiagnose": ["Learning Disability", "ADHD", "Giftedness"],
+    "image": "https://sidebysidetherapy.ca/og-image.png",
+    "usedToDiagnose": ["Learning Disability", "ADHD", "Giftedness", "Dyslexia", "Dyscalculia"],
     "provider": {
       "@type": "MedicalOrganization",
       "name": "Side by Side Therapy",
       "telephone": "+1-647-955-5995",
-      "url": "https://sidebysidetherapy.ca"
-    }
+      "email": "info@sidebysidetherapy.ca",
+      "url": "https://sidebysidetherapy.ca",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Toronto",
+        "addressRegion": "Ontario",
+        "addressCountry": "CA"
+      }
+    },
+    "areaServed": [
+      { "@type": "City", "name": "Toronto" },
+      { "@type": "City", "name": "Mississauga" },
+      { "@type": "City", "name": "Brampton" },
+      { "@type": "City", "name": "Vaughan" },
+      { "@type": "City", "name": "Markham" }
+    ]
+  };
+
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "MedicalOrganization",
+    "name": "Side by Side Therapy",
+    "url": "https://sidebysidetherapy.ca",
+    "telephone": "+1-647-955-5995",
+    "medicalSpecialty": ["Psychology", "Pediatrics"]
   };
 
   const breadcrumbSchema = {
@@ -183,8 +208,20 @@ const PsychoEducationalAssessments = () => {
         <meta name="description" content="Comprehensive psycho-educational assessments in Toronto & GTA. Identify learning disabilities, ADHD, giftedness. Get school accommodations and IEP support. Free consultation: 647-955-5995" />
         <meta name="keywords" content="psycho-educational assessment Toronto, learning disability testing, ADHD assessment, educational psychology, IEP assessment, school accommodations, dyslexia testing GTA" />
         <link rel="canonical" href="https://sidebysidetherapy.ca/services/psycho-educational-assessments" />
+        <meta property="og:title" content="Psycho-Educational Assessment Toronto | Side by Side Therapy" />
+        <meta property="og:description" content="Comprehensive psycho-educational assessments. Identify learning disabilities, ADHD, giftedness." />
+        <meta property="og:url" content="https://sidebysidetherapy.ca/services/psycho-educational-assessments" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://sidebysidetherapy.ca/og-image.png" />
+        <meta property="og:locale" content="en_CA" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Psycho-Educational Assessment Toronto | Side by Side Therapy" />
+        <meta name="twitter:description" content="Learning disability testing and educational assessments in Toronto & GTA." />
+        <meta name="geo.region" content="CA-ON" />
+        <meta name="geo.placename" content="Toronto" />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(serviceSchema)}</script>
+        <script type="application/ld+json">{JSON.stringify(organizationSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
       </Helmet>
       

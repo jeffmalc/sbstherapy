@@ -107,14 +107,48 @@ const RespiteServices = () => {
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "name": "Respite Services",
+    "name": "Respite Care Services for Autism Families",
+    "alternateName": ["Respite Care", "Caregiver Support", "Family Respite"],
     "description": "Respite care services for families of children with autism in the Greater Toronto Area. Give caregivers a break while children enjoy engaging activities with trained professionals.",
+    "image": "https://sidebysidetherapy.ca/og-image.png",
     "provider": {
       "@type": "Organization",
       "name": "Side by Side Therapy",
       "telephone": "+1-647-955-5995",
-      "url": "https://sidebysidetherapy.ca"
+      "email": "info@sidebysidetherapy.ca",
+      "url": "https://sidebysidetherapy.ca",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Toronto",
+        "addressRegion": "Ontario",
+        "addressCountry": "CA"
+      }
+    },
+    "areaServed": [
+      { "@type": "City", "name": "Toronto" },
+      { "@type": "City", "name": "Mississauga" },
+      { "@type": "City", "name": "Brampton" },
+      { "@type": "City", "name": "Vaughan" },
+      { "@type": "City", "name": "Markham" }
+    ],
+    "serviceType": "Respite Care",
+    "audience": {
+      "@type": "Audience",
+      "audienceType": "Families of children with autism"
+    },
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "CAD"
     }
+  };
+
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Side by Side Therapy",
+    "url": "https://sidebysidetherapy.ca",
+    "telephone": "+1-647-955-5995"
   };
 
   const breadcrumbSchema = {
@@ -134,8 +168,20 @@ const RespiteServices = () => {
         <meta name="description" content="Quality respite care for families of children with autism in Toronto & GTA. Trained professionals, flexible scheduling, in-home & community options. Free consultation: 647-955-5995" />
         <meta name="keywords" content="respite care Toronto, autism respite, caregiver support, family respite services, autism family support, in-home respite GTA" />
         <link rel="canonical" href="https://sidebysidetherapy.ca/services/respite-services" />
+        <meta property="og:title" content="Respite Care for Autism Families Toronto | Side by Side Therapy" />
+        <meta property="og:description" content="Quality respite care for families of children with autism. Trained professionals, flexible scheduling." />
+        <meta property="og:url" content="https://sidebysidetherapy.ca/services/respite-services" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://sidebysidetherapy.ca/og-image.png" />
+        <meta property="og:locale" content="en_CA" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Respite Services Toronto | Side by Side Therapy" />
+        <meta name="twitter:description" content="Respite care for autism families in Toronto & GTA." />
+        <meta name="geo.region" content="CA-ON" />
+        <meta name="geo.placename" content="Toronto" />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(serviceSchema)}</script>
+        <script type="application/ld+json">{JSON.stringify(organizationSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
       </Helmet>
       

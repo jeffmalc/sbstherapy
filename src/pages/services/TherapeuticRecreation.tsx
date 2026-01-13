@@ -99,14 +99,48 @@ const TherapeuticRecreation = () => {
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "name": "Therapeutic Recreation",
+    "name": "Therapeutic Recreation for Autism",
+    "alternateName": ["Recreational Therapy", "Play Therapy", "Adaptive Recreation"],
     "description": "Therapeutic recreation services for children with autism in the Greater Toronto Area. Develop social, emotional, and physical skills through engaging recreational activities.",
+    "image": "https://sidebysidetherapy.ca/og-image.png",
     "provider": {
       "@type": "Organization",
       "name": "Side by Side Therapy",
       "telephone": "+1-647-955-5995",
-      "url": "https://sidebysidetherapy.ca"
+      "email": "info@sidebysidetherapy.ca",
+      "url": "https://sidebysidetherapy.ca",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Toronto",
+        "addressRegion": "Ontario",
+        "addressCountry": "CA"
+      }
+    },
+    "areaServed": [
+      { "@type": "City", "name": "Toronto" },
+      { "@type": "City", "name": "Mississauga" },
+      { "@type": "City", "name": "Brampton" },
+      { "@type": "City", "name": "Vaughan" },
+      { "@type": "City", "name": "Markham" }
+    ],
+    "serviceType": "Therapeutic Recreation",
+    "audience": {
+      "@type": "Audience",
+      "audienceType": "Children with Autism Spectrum Disorder"
+    },
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "CAD"
     }
+  };
+
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Side by Side Therapy",
+    "url": "https://sidebysidetherapy.ca",
+    "telephone": "+1-647-955-5995"
   };
 
   const breadcrumbSchema = {
@@ -126,8 +160,20 @@ const TherapeuticRecreation = () => {
         <meta name="description" content="Therapeutic recreation for children with autism in Toronto & GTA. Develop social, emotional, and physical skills through fun recreational activities. Free consultation: 647-955-5995" />
         <meta name="keywords" content="therapeutic recreation Toronto, recreational therapy autism, play therapy, social skills activities, autism recreation, adaptive recreation GTA" />
         <link rel="canonical" href="https://sidebysidetherapy.ca/services/therapeutic-recreation" />
+        <meta property="og:title" content="Therapeutic Recreation for Autism Toronto | Side by Side Therapy" />
+        <meta property="og:description" content="Therapeutic recreation for children with autism. Develop skills through fun recreational activities." />
+        <meta property="og:url" content="https://sidebysidetherapy.ca/services/therapeutic-recreation" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://sidebysidetherapy.ca/og-image.png" />
+        <meta property="og:locale" content="en_CA" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Therapeutic Recreation Toronto | Side by Side Therapy" />
+        <meta name="twitter:description" content="Recreational therapy for children with autism in Toronto & GTA." />
+        <meta name="geo.region" content="CA-ON" />
+        <meta name="geo.placename" content="Toronto" />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(serviceSchema)}</script>
+        <script type="application/ld+json">{JSON.stringify(organizationSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
       </Helmet>
       

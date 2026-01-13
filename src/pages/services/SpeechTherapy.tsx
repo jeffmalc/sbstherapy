@@ -126,17 +126,52 @@ const SpeechTherapy = () => {
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "MedicalTherapy",
-    "name": "Speech Therapy",
-    "alternateName": "Speech-Language Pathology",
+    "name": "Speech Therapy for Autism",
+    "alternateName": ["Speech-Language Pathology", "SLP Services", "Communication Therapy"],
     "description": "Speech-Language Pathology services for children with autism in the Greater Toronto Area. Improve verbal and nonverbal communication skills with experienced SLPs.",
     "medicineSystem": "WesternConventional",
     "relevantSpecialty": "SpeechPathology",
+    "image": "https://sidebysidetherapy.ca/og-image.png",
     "provider": {
       "@type": "MedicalOrganization",
       "name": "Side by Side Therapy",
       "telephone": "+1-647-955-5995",
-      "url": "https://sidebysidetherapy.ca"
+      "email": "info@sidebysidetherapy.ca",
+      "url": "https://sidebysidetherapy.ca",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Toronto",
+        "addressRegion": "Ontario",
+        "addressCountry": "CA"
+      }
+    },
+    "areaServed": [
+      { "@type": "City", "name": "Toronto" },
+      { "@type": "City", "name": "Mississauga" },
+      { "@type": "City", "name": "Brampton" },
+      { "@type": "City", "name": "Vaughan" },
+      { "@type": "City", "name": "Markham" },
+      { "@type": "City", "name": "Richmond Hill" },
+      { "@type": "City", "name": "Oakville" }
+    ],
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "CAD"
+    },
+    "audience": {
+      "@type": "MedicalAudience",
+      "audienceType": "Children with communication challenges"
     }
+  };
+
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "MedicalOrganization",
+    "name": "Side by Side Therapy",
+    "url": "https://sidebysidetherapy.ca",
+    "telephone": "+1-647-955-5995",
+    "medicalSpecialty": ["SpeechPathology", "Pediatrics"]
   };
 
   const breadcrumbSchema = {
@@ -156,8 +191,20 @@ const SpeechTherapy = () => {
         <meta name="description" content="Expert speech therapy for children with autism in Toronto & GTA. Speech-Language Pathologists specializing in autism, AAC, social communication. Free consultation: 647-955-5995" />
         <meta name="keywords" content="speech therapy Toronto, speech pathology autism, SLP Toronto, AAC therapy, communication therapy, autism speech therapy, language therapy GTA" />
         <link rel="canonical" href="https://sidebysidetherapy.ca/services/speech-therapy" />
+        <meta property="og:title" content="Speech Therapy for Autism Toronto | Side by Side Therapy" />
+        <meta property="og:description" content="Expert speech therapy for children with autism. AAC, social communication, language development." />
+        <meta property="og:url" content="https://sidebysidetherapy.ca/services/speech-therapy" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://sidebysidetherapy.ca/og-image.png" />
+        <meta property="og:locale" content="en_CA" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Speech Therapy Toronto | Side by Side Therapy" />
+        <meta name="twitter:description" content="Expert speech therapy for children with autism in Toronto & GTA." />
+        <meta name="geo.region" content="CA-ON" />
+        <meta name="geo.placename" content="Toronto" />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(serviceSchema)}</script>
+        <script type="application/ld+json">{JSON.stringify(organizationSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
       </Helmet>
       

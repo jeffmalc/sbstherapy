@@ -126,14 +126,48 @@ const SocialSkillsTraining = () => {
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "name": "Social Skills Training",
+    "name": "Social Skills Training for Autism",
+    "alternateName": ["Social Skills Groups", "Friendship Skills Training", "Peer Interaction Therapy"],
     "description": "Social skills training for children with autism in the Greater Toronto Area. Group and individual sessions to help children build meaningful relationships and navigate social situations.",
+    "image": "https://sidebysidetherapy.ca/og-image.png",
     "provider": {
       "@type": "Organization",
       "name": "Side by Side Therapy",
       "telephone": "+1-647-955-5995",
-      "url": "https://sidebysidetherapy.ca"
+      "email": "info@sidebysidetherapy.ca",
+      "url": "https://sidebysidetherapy.ca",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Toronto",
+        "addressRegion": "Ontario",
+        "addressCountry": "CA"
+      }
+    },
+    "areaServed": [
+      { "@type": "City", "name": "Toronto" },
+      { "@type": "City", "name": "Mississauga" },
+      { "@type": "City", "name": "Brampton" },
+      { "@type": "City", "name": "Vaughan" },
+      { "@type": "City", "name": "Markham" }
+    ],
+    "serviceType": "Social Skills Training",
+    "audience": {
+      "@type": "Audience",
+      "audienceType": "Children with Autism Spectrum Disorder"
+    },
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "CAD"
     }
+  };
+
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Side by Side Therapy",
+    "url": "https://sidebysidetherapy.ca",
+    "telephone": "+1-647-955-5995"
   };
 
   const breadcrumbSchema = {
@@ -153,8 +187,20 @@ const SocialSkillsTraining = () => {
         <meta name="description" content="Social skills groups and training for children with autism in Toronto & GTA. Build friendship skills, conversation abilities, and social awareness. Free consultation: 647-955-5995" />
         <meta name="keywords" content="social skills training Toronto, autism social skills groups, friendship skills, social skills therapy, peer interaction autism, social communication GTA" />
         <link rel="canonical" href="https://sidebysidetherapy.ca/services/social-skills-training" />
+        <meta property="og:title" content="Social Skills Training for Autism Toronto | Side by Side Therapy" />
+        <meta property="og:description" content="Social skills groups and training for children with autism. Build friendships and social awareness." />
+        <meta property="og:url" content="https://sidebysidetherapy.ca/services/social-skills-training" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://sidebysidetherapy.ca/og-image.png" />
+        <meta property="og:locale" content="en_CA" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Social Skills Training Toronto | Side by Side Therapy" />
+        <meta name="twitter:description" content="Social skills groups for children with autism in Toronto & GTA." />
+        <meta name="geo.region" content="CA-ON" />
+        <meta name="geo.placename" content="Toronto" />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(serviceSchema)}</script>
+        <script type="application/ld+json">{JSON.stringify(organizationSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
       </Helmet>
       
