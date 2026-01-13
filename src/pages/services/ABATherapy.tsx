@@ -143,24 +143,80 @@ const ABATherapy = () => {
     "@context": "https://schema.org",
     "@type": "MedicalTherapy",
     "name": "Applied Behaviour Analysis (ABA) Therapy",
-    "alternateName": "ABA Therapy",
+    "alternateName": ["ABA Therapy", "Behaviour Therapy", "Autism Therapy"],
     "description": "Evidence-based ABA therapy for children with autism in the Greater Toronto Area. Comprehensive, focused, and consultation models available with experienced BCBAs.",
     "medicineSystem": "WesternConventional",
     "relevantSpecialty": "BehaviorAnalysis",
+    "image": "https://sidebysidetherapy.ca/og-image.png",
     "provider": {
       "@type": "MedicalOrganization",
       "name": "Side by Side Therapy",
       "telephone": "+1-647-955-5995",
-      "url": "https://sidebysidetherapy.ca"
-    },
-    "areaServed": {
-      "@type": "GeoCircle",
-      "geoMidpoint": {
-        "@type": "GeoCoordinates",
-        "latitude": 43.6532,
-        "longitude": -79.3832
+      "email": "info@sidebysidetherapy.ca",
+      "url": "https://sidebysidetherapy.ca",
+      "logo": "https://sidebysidetherapy.ca/logo.png",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Toronto",
+        "addressRegion": "Ontario",
+        "addressCountry": "CA"
       },
-      "geoRadius": "50000"
+      "sameAs": [
+        "https://www.facebook.com/sidebysidetherapy",
+        "https://www.instagram.com/sidebysidetherapy"
+      ]
+    },
+    "areaServed": [
+      { "@type": "City", "name": "Toronto", "sameAs": "https://en.wikipedia.org/wiki/Toronto" },
+      { "@type": "City", "name": "Mississauga" },
+      { "@type": "City", "name": "Brampton" },
+      { "@type": "City", "name": "Vaughan" },
+      { "@type": "City", "name": "Markham" },
+      { "@type": "City", "name": "Richmond Hill" },
+      { "@type": "City", "name": "Oakville" },
+      { "@type": "City", "name": "Burlington" }
+    ],
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "CAD"
+      },
+      "eligibleRegion": {
+        "@type": "Place",
+        "name": "Greater Toronto Area, Ontario, Canada"
+      }
+    },
+    "audience": {
+      "@type": "MedicalAudience",
+      "audienceType": "Children with Autism Spectrum Disorder",
+      "healthCondition": {
+        "@type": "MedicalCondition",
+        "name": "Autism Spectrum Disorder"
+      }
+    }
+  };
+
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "MedicalOrganization",
+    "name": "Side by Side Therapy",
+    "url": "https://sidebysidetherapy.ca",
+    "logo": "https://sidebysidetherapy.ca/logo.png",
+    "telephone": "+1-647-955-5995",
+    "email": "info@sidebysidetherapy.ca",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Toronto",
+      "addressRegion": "Ontario",
+      "addressCountry": "CA"
+    },
+    "medicalSpecialty": ["BehaviorAnalysis", "Pediatrics"],
+    "hasCredential": {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Ontario Autism Program (OAP) Approved Provider"
     }
   };
 
@@ -168,24 +224,9 @@ const ABATherapy = () => {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://sidebysidetherapy.ca"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Services",
-        "item": "https://sidebysidetherapy.ca/#services"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "ABA Therapy",
-        "item": "https://sidebysidetherapy.ca/services/aba-therapy"
-      }
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://sidebysidetherapy.ca" },
+      { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://sidebysidetherapy.ca/#services" },
+      { "@type": "ListItem", "position": 3, "name": "ABA Therapy", "item": "https://sidebysidetherapy.ca/services/aba-therapy" }
     ]
   };
 
@@ -200,8 +241,18 @@ const ABATherapy = () => {
         <meta property="og:description" content="Evidence-based ABA therapy for children with autism. BCBA-supervised, OAP approved. Free consultation available." />
         <meta property="og:url" content="https://sidebysidetherapy.ca/services/aba-therapy" />
         <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://sidebysidetherapy.ca/og-image.png" />
+        <meta property="og:locale" content="en_CA" />
+        <meta property="og:site_name" content="Side by Side Therapy" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="ABA Therapy Toronto | Side by Side Therapy" />
+        <meta name="twitter:description" content="Evidence-based ABA therapy for children with autism. BCBA-supervised, OAP approved." />
+        <meta name="twitter:image" content="https://sidebysidetherapy.ca/og-image.png" />
+        <meta name="geo.region" content="CA-ON" />
+        <meta name="geo.placename" content="Toronto" />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(serviceSchema)}</script>
+        <script type="application/ld+json">{JSON.stringify(organizationSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
       </Helmet>
       

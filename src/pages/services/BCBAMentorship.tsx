@@ -130,16 +130,46 @@ const BCBAMentorship = () => {
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "EducationalOccupationalProgram",
-    "name": "BCBA Mentorship & Supervision",
+    "name": "BCBA Mentorship & Supervision Program",
+    "alternateName": ["BCBA Supervision", "BCaBA Supervision", "Behavior Analyst Training"],
     "description": "BCBA and BCaBA supervision and mentorship in the Greater Toronto Area. Accumulate supervised fieldwork hours with experienced Board Certified Behavior Analysts.",
+    "image": "https://sidebysidetherapy.ca/og-image.png",
     "provider": {
       "@type": "Organization",
       "name": "Side by Side Therapy",
       "telephone": "+1-647-955-5995",
-      "url": "https://sidebysidetherapy.ca"
+      "email": "info@sidebysidetherapy.ca",
+      "url": "https://sidebysidetherapy.ca",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Toronto",
+        "addressRegion": "Ontario",
+        "addressCountry": "CA"
+      }
     },
     "educationalCredentialAwarded": "Board Certified Behavior Analyst (BCBA)",
-    "occupationalCategory": "Behavior Analyst"
+    "occupationalCategory": "Behavior Analyst",
+    "programPrerequisites": "Graduate degree in behavior analysis or related field",
+    "timeToComplete": "P18M",
+    "areaServed": [
+      { "@type": "City", "name": "Toronto" },
+      { "@type": "City", "name": "Mississauga" },
+      { "@type": "City", "name": "Brampton" },
+      { "@type": "City", "name": "Vaughan" }
+    ],
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "CAD"
+    }
+  };
+
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Side by Side Therapy",
+    "url": "https://sidebysidetherapy.ca",
+    "telephone": "+1-647-955-5995"
   };
 
   const breadcrumbSchema = {
@@ -159,8 +189,20 @@ const BCBAMentorship = () => {
         <meta name="description" content="BCBA and BCaBA supervision in Toronto & GTA. Accumulate fieldwork hours with experienced supervisors. Diverse clinical experience, exam support, career guidance. Contact us today!" />
         <meta name="keywords" content="BCBA supervision Toronto, BCaBA supervision, BCBA fieldwork hours, behavior analyst training, ABA supervision GTA, BCBA mentorship" />
         <link rel="canonical" href="https://sidebysidetherapy.ca/services/bcba-mentorship" />
+        <meta property="og:title" content="BCBA Supervision & Mentorship Toronto | Side by Side Therapy" />
+        <meta property="og:description" content="BCBA and BCaBA supervision in Toronto. Accumulate fieldwork hours with experienced supervisors." />
+        <meta property="og:url" content="https://sidebysidetherapy.ca/services/bcba-mentorship" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://sidebysidetherapy.ca/og-image.png" />
+        <meta property="og:locale" content="en_CA" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="BCBA Supervision Toronto | Side by Side Therapy" />
+        <meta name="twitter:description" content="BCBA fieldwork supervision in Toronto & GTA." />
+        <meta name="geo.region" content="CA-ON" />
+        <meta name="geo.placename" content="Toronto" />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(serviceSchema)}</script>
+        <script type="application/ld+json">{JSON.stringify(organizationSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
       </Helmet>
       
