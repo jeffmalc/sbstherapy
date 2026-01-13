@@ -1,0 +1,69 @@
+# Side by Side Therapy - URL Redirects
+# Maps old WordPress URLs to new Lovable routes for SEO preservation
+
+# Service Pages - WordPress to New Structure
+/applied-behaviour-analysis                    /services/aba-therapy              301
+/applied-behaviour-analysis/                   /services/aba-therapy              301
+/speech-therapy-in-toronto                     /services/speech-therapy           301
+/speech-therapy-in-toronto/                    /services/speech-therapy           301
+/occupational-therapy-in-toronto               /services/occupational-therapy     301
+/occupational-therapy-in-toronto/              /services/occupational-therapy     301
+/psycho-educational-assessment-in-toronto      /services/psycho-educational-assessments  301
+/psycho-educational-assessment-in-toronto/     /services/psycho-educational-assessments  301
+/therapeutic-recreation-in-toronto             /services/therapeutic-recreation   301
+/therapeutic-recreation-in-toronto/            /services/therapeutic-recreation   301
+/respite-in-toronto                            /services/respite-services         301
+/respite-in-toronto/                           /services/respite-services         301
+/social-skills-training-in-toronto             /services/social-skills-training   301
+/social-skills-training-in-toronto/            /services/social-skills-training   301
+/bcba-mentorship-and-supervision-in-toronto    /services/bcba-mentorship          301
+/bcba-mentorship-and-supervision-in-toronto/   /services/bcba-mentorship          301
+
+# Common WordPress pages
+/about-us                                      /about                             301
+/about-us/                                     /about                             301
+/contact                                       /#contact                          301
+/contact/                                      /#contact                          301
+/contact-us                                    /#contact                          301
+/contact-us/                                   /#contact                          301
+/our-team                                      /team                              301
+/our-team/                                     /team                              301
+/meet-the-team                                 /team                              301
+/meet-the-team/                                /team                              301
+/faqs                                          /faq                               301
+/faqs/                                         /faq                               301
+/frequently-asked-questions                    /faq                               301
+/frequently-asked-questions/                   /faq                               301
+/oap-funding                                   /oap                               301
+/oap-funding/                                  /oap                               301
+/ontario-autism-program                        /oap                               301
+/ontario-autism-program/                       /oap                               301
+
+# Policy pages (redirect to home or create if needed)
+/privacy-policy                                /                                  301
+/privacy-policy/                               /                                  301
+/cookie-policy                                 /                                  301
+/cookie-policy/                                /                                  301
+
+# WordPress common paths
+/wp-admin/*                                    /                                  301
+/wp-login.php                                  /                                  301
+/wp-content/*                                  /                                  301
+/wp-includes/*                                 /                                  301
+
+# Legacy service variations
+/aba-therapy                                   /services/aba-therapy              301
+/aba-therapy/                                  /services/aba-therapy              301
+/aba                                           /services/aba-therapy              301
+/aba/                                          /services/aba-therapy              301
+/speech-therapy                                /services/speech-therapy           301
+/speech-therapy/                               /services/speech-therapy           301
+/occupational-therapy                          /services/occupational-therapy     301
+/occupational-therapy/                         /services/occupational-therapy     301
+/respite                                       /services/respite-services         301
+/respite/                                      /services/respite-services         301
+/social-skills                                 /services/social-skills-training   301
+/social-skills/                                /services/social-skills-training   301
+
+# Handle trailing slash normalization
+/*/ /:splat 301
