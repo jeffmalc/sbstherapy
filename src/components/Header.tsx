@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, X, Phone, ChevronDown, Brain, MessageCircle, HandHeart, Gamepad2, Heart, Users, GraduationCap, BookOpen, Facebook, Instagram } from "lucide-react";
+import { Menu, X, Phone, ChevronDown, Brain, MessageCircle, HandHeart, Gamepad2, Heart, Users, GraduationCap, BookOpen } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -92,26 +92,8 @@ const Header = () => {
             ))}
           </nav>
 
-          {/* Social & CTA */}
+          {/* CTA */}
           <div className="hidden lg:flex items-center gap-4">
-            <a
-              href="https://www.facebook.com/sidebysidetherapy"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-foreground/70 hover:text-primary transition-colors"
-              aria-label="Facebook"
-            >
-              <Facebook className="h-5 w-5" />
-            </a>
-            <a
-              href="https://www.instagram.com/sidebysidetherapy"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-foreground/70 hover:text-primary transition-colors"
-              aria-label="Instagram"
-            >
-              <Instagram className="h-5 w-5" />
-            </a>
             <a href="tel:647-955-5995" className="flex items-center gap-2 text-primary font-semibold">
               <Phone className="h-4 w-4" />
               647-955-5995
