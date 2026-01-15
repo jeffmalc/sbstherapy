@@ -48,7 +48,7 @@ const Header = () => {
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <a href="/" className="flex-shrink-0 flex items-center focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 rounded-lg" aria-label="Side by Side Therapy - Home">
-              <OptimizedImage src={logo} alt="Side by Side Therapy" className="h-14 w-auto max-w-[180px] object-contain" width={180} height={56} loading="eager" />
+              <OptimizedImage src={logo} alt="Side by Side Therapy" className="h-10 md:h-14 w-auto max-w-[140px] md:max-w-[180px] object-contain" width={180} height={56} loading="eager" />
             </a>
 
           {/* Desktop Navigation */}
