@@ -78,9 +78,17 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-primary-foreground/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-primary-foreground/60">
-            © {new Date().getFullYear()} Side by Side Therapy. All rights reserved.
-          </p>
+          <div className="flex flex-col md:flex-row items-center gap-4">
+            <p className="text-sm text-primary-foreground/60">
+              © {new Date().getFullYear()} Side by Side Therapy. All rights reserved.
+            </p>
+            <a 
+              href="/privacy-policy" 
+              className="text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors underline-offset-2 hover:underline"
+            >
+              Privacy Policy
+            </a>
+          </div>
           <p className="text-sm text-primary-foreground/60 flex items-center gap-1">
             Made with <Heart className="h-4 w-4 text-accent fill-accent" /> in Toronto
           </p>
