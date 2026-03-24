@@ -33,26 +33,28 @@ const App = () => (
         <Toaster />
         <Sonner />
         <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Index />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/oap" element={<OAP />} />
-            <Route path="/faq" element={<FAQPage />} />
-            <Route path="/team" element={<Team />} />
-            <Route path="/blog" element={<Blog />} />
-            <Route path="/services/aba-therapy" element={<ABATherapy />} />
-            <Route path="/services/speech-therapy" element={<SpeechTherapy />} />
-            <Route path="/services/occupational-therapy" element={<OccupationalTherapy />} />
-            <Route path="/services/therapeutic-recreation" element={<TherapeuticRecreation />} />
-            <Route path="/services/respite-services" element={<RespiteServices />} />
-            <Route path="/services/social-skills-training" element={<SocialSkillsTraining />} />
-            <Route path="/services/bcba-mentorship" element={<BCBAMentorship />} />
-            <Route path="/services/psycho-educational-assessments" element={<PsychoEducationalAssessments />} />
-            <Route path="/service-area/:slug" element={<ServiceAreaPage />} />
-            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-            <Route path="*" element={<NotFound />} />
-          </Routes>
+          <PageTransition>
+            <Routes>
+              <Route path="/" element={<Index />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/oap" element={<OAP />} />
+              <Route path="/faq" element={<FAQPage />} />
+              <Route path="/team" element={<Team />} />
+              <Route path="/blog" element={<Blog />} />
+              <Route path="/services/aba-therapy" element={<ABATherapy />} />
+              <Route path="/services/speech-therapy" element={<SpeechTherapy />} />
+              <Route path="/services/occupational-therapy" element={<OccupationalTherapy />} />
+              <Route path="/services/therapeutic-recreation" element={<TherapeuticRecreation />} />
+              <Route path="/services/respite-services" element={<RespiteServices />} />
+              <Route path="/services/social-skills-training" element={<SocialSkillsTraining />} />
+              <Route path="/services/bcba-mentorship" element={<BCBAMentorship />} />
+              <Route path="/services/psycho-educational-assessments" element={<PsychoEducationalAssessments />} />
+              <Route path="/service-area/:slug" element={<ServiceAreaPage />} />
+              <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+              {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </PageTransition>
           <BackToTop />
         </BrowserRouter>
       </TooltipProvider>

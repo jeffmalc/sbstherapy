@@ -1,32 +1,27 @@
-import { ReactNode, useEffect, useState } from "react";
+import { ReactNode, useEffect, useState, useRef } from "react";
 import { useLocation } from "react-router-dom";
 
 interface PageTransitionProps {
   children: ReactNode;
+  className?: string;
 }
 
-const PageTransition = ({ children }: PageTransitionProps) => {
+const PageTransition = ({ children, className = "" }: PageTransitionProps) => {
   const location = useLocation();
-  const [displayChildren, setDisplayChildren] = useState(children);
   const [phase, setPhase] = useState<"enter" | "exit">("enter");
+  const prevKey = useRef(location.key);
 
   useEffect(() => {
-    // On route change, trigger exit then swap content
-    if (children !== displayChildren) {
+    if (location.key !== prevKey.current) {
       setPhase("exit");
       const timer = setTimeout(() => {
         window.scrollTo({ top: 0 });
-        setDisplayChildren(children);
+        prevKey.current = location.key;
         setPhase("enter");
-      }, 250);
+      }, 200);
       return () => clearTimeout(timer);
     }
-  }, [children, displayChildren]);
-
-  useEffect(() => {
-    // Initial mount
-    setPhase("enter");
-  }, []);
+  }, [location.key]);
 
   return (
     <div
@@ -34,9 +29,9 @@ const PageTransition = ({ children }: PageTransitionProps) => {
         phase === "enter"
           ? "opacity-100 translate-y-0"
           : "opacity-0 translate-y-3"
-      }`}
+      } ${className}`}
     >
-      {displayChildren}
+      {children}
     </div>
   );
 };
