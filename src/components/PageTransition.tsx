@@ -1,4 +1,5 @@
-import { useState, useEffect, ReactNode } from "react";
+import { ReactNode, useEffect, useState, useRef } from "react";
+import { useLocation } from "react-router-dom";
 
 interface PageTransitionProps {
   children: ReactNode;
@@ -6,20 +7,28 @@ interface PageTransitionProps {
 }
 
 const PageTransition = ({ children, className = "" }: PageTransitionProps) => {
-  const [isVisible, setIsVisible] = useState(false);
+  const location = useLocation();
+  const [phase, setPhase] = useState<"enter" | "exit">("enter");
+  const prevKey = useRef(location.key);
 
   useEffect(() => {
-    // Small delay to trigger animation
-    const timer = setTimeout(() => setIsVisible(true), 50);
-    return () => clearTimeout(timer);
-  }, []);
+    if (location.key !== prevKey.current) {
+      setPhase("exit");
+      const timer = setTimeout(() => {
+        window.scrollTo({ top: 0 });
+        prevKey.current = location.key;
+        setPhase("enter");
+      }, 200);
+      return () => clearTimeout(timer);
+    }
+  }, [location.key]);
 
   return (
     <div
-      className={`transition-all duration-500 ease-out ${
-        isVisible
+      className={`transition-all duration-300 ease-out ${
+        phase === "enter"
           ? "opacity-100 translate-y-0"
-          : "opacity-0 translate-y-4"
+          : "opacity-0 translate-y-3"
       } ${className}`}
     >
       {children}
