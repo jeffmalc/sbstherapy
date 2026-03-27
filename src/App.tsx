@@ -14,6 +14,7 @@ import About from "./pages/About";
 import OAP from "./pages/OAP";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import NotFound from "./pages/NotFound";
+import Jobs from "./pages/Jobs";
 import ABATherapy from "./pages/services/ABATherapy";
 import SpeechTherapy from "./pages/services/SpeechTherapy";
 import OccupationalTherapy from "./pages/services/OccupationalTherapy";
