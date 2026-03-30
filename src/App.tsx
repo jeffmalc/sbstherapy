@@ -14,7 +14,6 @@ import About from "./pages/About";
 import OAP from "./pages/OAP";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import NotFound from "./pages/NotFound";
-import Jobs from "./pages/Jobs";
 import ABATherapy from "./pages/services/ABATherapy";
 import SpeechTherapy from "./pages/services/SpeechTherapy";
 import OccupationalTherapy from "./pages/services/OccupationalTherapy";
@@ -51,7 +50,6 @@ const App = () => (
               <Route path="/services/bcba-mentorship" element={<BCBAMentorship />} />
               <Route path="/services/psycho-educational-assessments" element={<PsychoEducationalAssessments />} />
               <Route path="/service-area/:slug" element={<ServiceAreaPage />} />
-              <Route path="/jobs" element={<Jobs />} />
               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
