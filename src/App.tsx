@@ -23,6 +23,7 @@ import SocialSkillsTraining from "./pages/services/SocialSkillsTraining";
 import BCBAMentorship from "./pages/services/BCBAMentorship";
 import PsychoEducationalAssessments from "./pages/services/PsychoEducationalAssessments";
 import ServiceAreaPage from "./pages/ServiceAreaPage";
+import Prices from "./pages/Prices";
 
 const queryClient = new QueryClient();
 
@@ -36,6 +37,7 @@ const App = () => (
           <PageTransition>
             <Routes>
               <Route path="/" element={<Index />} />
+              <Route path="/prices" element={<Prices />} />
               <Route path="/about" element={<About />} />
               <Route path="/oap" element={<OAP />} />
               <Route path="/faq" element={<FAQPage />} />
