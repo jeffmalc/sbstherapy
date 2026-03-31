@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageTransition from "@/components/PageTransition";
+import { citySlugMap } from "@/lib/cityLinks";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -469,6 +470,29 @@ const OAP = () => {
                     </a>
                   </Button>
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Service Areas Section */}
+        <section className="py-16 bg-muted/30">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto text-center">
+              <h2 className="text-2xl md:text-3xl font-bold mb-4">OAP Services Available In Your Area</h2>
+              <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
+                As an OAP-approved provider, Side by Side Therapy serves families across these communities.
+              </p>
+              <div className="flex flex-wrap gap-2 justify-center">
+                {Object.entries(citySlugMap).map(([city, slug]) => (
+                  <a
+                    key={slug}
+                    href={`/service-area/${slug}`}
+                    className="text-sm px-3 py-1.5 bg-card border border-border rounded-full text-muted-foreground hover:border-primary/50 hover:text-primary transition-colors"
+                  >
+                    {city}
+                  </a>
+                ))}
               </div>
             </div>
           </div>
