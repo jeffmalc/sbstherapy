@@ -331,6 +331,30 @@ const About = () => {
           </div>
         </section>
 
+        {/* Service Areas Section */}
+        <section className="py-16 bg-background">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto text-center">
+              <span className="text-secondary font-semibold text-sm uppercase tracking-wider">Where We Serve</span>
+              <h2 className="text-3xl md:text-4xl font-bold mt-3 mb-4">Our Service Areas</h2>
+              <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
+                We provide in-home therapy services across the Greater Toronto Area and surrounding regions.
+              </p>
+              <div className="flex flex-wrap gap-2 justify-center">
+                {Object.entries(citySlugMap).map(([city, slug]) => (
+                  <a
+                    key={slug}
+                    href={`/service-area/${slug}`}
+                    className="text-sm px-3 py-1.5 bg-card border border-border rounded-full text-muted-foreground hover:border-primary/50 hover:text-primary transition-colors"
+                  >
+                    {city}
+                  </a>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Why Choose Us Section */}
         <section className="py-20 bg-card">
           <div className="container mx-auto px-4">
