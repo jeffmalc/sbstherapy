@@ -264,14 +264,25 @@ const FAQPage = () => {
             <div className="mt-6">
               <p className="font-semibold text-foreground mb-3">Service area:</p>
               <div className="flex flex-wrap gap-2" aria-label="Service Areas">
-                {serviceAreas.map((area, index) => (
-                  <span 
-                    key={index}
-                    className="text-sm px-3 py-1.5 bg-card border border-border rounded-full text-muted-foreground hover:border-primary/50 transition-colors"
-                  >
-                    {area}
-                  </span>
-                ))}
+                {serviceAreas.map((area, index) => {
+                  const slug = citySlugMap[area];
+                  return slug ? (
+                    <a
+                      key={index}
+                      href={`/service-area/${slug}`}
+                      className="text-sm px-3 py-1.5 bg-card border border-border rounded-full text-muted-foreground hover:border-primary/50 hover:text-primary transition-colors"
+                    >
+                      {area}
+                    </a>
+                  ) : (
+                    <span
+                      key={index}
+                      className="text-sm px-3 py-1.5 bg-card border border-border rounded-full text-muted-foreground"
+                    >
+                      {area}
+                    </span>
+                  );
+                })}
               </div>
             </div>
           </div>
