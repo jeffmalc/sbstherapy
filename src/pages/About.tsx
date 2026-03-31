@@ -348,7 +348,7 @@ const About = () => {
                     "Free 30-minute consultation to discuss your family's unique needs",
                     "Continuous parent coaching and involvement in all therapies",
                     "Flexible scheduling to accommodate your family's lifestyle",
-                    "Serving the entire Greater Toronto Area and surrounding regions"
+                    "Serving the entire Greater Toronto Area and surrounding regions",
                   ].map((item, index) => (
                     <div key={index} className="flex items-start gap-3">
                       <CheckCircle2 className="h-5 w-5 text-secondary flex-shrink-0 mt-0.5" />
