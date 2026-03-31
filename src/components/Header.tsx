@@ -30,6 +30,7 @@ const Header = () => {
     { name: "Home", href: "/#home" },
     { name: "Service Areas", href: "/#service-area" },
     { name: "About", href: "/about" },
+    { name: "Prices", href: "/prices" },
     { name: "OAP Guide", href: "/oap" },
     { name: "Our Team", href: "/team" },
     { name: "Blog", href: "/blog" },
