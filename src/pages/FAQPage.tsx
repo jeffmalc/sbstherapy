@@ -337,7 +337,7 @@ const FAQPage = () => {
                       </span>
                     </AccordionTrigger>
                     <AccordionContent className="text-muted-foreground pb-5 pl-8 leading-relaxed">
-                      {faq.answer}
+                      {linkifyCities(faq.answer)}
                     </AccordionContent>
                   </AccordionItem>
                 ))}
