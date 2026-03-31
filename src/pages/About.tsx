@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageTransition from "@/components/PageTransition";
 import { Button } from "@/components/ui/button";
+import { citySlugMap } from "@/lib/cityLinks";
 import { 
   Heart, 
   Target, 
