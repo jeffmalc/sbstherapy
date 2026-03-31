@@ -19,6 +19,45 @@ const serviceAreas = [
   "Uxbridge", "Scugog", "Brock", "Peel", "Durham", "Halton", "York Region"
 ];
 
+const citySlugMap: Record<string, string> = {
+  "Toronto": "toronto", "North York": "north-york", "Scarborough": "scarborough",
+  "Etobicoke": "etobicoke", "East York": "east-york", "Mississauga": "mississauga",
+  "Brampton": "brampton", "Caledon": "caledon", "Oakville": "oakville",
+  "Burlington": "burlington", "Milton": "milton", "Halton Hills": "halton-hills",
+  "Georgetown": "georgetown", "Vaughan": "vaughan", "Markham": "markham",
+  "Richmond Hill": "richmond-hill", "Thornhill": "thornhill", "Aurora": "aurora",
+  "Newmarket": "newmarket", "East Gwillimbury": "east-gwillimbury", "Georgina": "georgina",
+  "King": "king", "Stouffville": "stouffville", "Pickering": "pickering",
+  "Ajax": "ajax", "Whitby": "whitby", "Oshawa": "oshawa", "Clarington": "clarington",
+  "Uxbridge": "uxbridge", "Scugog": "scugog", "Brock": "brock",
+};
+
+const linkifyCities = (text: string) => {
+  // Sort city names by length (longest first) to avoid partial matches
+  const cities = Object.keys(citySlugMap).sort((a, b) => b.length - a.length);
+  const regex = new RegExp(`\\b(${cities.map(c => c.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})\\b`, 'g');
+  const parts: (string | JSX.Element)[] = [];
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+
+  while ((match = regex.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push(text.slice(lastIndex, match.index));
+    }
+    const city = match[1];
+    parts.push(
+      <a key={match.index} href={`/service-area/${citySlugMap[city]}`} className="text-primary hover:underline font-medium">
+        {city}
+      </a>
+    );
+    lastIndex = regex.lastIndex;
+  }
+  if (lastIndex < text.length) {
+    parts.push(text.slice(lastIndex));
+  }
+  return parts.length > 0 ? parts : text;
+};
+
 const faqData = [
   {
     question: "What is in-home autism therapy?",
