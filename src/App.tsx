@@ -44,6 +44,7 @@ const App = () => (
               <Route path="/faq" element={<FAQPage />} />
               <Route path="/team" element={<Team />} />
               <Route path="/blog" element={<Blog />} />
+              <Route path="/blog/:slug" element={<BlogPostPage />} />
               <Route path="/services/aba-therapy" element={<ABATherapy />} />
               <Route path="/services/speech-therapy" element={<SpeechTherapy />} />
               <Route path="/services/occupational-therapy" element={<OccupationalTherapy />} />
