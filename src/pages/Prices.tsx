@@ -122,7 +122,16 @@ const PricingTableComponent = ({ table, index }: { table: PricingTable; index: n
   <AnimatedSection animation="fade-up" delay={index * 80}>
     <Card className="overflow-hidden border-border/50 shadow-soft hover:shadow-elevated transition-shadow duration-300">
       <CardHeader className="bg-gradient-to-r from-primary/5 to-secondary/5 pb-4">
-        <CardTitle className="text-xl font-bold text-foreground">{table.title}</CardTitle>
+        <CardTitle className="text-xl font-bold text-foreground">
+          {table.link ? (
+            <Link to={table.link} className="hover:text-primary transition-colors inline-flex items-center gap-2 group">
+              {table.title}
+              <ArrowRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+            </Link>
+          ) : (
+            table.title
+          )}
+        </CardTitle>
         {table.description && (
           <p className="text-sm text-muted-foreground mt-1">{table.description}</p>
         )}
