@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import PageTransition from "@/components/PageTransition";
 import { Button } from "@/components/ui/button";
 import { Brain, CheckCircle, Phone, ArrowLeft, Clock, Users, Target, Award, BookOpen, Heart } from "lucide-react";
+import abaHeroImage from "@/assets/services/aba-therapy-hero.jpg";
 import { linkifyCities } from "@/lib/cityLinks";
 import ServiceAreasSection from "@/components/ServiceAreasSection";
 import { Link } from "react-router-dom";
