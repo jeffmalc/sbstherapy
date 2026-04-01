@@ -92,6 +92,7 @@ const pricingData: PricingTable[] = [
   {
     title: "Speech & Language Therapy",
     description: "Improving verbal and nonverbal communication skills.",
+    link: "/services/speech-therapy",
     rows: [
       { professional: "Speech-Language Pathologist – Direct", hours: "4 hrs (1 hr weekly)", rate: "$165", total: "$660" },
       { professional: "Speech-Language Pathologist – Indirect", hours: "2 hrs program development", rate: "$85", total: "$170" },
