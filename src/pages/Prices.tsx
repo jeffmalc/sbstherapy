@@ -36,6 +36,7 @@ const pricingData: PricingTable[] = [
   {
     title: "Focused ABA – 10 Hours Weekly",
     description: "Enhanced support with increased therapy hours and supervision.",
+    link: "/services/aba-therapy",
     rows: [
       { professional: "Instructor Therapist (IT)", hours: "40 direct hours", rate: "$75", total: "$3,000" },
       { professional: "Senior Therapist (ST) – Supervision", hours: "4 hrs (2 hrs every 2 weeks)", rate: "$95", total: "$380" },
