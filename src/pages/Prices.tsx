@@ -2,8 +2,9 @@ import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import AnimatedSection from "@/components/AnimatedSection";
-import { Phone, Mail, AlertCircle, DollarSign } from "lucide-react";
+import { Phone, Mail, AlertCircle, DollarSign, ArrowRight } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Link } from "react-router-dom";
 
 interface PricingRow {
   professional: string;
