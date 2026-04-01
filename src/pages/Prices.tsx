@@ -102,6 +102,7 @@ const pricingData: PricingTable[] = [
   {
     title: "Respite Services",
     description: "Providing families with much-needed breaks while ensuring quality care.",
+    link: "/services/respite-services",
     rows: [
       { professional: "Respite Worker", hours: "Min. 2 hrs direct at a time", rate: "$48", total: "$96" },
     ],
