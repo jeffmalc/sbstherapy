@@ -82,6 +82,7 @@ const pricingData: PricingTable[] = [
   {
     title: "Occupational Therapy",
     description: "Addressing sensory, motor, and daily living skill challenges.",
+    link: "/services/occupational-therapy",
     rows: [
       { professional: "Occupational Therapist – Direct", hours: "4 hrs (1 hr weekly)", rate: "$165", total: "$660" },
       { professional: "Occupational Therapist – Indirect", hours: "2 hrs program development", rate: "$85", total: "$170" },
