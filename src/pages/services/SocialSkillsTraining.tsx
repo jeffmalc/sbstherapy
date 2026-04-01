@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import PageTransition from "@/components/PageTransition";
 import { Button } from "@/components/ui/button";
 import { Users, CheckCircle, Phone, ArrowLeft, MessageSquare, Heart, Target, Sparkles } from "lucide-react";
+import socialHeroImage from "@/assets/services/social-skills-hero.jpg";
 import { linkifyCities } from "@/lib/cityLinks";
 import ServiceAreasSection from "@/components/ServiceAreasSection";
 import { Link } from "react-router-dom";
