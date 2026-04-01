@@ -2,8 +2,9 @@ import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import AnimatedSection from "@/components/AnimatedSection";
-import { Phone, Mail, AlertCircle, DollarSign } from "lucide-react";
+import { Phone, Mail, AlertCircle, DollarSign, ArrowRight } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Link } from "react-router-dom";
 
 interface PricingRow {
   professional: string;
@@ -15,6 +16,7 @@ interface PricingRow {
 interface PricingTable {
   title: string;
   description?: string;
+  link?: string;
   rows: PricingRow[];
   totalPerCycle: string;
 }
@@ -23,6 +25,7 @@ const pricingData: PricingTable[] = [
   {
     title: "Focused ABA – 5 Hours Weekly",
     description: "Ideal for targeted skill development with focused intervention.",
+    link: "/services/aba-therapy",
     rows: [
       { professional: "Instructor Therapist (IT)", hours: "20 direct hours", rate: "$75", total: "$1,500" },
       { professional: "BCBA – Clinical Supervision", hours: "3 hrs (1.5 hrs every 2 weeks)", rate: "$165", total: "$495" },
@@ -33,6 +36,7 @@ const pricingData: PricingTable[] = [
   {
     title: "Focused ABA – 10 Hours Weekly",
     description: "Enhanced support with increased therapy hours and supervision.",
+    link: "/services/aba-therapy",
     rows: [
       { professional: "Instructor Therapist (IT)", hours: "40 direct hours", rate: "$75", total: "$3,000" },
       { professional: "Senior Therapist (ST) – Supervision", hours: "4 hrs (2 hrs every 2 weeks)", rate: "$95", total: "$380" },
@@ -44,6 +48,7 @@ const pricingData: PricingTable[] = [
   {
     title: "Focused ABA – 15 Hours Weekly",
     description: "Comprehensive focused intervention with intensive supervision.",
+    link: "/services/aba-therapy",
     rows: [
       { professional: "Instructor Therapist (IT)", hours: "60 direct hours", rate: "$75", total: "$4,500" },
       { professional: "Senior Therapist (ST) – Supervision", hours: "6 hours", rate: "$95", total: "$570" },
@@ -55,6 +60,7 @@ const pricingData: PricingTable[] = [
   {
     title: "Comprehensive ABA – 20 Hours Weekly",
     description: "Full comprehensive ABA program for maximum progress.",
+    link: "/services/aba-therapy",
     rows: [
       { professional: "Instructor Therapist (IT)", hours: "80 direct hours", rate: "$75", total: "$6,000" },
       { professional: "Senior Therapist (ST) – Supervision", hours: "8 hours", rate: "$95", total: "$760" },
@@ -66,6 +72,7 @@ const pricingData: PricingTable[] = [
   {
     title: "1:1 BCBA Coaching",
     description: "Direct BCBA-led parent or caregiver coaching sessions.",
+    link: "/services/bcba-mentorship",
     rows: [
       { professional: "BCBA – Direct Service", hours: "4 hours", rate: "$165", total: "$660" },
       { professional: "BCBA – Program Development", hours: "2 hours", rate: "$85", total: "$170" },
@@ -75,6 +82,7 @@ const pricingData: PricingTable[] = [
   {
     title: "Occupational Therapy",
     description: "Addressing sensory, motor, and daily living skill challenges.",
+    link: "/services/occupational-therapy",
     rows: [
       { professional: "Occupational Therapist – Direct", hours: "4 hrs (1 hr weekly)", rate: "$165", total: "$660" },
       { professional: "Occupational Therapist – Indirect", hours: "2 hrs program development", rate: "$85", total: "$170" },
@@ -84,6 +92,7 @@ const pricingData: PricingTable[] = [
   {
     title: "Speech & Language Therapy",
     description: "Improving verbal and nonverbal communication skills.",
+    link: "/services/speech-therapy",
     rows: [
       { professional: "Speech-Language Pathologist – Direct", hours: "4 hrs (1 hr weekly)", rate: "$165", total: "$660" },
       { professional: "Speech-Language Pathologist – Indirect", hours: "2 hrs program development", rate: "$85", total: "$170" },
@@ -93,6 +102,7 @@ const pricingData: PricingTable[] = [
   {
     title: "Respite Services",
     description: "Providing families with much-needed breaks while ensuring quality care.",
+    link: "/services/respite-services",
     rows: [
       { professional: "Respite Worker", hours: "Min. 2 hrs direct at a time", rate: "$48", total: "$96" },
     ],
@@ -112,7 +122,16 @@ const PricingTableComponent = ({ table, index }: { table: PricingTable; index: n
   <AnimatedSection animation="fade-up" delay={index * 80}>
     <Card className="overflow-hidden border-border/50 shadow-soft hover:shadow-elevated transition-shadow duration-300">
       <CardHeader className="bg-gradient-to-r from-primary/5 to-secondary/5 pb-4">
-        <CardTitle className="text-xl font-bold text-foreground">{table.title}</CardTitle>
+        <CardTitle className="text-xl font-bold text-foreground">
+          {table.link ? (
+            <Link to={table.link} className="hover:text-primary transition-colors inline-flex items-center gap-2 group">
+              {table.title}
+              <ArrowRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+            </Link>
+          ) : (
+            table.title
+          )}
+        </CardTitle>
         {table.description && (
           <p className="text-sm text-muted-foreground mt-1">{table.description}</p>
         )}
