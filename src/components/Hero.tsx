@@ -94,7 +94,7 @@ const Hero = () => {
           </div>
 
           {/* Hero Image */}
-          <div className="relative animate-fade-in hidden md:block" style={{ animationDelay: "0.3s" }}>
+          <div className="relative animate-fade-in" style={{ animationDelay: "0.3s" }}>
             <div className="relative rounded-2xl overflow-hidden shadow-2xl animate-float">
               <img
                 src={heroImage}
