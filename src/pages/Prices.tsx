@@ -60,6 +60,7 @@ const pricingData: PricingTable[] = [
   {
     title: "Comprehensive ABA – 20 Hours Weekly",
     description: "Full comprehensive ABA program for maximum progress.",
+    link: "/services/aba-therapy",
     rows: [
       { professional: "Instructor Therapist (IT)", hours: "80 direct hours", rate: "$75", total: "$6,000" },
       { professional: "Senior Therapist (ST) – Supervision", hours: "8 hours", rate: "$95", total: "$760" },
