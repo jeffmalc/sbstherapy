@@ -347,6 +347,8 @@ const OccupationalTherapy = () => {
           </div>
         </section>
 
+        <ServiceAreasSection serviceName="Occupational Therapy" />
+
         {/* CTA */}
         <section className="py-16 md:py-20 gradient-hero text-primary-foreground">
           <div className="container mx-auto px-4 text-center">

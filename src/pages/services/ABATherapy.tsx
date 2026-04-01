@@ -472,6 +472,8 @@ const ABATherapy = () => {
           </div>
         </section>
 
+        <ServiceAreasSection serviceName="ABA Therapy" />
+
         {/* CTA */}
         <section className="py-16 md:py-20 bg-primary text-primary-foreground">
           <div className="container mx-auto px-4 text-center">
