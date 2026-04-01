@@ -59,6 +59,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "The Importance of Finding the Best Therapy For Autism",
     slug: "the-importance-of-finding-the-best-therapy-for-autism",
+    youtubeVideoId: "nL1N8duBEPQ",
     date: "November 17, 2025",
     summary: "The goal of autism therapy is to help the child develop academic skills, communication and social skills, increase independence, and learn daily living skills. There are many different interventions that have been developed to aid in this process.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/the-importance-of-finding-the-best-therapy-for-autism-is-it-aba-therapy-speech-therapy-a-combination-or-another-therapy-all-together/",
@@ -82,6 +83,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "Speech Therapy – Alternative and Augmentative Communication (AAC): A Powerful Tool",
     slug: "speech-therapy-aac",
+    youtubeVideoId: "wTHQ6G8vVdA",
     date: "August 30, 2025",
     summary: "Autism Spectrum Disorder (ASD) affects a great number of children and often these children have difficulty communicating. In addition to having an applied behaviour analysis team, these children benefit from speech therapy.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/speech-therapy-aac/",
@@ -103,6 +105,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "How to Toilet Train your Autistic Child (Part 2)",
     slug: "how-to-toilet-train-your-autistic-child-part-2",
+    youtubeVideoId: "t-Ny-df93E4",
     date: "August 16, 2025",
     summary: "In this second post on how to toilet train your autistic child, you'll learn about: day vs night time training, urine vs bowel training and how to leverage reinforcement.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/how-to-toilet-train-your-autistic-child-part-2/",
@@ -120,6 +123,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "Toilet Training Tips from ABA Therapy (Part 1)",
     slug: "toilet-training-tips-from-aba-therapy-part-1",
+    youtubeVideoId: "lP7xywP7gAc",
     date: "August 9, 2025",
     summary: "Many children struggle with toilet training. Autistic kids can have a difficult time making the transition from diapers to the toilet. ABA Therapy offers several tried and tested strategies for training children.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/toilet-training-tips-from-aba-therapy-part-1/",
@@ -137,6 +141,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "Pairing in ABA Therapy",
     slug: "pairing-in-aba-therapy",
+    youtubeVideoId: "n-tfqFXQNc8",
     date: "August 7, 2025",
     summary: "To an uninformed observer, pairing in ABA therapy is a waste of time and resources. However, this could not be farther from the truth! Pairing is a vital component of all ABA therapy programs.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/pairing-in-aba-therapy/",
@@ -155,6 +160,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "ABA Therapy: Behaviours and Consequences",
     slug: "antecedents-behaviours-and-consequences-in-aba-therapy",
+    youtubeVideoId: "wrJKX2C4pmM",
     date: "July 31, 2025",
     summary: "One of the most important principles in ABA Therapy is the three-term contingency or antecedents, behaviours and consequences. Whenever we change behaviour, we have to look at the function of the behaviour.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/antecedents-behaviours-and-consequences-in-aba-therapy/",
@@ -176,6 +182,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "Why is Occupational Therapy Used for Treating Autism?",
     slug: "why-is-occupational-therapy-used-for-treating-autism",
+    youtubeVideoId: "Efuzo43VFCM",
     date: "July 19, 2025",
     summary: "Many people wonder why occupational therapy is used for treating autism. Every day, you do meaningful activities. They bring you happiness, satisfaction and a sense of accomplishment.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/why-is-occupational-therapy-used-for-treating-autism/",
@@ -194,6 +201,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "Should My Toddler See a Speech Therapist?",
     slug: "should-my-toddler-see-a-speech-therapist",
+    youtubeVideoId: "oeBT8j1ddu0",
     date: "July 11, 2025",
     summary: "Many new parents aren't confident in their child's milestone mastery. They often wonder 'Should my toddler see a speech therapist?' In their first two years, children accomplish many things.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/should-my-toddler-see-a-speech-therapist/",
@@ -211,6 +219,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "Can Parents Do ABA Therapy?",
     slug: "can-parents-do-aba-therapy",
+    youtubeVideoId: "NzIZPyWb2FM",
     date: "July 5, 2025",
     summary: "Traditionally, trained professionals deliver Applied Behaviour Analysis (ABA). As a result of the COVID-19 pandemic and the skyrocketing costs of therapy, parents do ABA therapy more frequently.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/can-parents-do-aba-therapy/",
@@ -230,6 +239,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "How Does Virtual ABA Therapy Work?",
     slug: "how-does-virtual-aba-therapy-work",
+    youtubeVideoId: "mC-7tIUeVVA",
     date: "June 27, 2025",
     summary: "With the end of the pandemic in sight, a lot of people are wondering if virtual ABA therapy will remain a therapy option. This post will explain what virtual ABA therapy is, how it works and some things to consider.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/how-does-virtual-aba-therapy-work/",
@@ -268,6 +278,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "What Makes ABA Effective?",
     slug: "what-makes-aba-effective",
+    youtubeVideoId: "x99ZRLH-po4",
     date: "June 13, 2025",
     summary: "Many families ask 'What makes ABA effective?' when they're starting their autism therapy journey. This post describes a number of factors that make ABA an evidence-based approach.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/what-makes-aba-effective/",
@@ -285,6 +296,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "What Can An OT Do For My Autistic Child?",
     slug: "what-can-an-ot-do-for-my-autistic-child",
+    youtubeVideoId: "pJOU4L71n48",
     date: "May 30, 2025",
     summary: "Is your child autistic? Did their doctor recommend occupational therapy? Read on to find out what an OT can do for an autistic child.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/what-can-an-ot-do-for-my-autistic-child/",
@@ -326,6 +338,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "What Does Masking Autism Mean?",
     slug: "what-does-masking-autism-mean",
+    youtubeVideoId: "349ZM6hsHfw",
     date: "May 17, 2025",
     summary: "Camouflaging or masking in autism has far reaching effects on the person. In this post you'll discover what masking is, what effects it has, why it is damaging and how to avoid it.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/what-does-masking-autism-mean/",
@@ -345,6 +358,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "Early Intervention in Autism Treatment",
     slug: "early-intervention-in-autism-treatment",
+    youtubeVideoId: "l6yuBdBVKbk",
     date: "May 10, 2025",
     summary: "There is a lot of hype around early intervention in autism treatment. This deep dive into early intervention will help you understand the goal, how and where to access it, and why it's important.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/early-intervention-in-autism-treatment/",
@@ -361,6 +375,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "Autism Severity Levels (DSM-5)",
     slug: "autism-severity-levels-in-2021",
+    youtubeVideoId: "Uj0vETCq95Y",
     date: "May 3, 2025",
     summary: "When your child gets an Autism Spectrum Disorder diagnosis there is an avalanche of information. What do the autism severity levels mean?",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/autism-severity-levels-in-2021/",
@@ -390,6 +405,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "Challenging Behaviours in Autism Treatment",
     slug: "challenging-behaviours-in-autism-treatment",
+    youtubeVideoId: "mpddZqMab54",
     date: "April 26, 2025",
     summary: "This blog discusses challenging behaviours: why language matters when describing behaviour, behaviour as communication, functions of behaviour, replacements and safety.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/challenging-behaviours-in-autism-treatment/",
@@ -420,6 +436,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "Autoclitics: 4 Things to Know",
     slug: "autoclitics-4-things-to-know-in-2021",
+    youtubeVideoId: "1oV2cejODH8",
     date: "April 19, 2025",
     summary: "This is the last blog in our series about Skinner's verbal behaviour. If you haven't already, you should read the other posts about Manding, Echoics, Tacts and Intraverbals.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/autoclitics-4-things-to-know-in-2021/",
@@ -484,6 +501,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "Tacting: 4 Things To Know",
     slug: "tacting-4-things-to-know",
+    youtubeVideoId: "zMJKRPdnwAQ",
     date: "April 1, 2025",
     summary: "This week's post continues the series on Skinner's Verbal Behaviour. This post will tackle Tacts and tacting.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/tacting-4-things-to-know/",
@@ -520,6 +538,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "Echoics: 4 Things to Know",
     slug: "echoics-4-things-to-know",
+    youtubeVideoId: "sbQJInccM1A",
     date: "March 23, 2025",
     summary: "This post continues the series about Skinner's Verbal Behaviour. Last week we spoke about Mands and their value in improving a person's quality of life. This week we'll talk about Echoics!",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/echoics-4-things-to-know/",
@@ -545,6 +564,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "Manding: 4 Things to Know",
     slug: "manding-4-things-to-know",
+    youtubeVideoId: "3XO4DGAGKDU",
     date: "March 14, 2025",
     summary: "Last week I introduced Skinner's Verbal Behaviour. This week we're going to focus on the first verbal operant: mands. Another word for mand is request.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/manding-4-things-to-know/",
@@ -601,6 +621,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "What is Stimming in Autism?",
     slug: "what-is-stimming-in-autism",
+    youtubeVideoId: "RltWsoCLpiY",
     date: "February 28, 2025",
     summary: "One of the clinical indicators of autism is repeating the same actions over and over again (AKA: stims or stimming). Stimming in autism is movements or other behaviours that are either calming or alerting.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/what-is-stimming-in-autism/",
@@ -667,6 +688,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "What is Parent Coaching?",
     slug: "what-is-parent-coaching",
+    youtubeVideoId: "Ude5VObOvPU",
     date: "February 14, 2025",
     summary: "Parent coaching is an excellent way to learn ABA strategies and techniques to become empowered to help your child yourself!",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/what-is-parent-coaching/",
@@ -717,6 +739,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "Is There a Cure for Autism? Part 1",
     slug: "is-there-a-cure-for-autism-part-1",
+    youtubeVideoId: "B0YIKCOVr3M",
     date: "February 1, 2025",
     summary: "'Is there a cure for Autism?' 'How long will my child have to be in therapy?' Each week I speak with parents, most of who have newly diagnosed children.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/is-there-a-cure-for-autism-part-1/",
@@ -744,6 +767,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "How and When To Tell a Child They're Autistic",
     slug: "how-and-when-to-tell-a-child-theyre-autistic",
+    youtubeVideoId: "nuKS1YJMYpY",
     date: "January 25, 2025",
     summary: "Many parents are unsure of when or how to tell a child they're autistic. It can be a very sensitive subject and without some thought it can be a tricky conversation to navigate.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/how-and-when-to-tell-a-child-theyre-autistic/",
@@ -772,6 +796,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "Strategies Used in ABA: Top 5!",
     slug: "strategies-used-in-aba-top-5",
+    youtubeVideoId: "HECjQ6l_FXA",
     date: "January 18, 2025",
     summary: "There are MANY ABA strategies that are effective for teaching learners new skills. Here are my top 5 favourite!",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/strategies-used-in-aba-top-5/",
@@ -800,6 +825,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "Top 5 Myths about ABA",
     slug: "top-5-myths-about-aba",
+    youtubeVideoId: "khqxE0GBsGQ",
     date: "January 11, 2025",
     summary: "There are many myths about ABA. Here are the top 5 myths debunked! Connect with Side by Side Therapy for more information about how we help!",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/top-5-myths-about-aba/",
@@ -829,6 +855,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "What is Reinforcement in ABA?",
     slug: "what-is-reinforcement-in-aba",
+    youtubeVideoId: "ArukgOkcNrE",
     date: "January 4, 2025",
     summary: "When you're new to ABA it can be very daunting. There are many acronyms and words with unusual meanings. In this post we'll discuss reinforcement in ABA and how you can use it to increase behaviour.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/what-is-reinforcement-in-aba/",
@@ -872,6 +899,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "How to Choose an ABA Provider",
     slug: "how-to-choose-an-aba-provider",
+    youtubeVideoId: "he_bPejVhLY",
     date: "December 28, 2024",
     summary: "This post describes the elements you need to consider when you choose an ABA provider for your child. As soon as you get an Autism diagnosis the first place you turn is likely Google.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/how-to-choose-an-aba-provider/",
@@ -910,6 +938,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "How to Get Your Child to Cooperate!",
     slug: "how-to-get-your-child-to-cooperate",
+    youtubeVideoId: "n-tfqFXQNc8",
     date: "December 21, 2024",
     summary: "Robert Schramm has developed these 7 steps to get your child to cooperate. In applied behaviour analysis, cooperation or compliance is one of the first things we work to establish.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/how-to-get-your-child-to-cooperate/",
@@ -963,6 +992,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "Red Flags for Autism: 8 Behaviours to Look For",
     slug: "red-flags-for-autism-8-behaviours-to-look-for",
+    youtubeVideoId: "n8KPTMvDzjs",
     date: "December 7, 2024",
     summary: "Each child develops at their own pace. However, there are general guidelines, called milestones, that are used in monitoring if your child is progressing. When a child doesn't meet their milestones, it can be a red flag for autism.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/red-flags-for-autism-8-behaviours-to-look-for/",
@@ -1003,6 +1033,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "How To Get An Autism Diagnosis",
     slug: "how-to-get-an-autism-diagnosis",
+    youtubeVideoId: "unAJBQ9HKzI",
     date: "November 30, 2024",
     summary: "Families with concerns about their child's development will wonder where to go. Read on to find out where you can go in Ontario for help.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/how-to-get-an-autism-diagnosis/",
@@ -1033,6 +1064,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "Why is ABA Therapy So Expensive?",
     slug: "why-is-aba-therapy-so-expensive",
+    youtubeVideoId: "0rPR8v9zKSM",
     date: "November 23, 2024",
     summary: "Why is ABA Therapy so expensive? Read on to find out more about some of the barriers in Ontario that make therapy unaffordable.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/why-is-aba-therapy-so-expensive/",
@@ -1055,6 +1087,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "Autism in Ontario: What Funding is Available?",
     slug: "autism-in-ontario-what-funding-is-available",
+    youtubeVideoId: "ZcCCG2dl7QM",
     date: "November 16, 2024",
     summary: "Autism is expensive. Utilize these funds to help offset the extraordinary costs associated with raising your child.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/autism-in-ontario-what-funding-is-available/",
@@ -1085,6 +1118,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "How to Use Visual Schedules to Reduce Challenging Behaviour",
     slug: "how-to-use-visual-schedules-to-reduce-challenging-behaviour",
+    youtubeVideoId: "7564GjqoAE8",
     date: "November 9, 2024",
     summary: "Children thrive on predictability and structure. Using visual schedules is an excellent way to support your child in many settings.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/how-to-use-visual-schedules-to-reduce-challenging-behaviour/",
@@ -1120,6 +1154,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "What is Social Communication?",
     slug: "what-is-social-communication",
+    youtubeVideoId: "d6LzCEgxmhw",
     date: "November 2, 2024",
     summary: "Autistic children have difficulty with social communication. This blog post explains what social communication is and how to address it.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/what-is-social-communication/",
@@ -1156,6 +1191,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "Early Autism Diagnosis: Key to Successful Intervention",
     slug: "early-autism-diagnosis-key-to-successful-intervention",
+    youtubeVideoId: "PtzaZ3HMV-U",
     date: "October 25, 2024",
     summary: "There are many ways that receiving an early autism diagnosis will benefit your child and family (having a treatment plan is just one!)",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/early-autism-diagnosis-key-to-successful-intervention/",
@@ -1189,6 +1225,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "Things You Need To Know About Language Delays",
     slug: "things-you-need-to-know-about-language-delays",
+    youtubeVideoId: "6jdS2SajTe0",
     date: "October 19, 2024",
     summary: "Many children with autism also have language delays. Read about how your S-LP can address these challenges and why it's important to!",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/things-you-need-to-know-about-language-delays/",
@@ -1225,6 +1262,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "How To Choose A Speech-Language Pathologist",
     slug: "how-to-choose-a-speech-language-pathologist",
+    youtubeVideoId: "hijvL7EfQnM",
     date: "October 12, 2024",
     summary: "It can be very difficult to know how to choose a Speech-Language Pathologist. Ask these questions before you sign up with a new clinician.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/how-to-choose-a-speech-language-pathologist/",
@@ -1254,6 +1292,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "Autistic Teenagers and Adults Getting Jobs",
     slug: "autistic-teenagers-and-adults-getting-jobs",
+    youtubeVideoId: "sX3Uav2m-aE",
     date: "October 5, 2024",
     summary: "An autism diagnosis should not stop anyone from being a productive person and bringing their contribution to society. Both autistic teenagers and adults can get jobs.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/autistic-teenagers-and-adults-getting-jobs/",
@@ -1284,6 +1323,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "Speech Therapy in Autism Treatment",
     slug: "speech-therapy-in-autism-treatment",
+    youtubeVideoId: "SdMhuMVIzdo",
     date: "September 28, 2024",
     summary: "Learn how speech therapy in autism treatment can be key to helping your child communicate and learn. All areas of communication can be addressed.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/speech-therapy-in-autism-treatment/",
@@ -1327,6 +1367,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "The 5 Benefits of Outdoor Play",
     slug: "the-benefits-of-outdoor-play",
+    youtubeVideoId: "pIWC3Wu31wk",
     date: "September 20, 2024",
     summary: "Most children love playing outside but few recognize the benefits of outdoor play. Learn why you should encourage your child to play outside!",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/the-benefits-of-outdoor-play/",
@@ -1357,6 +1398,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "How to Build a Good Relationship with Your Child's Teacher",
     slug: "how-to-build-a-good-relationship-with-your-childs-teacher",
+    youtubeVideoId: "2cpuIVlfSiE",
     date: "September 13, 2024",
     summary: "There are specific things you can do to help build the relationship you have with your child's teacher to set them up for success.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/how-to-build-a-good-relationship-with-your-childs-teacher/",
@@ -1396,6 +1438,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "What is Sensory Processing Disorder?",
     slug: "what-is-sensory-processing-disorder",
+    youtubeVideoId: "GGFPMP31iAs",
     date: "September 6, 2024",
     summary: "Many children and adults have Sensory Processing Disorder. Read on to learn what the signs are and who can help!",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/what-is-sensory-processing-disorder/",
@@ -1434,6 +1477,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "How To Pick The Right Autism Therapy: 8 Questions",
     slug: "how-to-pick-the-right-autism-therapy-8-questions",
+    youtubeVideoId: "YDCyybijqTQ",
     date: "August 23, 2024",
     summary: "Knowing which direction to move when looking for autism therapy can be tricky. Here are 8 questions to ask potential therapy providers.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/how-to-pick-the-right-autism-therapy-8-questions/",
@@ -1474,6 +1518,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "IBI and ABA: What's the Difference?",
     slug: "ibi-and-aba-whats-the-difference",
+    youtubeVideoId: "BQ1KrJ_sGPc",
     date: "August 16, 2024",
     summary: "Learn about the differences between Intensive Behavioural Intervention (IBI) and Applied Behaviour Analysis (ABA) therapy approaches.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/ibi-and-aba-whats-the-difference/",
@@ -1512,6 +1557,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "Early Start Denver Model (ESDM): Unleash Potential!",
     slug: "early-start-denver-model-esdm-unleash-potential",
+    youtubeVideoId: "nEVXxgIZ_rQ",
     date: "August 9, 2024",
     summary: "The brain has a unique property called neuroplasticity. Children under 5 have the easiest time with neuroplasticity. Even with an autism diagnosis, significant life-changing gains are possible through early intervention using the Early Start Denver Model.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/early-start-denver-model-esdm-unleash-potential/",
@@ -1558,6 +1604,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "Autism: What's More Important — Equality or Equity?",
     slug: "autism-equality-equity",
+    youtubeVideoId: "Fgm5R7ZnlyU",
     date: "April 13, 2024",
     summary: "Equality and equity are often understood as synonymous, but they are very different. This post explores the importance of equity over equality when supporting autistic individuals, including modifications and accommodations.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/autism-equality-equity/",
@@ -1592,6 +1639,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "Autism and Memory: Amazing Superpowers of a Child with Autism",
     slug: "autism-memory",
+    youtubeVideoId: "j1plYPrufUc",
     date: "April 7, 2024",
     summary: "Guest post by Dr. Tracy Alloway exploring the working memory profile of children with autism, how their brains develop differently, and the unique strengths that can give them advantages in certain areas.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/autism-memory/",
