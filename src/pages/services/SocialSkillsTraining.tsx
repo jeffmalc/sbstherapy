@@ -246,14 +246,14 @@ const SocialSkillsTraining = () => {
                 </div>
               </div>
 
-              <div className="grid grid-cols-2 gap-4">
-                {formats.map((format, index) => (
-                  <div key={index} className="bg-card p-6 rounded-2xl shadow-soft border">
-                    <format.icon className="h-8 w-8 text-sky-500 mb-3" />
-                    <h3 className="font-bold text-lg mb-2">{format.title}</h3>
-                    <p className="text-sm text-muted-foreground">{format.description}</p>
-                  </div>
-                ))}
+              <div className="relative rounded-2xl overflow-hidden shadow-xl">
+                <img
+                  src={socialHeroImage}
+                  alt="Children sitting together playing a cooperative board game in a social skills group"
+                  width={1280}
+                  height={864}
+                  className="w-full h-auto object-cover"
+                />
               </div>
             </div>
           </div>

@@ -248,14 +248,14 @@ const BCBAMentorship = () => {
                 </div>
               </div>
 
-              <div className="grid grid-cols-2 gap-4">
-                {features.map((feature, index) => (
-                  <div key={index} className="bg-card p-6 rounded-2xl shadow-soft border">
-                    <feature.icon className="h-8 w-8 text-indigo-500 mb-3" />
-                    <h3 className="font-bold text-lg mb-2">{feature.title}</h3>
-                    <p className="text-sm text-muted-foreground">{feature.description}</p>
-                  </div>
-                ))}
+              <div className="relative rounded-2xl overflow-hidden shadow-xl">
+                <img
+                  src={bcbaHeroImage}
+                  alt="BCBA mentor and trainee reviewing clinical notes together in a professional setting"
+                  width={1280}
+                  height={864}
+                  className="w-full h-auto object-cover"
+                />
               </div>
             </div>
           </div>
