@@ -72,6 +72,7 @@ const pricingData: PricingTable[] = [
   {
     title: "1:1 BCBA Coaching",
     description: "Direct BCBA-led parent or caregiver coaching sessions.",
+    link: "/services/bcba-mentorship",
     rows: [
       { professional: "BCBA – Direct Service", hours: "4 hours", rate: "$165", total: "$660" },
       { professional: "BCBA – Program Development", hours: "2 hours", rate: "$85", total: "$170" },
