@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import PageTransition from "@/components/PageTransition";
 import { Button } from "@/components/ui/button";
 import { Gamepad2, CheckCircle, Phone, ArrowLeft, Smile, Heart, Users, Trophy } from "lucide-react";
+import recHeroImage from "@/assets/services/therapeutic-recreation-hero.jpg";
 import { linkifyCities } from "@/lib/cityLinks";
 import ServiceAreasSection from "@/components/ServiceAreasSection";
 import { Link } from "react-router-dom";
@@ -218,14 +219,14 @@ const TherapeuticRecreation = () => {
                 </div>
               </div>
 
-              <div className="grid grid-cols-2 gap-4">
-                {activities.map((activity, index) => (
-                  <div key={index} className="bg-card p-6 rounded-2xl shadow-soft border">
-                    <activity.icon className="h-8 w-8 text-violet-500 mb-3" />
-                    <h3 className="font-bold text-lg mb-2">{activity.title}</h3>
-                    <p className="text-sm text-muted-foreground">{activity.description}</p>
-                  </div>
-                ))}
+              <div className="relative rounded-2xl overflow-hidden shadow-xl">
+                <img
+                  src={recHeroImage}
+                  alt="Children playing outdoors in a therapeutic recreation setting"
+                  width={1280}
+                  height={864}
+                  className="w-full h-auto object-cover"
+                />
               </div>
             </div>
           </div>

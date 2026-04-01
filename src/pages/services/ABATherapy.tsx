@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import PageTransition from "@/components/PageTransition";
 import { Button } from "@/components/ui/button";
 import { Brain, CheckCircle, Phone, ArrowLeft, Clock, Users, Target, Award, BookOpen, Heart } from "lucide-react";
+import abaHeroImage from "@/assets/services/aba-therapy-hero.jpg";
 import { linkifyCities } from "@/lib/cityLinks";
 import ServiceAreasSection from "@/components/ServiceAreasSection";
 import { Link } from "react-router-dom";
@@ -301,27 +302,14 @@ const ABATherapy = () => {
                 </div>
               </div>
 
-              <div className="grid grid-cols-2 gap-4">
-                <div className="bg-card p-6 rounded-2xl shadow-soft border">
-                  <Award className="h-8 w-8 text-primary mb-3" />
-                  <h3 className="font-bold text-lg mb-2">BCBA Supervised</h3>
-                  <p className="text-sm text-muted-foreground">All programs designed and supervised by certified professionals</p>
-                </div>
-                <div className="bg-card p-6 rounded-2xl shadow-soft border">
-                  <Heart className="h-8 w-8 text-accent mb-3" />
-                  <h3 className="font-bold text-lg mb-2">Family-Centered</h3>
-                  <p className="text-sm text-muted-foreground">Parents are partners in your child's therapy journey</p>
-                </div>
-                <div className="bg-card p-6 rounded-2xl shadow-soft border">
-                  <Target className="h-8 w-8 text-secondary mb-3" />
-                  <h3 className="font-bold text-lg mb-2">Data-Driven</h3>
-                  <p className="text-sm text-muted-foreground">Continuous monitoring ensures measurable progress</p>
-                </div>
-                <div className="bg-card p-6 rounded-2xl shadow-soft border">
-                  <BookOpen className="h-8 w-8 text-primary mb-3" />
-                  <h3 className="font-bold text-lg mb-2">Evidence-Based</h3>
-                  <p className="text-sm text-muted-foreground">Backed by decades of scientific research</p>
-                </div>
+              <div className="relative rounded-2xl overflow-hidden shadow-xl">
+                <img
+                  src={abaHeroImage}
+                  alt="ABA therapist working one-on-one with a young child using colorful learning materials"
+                  width={1280}
+                  height={864}
+                  className="w-full h-auto object-cover"
+                />
               </div>
             </div>
           </div>
