@@ -99,7 +99,7 @@ const Hero = () => {
               <img
                 src={heroImage}
                 alt="Side by Side Therapy - therapist working with a child"
-                className="w-full h-auto object-cover rounded-2xl"
+                className="w-full h-auto object-cover rounded-2xl max-h-[250px] sm:max-h-[300px] lg:max-h-none"
                 width={640}
                 height={360}
                 loading="eager"
