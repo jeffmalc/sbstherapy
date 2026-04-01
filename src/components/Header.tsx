@@ -89,9 +89,9 @@ const Header = () => {
         Skip to main content
       </a>
       
-      <header className="fixed top-0 left-0 right-0 z-50 bg-card/95 backdrop-blur-md shadow-soft" role="banner">
+      <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-card/98 backdrop-blur-lg shadow-md py-0' : 'bg-card/95 backdrop-blur-md shadow-soft py-1'}`} role="banner">
         <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between h-20">
+          <div className={`flex items-center justify-between transition-all duration-300 ${isScrolled ? 'h-16' : 'h-20'}`}>
             {/* Logo */}
             <a href="/" className="flex-shrink-0 flex items-center focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 rounded-lg" aria-label="Side by Side Therapy - Home">
               <OptimizedImage src={logo} alt="Side by Side Therapy" className="h-10 md:h-14 w-auto max-w-[140px] md:max-w-[180px] object-contain" width={180} height={56} loading="eager" />
