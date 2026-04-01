@@ -16,6 +16,7 @@ interface PricingRow {
 interface PricingTable {
   title: string;
   description?: string;
+  link?: string;
   rows: PricingRow[];
   totalPerCycle: string;
 }
