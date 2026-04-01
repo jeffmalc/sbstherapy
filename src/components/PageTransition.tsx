@@ -25,10 +25,10 @@ const PageTransition = ({ children, className = "" }: PageTransitionProps) => {
 
   return (
     <div
-      className={`transition-all duration-300 ease-out ${
+      className={`transition-opacity duration-300 ease-out ${
         phase === "enter"
-          ? "opacity-100 translate-y-0"
-          : "opacity-0 translate-y-3"
+          ? "opacity-100"
+          : "opacity-0"
       } ${className}`}
     >
       {children}
