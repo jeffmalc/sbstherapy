@@ -48,6 +48,7 @@ const pricingData: PricingTable[] = [
   {
     title: "Focused ABA – 15 Hours Weekly",
     description: "Comprehensive focused intervention with intensive supervision.",
+    link: "/services/aba-therapy",
     rows: [
       { professional: "Instructor Therapist (IT)", hours: "60 direct hours", rate: "$75", total: "$4,500" },
       { professional: "Senior Therapist (ST) – Supervision", hours: "6 hours", rate: "$95", total: "$570" },
