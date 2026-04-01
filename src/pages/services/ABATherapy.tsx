@@ -463,6 +463,7 @@ const ABATherapy = () => {
           </div>
         </section>
 
+        <OAPBanner />
         <ServiceAreasSection serviceName="ABA Therapy" />
 
         {/* CTA */}

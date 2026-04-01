@@ -355,6 +355,7 @@ const SocialSkillsTraining = () => {
           </div>
         </section>
 
+        <OAPBanner />
         <ServiceAreasSection serviceName="Social Skills Training" />
 
         {/* CTA */}

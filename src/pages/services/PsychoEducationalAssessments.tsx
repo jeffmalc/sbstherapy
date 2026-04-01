@@ -399,6 +399,7 @@ const PsychoEducationalAssessments = () => {
           </div>
         </section>
 
+        <OAPBanner />
         <ServiceAreasSection serviceName="Psycho-Educational Assessments" />
 
         {/* CTA */}

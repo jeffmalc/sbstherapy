@@ -351,6 +351,7 @@ const OccupationalTherapy = () => {
           </div>
         </section>
 
+        <OAPBanner />
         <ServiceAreasSection serviceName="Occupational Therapy" />
 
         {/* CTA */}

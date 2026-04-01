@@ -352,6 +352,7 @@ const SpeechTherapy = () => {
           </div>
         </section>
 
+        <OAPBanner />
         <ServiceAreasSection serviceName="Speech Therapy" />
 
         {/* CTA */}
