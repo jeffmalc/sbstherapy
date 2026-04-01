@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import PageTransition from "@/components/PageTransition";
 import { Button } from "@/components/ui/button";
 import { GraduationCap, CheckCircle, Phone, ArrowLeft, Users, BookOpen, Award, Clock } from "lucide-react";
+import bcbaHeroImage from "@/assets/services/bcba-mentorship-hero.jpg";
 import { linkifyCities } from "@/lib/cityLinks";
 import ServiceAreasSection from "@/components/ServiceAreasSection";
 import { Link } from "react-router-dom";
