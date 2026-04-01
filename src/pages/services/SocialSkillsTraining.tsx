@@ -4,6 +4,8 @@ import Footer from "@/components/Footer";
 import PageTransition from "@/components/PageTransition";
 import { Button } from "@/components/ui/button";
 import { Users, CheckCircle, Phone, ArrowLeft, MessageSquare, Heart, Target, Sparkles } from "lucide-react";
+import { linkifyCities } from "@/lib/cityLinks";
+import ServiceAreasSection from "@/components/ServiceAreasSection";
 import { Link } from "react-router-dom";
 import {
   Accordion,
@@ -340,7 +342,7 @@ const SocialSkillsTraining = () => {
                       {faq.question}
                     </AccordionTrigger>
                     <AccordionContent className="text-muted-foreground">
-                      {faq.answer}
+                      {linkifyCities(faq.answer)}
                     </AccordionContent>
                   </AccordionItem>
                 ))}
@@ -348,6 +350,8 @@ const SocialSkillsTraining = () => {
             </div>
           </div>
         </section>
+
+        <ServiceAreasSection serviceName="Social Skills Training" />
 
         {/* CTA */}
         <section className="py-16 md:py-20 gradient-hero text-primary-foreground">

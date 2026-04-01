@@ -4,6 +4,8 @@ import Footer from "@/components/Footer";
 import PageTransition from "@/components/PageTransition";
 import { Button } from "@/components/ui/button";
 import { Brain, CheckCircle, Phone, ArrowLeft, Clock, Users, Target, Award, BookOpen, Heart } from "lucide-react";
+import { linkifyCities } from "@/lib/cityLinks";
+import ServiceAreasSection from "@/components/ServiceAreasSection";
 import { Link } from "react-router-dom";
 import {
   Accordion,
@@ -461,7 +463,7 @@ const ABATherapy = () => {
                       {faq.question}
                     </AccordionTrigger>
                     <AccordionContent className="text-muted-foreground">
-                      {faq.answer}
+                      {linkifyCities(faq.answer)}
                     </AccordionContent>
                   </AccordionItem>
                 ))}
@@ -469,6 +471,8 @@ const ABATherapy = () => {
             </div>
           </div>
         </section>
+
+        <ServiceAreasSection serviceName="ABA Therapy" />
 
         {/* CTA */}
         <section className="py-16 md:py-20 bg-primary text-primary-foreground">

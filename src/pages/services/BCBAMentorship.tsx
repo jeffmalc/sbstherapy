@@ -4,6 +4,8 @@ import Footer from "@/components/Footer";
 import PageTransition from "@/components/PageTransition";
 import { Button } from "@/components/ui/button";
 import { GraduationCap, CheckCircle, Phone, ArrowLeft, Users, BookOpen, Award, Clock } from "lucide-react";
+import { linkifyCities } from "@/lib/cityLinks";
+import ServiceAreasSection from "@/components/ServiceAreasSection";
 import { Link } from "react-router-dom";
 import {
   Accordion,
@@ -342,7 +344,7 @@ const BCBAMentorship = () => {
                       {faq.question}
                     </AccordionTrigger>
                     <AccordionContent className="text-muted-foreground">
-                      {faq.answer}
+                      {linkifyCities(faq.answer)}
                     </AccordionContent>
                   </AccordionItem>
                 ))}
@@ -350,6 +352,8 @@ const BCBAMentorship = () => {
             </div>
           </div>
         </section>
+
+        <ServiceAreasSection serviceName="BCBA Mentorship" />
 
         {/* CTA */}
         <section className="py-16 md:py-20 gradient-hero text-primary-foreground">

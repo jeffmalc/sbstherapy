@@ -4,6 +4,8 @@ import Footer from "@/components/Footer";
 import PageTransition from "@/components/PageTransition";
 import { Button } from "@/components/ui/button";
 import { MessageCircle, CheckCircle, Phone, ArrowLeft, Mic, Volume2, BookOpen, Users } from "lucide-react";
+import { linkifyCities } from "@/lib/cityLinks";
+import ServiceAreasSection from "@/components/ServiceAreasSection";
 import { Link } from "react-router-dom";
 import {
   Accordion,
@@ -337,7 +339,7 @@ const SpeechTherapy = () => {
                       {faq.question}
                     </AccordionTrigger>
                     <AccordionContent className="text-muted-foreground">
-                      {faq.answer}
+                      {linkifyCities(faq.answer)}
                     </AccordionContent>
                   </AccordionItem>
                 ))}
@@ -345,6 +347,8 @@ const SpeechTherapy = () => {
             </div>
           </div>
         </section>
+
+        <ServiceAreasSection serviceName="Speech Therapy" />
 
         {/* CTA */}
         <section className="py-16 md:py-20 gradient-hero text-primary-foreground">

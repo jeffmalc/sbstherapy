@@ -4,6 +4,8 @@ import Footer from "@/components/Footer";
 import PageTransition from "@/components/PageTransition";
 import { Button } from "@/components/ui/button";
 import { Gamepad2, CheckCircle, Phone, ArrowLeft, Smile, Heart, Users, Trophy } from "lucide-react";
+import { linkifyCities } from "@/lib/cityLinks";
+import ServiceAreasSection from "@/components/ServiceAreasSection";
 import { Link } from "react-router-dom";
 import {
   Accordion,
@@ -286,7 +288,7 @@ const TherapeuticRecreation = () => {
                       {faq.question}
                     </AccordionTrigger>
                     <AccordionContent className="text-muted-foreground">
-                      {faq.answer}
+                      {linkifyCities(faq.answer)}
                     </AccordionContent>
                   </AccordionItem>
                 ))}
@@ -294,6 +296,8 @@ const TherapeuticRecreation = () => {
             </div>
           </div>
         </section>
+
+        <ServiceAreasSection serviceName="Therapeutic Recreation" />
 
         {/* CTA */}
         <section className="py-16 md:py-20 gradient-hero text-primary-foreground">
