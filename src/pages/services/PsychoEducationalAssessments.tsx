@@ -264,6 +264,9 @@ const PsychoEducationalAssessments = () => {
                   <Button variant="outline" size="lg" asChild>
                     <a href="#faq">View FAQ</a>
                   </Button>
+                  <Button variant="outline" size="lg" asChild>
+                    <Link to="/prices">View Pricing</Link>
+                  </Button>
                 </div>
               </div>
 
