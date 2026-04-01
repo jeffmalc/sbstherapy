@@ -25,6 +25,7 @@ const pricingData: PricingTable[] = [
   {
     title: "Focused ABA – 5 Hours Weekly",
     description: "Ideal for targeted skill development with focused intervention.",
+    link: "/services/aba-therapy",
     rows: [
       { professional: "Instructor Therapist (IT)", hours: "20 direct hours", rate: "$75", total: "$1,500" },
       { professional: "BCBA – Clinical Supervision", hours: "3 hrs (1.5 hrs every 2 weeks)", rate: "$165", total: "$495" },
