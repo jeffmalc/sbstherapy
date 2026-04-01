@@ -7,6 +7,7 @@ import { MessageCircle, CheckCircle, Phone, ArrowLeft, Mic, Volume2, BookOpen, U
 import speechHeroImage from "@/assets/services/speech-therapy-hero.jpg";
 import { linkifyCities } from "@/lib/cityLinks";
 import ServiceAreasSection from "@/components/ServiceAreasSection";
+import OAPBanner from "@/components/OAPBanner";
 import { Link } from "react-router-dom";
 import {
   Accordion,
@@ -352,6 +353,7 @@ const SpeechTherapy = () => {
           </div>
         </section>
 
+        <OAPBanner />
         <ServiceAreasSection serviceName="Speech Therapy" />
 
         {/* CTA */}

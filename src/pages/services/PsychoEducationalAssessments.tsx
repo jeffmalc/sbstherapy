@@ -7,6 +7,7 @@ import { BookOpen, CheckCircle, Phone, ArrowLeft, FileText, Brain, Target, Schoo
 import psychoHeroImage from "@/assets/services/psycho-educational-hero.jpg";
 import { linkifyCities } from "@/lib/cityLinks";
 import ServiceAreasSection from "@/components/ServiceAreasSection";
+import OAPBanner from "@/components/OAPBanner";
 import { Link } from "react-router-dom";
 import {
   Accordion,
@@ -399,6 +400,7 @@ const PsychoEducationalAssessments = () => {
           </div>
         </section>
 
+        <OAPBanner />
         <ServiceAreasSection serviceName="Psycho-Educational Assessments" />
 
         {/* CTA */}

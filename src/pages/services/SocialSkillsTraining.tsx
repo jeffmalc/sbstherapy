@@ -7,6 +7,7 @@ import { Users, CheckCircle, Phone, ArrowLeft, MessageSquare, Heart, Target, Spa
 import socialHeroImage from "@/assets/services/social-skills-hero.jpg";
 import { linkifyCities } from "@/lib/cityLinks";
 import ServiceAreasSection from "@/components/ServiceAreasSection";
+import OAPBanner from "@/components/OAPBanner";
 import { Link } from "react-router-dom";
 import {
   Accordion,
@@ -355,6 +356,7 @@ const SocialSkillsTraining = () => {
           </div>
         </section>
 
+        <OAPBanner />
         <ServiceAreasSection serviceName="Social Skills Training" />
 
         {/* CTA */}

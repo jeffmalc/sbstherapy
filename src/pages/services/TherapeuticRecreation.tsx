@@ -7,6 +7,7 @@ import { Gamepad2, CheckCircle, Phone, ArrowLeft, Smile, Heart, Users, Trophy } 
 import recHeroImage from "@/assets/services/therapeutic-recreation-hero.jpg";
 import { linkifyCities } from "@/lib/cityLinks";
 import ServiceAreasSection from "@/components/ServiceAreasSection";
+import OAPBanner from "@/components/OAPBanner";
 import { Link } from "react-router-dom";
 import {
   Accordion,
@@ -301,6 +302,7 @@ const TherapeuticRecreation = () => {
           </div>
         </section>
 
+        <OAPBanner />
         <ServiceAreasSection serviceName="Therapeutic Recreation" />
 
         {/* CTA */}

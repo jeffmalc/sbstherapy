@@ -7,6 +7,7 @@ import { GraduationCap, CheckCircle, Phone, ArrowLeft, Users, BookOpen, Award, C
 import bcbaHeroImage from "@/assets/services/bcba-mentorship-hero.jpg";
 import { linkifyCities } from "@/lib/cityLinks";
 import ServiceAreasSection from "@/components/ServiceAreasSection";
+import OAPBanner from "@/components/OAPBanner";
 import { Link } from "react-router-dom";
 import {
   Accordion,
@@ -357,6 +358,7 @@ const BCBAMentorship = () => {
           </div>
         </section>
 
+        <OAPBanner />
         <ServiceAreasSection serviceName="BCBA Mentorship" />
 
         {/* CTA */}
