@@ -400,6 +400,38 @@ const blogPosts: BlogPost[] = [
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/ibi-and-aba-whats-the-difference/",
     category: "ABA Therapy",
     readTime: "3 minutes"
+  },
+  {
+    title: "Early Start Denver Model (ESDM): Unleash Potential!",
+    date: "August 9, 2024",
+    summary: "The brain has a unique property called neuroplasticity. Children under 5 have the easiest time with neuroplasticity. Even with an autism diagnosis, significant life-changing gains are possible through early intervention using the Early Start Denver Model.",
+    url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/early-start-denver-model-esdm-unleash-potential/",
+    category: "Early Intervention",
+    readTime: "4 minutes"
+  },
+  {
+    title: "Autism: What's More Important — Equality or Equity?",
+    date: "April 13, 2024",
+    summary: "Equality and equity are often understood as synonymous, but they are very different. This post explores the importance of equity over equality when supporting autistic individuals, including modifications and accommodations.",
+    url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/autism-equality-equity/",
+    category: "Understanding Autism",
+    readTime: "6 minutes"
+  },
+  {
+    title: "Autism and Memory: Amazing Superpowers of a Child with Autism",
+    date: "April 7, 2024",
+    summary: "Guest post by Dr. Tracy Alloway exploring the working memory profile of children with autism, how their brains develop differently, and the unique strengths that can give them advantages in certain areas.",
+    url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/autism-memory/",
+    category: "Understanding Autism",
+    readTime: "4 minutes"
+  },
+  {
+    title: "Applied Behaviour Analysis: 59 Terms Translated",
+    date: "January 20, 2024",
+    summary: "There are so many terms and acronyms in the world of applied behaviour analysis. This comprehensive glossary translates 59 common ABA terms and phrases for easy understanding by parents and caregivers.",
+    url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/applied-behaviour-analysis-translated/",
+    category: "ABA Therapy",
+    readTime: "7 minutes"
   }
 ];
 
