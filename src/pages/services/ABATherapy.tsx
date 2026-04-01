@@ -166,7 +166,7 @@ const ABATherapy = () => {
       },
       "sameAs": [
         "https://www.facebook.com/sidebysidetherapy",
-        "https://www.instagram.com/sidebysidetherapy"
+        "https://www.instagram.com/sidebysideabatherapy"
       ]
     },
     "areaServed": [

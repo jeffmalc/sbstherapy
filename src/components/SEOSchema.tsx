@@ -53,7 +53,7 @@ const SEOSchema = () => {
     },
     "sameAs": [
       "https://www.facebook.com/sidebysidetherapy",
-      "https://www.instagram.com/sidebysidetherapy",
+      "https://www.instagram.com/sidebysideabatherapy",
       "https://www.linkedin.com/company/sidebysidetherapy"
     ],
     "medicalSpecialty": [
