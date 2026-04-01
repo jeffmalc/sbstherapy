@@ -26,7 +26,7 @@ const Footer = () => {
                 <Facebook className="h-6 w-6" />
               </a>
               <a
-                href="https://www.instagram.com/sidebysidetherapy"
+                href="https://www.instagram.com/sidebysideabatherapy"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary-foreground/70 hover:text-primary-foreground transition-colors"

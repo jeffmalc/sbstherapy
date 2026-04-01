@@ -187,7 +187,7 @@ const ServiceAreaPage = () => {
     "openingHours": "Mo-Fr 09:00-17:00",
     "sameAs": [
       "https://www.facebook.com/sidebysidetherapy",
-      "https://www.instagram.com/sidebysidetherapy"
+      "https://www.instagram.com/sidebysideabatherapy"
     ]
   };
 
