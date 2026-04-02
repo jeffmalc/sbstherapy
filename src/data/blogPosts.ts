@@ -1430,8 +1430,7 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", content: "The Side by Side Therapy Process" },
       { type: "paragraph", content: "At Side by Side Therapy we determine which of our 4 streams of ABA service (IBI/Comprehensive ABA, Focused ABA, Parent Coaching or Behaviour Consultation) will meet your child and family’s needs. We write programs specifically for each client. Each program is different." },
       { type: "paragraph", content: "You are able to use your Ontario Autism Program (OAP) funding with Side by Side Therapy. We will help you navigate the process and will ensure that our services fall within the OAP guidelines." },
-      { type: "paragraph", content: "Connect with Side by Side today to schedule your free no obligation consultation." },
-      { type: "list", content: "", items: ["This is a very insightful and informative comment. Thank you to the author for sharing this information."] }
+      { type: "paragraph", content: "Connect with Side by Side today to schedule your free no obligation consultation." }
     ]
   },
   {
@@ -1469,7 +1468,6 @@ export const blogPosts: BlogPost[] = [
       { type: "list", content: "", items: ["Great!"] },
       { type: "list", content: "", items: ["Hi there! I could have sworn I’ve been to this web site before but after going through many of the posts I realized it’s new to me."] },
       { type: "paragraph", content: "Nonetheless, I’m definitely delighted I discovered it and I’ll be book-marking it and checking back regularly!" },
-      { type: "list", content: "", items: ["Wonderful goods from you, man. I’ve understand your"] },
       { type: "paragraph", content: "stuff previous to and you’re just extremely great. I really like what you’ve" },
       { type: "paragraph", content: "acquired here, certainly like what you are saying and" },
       { type: "paragraph", content: "the way in which you say it. You make it entertaining and you still take care of" },
@@ -1614,11 +1612,6 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", content: "Verbal Behaviour: A branch of applied behaviour analysis based on the work of B.F. Skinner. Skinner identified verbal operants or different parts of our language, each serving a different purpose or function. There are many verbal operants but the basic ones are: mands, tacts, echoics and intraverbals." },
       { type: "paragraph", content: "If you’re embarking on your applied behaviour analysis adventure and would like to discuss anything with us, please contact us for a no-charge 30 minute consultation." },
       { type: "list", content: "", items: ["Generally I don’t read post on blogs, however I wish to say that this write-up very pressured me to try and do it! Your writing style has been surprised me. Thanks, very nice post."] },
-      { type: "list", content: "", items: ["I discovered your site web site on the search engines and check several of your early posts. Always maintain on the really good operate. I recently extra encourage Feed to my MSN News Reader. Seeking toward reading a lot more from you later on!…"] },
-      { type: "list", content: "", items: ["eos dignissimos deleniti voluptas et deleniti sit neque corporis quia totam iusto non maxime laborum itaque itaque. vitae labore ab quidem ratione quas et similique est omnis eum quae vel et voluptas."] },
-      { type: "list", content: "", items: ["I got what you intend, regards for putting up. Woh I am delighted to find this website through google."] },
-      { type: "list", content: "", items: ["I like this web site its a master peace ! Glad I detected this on google ."] },
-      { type: "list", content: "", items: ["Its fantastic as your other articles : D, appreciate it for putting up."] },
       { type: "list", content: "", items: ["It’s nearly impossible to find knowledgeable individuals with this topic, however, you be understood as guess what happens you’re talking about! Thanks"] },
       { type: "list", content: "", items: ["Hi there, simply become aware of your blog thru Google, and found that it is truly informative. I’m gonna be careful for brussels. I will be grateful should you continue this in future. Lots of other folks can be benefited out of your writing. Cheers!"] }
     ]
