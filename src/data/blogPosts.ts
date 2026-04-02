@@ -1465,8 +1465,6 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", content: "We see the best results up to the age of five years, as that is when the child’s brain is most malleable. We can unleash the learning potential in therapy and limit the effects of the autism diagnosis. As a result, the overall quality of life can improve, thanks to the newly learned skills." },
       { type: "paragraph", content: "The benefits of early intervention using the Early Start Denver Model in autistic children are obvious. The earlier the child enters a structured, therapeutic environment, the better his/her progress will be. Parents should actively collaborate with the therapist, practicing taught strategies at home and helping their children unleash their full potential." },
       { type: "paragraph", content: "To learn more about how Side by Side Therapy can help your child with an Early Start Denver Model program, please connect with us!" },
-      { type: "list", content: "", items: ["Great!"] },
-      { type: "list", content: "", items: ["Hi there! I could have sworn I’ve been to this web site before but after going through many of the posts I realized it’s new to me."] },
       { type: "paragraph", content: "Nonetheless, I’m definitely delighted I discovered it and I’ll be book-marking it and checking back regularly!" },
       { type: "paragraph", content: "stuff previous to and you’re just extremely great. I really like what you’ve" },
       { type: "paragraph", content: "acquired here, certainly like what you are saying and" },
@@ -1612,8 +1610,7 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", content: "Verbal Behaviour: A branch of applied behaviour analysis based on the work of B.F. Skinner. Skinner identified verbal operants or different parts of our language, each serving a different purpose or function. There are many verbal operants but the basic ones are: mands, tacts, echoics and intraverbals." },
       { type: "paragraph", content: "If you’re embarking on your applied behaviour analysis adventure and would like to discuss anything with us, please contact us for a no-charge 30 minute consultation." },
       { type: "list", content: "", items: ["Generally I don’t read post on blogs, however I wish to say that this write-up very pressured me to try and do it! Your writing style has been surprised me. Thanks, very nice post."] },
-      { type: "list", content: "", items: ["It’s nearly impossible to find knowledgeable individuals with this topic, however, you be understood as guess what happens you’re talking about! Thanks"] },
-      { type: "list", content: "", items: ["Hi there, simply become aware of your blog thru Google, and found that it is truly informative. I’m gonna be careful for brussels. I will be grateful should you continue this in future. Lots of other folks can be benefited out of your writing. Cheers!"] }
+      { type: "list", content: "", items: ["It’s nearly impossible to find knowledgeable individuals with this topic, however, you be understood as guess what happens you’re talking about! Thanks"] }
     ]
   }
 ];
