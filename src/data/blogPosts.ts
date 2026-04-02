@@ -440,8 +440,7 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", content: "Each learner has a their own pace. It’s not possible to predict how long it will take a learner to master a skill. However, it is clear that with solid foundational skills and lots of practice it is possible to master most skills." },
       { type: "heading", content: "Why Do We Teach Autoclitics?" },
       { type: "paragraph", content: "Understanding this type of verbal operant and using it correctly will enhance a learner’s ability to communicate. By understanding the speaker’s meaning more clearly they will be better positioned to respond to mands and tacts. An ability to use autoclitics in a learner’s speech allows them to be more clearly understood and helps others to act on their mands and tacts." },
-      { type: "paragraph", content: "If you’d like to discuss your child’s language program, please connect with us at Side by Side Therapy to learn more. We offer ABA Therapy programs and Speech Therapy to help maximize your child’s language skills." },
-      { type: "heading", content: "One Reply to “Autoclitics: 4 Things to Know in 2021”" }
+      { type: "paragraph", content: "If you’d like to discuss your child’s language program, please connect with us at Side by Side Therapy to learn more. We offer ABA Therapy programs and Speech Therapy to help maximize your child’s language skills." }
     ]
   },
   {
@@ -500,8 +499,7 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", content: "This depends on the learner. Each person will learn at their own pace. What happens in some cases is bursts of new vocabulary being learned at once with time between the bursts to consolidate the language. Typically developing children will have between 200 and 1,000 words by the time they’re 3 years old. Here is a list of the first 300 nouns that are commonly learned." },
       { type: "heading", content: "Why Do We Teach Tacting?" },
       { type: "paragraph", content: "Tacting expands the learner’s vocabulary. Teaching them to label the things in their environment will help them expand their world. They will be able to speak about things with specificity. This is helpful so they’re not reliant on phrases like “that one” or more general categories to identify things." },
-      { type: "paragraph", content: "Tacting can be tricky for some children to learn. Reach out to Side by Side Therapy if you’d like to discuss your child’s language development." },
-      { type: "heading", content: "One Reply to “Tacting: 4 Things To Know”" }
+      { type: "paragraph", content: "Tacting can be tricky for some children to learn. Reach out to Side by Side Therapy if you’d like to discuss your child’s language development." }
     ]
   },
   {
@@ -575,8 +573,7 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", content: "The VB Mapp has 3 levels. Included are specific tests for echoics, barriers and transitions. As the child grows and learns they move from level 1 to 3. In each level there are a number of domains. A child should master the earlier skills in a domain before moving to the more complex skills. To measure the child’s progress, the VB Mapp should be re-administered every 6 months." },
       { type: "heading", content: "How does verbal behaviour help my autistic child?" },
       { type: "paragraph", content: "Understanding the purpose of the words we use is extremely important to being an effective communicator. The person learns that communication can help them have their needs met. Communication isn’t always spoken language." },
-      { type: "paragraph", content: "To learn more about how your child can benefit from a Verbal Behaviour based ABA program, reach out!" },
-      { type: "heading", content: "One Reply to “What is Skinner’s Verbal Behaviour?”" }
+      { type: "paragraph", content: "To learn more about how your child can benefit from a Verbal Behaviour based ABA program, reach out!" }
     ]
   },
   {
@@ -609,8 +606,7 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", content: "Usually… nothing." },
       { type: "paragraph", content: "Many autistic self-advocates share that being told to stop stimming is very damaging. Stimming is intrinsic to the autistic and to expect them to change part of themselves because it makes us more comfortable is just wrong." },
       { type: "paragraph", content: "No one is telling a neurotypical kid to stop playing with their hair or to stop drumming their fingers on their leg. The same rules should apply for autistics." },
-      { type: "paragraph", content: "Stimming is usually harmless. There are times however when stimming is dangerous or disruptive to the autistic person’s quality of life. For example, some people injure themselves or others while stimming. This can sometimes be seen in the form of headbanging or excessively rubbing or scratching skin. Also, if a stim is interrupting them from engaging in activities that they need to do (like sitting in a chair to learn) then alternative stims should be found. A BCBA works with the family to identify the function of the stimming behaviour and finds replacements. An Occupational Therapist might suggest a sensory diet if the stimming serves a sensory function." },
-      { type: "heading", content: "One Reply to “What is Stimming in Autism?”" }
+      { type: "paragraph", content: "Stimming is usually harmless. There are times however when stimming is dangerous or disruptive to the autistic person’s quality of life. For example, some people injure themselves or others while stimming. This can sometimes be seen in the form of headbanging or excessively rubbing or scratching skin. Also, if a stim is interrupting them from engaging in activities that they need to do (like sitting in a chair to learn) then alternative stims should be found. A BCBA works with the family to identify the function of the stimming behaviour and finds replacements. An Occupational Therapist might suggest a sensory diet if the stimming serves a sensory function." }
     ]
   },
   {
@@ -683,8 +679,7 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", content: "If autism doesn’t need a cure, why do therapy at all?" },
       { type: "paragraph", content: "There are some behaviours that are harmful to the person or their environment. If we believe that all children deserve a safe and fulfilling life, then we should do our best to help them achieve this. One of the core features of autism is difficulty with communication. Each child should have a reliable way of communicating their needs. We must do what we can to empower them to communicate in any way they can. This might look like vocal speech for some children or sign language for others. When we accept the child’s neurodiversity we open up our beliefs about how they should ‘be’. By broadening our beliefs, we’re making the world more accessible to them." },
       { type: "paragraph", content: "One time that it is important to intervene is if the child in engaging in dangerous behaviours. Behaviours such as aggression, self-injury and property destruction can all have very serious outcomes. The best intervention for these behaviours is to do a functional analysis and determine the function of the challenging behaviour. Once the function has been determined, a replacement behaviour can be chosen and taught." },
-      { type: "paragraph", content: "Autism doesn’t need a cure but our goal should be to improve the child’s quality of life. What that looks like will be different for each person." },
-      { type: "heading", content: "One Reply to “Is There a Cure for Autism? Part 2”" }
+      { type: "paragraph", content: "Autism doesn’t need a cure but our goal should be to improve the child’s quality of life. What that looks like will be different for each person." }
     ]
   },
   {
@@ -832,8 +827,7 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", content: "Is Reinforcement a bad thing?" },
       { type: "list", content: "Many opponents of reinforcement in ABA will argue that we’re teaching children to rely on tangible objects in order to ‘perform’. I like to highlight two things:", items: ["EVERYONE works to get stuff. No matter how much you love your job, you wouldn’t go every day if there wasn’t a paycheque in it for you. Or you wouldn’t volunteer your time if you didn’t get a warm and fuzzy feeling from it (or high school community service credits!).", "Whenever we deliver a reinforcer, we pair it with social praise. This pairing will result in an increase in the value of the social praise as it is matched and presented with the reinforcer."] },
       { type: "heading", content: "Conclusion:" },
-      { type: "paragraph", content: "Many people are fearful of the power that we can exert over others by using reinforcers. And thats can be a very real concern. However, when we take the approach of using reinforcers to help teach skills that allow for more independence we are empowering the child and improving their quality of life." },
-      { type: "heading", content: "One Reply to “What is reinforcement in ABA?”" }
+      { type: "paragraph", content: "Many people are fearful of the power that we can exert over others by using reinforcers. And thats can be a very real concern. However, when we take the approach of using reinforcers to help teach skills that allow for more independence we are empowering the child and improving their quality of life." }
     ]
   },
   {
@@ -1268,8 +1262,7 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", content: "When parents have concerns about their child’s development, speech and language delays are present at the top of the list. The Speech-Language Pathologist can help with the early diagnosis of autism, recognizing the red flags associated with communication and social skills problems. The earlier the diagnosis of autism is made, the more successful the specialized intervention can be." },
       { type: "heading", content: "S-LP and the Ontario Autism Program" },
       { type: "paragraph", content: "Your child can access S-LP services using their OAP funding (legacy funding, childhood budgets and one-time interim funding). Here is a list of eligible services and supports that can be purchased with the funding." },
-      { type: "paragraph", content: "Read about how Side by Side Therapy can develop a transdisciplinary team to address your child’s needs and use their Ontario Autism Program funding." },
-      { type: "heading", content: "One Reply to “Speech Therapy in Autism Treatment”" }
+      { type: "paragraph", content: "Read about how Side by Side Therapy can develop a transdisciplinary team to address your child’s needs and use their Ontario Autism Program funding." }
     ]
   },
   {
@@ -1296,8 +1289,7 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", content: "All that running, jumping, and exploring generates endorphins, which uplift the moods of children. When there is an intricate playground design, it challenges children to exert more physical effort. This, combined with being exposed to light outdoors, improves the mood of children. Playing outdoors can be a wellspring of happiness for them." },
       { type: "paragraph", content: "Check out this list of parks in the GTA!" },
       { type: "heading", content: "In Conclusion" },
-      { type: "paragraph", content: "These are some of the top benefits of outdoor play for children. As you can see, there are several reasons children should be encouraged to play outside. Their physical, mental, and emotional well-being will increase, while developing essential skills that will help them navigate the world they grow up in." },
-      { type: "heading", content: "One Reply to “The 5 Benefits of Outdoor Play”" }
+      { type: "paragraph", content: "These are some of the top benefits of outdoor play for children. As you can see, there are several reasons children should be encouraged to play outside. Their physical, mental, and emotional well-being will increase, while developing essential skills that will help them navigate the world they grow up in." }
     ]
   },
   {
@@ -1439,7 +1431,6 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", content: "At Side by Side Therapy we determine which of our 4 streams of ABA service (IBI/Comprehensive ABA, Focused ABA, Parent Coaching or Behaviour Consultation) will meet your child and family’s needs. We write programs specifically for each client. Each program is different." },
       { type: "paragraph", content: "You are able to use your Ontario Autism Program (OAP) funding with Side by Side Therapy. We will help you navigate the process and will ensure that our services fall within the OAP guidelines." },
       { type: "paragraph", content: "Connect with Side by Side today to schedule your free no obligation consultation." },
-      { type: "heading", content: "One Reply to “IBI and ABA: What’s the difference?”" },
       { type: "list", content: "", items: ["This is a very insightful and informative comment. Thank you to the author for sharing this information."] }
     ]
   },
@@ -1478,7 +1469,6 @@ export const blogPosts: BlogPost[] = [
       { type: "list", content: "", items: ["Great!"] },
       { type: "list", content: "", items: ["Hi there! I could have sworn I’ve been to this web site before but after going through many of the posts I realized it’s new to me."] },
       { type: "paragraph", content: "Nonetheless, I’m definitely delighted I discovered it and I’ll be book-marking it and checking back regularly!" },
-      { type: "list", content: "", items: ["Thank you! Please feel free to check out our YouTube connect as well @ https://youtu.be/nL1N8duBEPQ And don’t forget to subscribe for the latest content!"] },
       { type: "list", content: "", items: ["Wonderful goods from you, man. I’ve understand your"] },
       { type: "paragraph", content: "stuff previous to and you’re just extremely great. I really like what you’ve" },
       { type: "paragraph", content: "acquired here, certainly like what you are saying and" },
