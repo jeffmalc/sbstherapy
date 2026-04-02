@@ -22,7 +22,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "Is Your Child on the Spectrum? Recognizing 10 Early Symptoms and Signs of Autism",
     slug: "is-your-child-on-the-spectrum-recognizing-10-early-symptoms-and-signs-of-autism",
-    date: "December 3, 2025",
+    date: "December 3, 2021",
     summary: "If you notice that your child is experiencing delays or is behaving differently from kids, as a parent you may be thinking to yourself, does my child have autism? It can be so hard to know what is 'normal'...",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/is-your-child-on-the-spectrum-recognizing-10-early-symptoms-and-signs-of-autism/",
     category: "Early Signs",
@@ -60,7 +60,7 @@ export const blogPosts: BlogPost[] = [
     title: "The Importance of Finding the Best Therapy For Autism",
     slug: "the-importance-of-finding-the-best-therapy-for-autism",
     youtubeVideoId: "nL1N8duBEPQ",
-    date: "November 17, 2025",
+    date: "November 17, 2021",
     summary: "The goal of autism therapy is to help the child develop academic skills, communication and social skills, increase independence, and learn daily living skills. There are many different interventions that have been developed to aid in this process.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/the-importance-of-finding-the-best-therapy-for-autism-is-it-aba-therapy-speech-therapy-a-combination-or-another-therapy-all-together/",
     category: "Therapy Options",
@@ -84,7 +84,7 @@ export const blogPosts: BlogPost[] = [
     title: "Speech Therapy – Alternative and Augmentative Communication (AAC): A Powerful Tool",
     slug: "speech-therapy-aac",
     youtubeVideoId: "wTHQ6G8vVdA",
-    date: "August 30, 2025",
+    date: "August 30, 2021",
     summary: "Autism Spectrum Disorder (ASD) affects a great number of children and often these children have difficulty communicating. In addition to having an applied behaviour analysis team, these children benefit from speech therapy.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/speech-therapy-aac/",
     category: "Speech Therapy",
@@ -106,7 +106,7 @@ export const blogPosts: BlogPost[] = [
     title: "How to Toilet Train your Autistic Child (Part 2)",
     slug: "how-to-toilet-train-your-autistic-child-part-2",
     youtubeVideoId: "t-Ny-df93E4",
-    date: "August 16, 2025",
+    date: "August 16, 2021",
     summary: "In this second post on how to toilet train your autistic child, you'll learn about: day vs night time training, urine vs bowel training and how to leverage reinforcement.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/how-to-toilet-train-your-autistic-child-part-2/",
     category: "Parent Tips",
@@ -124,7 +124,7 @@ export const blogPosts: BlogPost[] = [
     title: "Toilet Training Tips from ABA Therapy (Part 1)",
     slug: "toilet-training-tips-from-aba-therapy-part-1",
     youtubeVideoId: "lP7xywP7gAc",
-    date: "August 9, 2025",
+    date: "August 9, 2021",
     summary: "Many children struggle with toilet training. Autistic kids can have a difficult time making the transition from diapers to the toilet. ABA Therapy offers several tried and tested strategies for training children.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/toilet-training-tips-from-aba-therapy-part-1/",
     category: "ABA Therapy",
@@ -142,7 +142,7 @@ export const blogPosts: BlogPost[] = [
     title: "Pairing in ABA Therapy",
     slug: "pairing-in-aba-therapy",
     youtubeVideoId: "n-tfqFXQNc8",
-    date: "August 7, 2025",
+    date: "August 7, 2021",
     summary: "To an uninformed observer, pairing in ABA therapy is a waste of time and resources. However, this could not be farther from the truth! Pairing is a vital component of all ABA therapy programs.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/pairing-in-aba-therapy/",
     category: "ABA Therapy",
@@ -161,7 +161,7 @@ export const blogPosts: BlogPost[] = [
     title: "ABA Therapy: Behaviours and Consequences",
     slug: "antecedents-behaviours-and-consequences-in-aba-therapy",
     youtubeVideoId: "wrJKX2C4pmM",
-    date: "July 31, 2025",
+    date: "July 31, 2021",
     summary: "One of the most important principles in ABA Therapy is the three-term contingency or antecedents, behaviours and consequences. Whenever we change behaviour, we have to look at the function of the behaviour.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/antecedents-behaviours-and-consequences-in-aba-therapy/",
     category: "ABA Therapy",
@@ -183,7 +183,7 @@ export const blogPosts: BlogPost[] = [
     title: "Why is Occupational Therapy Used for Treating Autism?",
     slug: "why-is-occupational-therapy-used-for-treating-autism",
     youtubeVideoId: "Efuzo43VFCM",
-    date: "July 19, 2025",
+    date: "July 19, 2021",
     summary: "Many people wonder why occupational therapy is used for treating autism. Every day, you do meaningful activities. They bring you happiness, satisfaction and a sense of accomplishment.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/why-is-occupational-therapy-used-for-treating-autism/",
     category: "Occupational Therapy",
@@ -202,7 +202,7 @@ export const blogPosts: BlogPost[] = [
     title: "Should My Toddler See a Speech Therapist?",
     slug: "should-my-toddler-see-a-speech-therapist",
     youtubeVideoId: "oeBT8j1ddu0",
-    date: "July 11, 2025",
+    date: "July 11, 2021",
     summary: "Many new parents aren't confident in their child's milestone mastery. They often wonder 'Should my toddler see a speech therapist?' In their first two years, children accomplish many things.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/should-my-toddler-see-a-speech-therapist/",
     category: "Speech Therapy",
@@ -220,7 +220,7 @@ export const blogPosts: BlogPost[] = [
     title: "Can Parents Do ABA Therapy?",
     slug: "can-parents-do-aba-therapy",
     youtubeVideoId: "NzIZPyWb2FM",
-    date: "July 5, 2025",
+    date: "July 5, 2021",
     summary: "Traditionally, trained professionals deliver Applied Behaviour Analysis (ABA). As a result of the COVID-19 pandemic and the skyrocketing costs of therapy, parents do ABA therapy more frequently.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/can-parents-do-aba-therapy/",
     category: "Parent Tips",
@@ -240,7 +240,7 @@ export const blogPosts: BlogPost[] = [
     title: "How Does Virtual ABA Therapy Work?",
     slug: "how-does-virtual-aba-therapy-work",
     youtubeVideoId: "mC-7tIUeVVA",
-    date: "June 27, 2025",
+    date: "June 27, 2021",
     summary: "With the end of the pandemic in sight, a lot of people are wondering if virtual ABA therapy will remain a therapy option. This post will explain what virtual ABA therapy is, how it works and some things to consider.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/how-does-virtual-aba-therapy-work/",
     category: "ABA Therapy",
@@ -258,7 +258,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "What Kind of Therapy Does a Child with Autism Need?",
     slug: "what-kind-of-therapy-does-a-child-with-autism-need",
-    date: "June 21, 2025",
+    date: "June 21, 2021",
     summary: "Many parents of children recently diagnosed with autism ask themselves this question. This blog covers therapy options and guidelines for what to avoid when picking a therapy model and provider.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/what-kind-of-therapy-does-a-child-with-autism-need/",
     category: "Therapy Options",
@@ -279,7 +279,7 @@ export const blogPosts: BlogPost[] = [
     title: "What Makes ABA Effective?",
     slug: "what-makes-aba-effective",
     youtubeVideoId: "x99ZRLH-po4",
-    date: "June 13, 2025",
+    date: "June 13, 2021",
     summary: "Many families ask 'What makes ABA effective?' when they're starting their autism therapy journey. This post describes a number of factors that make ABA an evidence-based approach.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/what-makes-aba-effective/",
     category: "ABA Therapy",
@@ -297,14 +297,13 @@ export const blogPosts: BlogPost[] = [
     title: "What Can An OT Do For My Autistic Child?",
     slug: "what-can-an-ot-do-for-my-autistic-child",
     youtubeVideoId: "pJOU4L71n48",
-    date: "May 30, 2025",
+    date: "May 30, 2021",
     summary: "Is your child autistic? Did their doctor recommend occupational therapy? Read on to find out what an OT can do for an autistic child.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/what-can-an-ot-do-for-my-autistic-child/",
     category: "Occupational Therapy",
     author: "Lindsey Malc",
     readTime: "4 minutes",
     content: [
-      { type: "paragraph", content: "# What Can An OT Do For My Autistic Child?" },
       { type: "paragraph", content: "Is your child autistic? Did their doctor recommend occupational therapy? Then you’re in the right place. Read on to find out what can an OT do for an autistic child." },
       { type: "heading", content: "What is occupational therapy?" },
       { type: "heading", content: "What can an OT do for my autistic child?" },
@@ -329,17 +328,14 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", content: "A sensory diet is a specific routine of activities that helps regulate the child’s sensory systems. Children will run through the activities at predetermined times to help them prepare for the coming activities." },
       { type: "list", content: "", items: ["Restructure a student’s nervous system over time so that he is better able to tolerate sensations and situations he finds challenging/distracting", "Regulate their alertness and increase attention span", "Limit sensory seeking and sensory avoiding behaviours", "Handle transitions with less stress."] },
       { type: "paragraph", content: "In conclusion, there are myriad ways that an OT can help an autistic child. At Side by Side Therapy, we work as an interdisciplinary team to combine our skillsets to achieve the maximum potential for each child. Our ABA Therapy teams work closely with the SLPs and OTs to create well balanced programs that propel the child towards their goals." },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags ABA, aba therapy, autism, Occupational Therapy, OT, Side by Side Therapy, strategies" },
-      { type: "heading", content: "2 Replies to “What Can An OT Do For My Autistic Child?”" },
-      { type: "list", content: "", items: ["I’m often to blogging and i really appreciate your content. The article has actually peaks my interest. I’m going to bookmark your web site and maintain checking for brand spanking new information."] },
-      { type: "list", content: "", items: ["Thank you for your comment! Please feel free to check out our YouTube channel for some great informative videos on Autism Therapy. Including Behavioural Therapy (ABA Therapy), Speech Therapy (ST), Occupational Therapy (OT) and much much more! @ https://www.youtube.com/c/SidebySideTherapy-Autism-and-ABA-Therapy-Services"] }
+      { type: "list", content: "", items: ["I’m often to blogging and i really appreciate your content. The article has actually peaks my interest. I’m going to bookmark your web site and maintain checking for brand spanking new information."] }
     ]
   },
   {
     title: "What Does Masking Autism Mean?",
     slug: "what-does-masking-autism-mean",
     youtubeVideoId: "349ZM6hsHfw",
-    date: "May 17, 2025",
+    date: "May 17, 2021",
     summary: "Camouflaging or masking in autism has far reaching effects on the person. In this post you'll discover what masking is, what effects it has, why it is damaging and how to avoid it.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/what-does-masking-autism-mean/",
     category: "Understanding Autism",
@@ -359,7 +355,7 @@ export const blogPosts: BlogPost[] = [
     title: "Early Intervention in Autism Treatment",
     slug: "early-intervention-in-autism-treatment",
     youtubeVideoId: "l6yuBdBVKbk",
-    date: "May 10, 2025",
+    date: "May 10, 2021",
     summary: "There is a lot of hype around early intervention in autism treatment. This deep dive into early intervention will help you understand the goal, how and where to access it, and why it's important.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/early-intervention-in-autism-treatment/",
     category: "Early Intervention",
@@ -376,14 +372,13 @@ export const blogPosts: BlogPost[] = [
     title: "Autism Severity Levels (DSM-5)",
     slug: "autism-severity-levels-in-2021",
     youtubeVideoId: "Uj0vETCq95Y",
-    date: "May 3, 2025",
+    date: "May 3, 2021",
     summary: "When your child gets an Autism Spectrum Disorder diagnosis there is an avalanche of information. What do the autism severity levels mean?",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/autism-severity-levels-in-2021/",
     category: "Understanding Autism",
     readTime: "4 minutes",
     author: "Lindsey Malc",
     content: [
-      { type: "paragraph", content: "# Autism Severity Levels (DSM-5) in 2021" },
       { type: "paragraph", content: "When your child gets an Autism Spectrum Disorder diagnosis there is an avalanche of information. What do the autism severity levels mean? Many families have asked me this question. Some families have a lot of support. However, some are sent on their way with a one page diagnosis letter. If you’re looking to have your child assessed here’s a list of the ways you can get a diagnosis in Ontario." },
       { type: "heading", content: "What is the DSM-5?" },
       { type: "paragraph", content: "The DSM-5 is the fifth edition of the Diagnostic and Statistical Manual of Mental Disorders. The American Psychiatric Association (APA) released the DSM-5 in 2013. It is where a doctor or psychologist finds the description and criteria of all of the disorders and behavioural conditions. As medical knowledge changes the APA releases updated versions of the DSM." },
@@ -395,25 +390,20 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", content: "The severity levels do not determine funding eligibility. But this might change as the province implements needs based funding. Above all, individual assessments should inform treatment decisions. Certainly, a therapist might use a severity level to pick which assessments to do. Severity levels give a glimpse of what the focus of ABA Therapy might be. That is to say that clinicians might use severity levels in guiding treatment planning." },
       { type: "heading", content: "Can autism severity levels change?" },
       { type: "paragraph", content: "As children grow and learn their needs will change. In other words, the amount of support the person needs will change depending on the environment and expectations. People are complex. That is to say there are many factors that impact their behaviour and the support they need. Often, removing one barrier can improve other areas as well. For instance, improving a child’s communication skills can (and usually does) reduce challenging behaviour." },
-      { type: "paragraph", content: "If you have questions about your child’s diagnosis or autism severity levels and how an ABA Therapy program can help, contact Side by Side Therapy to set up a no charge consultation." },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags ABA, aba therapy, autism, Autism Spectrum Disorder, Challenging Behaviour, ibi, language, OT, Side by Side Therapy" },
-      { type: "heading", content: "2 Replies to “Autism Severity Levels (DSM-5) in 2021”" },
-      { type: "list", content: "", items: ["Blue Techker I very delighted to find this internet site on bing, just what I was searching for as well saved to fav"] },
-      { type: "list", content: "", items: ["Thank you for your comment!"] }
+      { type: "paragraph", content: "If you have questions about your child’s diagnosis or autism severity levels and how an ABA Therapy program can help, contact Side by Side Therapy to set up a no charge consultation." }
     ]
   },
   {
     title: "Challenging Behaviours in Autism Treatment",
     slug: "challenging-behaviours-in-autism-treatment",
     youtubeVideoId: "mpddZqMab54",
-    date: "April 26, 2025",
+    date: "April 26, 2021",
     summary: "This blog discusses challenging behaviours: why language matters when describing behaviour, behaviour as communication, functions of behaviour, replacements and safety.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/challenging-behaviours-in-autism-treatment/",
     category: "Behaviour",
     readTime: "3 minutes",
     author: "Lindsey Malc",
     content: [
-      { type: "paragraph", content: "# Challenging Behaviours in Autism Treatment" },
       { type: "paragraph", content: "This blog post will discuss challenging behaviours: why language matters when describing behaviour, behaviour as communication, functions of behaviour, replacements and safety when addressing behaviours." },
       { type: "heading", content: "Language matters" },
       { type: "paragraph", content: "Challenging… problem… interfering… There are many words that describe behaviours. However, how you label a behaviour speaks to how you feel about it. Calling a behaviour a ‘problem’ gives blame to the learner. Naming a behaviour as challenging can lead to the question “Who is this behaviour challenging?”. Labeling a behaviour as interfering might lead people to ask “interfering with what?”" },
@@ -423,28 +413,23 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", content: "4 Functions of Behaviour and Replacement Behaviours" },
       { type: "list", content: "There are 4 functions of behaviour.", items: ["ATTENTION", "ACCESS to items", "ESCAPE or AVOID situations", "SENSORY or AUTOMATIC reinforcement"] },
       { type: "paragraph", content: "When we’re targeting interfering or challenging behaviours we must identify their function. Some behaviours serve more than one function. We can ask: What does doing this behaviour give the learner? Does it let them off the hook for something undesirable or difficult? Having this information will help us find a replacement behaviour that meets the same need but is better for the learner. Better, in this case, means: easier, safer, more efficient and more effective. It can also be more socially acceptable." },
-      { type: "paragraph", content: "More often than not, when we’re addressing challenging behaviours, one of the first things we teach is functional communication%20is,pictures%20or%20speech%20generating%20devices.). This can be any form of communication (spoken words, signs, picture exchange, gesture etc). What’s important is that the learner is able to use the communication independently and that it is effective in meeting their need." },
+      { type: "paragraph", content: "More often than not, when we’re addressing challenging behaviours, one of the first things we teach is functional communication. This can be any form of communication (spoken words, signs, picture exchange, gesture etc). What’s important is that the learner is able to use the communication independently and that it is effective in meeting their need." },
       { type: "heading", content: "Safety First with Challenging Behaviours" },
       { type: "paragraph", content: "Unfortunately, some behaviours are just dangerous. It is critical to keep safety at the forefront of any behaviour reduction plan. The learner’s safety, as well as the other people in their environment (family, peers, staff). Sometimes (often!) the plan needs to be revised and changed. Some behaviours are merely bothersome to the people around the learner. These behaviours do not always need to be targeted for reduction." },
-      { type: "paragraph", content: "Contact Side by Side Therapy to discuss your learner’s challenging behaviours." },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags ABA, autism, Challenging Behaviour, ibi, language, OT, safety, Side by Side Therapy" },
-      { type: "heading", content: "2 Replies to “Challenging Behaviours in Autism Treatment”" },
-      { type: "list", content: "", items: ["Excellent and very exciting blog. Will read much more from now on"] },
-      { type: "list", content: "", items: ["Thanks! I’m glad you enjoyed it."] }
+      { type: "paragraph", content: "Contact Side by Side Therapy to discuss your learner’s challenging behaviours." }
     ]
   },
   {
     title: "Autoclitics: 4 Things to Know",
     slug: "autoclitics-4-things-to-know-in-2021",
     youtubeVideoId: "1oV2cejODH8",
-    date: "April 19, 2025",
+    date: "April 19, 2021",
     summary: "This is the last blog in our series about Skinner's verbal behaviour. If you haven't already, you should read the other posts about Manding, Echoics, Tacts and Intraverbals.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/autoclitics-4-things-to-know-in-2021/",
     category: "Verbal Behaviour",
     author: "Lindsey Malc",
     readTime: "2 minutes",
     content: [
-      { type: "paragraph", content: "# Autoclitics: 4 Things to Know in 2021" },
       { type: "paragraph", content: "This is the last blog in our series about Skinner’s verbal behaviour. If you haven’t already, you should read the other posts about Manding, Echoics, Tacts and Intraverbals. This post will be about Autoclitics." },
       { type: "list", content: "Skinner created the verbal operants which are:", items: ["Echoics", "Mands", "Tacts", "Intraverbals", "Autoclitics"] },
       { type: "heading", content: "What Are Autoclitics?" },
@@ -455,23 +440,19 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", content: "Each learner has a their own pace. It’s not possible to predict how long it will take a learner to master a skill. However, it is clear that with solid foundational skills and lots of practice it is possible to master most skills." },
       { type: "heading", content: "Why Do We Teach Autoclitics?" },
       { type: "paragraph", content: "Understanding this type of verbal operant and using it correctly will enhance a learner’s ability to communicate. By understanding the speaker’s meaning more clearly they will be better positioned to respond to mands and tacts. An ability to use autoclitics in a learner’s speech allows them to be more clearly understood and helps others to act on their mands and tacts." },
-      { type: "paragraph", content: "If you’d like to discuss your child’s language program, please connect with us at Side by Side Therapy to learn more. We offer ABA Therapy programs and Speech Therapy to help maximize your child’s language skills." },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags ABA, aba therapy, language, OT, Research, Side by Side Therapy, Speech, Speech Therapy" },
-      { type: "heading", content: "One Reply to “Autoclitics: 4 Things to Know in 2021”" },
-      { type: "list", content: "", items: ["Pingback: Using Verbal Operants to Encourage Language Development in Children with Autism – Friend Search Blog"] }
+      { type: "paragraph", content: "If you’d like to discuss your child’s language program, please connect with us at Side by Side Therapy to learn more. We offer ABA Therapy programs and Speech Therapy to help maximize your child’s language skills." }
     ]
   },
   {
     title: "Intraverbals: 4 Things To Know",
     slug: "intraverbals-4-things-to-know",
-    date: "April 10, 2025",
+    date: "April 10, 2021",
     summary: "This week's post continues the series on Skinner's Verbal Behaviour. If you haven't already, you should read the other posts about Manding, Echoics and Tacts.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/intraverbals-4-things-to-know/",
     category: "Verbal Behaviour",
     author: "Lindsey Malc",
     readTime: "3 minutes",
     content: [
-      { type: "paragraph", content: "# Intraverbals: 4 Things To Know in 2021" },
       { type: "paragraph", content: "This week’s post continues the series on Skinner’s Verbal Behaviour. If you haven’t already, you should read the other posts about Manding, Echoics and Tacts. This post will tackle Intraverbals." },
       { type: "list", content: "To recap, Skinner created the verbal operants and they are:", items: ["Mands (requesting)", "Echoics (repeating what is heard)", "Tacts (labeling)", "Intraverbals (Answering questions or conversations)", "Autoclitics (phrases that impact the other operants)"] },
       { type: "heading", content: "What are Intraverbals?" },
@@ -486,67 +467,52 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", content: "As with all the verbal operants, the time it takes to master intraverbals will vary depending on the learner. Once the child has a strong mand and tact repertoire, it is appropriate to begin teaching this new verbal operant. There are many phases to this skill and it can become quite complex. This verbal operant isn’t generally mastered in a short time." },
       { type: "heading", content: "Why do we teach intraverbals?" },
       { type: "paragraph", content: "Having a large intraverbal repertoire will help the leaner to engage in conversations. That is to say, that knowing how to respond to questions will allow the learner to be more sociable. Many learners spontaneously learn to ask questions once they have learned to answer them. Importantly, asking questions demonstrates to other our interest in them and helps build relationships." },
-      { type: "paragraph", content: "If you’d like to discuss your child’s language program, please connect with us at Side by Side Therapy to learn more!" },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags language, OT, Side by Side Therapy" },
-      { type: "heading", content: "7 Replies to “Intraverbals: 4 Things To Know in 2021”" },
-      { type: "list", content: "", items: ["théme est correctement écrit. Et-il possible de reprendre du billet"] },
-      { type: "list", content: "", items: ["Thank you for your comment! Please feel free to check out our YouTube channel for some great informative videos on Autism Therapy. Including Behavioural Therapy (ABA Therapy), Speech Therapy (ST), Occupational Therapy (OT) and much much more! @ https://www.youtube.com/c/SidebySideTherapy-Autism-and-ABA-Therapy-Services"] },
-      { type: "list", content: "", items: ["Thank you for your time to have put these things together on this blog. John and I very much appreciated your insight through the articles about certain things. I realize that you have a number of demands in your timetable hence the fact that you actually took equally as much time like you did to guide people like us via this article is even highly treasured."] },
-      { type: "list", content: "", items: ["This is awesome poste for a long period i ‘ve ever study. Can i have your contact please? I have somthing to communicate. Merci."] },
-      { type: "list", content: "", items: ["Everyone loves your personal style of writing. I’m wondering if you might take a peek at my own article and tell me your opinion about my style. I’m not a natural English speaker so this is why I am asking."] },
-      { type: "list", content: "", items: ["Nice site, very well made ~ Please keep updating, I will def read more. I’ll bookmark it and be backk!"] },
-      { type: "list", content: "", items: ["There is perceptibly a lot to identify about this. I believe you made various good points in features also."] }
+      { type: "paragraph", content: "If you’d like to discuss your child’s language program, please connect with us at Side by Side Therapy to learn more!" }
     ]
   },
   {
     title: "Tacting: 4 Things To Know",
     slug: "tacting-4-things-to-know",
     youtubeVideoId: "zMJKRPdnwAQ",
-    date: "April 1, 2025",
+    date: "April 1, 2021",
     summary: "This week's post continues the series on Skinner's Verbal Behaviour. This post will tackle Tacts and tacting.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/tacting-4-things-to-know/",
     category: "Verbal Behaviour",
     author: "Lindsey Malc",
     readTime: "3 minutes",
     content: [
-      { type: "paragraph", content: "# Tacting: 4 Things To Know" },
       { type: "list", content: "This week’s post continues the series on Skinner’s Verbal Behaviour. If you haven’t already, you should read the other posts about Manding and Echoics. This post will tackle Tacts and tacting.", items: ["To recap, Skinner created the verbal operants and they are:", "Mands (requesting)", "Echoics (repeating what is heard)", "Tacts (labeling)", "Intraverbals (Answering questions or conversations)", "Autoclitics (phrases that impact the other operants)"] },
       { type: "heading", content: "What Are Tacts?" },
       { type: "paragraph", content: "Another word for tact is label. It is important for people to know the names of items so they can clearly communicate about them. When an instructor holds up an item and asks ‘What is this?” the learner will respond with the name of the item. Learners can label the things they see, hear, smell, feel or taste." },
       { type: "heading", content: "How Should We Teach Tacting?" },
       { type: "paragraph", content: "Similar to the other verbal operants, when teaching tacts the first step is to gauge the child’s motivation. Once you know what you’ll be using as reinforcement (paired with social praise), you can hold up the item and say “What is this?” If it is a new target, you want to immediately give the learner a prompt (errorless teaching) to avoid accidentally reinforcing an error. If the learner responds correctly, you can reinforce. It would sound something like this:" },
-      { type: "paragraph", content: "##### Errorless Trial:" },
-      { type: "paragraph", content: "> Instructor: (Holding a car) “What’s this? Car.”" },
-      { type: "paragraph", content: "> Learner: “Car.”" },
-      { type: "paragraph", content: "> Instructor: “Awesome job, it is a car!” (Gives car to learner to play with)" },
-      { type: "paragraph", content: "##### Regular Trial:" },
-      { type: "paragraph", content: "> Instructor: (Showing picture of a dog) “What animal?”" },
-      { type: "paragraph", content: "> Learner: “Dog.”" },
-      { type: "paragraph", content: "> Instructor: “That’s right! This is a dog!” (Gives learner token and high five)" },
+      { type: "heading", content: "Errorless Trial:" },
+      { type: "paragraph", content: "Instructor: (Holding a car) “What’s this? Car.”" },
+      { type: "paragraph", content: "Learner: “Car.”" },
+      { type: "paragraph", content: "Instructor: “Awesome job, it is a car!” (Gives car to learner to play with)" },
+      { type: "heading", content: "Regular Trial:" },
+      { type: "paragraph", content: "Instructor: (Showing picture of a dog) “What animal?”" },
+      { type: "paragraph", content: "Learner: “Dog.”" },
+      { type: "paragraph", content: "Instructor: “That’s right! This is a dog!” (Gives learner token and high five)" },
       { type: "paragraph", content: "Some children have a difficult time learning to label items when the question “What is this?” is asked. Some of the issues that could arise are the child repeating the question or the answer being given only when the question is posed. As a way to avoid these problems, it is a good idea to mix trials so that sometimes the instructor only holds up the item being tacted with an expectant look on their face to indicate to the child that a response is expected." },
       { type: "heading", content: "How Long Does It Take To Learn To Tact?" },
       { type: "paragraph", content: "This depends on the learner. Each person will learn at their own pace. What happens in some cases is bursts of new vocabulary being learned at once with time between the bursts to consolidate the language. Typically developing children will have between 200 and 1,000 words by the time they’re 3 years old. Here is a list of the first 300 nouns that are commonly learned." },
       { type: "heading", content: "Why Do We Teach Tacting?" },
       { type: "paragraph", content: "Tacting expands the learner’s vocabulary. Teaching them to label the things in their environment will help them expand their world. They will be able to speak about things with specificity. This is helpful so they’re not reliant on phrases like “that one” or more general categories to identify things." },
-      { type: "paragraph", content: "Tacting can be tricky for some children to learn. Reach out to Side by Side Therapy if you’d like to discuss your child’s language development." },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags language, OT, Side by Side Therapy" },
-      { type: "heading", content: "One Reply to “Tacting: 4 Things To Know”" },
-      { type: "list", content: "", items: ["에그벳 도메인"] },
-      { type: "paragraph", content: "여기 프놈펜의 보고에 따르면 프놈펜은 점점 더 안절부절하고 혼란스러워졌습니다." }
+      { type: "paragraph", content: "Tacting can be tricky for some children to learn. Reach out to Side by Side Therapy if you’d like to discuss your child’s language development." }
     ]
   },
   {
     title: "Echoics: 4 Things to Know",
     slug: "echoics-4-things-to-know",
     youtubeVideoId: "sbQJInccM1A",
-    date: "March 23, 2025",
+    date: "March 23, 2021",
     summary: "This post continues the series about Skinner's Verbal Behaviour. Last week we spoke about Mands and their value in improving a person's quality of life. This week we'll talk about Echoics!",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/echoics-4-things-to-know/",
     category: "Verbal Behaviour",
     author: "Lindsey Malc",
     readTime: "3 minutes",
     content: [
-      { type: "paragraph", content: "# Echoics: 4 Things to Know" },
       { type: "paragraph", content: "This post continues the series about Skinner’s Verbal Behaviour. Last week we spoke about Mands and their value in improving a person’s quality of life. This week we’ll talk about Echoics!" },
       { type: "heading", content: "1\\. What are Echoics?" },
       { type: "paragraph", content: "An echoic is a verbal operant that happens when a person repeats exactly what was just said by the first speaker. In other words, echoics are verbal imitation. An example is a teacher saying “Good morning” to a student and the student replying “Good morning”. Echoics are identical to their verbal model." },
@@ -557,22 +523,20 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", content: "3\\. Why Teach Echoics?" },
       { type: "paragraph", content: "Vocal imitation is a precursor skill for many other verbal operants. The learner will repeat the words they hear and assign meaning to them. Being able to imitate is a fundamental skill that all learners need to more easily learn new behaviours. When the learner’s able to imitate our language we’re opening doors for the other verbal operants to be taught." },
       { type: "heading", content: "4\\. What are transfer trials?" },
-      { type: "list", content: "As previously mentioned, echoics are a foundational skill that is required before more complex skills can be introduced. Once a learner has mastered vocal imitation, one way to move on is to use transfer trials. A transfer trial bridges the mastered skill of vocal imitation with the new skill (manding, tacting etc). Simply put, it usually goes like this:", items: ["The learner shows interest in an item or action.", "We use an echoic procedure to name the item BUT we do not reinforce the echo.", "The instructor uses a short phrase or question (“what did you say?” “Huh?” “What do you want?”) to prompt the learner to use the vocal response to request or label (to transfer the response!).", "When the learner repeats the vocal response then the instructor can reinforce!"] },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags ABA, language, OT" }
+      { type: "list", content: "As previously mentioned, echoics are a foundational skill that is required before more complex skills can be introduced. Once a learner has mastered vocal imitation, one way to move on is to use transfer trials. A transfer trial bridges the mastered skill of vocal imitation with the new skill (manding, tacting etc). Simply put, it usually goes like this:", items: ["The learner shows interest in an item or action.", "We use an echoic procedure to name the item BUT we do not reinforce the echo.", "The instructor uses a short phrase or question (“what did you say?” “Huh?” “What do you want?”) to prompt the learner to use the vocal response to request or label (to transfer the response!).", "When the learner repeats the vocal response then the instructor can reinforce!"] }
     ]
   },
   {
     title: "Manding: 4 Things to Know",
     slug: "manding-4-things-to-know",
     youtubeVideoId: "3XO4DGAGKDU",
-    date: "March 14, 2025",
+    date: "March 14, 2021",
     summary: "Last week I introduced Skinner's Verbal Behaviour. This week we're going to focus on the first verbal operant: mands. Another word for mand is request.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/manding-4-things-to-know/",
     category: "Verbal Behaviour",
     author: "Lindsey Malc",
     readTime: "2 minutes",
     content: [
-      { type: "paragraph", content: "# Manding: 4 things to know" },
       { type: "paragraph", content: "Last week I introduced Skinner’s Verbal Behaviour. This week we’re going to focus on the first verbal operant: mands." },
       { type: "heading", content: "1\\. What are mands or manding?" },
       { type: "paragraph", content: "Another word for mand is request. Mands can be single words or complex sentences. When we ask for something we’re manding for it. It is vital for a child to know how to mand for their needs. The ability to ask for the things we need is a sure way to avoid challenging behaviour." },
@@ -584,21 +548,19 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", content: "Every parent wants to know how quickly their child will learn. But, it’s impossible for anyone to predict. What we do know is that consistency is key. Children who are given lots of practice will have better outcomes. It’s also important for all people to have the same expectations of the child. Generalization (learning to do skills in all environments, with all people and all materials) does not always happen spontaneously. Once a mand is mastered it should be practiced all the time to ensure it’s maintained and generalized." },
       { type: "heading", content: "4\\. Why teach manding?" },
       { type: "paragraph", content: "As mentioned before, children who can mand often have lower rates of challenging behaviour. All behaviour has a function (to escape, to get things, to get attention or for sensory purposes). If the child can communicate their need (to escape, to get things, to get attention or for sensory) they won’t have to engage in challenging behaviour. We often teach replacement behaviours to help children mand without challenging behaviour." },
-      { type: "paragraph", content: "Communication is everyone’s right. Communication is spoken language, signs, picture exchange or voice output devices . But mands are only one of the verbal operants!" },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags Challenging Behaviour, language, OT" }
+      { type: "paragraph", content: "Communication is everyone’s right. Communication is spoken language, signs, picture exchange or voice output devices . But mands are only one of the verbal operants!" }
     ]
   },
   {
     title: "What is Skinner's Verbal Behaviour?",
     slug: "what-is-skinners-verbal-behaviour",
-    date: "March 8, 2025",
+    date: "March 8, 2021",
     summary: "B.F. Skinner created Verbal Behaviour. Read this short introduction to learn more about what he developed and how it can help autistics.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/what-is-skinners-verbal-behaviour/",
     category: "Verbal Behaviour",
     author: "Lindsey Malc",
     readTime: "2 minutes",
     content: [
-      { type: "paragraph", content: "# What is Skinner’s Verbal Behaviour?" },
       { type: "paragraph", content: "B.F. Skinner was an American psychologist. He was one of the founding fathers of ABA. He developed Verbal Behaviour (VB) as a way of understanding language. An American Psychological Association survey, from 2002, ranked Skinner as the most influential psychologist of the 20th century." },
       { type: "list", content: "Skinner developed the verbal operants:", items: ["Mands (requests)", "Tacts (labels)", "Echoics (repeating)", "Intraverbals (answering questions and having conversations)", "Autoclitics (using phrases that impact the other verbal operants in the sentence)"] },
       { type: "paragraph", content: "Upcoming posts will discuss each of the verbal operants in greater detail." },
@@ -611,25 +573,20 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", content: "The VB Mapp has 3 levels. Included are specific tests for echoics, barriers and transitions. As the child grows and learns they move from level 1 to 3. In each level there are a number of domains. A child should master the earlier skills in a domain before moving to the more complex skills. To measure the child’s progress, the VB Mapp should be re-administered every 6 months." },
       { type: "heading", content: "How does verbal behaviour help my autistic child?" },
       { type: "paragraph", content: "Understanding the purpose of the words we use is extremely important to being an effective communicator. The person learns that communication can help them have their needs met. Communication isn’t always spoken language." },
-      { type: "paragraph", content: "To learn more about how your child can benefit from a Verbal Behaviour based ABA program, reach out!" },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags ABA, language, OT" },
-      { type: "heading", content: "One Reply to “What is Skinner’s Verbal Behaviour?”" },
-      { type: "list", content: "", items: ["하이브 슬롯"] },
-      { type: "paragraph", content: "세상에는 넘을 수 없는 벽이 없고 사람들은 이 문제를 애타게 논의하고 있습니다." }
+      { type: "paragraph", content: "To learn more about how your child can benefit from a Verbal Behaviour based ABA program, reach out!" }
     ]
   },
   {
     title: "What is Stimming in Autism?",
     slug: "what-is-stimming-in-autism",
     youtubeVideoId: "RltWsoCLpiY",
-    date: "February 28, 2025",
+    date: "February 28, 2021",
     summary: "One of the clinical indicators of autism is repeating the same actions over and over again (AKA: stims or stimming). Stimming in autism is movements or other behaviours that are either calming or alerting.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/what-is-stimming-in-autism/",
     category: "Understanding Autism",
     author: "Lindsey Malc",
     readTime: "4 minutes",
     content: [
-      { type: "paragraph", content: "# What is Stimming in Autism?" },
       { type: "paragraph", content: "One of the clinical indicators of autism is repeating the same actions over and over again (AKA: stims or stimming). Stimming in autism is movements or other behaviours that are either calming or alerting. Most of the time stimming is not a problem and does not need to be stopped or changed unless it is causing harm." },
       { type: "heading", content: "Who stims?" },
       { type: "paragraph", content: "Each person has specific behaviours or habits (stims) that they find comforting or alerting. Most of the time, we aren’t aware when we are stimming. When you’re nervous, maybe you are twirling your hair or rubbing your hands together. Maybe you are bouncing your leg to wake up when you’re tired. When you’re concentrating, maybe you stick your tongue out of your mouth. Autistic people also do these same things, sometimes in a more obvious way. There are many common stims that you may see a person with autism repeat frequently. Let’s talk about the different types of stims." },
@@ -649,23 +606,19 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", content: "Usually… nothing." },
       { type: "paragraph", content: "Many autistic self-advocates share that being told to stop stimming is very damaging. Stimming is intrinsic to the autistic and to expect them to change part of themselves because it makes us more comfortable is just wrong." },
       { type: "paragraph", content: "No one is telling a neurotypical kid to stop playing with their hair or to stop drumming their fingers on their leg. The same rules should apply for autistics." },
-      { type: "paragraph", content: "Stimming is usually harmless. There are times however when stimming is dangerous or disruptive to the autistic person’s quality of life. For example, some people injure themselves or others while stimming. This can sometimes be seen in the form of headbanging or excessively rubbing or scratching skin. Also, if a stim is interrupting them from engaging in activities that they need to do (like sitting in a chair to learn) then alternative stims should be found. A BCBA works with the family to identify the function of the stimming behaviour and finds replacements. An Occupational Therapist might suggest a sensory diet if the stimming serves a sensory function." },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags ABA, Applied Behaviour Analysis, asd, autism, BCBA, OT" },
-      { type: "heading", content: "One Reply to “What is Stimming in Autism?”" },
-      { type: "list", content: "", items: ["Pingback: Is Your Child on the Spectrum? Recognizing 10 Early Symptoms and Signs of Autism - Side by Side ABA Therapy near me"] }
+      { type: "paragraph", content: "Stimming is usually harmless. There are times however when stimming is dangerous or disruptive to the autistic person’s quality of life. For example, some people injure themselves or others while stimming. This can sometimes be seen in the form of headbanging or excessively rubbing or scratching skin. Also, if a stim is interrupting them from engaging in activities that they need to do (like sitting in a chair to learn) then alternative stims should be found. A BCBA works with the family to identify the function of the stimming behaviour and finds replacements. An Occupational Therapist might suggest a sensory diet if the stimming serves a sensory function." }
     ]
   },
   {
     title: "Top 5 Picky Eating Strategies",
     slug: "top-5-picky-eating-strategies",
-    date: "February 21, 2025",
+    date: "February 21, 2021",
     summary: "Autistic children are often picky eaters. Once you've figured out the reason your child is picky you can use these picky eating strategies.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/top-5-picky-eating-strategies/",
     category: "Parent Tips",
     readTime: "3 minutes",
     author: "Lindsey Malc",
     content: [
-      { type: "paragraph", content: "# Top 5 Picky Eating Strategies" },
       { type: "paragraph", content: "Autistic children are often picky eaters. There are many reasons that this happens. Once you’ve figured out the reason your child is picky you can use these picky eating strategies to help them overcome their pickiness. Recent research has shown that 70% of autistic children have unusual eating behaviours." },
       { type: "heading", content: "Reasons for picky eating" },
       { type: "paragraph", content: "Many children struggle with texture, flavours and a need for sameness that can make eating a variety of foods tricky. Muscle weakness in the mouth or difficulty with sensory experiences can also impact the foods that the child will tolerate." },
@@ -681,22 +634,20 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", content: "5\\. Don’t get into a power struggle" },
       { type: "paragraph", content: "Eating is one of the only things your child has actual control over. There is no safe way to force your child to eat, so if they’re not willing to, it’s not going to happen. By keeping the entire experience positive and not letting it fall into a power struggle you’re helping your child to feel empowered and in control." },
       { type: "heading", content: "Who can help?" },
-      { type: "paragraph", content: "Like most challenges, an interdisciplinary approach is often the most effective. Picky eating can be addressed by ABA, Speech or Occupational Therapy. Also, before you begin trying to address your child’s picky eating, make sure to consult your child’s physician to rule out anything medical that might be going on." },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags ABA, Occupational Therapy, OT, Picky Eating, Research, Speech, strategies" }
+      { type: "paragraph", content: "Like most challenges, an interdisciplinary approach is often the most effective. Picky eating can be addressed by ABA, Speech or Occupational Therapy. Also, before you begin trying to address your child’s picky eating, make sure to consult your child’s physician to rule out anything medical that might be going on." }
     ]
   },
   {
     title: "What is Parent Coaching?",
     slug: "what-is-parent-coaching",
     youtubeVideoId: "Ude5VObOvPU",
-    date: "February 14, 2025",
+    date: "February 14, 2021",
     summary: "Parent coaching is an excellent way to learn ABA strategies and techniques to become empowered to help your child yourself!",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/what-is-parent-coaching/",
     category: "Parent Tips",
     author: "Lindsey Malc",
     readTime: "2 minutes",
     content: [
-      { type: "paragraph", content: "# What is Parent Coaching?" },
       { type: "paragraph", content: "Parent coaching is one of the services that many ABA providers offer. In fact, it’s one of the keys to success in ABA programs. Teaching the parents the strategies and techniques that are successful with their child is parent coaching." },
       { type: "heading", content: "Goals:" },
       { type: "paragraph", content: "Generalization is one of the main goals of ABA. Generalization is doing behaviours in different environments, with different people and with different materials. Many children with autism have a very difficult time generalizing newly learned skills. Parent coaching helps parents learn how their child learns so they can set them up for success." },
@@ -706,22 +657,20 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", content: "You’ll work with a Board Certified Behaviour Analyst (BCBA) or a Senior Therapist. When you begin with a new BCBA or ST they will discuss what your goals are. You can choose to work on reducing a challenging behaviour or teaching a new skill." },
       { type: "paragraph", content: "If you’ve decided to reduce a challenging behaviour your BCBA or ST will discuss the specifics of the behaviour to get a better idea of exactly what the behaviour is. They will ask you to take some data or keep track of the behaviour. They might want you to track the frequency or the duration of the behaviour. This is called baseline data. Baseline data is important because it helps us understand and measure if our intervention is making a difference." },
       { type: "paragraph", content: "Your BCBA or ST might use a protocol called Behavioural Skills Training (BST) to teach you the intervention. In BST there are 4 steps: instruction, modeling, roleplay and feedback. The therapist will use these steps to help ensure your success. Your therapist will likely give you a written description of the intervention for review later." },
-      { type: "paragraph", content: "##### Conclusion" },
-      { type: "paragraph", content: "Parent coaching can be time limited or continuous. It depends on your goals." },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags ABA, autism, BCBA, Challenging Behaviour, OT, strategies" }
+      { type: "heading", content: "Conclusion" },
+      { type: "paragraph", content: "Parent coaching can be time limited or continuous. It depends on your goals." }
     ]
   },
   {
     title: "Is There a Cure for Autism? Part 2",
     slug: "is-there-a-cure-for-autism-part-2",
-    date: "February 7, 2025",
+    date: "February 7, 2021",
     summary: "In last week's post we discussed that some parents are searching for a cure for autism. This week we'll be looking at IF there should even be a cure.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/is-there-a-cure-for-autism-part-2/",
     category: "Understanding Autism",
     author: "Lindsey Malc",
     readTime: "2 minutes",
     content: [
-      { type: "paragraph", content: "# Is There a Cure for Autism? Part 2" },
       { type: "paragraph", content: "In last week’s post we discussed that some parents are searching for a cure for autism. This week we’ll be looking at IF there should even be a cure." },
       { type: "heading", content: "Should we be looking for a cure for autism?" },
       { type: "paragraph", content: "I think that thinking autism needs to be cured is an outdated philosophy. This idea is perpetuated by the belief that we need to all be the same. There is wonderful beauty in difference, but we must learn to look for that beauty." },
@@ -730,24 +679,20 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", content: "If autism doesn’t need a cure, why do therapy at all?" },
       { type: "paragraph", content: "There are some behaviours that are harmful to the person or their environment. If we believe that all children deserve a safe and fulfilling life, then we should do our best to help them achieve this. One of the core features of autism is difficulty with communication. Each child should have a reliable way of communicating their needs. We must do what we can to empower them to communicate in any way they can. This might look like vocal speech for some children or sign language for others. When we accept the child’s neurodiversity we open up our beliefs about how they should ‘be’. By broadening our beliefs, we’re making the world more accessible to them." },
       { type: "paragraph", content: "One time that it is important to intervene is if the child in engaging in dangerous behaviours. Behaviours such as aggression, self-injury and property destruction can all have very serious outcomes. The best intervention for these behaviours is to do a functional analysis and determine the function of the challenging behaviour. Once the function has been determined, a replacement behaviour can be chosen and taught." },
-      { type: "paragraph", content: "Autism doesn’t need a cure but our goal should be to improve the child’s quality of life. What that looks like will be different for each person." },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags autism, Autism Spectrum Disorder, Challenging Behaviour, language, OT, Speech" },
-      { type: "heading", content: "One Reply to “Is There a Cure for Autism? Part 2”" },
-      { type: "list", content: "", items: ["Thank you for your sharing. I am worried that I lack creative ideas. It is your article that makes me full of hope. Thank you. But, I have a question, can you help me?"] }
+      { type: "paragraph", content: "Autism doesn’t need a cure but our goal should be to improve the child’s quality of life. What that looks like will be different for each person." }
     ]
   },
   {
     title: "Is There a Cure for Autism? Part 1",
     slug: "is-there-a-cure-for-autism-part-1",
     youtubeVideoId: "B0YIKCOVr3M",
-    date: "February 1, 2025",
+    date: "February 1, 2021",
     summary: "'Is there a cure for Autism?' 'How long will my child have to be in therapy?' Each week I speak with parents, most of who have newly diagnosed children.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/is-there-a-cure-for-autism-part-1/",
     category: "Understanding Autism",
     author: "Lindsey Malc",
     readTime: "3 minutes",
     content: [
-      { type: "paragraph", content: "# Is There a Cure for Autism? Part 1" },
       { type: "paragraph", content: "“Is there a cure for Autism?”" },
       { type: "paragraph", content: "“How long will my child have to be in therapy?”" },
       { type: "paragraph", content: "“How long until they’re like other kids their age?”" },
@@ -760,22 +705,20 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", content: "Alternative Cures For Autism" },
       { type: "paragraph", content: "As with any issue that affects a group of people, there will always be bad actors who try to dupe vulnerable people. I always caution my clients against spending resources on non evidence based interventions. Resources can be money, time and energy. Very few people have unlimited resources. When you devote resources to one treatment, automatically you’re taking resources away from the others. You want to ensure that you’re putting your resources where you’ll get the most benefit. Some examples of non evidence based interventions are: biomedical interventions (chelation therapy, autism diets, supplements) or other treatments like swimming with dolphins or hyperbaric oxygen chambers. While these treatments may have many glowing reviews look for peer-reviewed, double blind controlled studies to use as your base of information when determining if something is evidence based." },
       { type: "paragraph", content: "Here is a list of evidence based interventions for you to consider with your child." },
-      { type: "paragraph", content: "Come back next week as I discuss if we should even be trying to cure autism." },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags ABA, Applied Behaviour Analysis, autism, autism awareness, autism parenting, Autism Spectrum Disorder, autism therapy, Occupational Therapy, Ontario Autism Program, OT, parenting, Research, Speech, Speech Therapy" }
+      { type: "paragraph", content: "Come back next week as I discuss if we should even be trying to cure autism." }
     ]
   },
   {
     title: "How and When To Tell a Child They're Autistic",
     slug: "how-and-when-to-tell-a-child-theyre-autistic",
     youtubeVideoId: "nuKS1YJMYpY",
-    date: "January 25, 2025",
+    date: "January 25, 2021",
     summary: "Many parents are unsure of when or how to tell a child they're autistic. It can be a very sensitive subject and without some thought it can be a tricky conversation to navigate.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/how-and-when-to-tell-a-child-theyre-autistic/",
     category: "Parent Tips",
     author: "Lindsey Malc",
     readTime: "3 minutes",
     content: [
-      { type: "paragraph", content: "# How and When To Tell a Child They’re Autistic" },
       { type: "paragraph", content: "Many parents are unsure of when or how to tell a child they’re autistic. It can be a very sensitive subject and without some thought it can be tricky conversation to navigate. Crane, Lui and Davies (2021) recently published a study. It highlighted some important themes in having this discussion." },
       { type: "heading", content: "Important themes when telling your child they’re autistic:" },
       { type: "heading", content: "Theme 1: Having open and honest conversations about autism" },
@@ -789,22 +732,20 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", content: "When should you tell your child they are autistic?" },
       { type: "paragraph", content: "There is no rule about when is the right time to tell your child about their diagnosis. It is important to take chronological age as well as developmental age into account when deciding if your child is ready. They need to understand the meaning of the words you’re using. However, they might be giving you clues about their readiness. When your child begins asking questions like “What’s wrong with me?”, “Why can’t I \\\\\\\\\\\\\\\\”, “Why is this so hard for me but everyone else can do it?” or even “What’s wrong with everyone else?!” they’re likely ready to learn about their diagnosis." },
       { type: "paragraph", content: "Time of day should also play a factor in your conversation. You want to make sure you’ve got enough time to answer all of your child’s questions. The conversation shouldn’t feel rushed or interrupted. Before school or at bedtime are not ideal times for this topic." },
-      { type: "paragraph", content: "We’re here to help you if you’d like to talk about how to tell your child that they’re autistic. Connect with us for a no charge/no obligation consultation. You can also check out of Autism FAQ for some commonly asked questions." },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags asd, autism, autism awareness, autism parenting, Autism Spectrum Disorder, ibi, OT, strategies" }
+      { type: "paragraph", content: "We’re here to help you if you’d like to talk about how to tell your child that they’re autistic. Connect with us for a no charge/no obligation consultation. You can also check out of Autism FAQ for some commonly asked questions." }
     ]
   },
   {
     title: "Strategies Used in ABA: Top 5!",
     slug: "strategies-used-in-aba-top-5",
     youtubeVideoId: "HECjQ6l_FXA",
-    date: "January 18, 2025",
+    date: "January 18, 2021",
     summary: "There are MANY ABA strategies that are effective for teaching learners new skills. Here are my top 5 favourite!",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/strategies-used-in-aba-top-5/",
     category: "ABA Therapy",
     author: "Lindsey Malc",
     readTime: "3 minutes",
     content: [
-      { type: "paragraph", content: "# Strategies used in ABA: Top 5!" },
       { type: "paragraph", content: "ABA uses a number of different strategies. Way more than 5, but here are 5 of my favourite (in no particular order)." },
       { type: "heading", content: "Strategies used in ABA" },
       { type: "heading", content: "Prompting:" },
@@ -818,22 +759,20 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", content: "Task Analysis:" },
       { type: "paragraph", content: "One of the keys to ABA is breaking big behaviour chains down into smaller more manageable steps; this is task analysis. To do a task analysis you first need to identify the target behaviour. Once you know the target behaviour you identify each step in the behaviour chain. When you’re ready to teach, there are three processes you can use: forward chaining, backward chaining and whole chain. These processes determine how you will be prompting the learner when you’re teaching. For example, in a forward chain, you would teach the first step but prompt the rest. Alternatively, in a backward chain, you prompt each step except the last. As your learner masters the steps you move either forward or backward on the chain. In a whole chain approach, you’re looking at whether prompting each step is needed." },
       { type: "heading", content: "Conclusion" },
-      { type: "paragraph", content: "These are just 5 of the strategies that are common in ABA. There are many more. You can use any combination of these strategies. Each ABA program should be individualized and designed specifically for your learner. BCBAs are the people who are best trained to design ABA programs." },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags ABA, aba therapy, Applied Behavior Analysis, Applied Behaviour Analysis, autism, autism awareness, BCBA, OT, strategies" }
+      { type: "paragraph", content: "These are just 5 of the strategies that are common in ABA. There are many more. You can use any combination of these strategies. Each ABA program should be individualized and designed specifically for your learner. BCBAs are the people who are best trained to design ABA programs." }
     ]
   },
   {
     title: "Top 5 Myths about ABA",
     slug: "top-5-myths-about-aba",
     youtubeVideoId: "khqxE0GBsGQ",
-    date: "January 11, 2025",
+    date: "January 11, 2021",
     summary: "There are many myths about ABA. Here are the top 5 myths debunked! Connect with Side by Side Therapy for more information about how we help!",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/top-5-myths-about-aba/",
     category: "ABA Therapy",
     author: "Lindsey Malc",
     readTime: "3 minutes",
     content: [
-      { type: "paragraph", content: "# Top 5 Myths about ABA" },
       { type: "paragraph", content: "Every day we hear fake news. Sometimes it’s hard to tell fake news from real news. When you’re choosing a therapy to help your child having real news is vital. Here are the top 5 myths about ABA briefly explained." },
       { type: "heading", content: "Top 5 Myths about ABA Explained:" },
       { type: "heading", content: "Myth 1: ABA is only for autism." },
@@ -848,22 +787,20 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", content: "Myth 5: ABA will fix the autistic child." },
       { type: "paragraph", content: "ABA teaches skills and reduces challenging behaviour. This leads to improved quality of life. Autism is a neurological disorder. It has no cure. However, there is still plenty to be hopeful about. All children have the potential to learn and grow. It’s not about reaching a specific milestone, but rather about becoming the best that they can be." },
       { type: "heading", content: "Conclusion" },
-      { type: "paragraph", content: "Finding the right therapy for your autistic child is vital to improving their (and your) quality of life. Don’t be led astray by the fake news. ABA is one of the most studied and effective treatments for your child." },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags ABA, adhd, Applied Behaviour Analysis, autism, Challenging Behaviour, OT, Research, safety, Side by Side Therapy" }
+      { type: "paragraph", content: "Finding the right therapy for your autistic child is vital to improving their (and your) quality of life. Don’t be led astray by the fake news. ABA is one of the most studied and effective treatments for your child." }
     ]
   },
   {
     title: "What is Reinforcement in ABA?",
     slug: "what-is-reinforcement-in-aba",
     youtubeVideoId: "ArukgOkcNrE",
-    date: "January 4, 2025",
+    date: "January 4, 2021",
     summary: "When you're new to ABA it can be very daunting. There are many acronyms and words with unusual meanings. In this post we'll discuss reinforcement in ABA and how you can use it to increase behaviour.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/what-is-reinforcement-in-aba/",
     category: "ABA Therapy",
     author: "Lindsey Malc",
     readTime: "3 minutes",
     content: [
-      { type: "paragraph", content: "# What is reinforcement in ABA?" },
       { type: "paragraph", content: "When you’re new to ABA it can be very daunting. There are many acronyms and words with unusual meanings. In this post we’ll discuss reinforcement in ABA and how you can use it to increase behaviour. You can read the dictionary of ABA terms that I wrote last July." },
       { type: "paragraph", content: "ABA is all about teaching skills. We change behaviour and increase independence. One of the many ways that we do this is using reinforcement. I sometimes think of reinforcement as a contract between two people. If you do this, then this will happen – which makes it more likely that you will do this again in the future." },
       { type: "paragraph", content: "REINFORCEMENT: a procedure that makes a behaviour MORE likely to happen again in the future." },
@@ -874,40 +811,36 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", content: "Bribery vs Reinforcement in ABA" },
       { type: "paragraph", content: "Importantly, there is a big difference between bribery and reinforcement in ABA. Bribery happens when you make a bargain in desperation. After you’ve already given the instructions but you encounter some resistance. Reinforcement lays out the contingency (the deal) at the beginning." },
       { type: "heading", content: "Bribery…" },
-      { type: "paragraph", content: "> Parent: “Time for breakfast! Come eat some cereal.”" },
-      { type: "paragraph", content: "> Child: “No way, cereal’s gross.”" },
-      { type: "paragraph", content: "> Parent: “You love cereal. Come on, eat it. We’ve got to get to school.”" },
-      { type: "paragraph", content: "> Child: “Nope!” (pushes cereal away)" },
-      { type: "paragraph", content: "> Parent: “You’ve gotta eat something. Please? We’re going to be late.”" },
-      { type: "paragraph", content: "> Child: “I’m never going to eat cereal again. “" },
-      { type: "paragraph", content: "> Parent: “If you eat half a bowl, you’ll be able to watch YouTube in the car on the way to school.”" },
+      { type: "paragraph", content: "Parent: “Time for breakfast! Come eat some cereal.”" },
+      { type: "paragraph", content: "Child: “No way, cereal’s gross.”" },
+      { type: "paragraph", content: "Parent: “You love cereal. Come on, eat it. We’ve got to get to school.”" },
+      { type: "paragraph", content: "Child: “Nope!” (pushes cereal away)" },
+      { type: "paragraph", content: "Parent: “You’ve gotta eat something. Please? We’re going to be late.”" },
+      { type: "paragraph", content: "Child: “I’m never going to eat cereal again. “" },
+      { type: "paragraph", content: "Parent: “If you eat half a bowl, you’ll be able to watch YouTube in the car on the way to school.”" },
       { type: "paragraph", content: "This is an example of bribery because the parent is desperate and is willing to change the ‘deal’ in order to get their child to eat." },
       { type: "heading", content: "Reinforcement…" },
-      { type: "paragraph", content: "> Parent: “Time for breakfast. If you eat all your cereal you’ll be able to watch YouTube in the car on the way to school!”" },
-      { type: "paragraph", content: "> Child: “I want to watch Paw Patrol.”" },
-      { type: "paragraph", content: "> Parent: “Sure, that’ll be fun. Now eat up!”" },
+      { type: "paragraph", content: "Parent: “Time for breakfast. If you eat all your cereal you’ll be able to watch YouTube in the car on the way to school!”" },
+      { type: "paragraph", content: "Child: “I want to watch Paw Patrol.”" },
+      { type: "paragraph", content: "Parent: “Sure, that’ll be fun. Now eat up!”" },
       { type: "paragraph", content: "This is an example of reinforcement because the parent isn’t changing their position after the fact in order to gain their child’s cooperation." },
       { type: "heading", content: "Is Reinforcement a bad thing?" },
       { type: "list", content: "Many opponents of reinforcement in ABA will argue that we’re teaching children to rely on tangible objects in order to ‘perform’. I like to highlight two things:", items: ["EVERYONE works to get stuff. No matter how much you love your job, you wouldn’t go every day if there wasn’t a paycheque in it for you. Or you wouldn’t volunteer your time if you didn’t get a warm and fuzzy feeling from it (or high school community service credits!).", "Whenever we deliver a reinforcer, we pair it with social praise. This pairing will result in an increase in the value of the social praise as it is matched and presented with the reinforcer."] },
       { type: "heading", content: "Conclusion:" },
-      { type: "paragraph", content: "Many people are fearful of the power that we can exert over others by using reinforcers. And thats can be a very real concern. However, when we take the approach of using reinforcers to help teach skills that allow for more independence we are empowering the child and improving their quality of life." },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags ABA, OT" },
-      { type: "heading", content: "One Reply to “What is reinforcement in ABA?”" },
-      { type: "list", content: "", items: ["Pingback: Strategies used in ABA: Top 5! - Side by Side ABA Therapy near me"] }
+      { type: "paragraph", content: "Many people are fearful of the power that we can exert over others by using reinforcers. And thats can be a very real concern. However, when we take the approach of using reinforcers to help teach skills that allow for more independence we are empowering the child and improving their quality of life." }
     ]
   },
   {
     title: "How to Choose an ABA Provider",
     slug: "how-to-choose-an-aba-provider",
     youtubeVideoId: "he_bPejVhLY",
-    date: "December 28, 2024",
+    date: "December 28, 2020",
     summary: "This post describes the elements you need to consider when you choose an ABA provider for your child. As soon as you get an Autism diagnosis the first place you turn is likely Google.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/how-to-choose-an-aba-provider/",
     category: "ABA Therapy",
     author: "Lindsey Malc",
     readTime: "5 minutes",
     content: [
-      { type: "paragraph", content: "# How to choose an ABA Provider" },
       { type: "paragraph", content: "This post will describe the elements you need to consider when you choose an ABA provider for your child." },
       { type: "paragraph", content: "As soon as you get an Autism diagnosis the first place you turn is likely Google. When you’re reading you find again and again that Applied Behaviour Analysis (ABA) is the most recommended therapy. If you live in a bigger city, you’ve got many options to choose from – but how do you choose an ABA provider?" },
       { type: "heading", content: "Here are 5 things to consider when you choose an ABA provider:" },
@@ -931,22 +864,20 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", content: "Bringing an excellent team together with clinicians from multiple agencies is possible, but it is WAY easier to have everything under one roof. Choosing an ABA provider that is open to collaboration with other disciplines is super important." },
       { type: "heading", content: "Questions to ask when choosing an ABA provider" },
       { type: "list", content: "", items: ["What does a typical session look like?", "How do you measure success?", "How frequently are revisions made to the programming?", "Who does parent training? How often is it done?", "What is your philosophy on punishment?", "What training do the instructor therapists have?", "How many years have you been a BCBA?"] },
-      { type: "paragraph", content: "Call or email Side by Side Therapy today to schedule a no charge/no obligation consultation to learn about our ABA program or for advice on how to choose an ABA provider." },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags ABA, Applied Behaviour Analysis, autism, autism therapy, BCBA, language, Occupational Therapy, OT, Respite, safety, Side by Side Therapy, Speech, strategies" }
+      { type: "paragraph", content: "Call or email Side by Side Therapy today to schedule a no charge/no obligation consultation to learn about our ABA program or for advice on how to choose an ABA provider." }
     ]
   },
   {
     title: "How to Get Your Child to Cooperate!",
     slug: "how-to-get-your-child-to-cooperate",
     youtubeVideoId: "n-tfqFXQNc8",
-    date: "December 21, 2024",
+    date: "December 21, 2020",
     summary: "Robert Schramm has developed these 7 steps to get your child to cooperate. In applied behaviour analysis, cooperation or compliance is one of the first things we work to establish.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/how-to-get-your-child-to-cooperate/",
     category: "Parent Tips",
     author: "Lindsey Malc",
     readTime: "4 minutes",
     content: [
-      { type: "paragraph", content: "# How to get your child to cooperate!" },
       { type: "paragraph", content: "Robert Schramm has developed these 7 steps to get your child to cooperate. In applied behaviour analysis, cooperation or compliance is one of the first things we work to establish. The instructor must have instructional control, meaning that the child attempts to do the things that the instructor is asking. Instructional control is an effective working relationship. These 7 steps give you control and will motivate your child to engage with you to earn the things they want. These steps were developed with autistic children in mind but they work for all children!" },
       { type: "heading", content: "Schramm’s 7 steps:" },
       { type: "list", content: "", items: ["You need to be in control of the things your child wants and you decide when they will get those things."] },
@@ -959,21 +890,19 @@ export const blogPosts: BlogPost[] = [
       { type: "list", content: "Write down your child’s preferred reinforcers. Use them. Try to expand that list as often as possible. While it’s important to know your child’s priorities (what they’re working for) it’s also vital to know what your goals are. You will often have many goals and they will sometimes compete. Knowing which is top priority will make it more likely that you will reinforce the most important goals and achieve success faster.", items: ["Teach your child that not cooperating will never result in being reinforced."] },
       { type: "paragraph", content: "The same way that we need to be hyper vigilant to reinforce all cooperation, we need to be equally as vigilant in not rewarding non-cooperation. When we stop reinforcing a behaviour, sometimes we see a phenomenon called an extinction burst. This happens when the intensity and/or frequency of a behaviour increases dramatically before it disappears. The expression that it gets worse before it gets better is 100% true in behaviour. If we’re prepared and stick to our guns, extinction bursts are quickly overcome. If you’re unsure, it’s best to get help from a behaviour analyst." },
       { type: "heading", content: "Conclusion" },
-      { type: "paragraph", content: "When you employ these 7 strategies, your child will be the most cooperative! Try making one change at a time until you’ve mastered all 7. Using these ABA strategies with your child will help your child to cooperate as much as it will help you to be an effective teacher." },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags ABA, Applied Behaviour Analysis, OT, strategies" }
+      { type: "paragraph", content: "When you employ these 7 strategies, your child will be the most cooperative! Try making one change at a time until you’ve mastered all 7. Using these ABA strategies with your child will help your child to cooperate as much as it will help you to be an effective teacher." }
     ]
   },
   {
     title: "Ontario Autism Program Announcement",
     slug: "ontario-autism-program-announcement",
-    date: "December 14, 2024",
+    date: "December 14, 2020",
     summary: "On Friday December 11th, 2020, the province published an announcement about the rollout of the newest variation of the Ontario Autism Program.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/ontario-autism-program-announcement/",
     category: "Ontario Autism Program",
     author: "Lindsey Malc",
     readTime: "2 minutes",
     content: [
-      { type: "paragraph", content: "# Ontario Autism Program Announcement…?" },
       { type: "paragraph", content: "On Friday December 11th, 2020, the province published an announcement about the rollout of the newest variation of the Ontario Autism Program. The news came from Jennifer Morris, Assistant Deputy Minister, Ministry of Children, Community and Social Services. It was not the news we wanted." },
       { type: "paragraph", content: "Many people write about the Ontario Autism Program. You can read my blogs about the OAP, the Ontario Autism Coalition‘s website, Facebook and myriad news articles to learn more." },
       { type: "heading", content: "The Ontario Autism Program Announcement" },
@@ -985,22 +914,20 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", content: "What’s happening now for families and providers" },
       { type: "paragraph", content: "Because families are floating between 3 programs there is a lot of confusion. Legacy kids (mostly) get funding for the services they require – if they can find providers with clinicians available to do therapy. Childhood budget kids are using their funding and waiting for invitations to the interim one time funding. Interim one time funding families are worrying about what happens when their funding ends." },
       { type: "paragraph", content: "It is unconscionable that the Ford government is keeping families in the dark. ABA system capacity suffers the longer we are in limbo and chaos. Clinicians are leaving the field, for more consistent, stable work. Service providers are not able to meet the demand and waitlists continue to grow longer and longer." },
-      { type: "paragraph", content: "How much longer will the autism community have to wait?" },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags ABA, autism, Early Intervention, Ontario Autism Program, OT" }
+      { type: "paragraph", content: "How much longer will the autism community have to wait?" }
     ]
   },
   {
     title: "Red Flags for Autism: 8 Behaviours to Look For",
     slug: "red-flags-for-autism-8-behaviours-to-look-for",
     youtubeVideoId: "n8KPTMvDzjs",
-    date: "December 7, 2024",
+    date: "December 7, 2020",
     summary: "Each child develops at their own pace. However, there are general guidelines, called milestones, that are used in monitoring if your child is progressing. When a child doesn't meet their milestones, it can be a red flag for autism.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/red-flags-for-autism-8-behaviours-to-look-for/",
     category: "Early Signs",
     author: "Lindsey Malc",
     readTime: "3 minutes",
     content: [
-      { type: "paragraph", content: "# Red Flags for Autism: 8 Behaviours to look for" },
       { type: "paragraph", content: "Each child develops at their own pace. However, there are general guidelines, called milestones, that are used in monitoring if your child is progressing. When a child doesn’t meet their milestones, it can be a red flag for autism. Red flags don’t necessarily mean your child will be diagnosed, but they are considered when determining if further assessment is needed." },
       { type: "paragraph", content: "Red flags for autism are divided into 3 categories. These categories align with the 3 diagnostic domains for autism: language, social skills and repetitive and stereotypic behaviours." },
       { type: "heading", content: "8 Red Flags for Autism" },
@@ -1026,22 +953,20 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", content: "What to do if you notice red flags for autism in your child" },
       { type: "paragraph", content: "Bring them up with your paediatrician! Getting early intervention is wise because even if your child does not end up with a diagnosis, the early intervention will teach a skill that was lacking. Speech Therapy, Occupational Therapy and Applied Behaviour Analysis can all be helpful." },
       { type: "heading", content: "Conclusion" },
-      { type: "paragraph", content: "While none of these red flags for autism are enough to get a diagnosis on their own, it is important to notice them. When a child’s displaying a combination or stops making gains make an appointment with your paediatrician for advice and potential referrals." },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags Applied Behaviour Analysis, autism, Early Intervention, language, Occupational Therapy, OT, Speech, Speech Therapy" }
+      { type: "paragraph", content: "While none of these red flags for autism are enough to get a diagnosis on their own, it is important to notice them. When a child’s displaying a combination or stops making gains make an appointment with your paediatrician for advice and potential referrals." }
     ]
   },
   {
     title: "How To Get An Autism Diagnosis",
     slug: "how-to-get-an-autism-diagnosis",
     youtubeVideoId: "unAJBQ9HKzI",
-    date: "November 30, 2024",
+    date: "November 30, 2020",
     summary: "Families with concerns about their child's development will wonder where to go. Read on to find out where you can go in Ontario for help.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/how-to-get-an-autism-diagnosis/",
     category: "Diagnosis",
     readTime: "3 minutes",
     author: "Lindsey Malc",
     content: [
-      { type: "paragraph", content: "# How To Get An Autism Diagnosis" },
       { type: "list", content: "Many parents are unsure of where to turn or what steps to follow to have their child assessed for autism. They simply don’t know where to start to get an autism diagnosis.", items: ["Do you have concerns about your child’s development?", "Have you brought them up to your child’s physician?", "Are you wondering what the process is to get an autism diagnosis in Ontario?"] },
       { type: "paragraph", content: "At your child’s 18 and 24 month check-ups the doctor should be screening your child for autism. They’re likely using a tool called the M-CHAT-R (Modified Checklist for Autism in Toddlers – Revised). The M-CHAT-R is 20 questions about your child’s behaviour. No screening tools catch EVERY child so even if your child passes the M-CHAT-R, you can still request the doctor make a referral to a specialist for further testing." },
       { type: "paragraph", content: "To diagnose autism, the person will use formal assessment tools and their clinical judgement. There isn’t a blood test or a scan that you can do that will show autism. Diagnosticians need to have a lot of training and experience identifying autism." },
@@ -1054,25 +979,20 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", content: "A private assessment:" },
       { type: "paragraph", content: "Some families choose to use a psychologist to provide the assessment and diagnosis. In fact, Autism testing can cost between $3000 and $5000. The psychologist will interview you and will do standardized tests with your child. Many psychologists use a test called the ADOS (Autism Diagnostic Observation Schedule ). Often, psychologists recommend that parents not be in the room during testing. It can be very difficult for parents to watch. This is because your natural instinct is to help your child, but the point of the testing is to determine how your child behaves without assistance. Generally, the full assessment takes place over 3 or 4 visits. The first visit is a parent interview. The second and third are the testing with the child. The last appointment is usually the review of the findings and referrals." },
       { type: "heading", content: "Do you need an autism diagnosis to start treatment?" },
-      { type: "paragraph", content: "No! Every child who is not meeting their milestones would benefit from early intervention. Accessing Focused ABA, S-LP or OT services would benefit your child, especially while you’re waiting for a diagnostic assessment." },
-      { type: "paragraph", content: "Categories Autism Spectrum Disorder, Early InterventionTags ABA, autism, Early Intervention, ibi, language, OT, Speech" },
-      { type: "heading", content: "2 Replies to “How To Get An Autism Diagnosis”" },
-      { type: "list", content: "", items: ["We are looking for private diagnosis and assessment for ABA for my son who is 4 year old"] },
-      { type: "list", content: "", items: ["Please fell tree to call is to setup a 30 min 100% free consultation! @ 647-955-5995"] }
+      { type: "paragraph", content: "No! Every child who is not meeting their milestones would benefit from early intervention. Accessing Focused ABA, S-LP or OT services would benefit your child, especially while you’re waiting for a diagnostic assessment." }
     ]
   },
   {
     title: "Why is ABA Therapy So Expensive?",
     slug: "why-is-aba-therapy-so-expensive",
     youtubeVideoId: "0rPR8v9zKSM",
-    date: "November 23, 2024",
+    date: "November 23, 2020",
     summary: "Why is ABA Therapy so expensive? Read on to find out more about some of the barriers in Ontario that make therapy unaffordable.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/why-is-aba-therapy-so-expensive/",
     category: "ABA Therapy",
     readTime: "3 minutes",
     author: "Lindsey Malc",
     content: [
-      { type: "paragraph", content: "# Why is ABA Therapy so expensive?" },
       { type: "paragraph", content: "Imagine you’ve just been told your child has autism spectrum disorder. You rush home and start googling. You find that Applied Behaviour Analysis or ABA Therapy is the gold standard treatment for autistic children. You’re sold. That’s what you want for your child. You call some providers. You make a few appointments. At the first consultation, you ask about the cost of therapy. The therapist explains that the fees are per hour and the total cost depends on the number of hours of therapy per week. Oh, and don’t forget the cost of supervision (wait… what’s supervision?). At the second consultation the therapist explains the same thing, but adds on an ‘administrative fee’ that’s paid yearly. You rush home and start googling… again. Why is ABA Therapy so expensive?" },
       { type: "heading", content: "Here are 6 reasons ABA Therapy is costly:" },
       { type: "heading", content: "Federal & Provincial reasons:" },
@@ -1080,22 +1000,20 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", content: "Structural Reasons" },
       { type: "list", content: "", items: ["Many ABA Therapy programs are 1 on 1. You could be paying one person’s entire yearly salary. Group programs are less costly because the salary of the clinician is divided between the people paying for services. Some children can learn in a group setting and some just can’t.", "There’s more than just the therapist who works with your child. In most cases, an Instructor Therapist (IT) /Registered Behaviour Technician (RBT) is doing the direct treatment with your child. One or two levels of clinical supervisors guides the ITs work: a Senior Therapist (ST) and a Board Certified Behaviour Analyst (BCBA) or Psychologist. Most Instructor Therapists have a college diploma or a bachelor’s degree related to ABA. Also, most Senior Therapists are working towards becoming BCBAs and have many years or experience doing ABA in a variety of settings. To become a BCBA you need to have a masters degree in ABA, complete 2000 hours of work experience and write a board certification exam. Having the layers of supervision is a way of cutting down the cost to the family (as backwards as that sounds). Most Instructor Therapists do not have the skillset to assess and design the intervention plan. However, most families do not want to spend their money on having the BCBA deliver the intervention. This is because the BCBA’s hourly rate is often 3 times higher than an Instructor Therapist.", "In addition, every ABA Therapy program is individualized for the child. This takes time and expertise. The basis of ABA is data analysis. And the IT, ST and BCBA should be spending time analysing the data, finding trends and making changes to ensure learning. Also, many therapists make teaching materials that are specific for the child. For example, if teaching colours and the child really likes the movie Cars, perhaps using pictures of the characters would be motivating. This individualization helps increase the rate of learning."] },
       { type: "heading", content: "Conclusion" },
-      { type: "paragraph", content: "There are a number of reasons that ABA Therapy costs as much as it does. These are just a few. Changes are needed. They will benefit the field and the children and families that access ABA services. Financial means should not be a barrier to receiving the best treatment." },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags aba therapy" }
+      { type: "paragraph", content: "There are a number of reasons that ABA Therapy costs as much as it does. These are just a few. Changes are needed. They will benefit the field and the children and families that access ABA services. Financial means should not be a barrier to receiving the best treatment." }
     ]
   },
   {
     title: "Autism in Ontario: What Funding is Available?",
     slug: "autism-in-ontario-what-funding-is-available",
     youtubeVideoId: "ZcCCG2dl7QM",
-    date: "November 16, 2024",
+    date: "November 16, 2020",
     summary: "Autism is expensive. Utilize these funds to help offset the extraordinary costs associated with raising your child.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/autism-in-ontario-what-funding-is-available/",
     category: "Ontario Autism Program",
     author: "Lindsey Malc",
     readTime: "4 minutes",
     content: [
-      { type: "paragraph", content: "# Autism in Ontario: What funding is available?" },
       { type: "paragraph", content: "This will be the first instalment in a series about the funding for autism families in Ontario." },
       { type: "paragraph", content: "I’ve worked in the field of Autism and ABA therapy for 16 years. I’ve worked with a lot of children under different funding circumstances. Some (few, very fortunate) families have the means to pay out of pocket for the services that their child needs. Most families rely on provincial and federal funding to pay for therapy and other services that their child requires. When the funding is used up services are often put on hold." },
       { type: "paragraph", content: "According to a report released by the Ontario Association for Behaviour Analysis, the cost of supporting a child with autism can range from $26k to $130K per year." },
@@ -1111,22 +1029,20 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", content: "Autism Ontario has some one to one worker reimbursements available for families. The child’s name is entered into a draw when the application and proof of diagnosis are submitted. Approximately 500 children receive the grant each year." },
       { type: "paragraph", content: "Jennifer Ashleigh Children’s Charity is available for families experiencing financial pressures of raising a child with special needs. The fund covers a variety of things from emergency costs to housing costs incurred while caring for your ill child. They also cover some therapies." },
       { type: "heading", content: "Conclusion" },
-      { type: "paragraph", content: "A parent pointed out to me that perhaps it isn’t the number of funds or the amount of money that’s available that is lacking in our province. But rather that the application process is too difficult and too confusing for many families. Come back soon to read more about the funding in Ontario." },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags ABA, aba therapy, autism, Ontario Autism Program, OT, Respite, Side by Side Therapy" }
+      { type: "paragraph", content: "A parent pointed out to me that perhaps it isn’t the number of funds or the amount of money that’s available that is lacking in our province. But rather that the application process is too difficult and too confusing for many families. Come back soon to read more about the funding in Ontario." }
     ]
   },
   {
     title: "How to Use Visual Schedules to Reduce Challenging Behaviour",
     slug: "how-to-use-visual-schedules-to-reduce-challenging-behaviour",
     youtubeVideoId: "7564GjqoAE8",
-    date: "November 9, 2024",
+    date: "November 9, 2020",
     summary: "Children thrive on predictability and structure. Using visual schedules is an excellent way to support your child in many settings.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/how-to-use-visual-schedules-to-reduce-challenging-behaviour/",
     category: "Behaviour",
     author: "Lindsey Malc",
     readTime: "4 minutes",
     content: [
-      { type: "paragraph", content: "# How to use visual schedules to reduce challenging behaviour" },
       { type: "paragraph", content: "Visual schedules can help an autistic child be less anxious. They present daily activities, as well as the sequence in which these activities will unfold. A high level of predictability brings comfort and will even reduce challenging behaviour." },
       { type: "paragraph", content: "Depending on the child’s developmental level, the schedule can be made with photographs, drawings or pictures. Sometimes they can have written words or actual objects. The schedule can be displayed on a wall or on paper. For children who go to school, the schedule can be placed inside a notebook." },
       { type: "paragraph", content: "Also, parents can add a todo list to each activity. This shows all of the steps the child needs to take in order for a specific task to be completed." },
@@ -1147,22 +1063,20 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", content: "Will visual schedules bring a difference to our daily routine?" },
       { type: "paragraph", content: "Once again, the answer is yes. The child will learn to follow a simple schedule, becoming more organized as a result. He/she will thrive from knowing what lays ahead, no longer feeling confused. The familiar routine presented through visual aids will genuinely reduce the level of anxiety your child feels." },
       { type: "paragraph", content: "Using visual schedules will help your child make transitions between activities as well as between tasks within an activity. By using the todo list, and presenting the child with the exact steps to follow for an activity, you will reduce the risk of inattention and/or misbehaviour." },
-      { type: "paragraph", content: "Using a visual schedule will give your autistic child a better chance to succeed. Challenging behaviour meets an unmet need that your child is experiencing. Challenging behaviour can be attributed to one of the 4 functions of behaviour." },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags ABA, aba therapy, autism, Autism Spectrum Disorder, Challenging Behaviour, lindsey, Lindsey Malc, OT, Side by Side Therapy" }
+      { type: "paragraph", content: "Using a visual schedule will give your autistic child a better chance to succeed. Challenging behaviour meets an unmet need that your child is experiencing. Challenging behaviour can be attributed to one of the 4 functions of behaviour." }
     ]
   },
   {
     title: "What is Social Communication?",
     slug: "what-is-social-communication",
     youtubeVideoId: "d6LzCEgxmhw",
-    date: "November 2, 2024",
+    date: "November 2, 2020",
     summary: "Autistic children have difficulty with social communication. This blog post explains what social communication is and how to address it.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/what-is-social-communication/",
     category: "Speech Therapy",
     author: "Lindsey Malc",
     readTime: "4 minutes",
     content: [
-      { type: "paragraph", content: "# What is Social Communication?" },
       { type: "paragraph", content: "Autistic children face challenges daily, and social communication is one of the most difficult to conquer. What is social communication? Challenges in social communication are associated with autism diagnosis. However, each child is unique and is impacted to a different extent. Some children may start an interaction, while others will prefer their peers initiate the exchange. While autistic children might show an interest in engaging with others they can still have challenges." },
       { type: "paragraph", content: "Don’t make the mistake of believing that autistic children do not want to interact. The key here is to support them in interacting with their peers, offering tools for adequate communication." },
       { type: "paragraph", content: "Social communication is a group of skills that include both verbal and nonverbal communication, social interaction and understanding others (Children’s Minnesota) . Many people just seem to have this skill naturally. Autistics often need direct teaching in order to master this skill." },
@@ -1184,22 +1098,20 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", content: "Non-verbal children can communicate using various strategies, but they will need help. The therapist can teach them to use gestures or sign language to communicate and introduce augmentative and alternative communication systems." },
       { type: "paragraph", content: "Some autistic children might never speak. But this does not mean the gate to social communication is shut. They still have plenty of opportunities to communicate with their peers, and it is up to the therapist to find the best solution for a non-verbal child." },
       { type: "heading", content: "Conclusion" },
-      { type: "paragraph", content: "While we can improve social communication in therapy, it is also important to educate people on the challenges autistic children face in this area. It is all about accepting differences and meeting these kids on their level, welcoming and honouring any form of communication and/or interaction." },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags ABA, aba therapy, autism, language, Ontario Autism Program, OT, Research, strategies" }
+      { type: "paragraph", content: "While we can improve social communication in therapy, it is also important to educate people on the challenges autistic children face in this area. It is all about accepting differences and meeting these kids on their level, welcoming and honouring any form of communication and/or interaction." }
     ]
   },
   {
     title: "Early Autism Diagnosis: Key to Successful Intervention",
     slug: "early-autism-diagnosis-key-to-successful-intervention",
     youtubeVideoId: "PtzaZ3HMV-U",
-    date: "October 25, 2024",
+    date: "October 25, 2020",
     summary: "There are many ways that receiving an early autism diagnosis will benefit your child and family (having a treatment plan is just one!)",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/early-autism-diagnosis-key-to-successful-intervention/",
     category: "Diagnosis",
     author: "Lindsey Malc",
     readTime: "4 minutes",
     content: [
-      { type: "paragraph", content: "# Early \\#Autism Diagnosis: Key to Successful Intervention" },
       { type: "paragraph", content: "The signs of autism can become noticeable around the age of 18 months. Despite this, on average, autistic children receive their diagnosis at age 4 or 5. The delay is often deliberate, hoping the child will grow out of his/her condition, or to avoid labels, such as “autistic”. Getting an early autism diagnosis for your child will only benefit them." },
       { type: "paragraph", content: "Unfortunately, the delay in the diagnosis equals lost years of intervention. No child recovers on his/her own from autism. It takes a lot of effort, therapy and a transdisciplinary approach to enhance the quality of life for an autistic child. The earlier the diagnosis, the more time that child will have to reach their full potential." },
       { type: "heading", content: "Taking advantage of the brain’s neuroplasticity" },
@@ -1218,22 +1130,20 @@ export const blogPosts: BlogPost[] = [
       { type: "list", content: "", items: ["Lack of facial expressions, child does not smile", "Limited or absent eye contact", "Speech delays (no words by 16 months, no two word combinations by 24 months)", "Does not respond to his/her name", "Loss of previously gained skills", "Does not point to items of interest", "Does not like changes (routine, environment)", "Stereotypical gestures", "Prefers to play alone, does not engage in pretend play", "Echolalia (persistent repetition of words/phrases, heard recently or in the past)."] },
       { type: "heading", content: "Early diagnosis, the first steps of the journey" },
       { type: "paragraph", content: "It’s hard to find out that your child has autism. But the diagnosis will give you clarity of mind and help you take the first step of the journey. Together with autism therapists and a powerful network of support, you will create a path forward for your child." },
-      { type: "paragraph", content: "Trust your instinct, especially if you have noticed one or several warning signs. Do not wait until your child is older. Go to a specialist now." },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags ABA, aba therapy, autism, Challenging Behaviour, Early Intervention, OT, Side by Side Therapy, Speech" }
+      { type: "paragraph", content: "Trust your instinct, especially if you have noticed one or several warning signs. Do not wait until your child is older. Go to a specialist now." }
     ]
   },
   {
     title: "Things You Need To Know About Language Delays",
     slug: "things-you-need-to-know-about-language-delays",
     youtubeVideoId: "6jdS2SajTe0",
-    date: "October 19, 2024",
+    date: "October 19, 2020",
     summary: "Many children with autism also have language delays. Read about how your S-LP can address these challenges and why it's important to!",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/things-you-need-to-know-about-language-delays/",
     category: "Speech Therapy",
     readTime: "3 minutes",
     author: "Lindsey Malc",
     content: [
-      { type: "paragraph", content: "# Things You Need To Know About Language Delays" },
       { type: "paragraph", content: "Often autistic children have language delays. Receptive language is the ability to understand information provided by other people, either verbally or in writing. Expressive language is the ability to put our own thoughts into words, both spoken and written. Speech therapy can help your child learn these valuable skills." },
       { type: "paragraph", content: "Autistic children might have a language delay, meaning their communication skills are not developing as expected. This delay can affect the receptive or expressive language and, in some situations, both. When the child does not follow a typical developmental pattern, all areas of their learning and development are impacted." },
       { type: "heading", content: "Language delays add to the complexity of ASD" },
@@ -1255,22 +1165,20 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", content: "It can happen that both the expressive and receptive language abilities are impacted. In this situation, the speech-language pathologist will have to work on both areas, helping the child progress towards greater ease of communication. The earlier one starts intervention, the better the outcome is likely to be." },
       { type: "paragraph", content: "The most important thing to remember is that language impairments become visible as early as the first two years of life, when one can still take advantage of the brain’s neuroplasticity. Parents should be active in the intervention process, as they need how to communicate with their child and meet her on her level." },
       { type: "paragraph", content: "Patience is key in working to develop language abilities in autistic children. In the beginning, prompting and offering instructions in multiple steps might be highly beneficial. Also, one should provide the child with adequate time to respond. Visual supports can be useful in helping the child overcome any existing challenges and even to establish long-term communication." },
-      { type: "paragraph", content: "You can read about language development milestones here." },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags asd, autism, language, OT, Speech, Speech Therapy, strategies" }
+      { type: "paragraph", content: "You can read about language development milestones here." }
     ]
   },
   {
     title: "How To Choose A Speech-Language Pathologist",
     slug: "how-to-choose-a-speech-language-pathologist",
     youtubeVideoId: "hijvL7EfQnM",
-    date: "October 12, 2024",
+    date: "October 12, 2020",
     summary: "It can be very difficult to know how to choose a Speech-Language Pathologist. Ask these questions before you sign up with a new clinician.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/how-to-choose-a-speech-language-pathologist/",
     category: "Speech Therapy",
     readTime: "3 minutes",
     author: "Lindsey Malc",
     content: [
-      { type: "paragraph", content: "# How To Choose A Speech-Language Pathologist" },
       { type: "paragraph", content: "For parents knowing how to choose a Speech-Language Pathologist can be tricky. The diagnosis of autism often involves language delays, causing parents to wonder what steps they should take in terms of intervention. Naturally, every parent wants the best for his/her child, including in therapy." },
       { type: "paragraph", content: "A Speech-Language Pathologist can help your child learn to communicate more effectively. But how can you be certain you have chosen the right S-LP? What are the things you should look for and what are the right questions to ask?" },
       { type: "heading", content: "Things to consider in choosing a Speech-Language Pathologist" },
@@ -1285,22 +1193,20 @@ export const blogPosts: BlogPost[] = [
       { type: "list", content: "", items: ["Who will work with my child?", "Often, the Speech-Language Pathologist is part of a transdisciplinary team, which includes a speech therapy assistant, a behavioural therapist, occupational therapist, educator and so on.", "What are the primary objectives of intervention?", "You will work on these together but as a general rule the principal aim is to improve communication and social interaction. In some children, feeding and swallowing issues might also be addressed.", "How many years of experience do you have with autistic children?", "This is not necessarily relevant, but it can help you get an idea about how knowledgeable the SLP is in this field. Follow up with some discussion about previous cases and outcomes.", "What is your treatment philosophy?", "You are putting your trust in a new person, so it is important to know this. A good therapist will work with the family. He/she will always take the child’s needs into account.", "Do you use AAC (Augmentative and Alternative Communication)?", "This is important, as it is beneficial for many autistic children at the beginning of therapy and even later on.", "How do you gain the trust of a child?", "Some children require time to trust a new person. A good therapist will respect the child and his/her uncertainty, putting his/her emotional well-being in first place. Therapy should be offered through a lens of caring and empathy."] },
       { type: "heading", content: "Practical questions are important as well:" },
       { type: "list", content: "", items: ["What does the initial assessment entail?", "Can I use my insurance to pay for therapy?", "Are your services available right now? Or do I have to join a waiting list?", "How many hours of therapy are recommended per week? And how long is a therapy session?", "Are parents allowed to observe therapy sessions?", "How is the intervention plan established? Are we allowed to offer suggestions?", "How is the progress the child has made assessed?"] },
-      { type: "paragraph", content: "Do not hesitate to ask as many questions as possible, as this process will help you choose a Speech-Language Pathologist for your child. It never hurts to follow your instinct, as parents often have a gut feeling telling them they found the right person for the job." },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags autism, language, OT, Research, Speech, Speech Therapy, strategies" }
+      { type: "paragraph", content: "Do not hesitate to ask as many questions as possible, as this process will help you choose a Speech-Language Pathologist for your child. It never hurts to follow your instinct, as parents often have a gut feeling telling them they found the right person for the job." }
     ]
   },
   {
     title: "Autistic Teenagers and Adults Getting Jobs",
     slug: "autistic-teenagers-and-adults-getting-jobs",
     youtubeVideoId: "sX3Uav2m-aE",
-    date: "October 5, 2024",
+    date: "October 5, 2020",
     summary: "An autism diagnosis should not stop anyone from being a productive person and bringing their contribution to society. Both autistic teenagers and adults can get jobs.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/autistic-teenagers-and-adults-getting-jobs/",
     category: "Life Skills",
     readTime: "2 minutes",
     author: "Lindsey Malc",
     content: [
-      { type: "paragraph", content: "# Autistic Teenagers and Adults Getting Jobs" },
       { type: "paragraph", content: "An autism diagnosis should not stop anyone from being a productive person and bringing his/her contribution to society. Both autistic teenagers and adults can get jobs, but they will likely need more support to achieve their goals." },
       { type: "list", content: "Whether a teenager looking for his/her first job or an adult who already has some experience, there are two things to remember.", items: ["You should have a job you want, one that brings you a sense of purpose.", "You should consider both your abilities and potential challenges."] },
       { type: "heading", content: "Employment as an Autistic Teenager" },
@@ -1316,22 +1222,20 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", content: "There are employment programs for autistic adults, which offer work experience placement and free support. Check out Reach Toronto or Ready Willing & Able. If you are not interested in these, you can pursue regular jobs. It is up to you whether you want to disclose your diagnosis. But it might help to speak about who you are, your goals and challenges. The job you choose should match your strengths." },
       { type: "paragraph", content: "Your resume should include a detailed work history, even if you only did internships or volunteer work. At home, be sure to practice your interview skills. You can organize a mock interview together with a friend or a family member. Sometimes it helps to watch videos of other people doing interviews. Choose jobs that you will feel comfortable doing, who bring you satisfaction, so you feel that you are bringing your contribution to society." },
       { type: "heading", content: "The world changes one step at a time" },
-      { type: "paragraph", content: "There are limited employment opportunities for autistic teenagers and adults. Statistics show that. But nothing happens overnight. Find the courage and pursue jobs, teaching potential employers to see beyond your diagnosis. Every individual is a valuable person who has something to offer, including in the professional domain. Always show potential employers what they stand to gain by hiring you and never give up! It is possible for autistic teenagers and adults to get jobs" },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags ABA, aba therapy, autism, OT" }
+      { type: "paragraph", content: "There are limited employment opportunities for autistic teenagers and adults. Statistics show that. But nothing happens overnight. Find the courage and pursue jobs, teaching potential employers to see beyond your diagnosis. Every individual is a valuable person who has something to offer, including in the professional domain. Always show potential employers what they stand to gain by hiring you and never give up! It is possible for autistic teenagers and adults to get jobs" }
     ]
   },
   {
     title: "Speech Therapy in Autism Treatment",
     slug: "speech-therapy-in-autism-treatment",
     youtubeVideoId: "SdMhuMVIzdo",
-    date: "September 28, 2024",
+    date: "September 28, 2020",
     summary: "Learn how speech therapy in autism treatment can be key to helping your child communicate and learn. All areas of communication can be addressed.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/speech-therapy-in-autism-treatment/",
     category: "Speech Therapy",
     readTime: "2 minutes",
     author: "Lindsey Malc",
     content: [
-      { type: "paragraph", content: "# Speech Therapy in Autism Treatment" },
       { type: "paragraph", content: "Communication represents one of the core challenges for autistic children. Speech Therapy in autism treatment is essential. They may have difficulties engaging in a conversation. Not picking up on social cues, they might find it hard to interact with their peers." },
       { type: "paragraph", content: "A speech-language pathologist can help autistic children improve their communication and social skills. Addressing key areas, the therapy team will help the child overcome daily challenges and learn how to function within a social context." },
       { type: "heading", content: "What are some of the challenges caused by autism?" },
@@ -1358,24 +1262,20 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", content: "When parents have concerns about their child’s development, speech and language delays are present at the top of the list. The Speech-Language Pathologist can help with the early diagnosis of autism, recognizing the red flags associated with communication and social skills problems. The earlier the diagnosis of autism is made, the more successful the specialized intervention can be." },
       { type: "heading", content: "S-LP and the Ontario Autism Program" },
       { type: "paragraph", content: "Your child can access S-LP services using their OAP funding (legacy funding, childhood budgets and one-time interim funding). Here is a list of eligible services and supports that can be purchased with the funding." },
-      { type: "paragraph", content: "Read about how Side by Side Therapy can develop a transdisciplinary team to address your child’s needs and use their Ontario Autism Program funding." },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags autism, Challenging Behaviour, language, Ontario Autism Program, OT, Side by Side Therapy, Speech, Speech Therapy" },
-      { type: "heading", content: "One Reply to “Speech Therapy in Autism Treatment”" },
-      { type: "list", content: "", items: ["Pingback: The Importance of Finding the Best Therapy For Autism-Is it ABA Therapy, Speech Therapy, a Combination, or Another Therapy All Together? - Side by Side ABA Therapy near me"] }
+      { type: "paragraph", content: "Read about how Side by Side Therapy can develop a transdisciplinary team to address your child’s needs and use their Ontario Autism Program funding." }
     ]
   },
   {
     title: "The 5 Benefits of Outdoor Play",
     slug: "the-benefits-of-outdoor-play",
     youtubeVideoId: "pIWC3Wu31wk",
-    date: "September 20, 2024",
+    date: "September 20, 2020",
     summary: "Most children love playing outside but few recognize the benefits of outdoor play. Learn why you should encourage your child to play outside!",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/the-benefits-of-outdoor-play/",
     category: "Parent Tips",
     readTime: "2 minutes",
     author: "Lindsey Malc",
     content: [
-      { type: "paragraph", content: "# The 5 Benefits of Outdoor Play" },
       { type: "paragraph", content: "With screens being stared at for hours a day by children, the benefits of outdoor play for children is being overlooked. Primary school should be a place where children can enhance the health of their minds, bodies, and emotions. Thankfully, an easy way to do this is to encourage outdoor play. There are a few practical ways to do so, such as ensuring playground design is engaging for children. We will focus on the benefits of playing outdoors, so you can see just how critical it is for their health and well-being." },
       { type: "heading", content: "Greater Physical Health" },
       { type: "paragraph", content: "When children are running around, jumping, crawling, and handling physical objects, they are using and developing their motor skills. These are essential functions that can be greatly improved with outdoor play. Children walking a trail can get some aerobic exercise while enjoying the outdoors. When playground design is considered in terms of maximizing movement, children will burn more calories, which leads to strengthening their muscles and preventing childhood obesity. Also, they will get much-needed vitamin D, even if it’s a cloudy day." },
@@ -1389,24 +1289,20 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", content: "All that running, jumping, and exploring generates endorphins, which uplift the moods of children. When there is an intricate playground design, it challenges children to exert more physical effort. This, combined with being exposed to light outdoors, improves the mood of children. Playing outdoors can be a wellspring of happiness for them." },
       { type: "paragraph", content: "Check out this list of parks in the GTA!" },
       { type: "heading", content: "In Conclusion" },
-      { type: "paragraph", content: "These are some of the top benefits of outdoor play for children. As you can see, there are several reasons children should be encouraged to play outside. Their physical, mental, and emotional well-being will increase, while developing essential skills that will help them navigate the world they grow up in." },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags adhd, asd, autism, autism parenting, Occupational Therapy, OT, Sensory Friendly" },
-      { type: "heading", content: "One Reply to “The 5 Benefits of Outdoor Play”" },
-      { type: "list", content: "", items: ["Great Article"] }
+      { type: "paragraph", content: "These are some of the top benefits of outdoor play for children. As you can see, there are several reasons children should be encouraged to play outside. Their physical, mental, and emotional well-being will increase, while developing essential skills that will help them navigate the world they grow up in." }
     ]
   },
   {
     title: "How to Build a Good Relationship with Your Child's Teacher",
     slug: "how-to-build-a-good-relationship-with-your-childs-teacher",
     youtubeVideoId: "2cpuIVlfSiE",
-    date: "September 13, 2024",
+    date: "September 13, 2020",
     summary: "There are specific things you can do to help build the relationship you have with your child's teacher to set them up for success.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/how-to-build-a-good-relationship-with-your-childs-teacher/",
     category: "School",
     readTime: "3 minutes",
     author: "Lindsey Malc",
     content: [
-      { type: "paragraph", content: "# How to Build a Good Relationship with Your Child’s Teacher" },
       { type: "paragraph", content: "As a parent, it is normal to have worries about your child’s academic success. How will your child integrate in the school environment? Will they establish positive relationships with their teachers and peers? These are only two questions among the many going through your head. Read on to learn how to build a good relationship with your child’s teacher." },
       { type: "paragraph", content: "The teacher is the number one person who can help your child integrate and achieve their full potential within the school. This is the major reason you need to build a positive relationship with your child’s educator. Together, you can set common goals and positively influence their long-term academic outcome." },
       { type: "paragraph", content: "In this blog, we will present a few strategies on how to build a relationship with your child’s teacher. The most important thing to remember is that teachers require time to get to know your child, so keep an open mind. Work towards the relationship you want to have and always state your goals." },
@@ -1431,22 +1327,20 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", content: "From your perspective, such an interview represents a sure way of starting things on the right foot. You can speak about emotional and behavioral difficulties, and academic goals. Depending on how much time you have available, you can also discuss how your child will integrate in the school environment." },
       { type: "heading", content: "Conclusion" },
       { type: "paragraph", content: "It takes time to develop a positive relationship with your child’s teacher, but the effort is all worth it. The educator becomes part of the intervention team, fighting to help your child grow and overcome the challenges they face." },
-      { type: "paragraph", content: "Interested in reading a New York Times article about how a Florida mom works to build a good relationship with her daughter’s school?" },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags ABA, asd, autism, Challenging Behaviour, lindsay malc, Lindsey Malc, parenting, Side by Side Therapy, strategies" }
+      { type: "paragraph", content: "Interested in reading a New York Times article about how a Florida mom works to build a good relationship with her daughter’s school?" }
     ]
   },
   {
     title: "What is Sensory Processing Disorder?",
     slug: "what-is-sensory-processing-disorder",
     youtubeVideoId: "GGFPMP31iAs",
-    date: "September 6, 2024",
+    date: "September 6, 2020",
     summary: "Many children and adults have Sensory Processing Disorder. Read on to learn what the signs are and who can help!",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/what-is-sensory-processing-disorder/",
     category: "Occupational Therapy",
     author: "Lindsey Malc",
     readTime: "5 minutes",
     content: [
-      { type: "paragraph", content: "# What is Sensory Processing Disorder?" },
       { type: "paragraph", content: "Has your child recently been diagnosed with Sensory Processing Disorder? Has your child ever had an over the top reaction to what seems to be a regular situation? Obviously, all kids can have challenging behaviour, however, some children have a hard time processing and tolerating certain physical, situational, environmental and sensory experiences. Sensory Processing Disorder (SPD) is the inability to process sensory stimuli. That means it can lead to reactions and behaviours that are disruptive to the child and those around them. Difficulty in processing sensory input can leave both the child and the parents/caretaker overwhelmed, stressed-out and anxious." },
       { type: "paragraph", content: "SPD has made its way into mainstream culture. A quick Google Search will lead you to lots of information. Since ASD children have more difficulty processing sensory input, they may become easily overwhelmed or overstimulated by situations (i.e. bright lights, loud noises, crowded spaced) or things (i.e. textures of food or clothing). Many children with ASD also experience sensory processing problems. But SPD is not limited to children with autism. Children with ADHD or no other diagnosis at all can have SPD. Every child who has sensory difficulties will have a challenging time until their needs are identified and addressed." },
       { type: "heading", content: "SPD: Hypersensitivity vs Hyposensitivity" },
@@ -1462,30 +1356,20 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", content: "It is important to realize that no two children are alike and each child’s sensory experience and coping mechanism are unique. And, your child may actually be affected by sensory issues from both categories. The journey to understanding your child’s sensory issues and ways of managing them can be an overwhelming task but there is help." },
       { type: "heading", content: "Occupational Therapists can help" },
       { type: "paragraph", content: "Occupational Therapists (OT) are trained in sensory regulation and can help to understand, identify and manage sensory stimuli issues. Accordingly, they can provide helpful tips, resources and supplies. For example, an OT might suggest a sensory diet to ease the anxiety and discomfort of your child. In effect, These strategies help children to manage their emotions and behaviours through specific activities and self-regulation techniques." },
-      { type: "paragraph", content: "Identifying and managing a child’s sensory difficulties will allow the child to cope with SPD. As a result, having a handle on their sensory triggers will provide them with the opportunities to use tools and strategies that will aid in their successful social interactions and day to day well-being." },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags adhd, asd, autism, Challenging Behaviour, strategies" },
-      { type: "heading", content: "4 Replies to “What is Sensory Processing Disorder?”" },
-      { type: "list", content: "", items: ["This design is wicked! You certainly know how to keep a reader amused."] },
-      { type: "paragraph", content: "Between your wit and your videos, I was almost moved to start my own blog (well, almost…HaHa!) Fantastic job." },
-      { type: "paragraph", content: "I really enjoyed what you had to say, and more than that," },
-      { type: "paragraph", content: "how you presented it. Too cool!" },
-      { type: "list", content: "", items: ["Most I can state is, I’m not sure what to express! Except certainly, for the wonderful tips that happen to be shared within this blog. I will think of a million fun strategies to read the reports on this site. I believe I will eventually make a move making use of your tips on those things I could not have been able to deal with alone. You were so innovative to allow me to be one of those to profit from your helpful information. Please realize how great I am thankful."] },
-      { type: "list", content: "", items: ["This post post made me think. I will write something about this on my blog. Have a nice day!"] },
-      { type: "list", content: "", items: ["There is apparently a bunch to identify about this. I believe you made various good points in features also."] }
+      { type: "paragraph", content: "Identifying and managing a child’s sensory difficulties will allow the child to cope with SPD. As a result, having a handle on their sensory triggers will provide them with the opportunities to use tools and strategies that will aid in their successful social interactions and day to day well-being." }
     ]
   },
   {
     title: "How To Pick The Right Autism Therapy: 8 Questions",
     slug: "how-to-pick-the-right-autism-therapy-8-questions",
     youtubeVideoId: "YDCyybijqTQ",
-    date: "August 23, 2024",
+    date: "August 23, 2020",
     summary: "Knowing which direction to move when looking for autism therapy can be tricky. Here are 8 questions to ask potential therapy providers.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/how-to-pick-the-right-autism-therapy-8-questions/",
     category: "Therapy Options",
     readTime: "4 minutes",
     author: "Lindsey Malc",
     content: [
-      { type: "paragraph", content: "# How To Pick The Right Autism Therapy: 8 Questions" },
       { type: "paragraph", content: "Thanks to the internet, information on autism therapy is unlimited. Some of it is very valid and helpful. Some of it is not. Use common sense when picking interventions or treatments to try. If it sounds too good to be true, it just might be." },
       { type: "paragraph", content: "As of now, there is no cure for autism. There are lots of treatments that can teach skills and there are some medications that can improve some physical symptoms but there is no cure. That’s hard to hear as a parent and hard for me to say as a therapist. I believe that every child is capable of learning and becoming a better version of themselves." },
       { type: "paragraph", content: "The interventions you choose should fit with your values and be evidence-based. Evidence-based means that different groups of researchers studied them and have repeated the results many times. However, there are many autism therapy interventions that are not evidence-based." },
@@ -1511,22 +1395,20 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", content: "For many years it was believed that therapists should stop children from engaging in self-stimulating behaviours (stimming). Many autistic advocates have expressed how damaging suppressing stims was for them. A new belief is taking hold – as long as the stim is not hurting anyone, destroying property or stopping the child from participating in activities, it should not be addressed. No one stops typically developing people from engaging in stims as long as they’re not hurting anyone or destroying property – why should it be any different for autistics?" },
       { type: "heading", content: "8\\. What is the process for terminating services if I do not wish to continue?" },
       { type: "paragraph", content: "You should never be locked into a service. If it is not working for your child or family you should be able to openly discuss this with the team. In Ontario, specifically, you should not be pressured to sign over your entire Childhood budget or Interim One Time Funding Cheque to a provider." },
-      { type: "paragraph", content: "Connect with Side by Side Therapy to schedule a no-charge/no obligation consultation to discuss our autism therapy solutions for your child." },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags ABA, autism, autism therapy, Challenging Behaviour, language, Research, Side by Side Therapy" }
+      { type: "paragraph", content: "Connect with Side by Side Therapy to schedule a no-charge/no obligation consultation to discuss our autism therapy solutions for your child." }
     ]
   },
   {
     title: "IBI and ABA: What's the Difference?",
     slug: "ibi-and-aba-whats-the-difference",
     youtubeVideoId: "BQ1KrJ_sGPc",
-    date: "August 16, 2024",
+    date: "August 16, 2020",
     summary: "Learn about the differences between Intensive Behavioural Intervention (IBI) and Applied Behaviour Analysis (ABA) therapy approaches.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/ibi-and-aba-whats-the-difference/",
     category: "ABA Therapy",
     readTime: "3 minutes",
     author: "Lindsey Malc",
     content: [
-      { type: "paragraph", content: "# IBI and ABA: What’s the difference?" },
       { type: "paragraph", content: "When your child receives an autism diagnosis you are introduced to an alphabet soup of acronyms. IBI, ABA, OAP, FA, IEP, IPRC; the list is endless. In this post you’ll learn the differences between two of the most used and often confused: IBI and ABA." },
       { type: "heading", content: "What is ABA?" },
       { type: "paragraph", content: "ABA stands for applied behaviour analysis and it is the science of learning and behaviour. There are a few laws of behaviour, very much like the laws of gravity. These rules are reliable, observable and measurable. The focus of ABA is to change socially significant or meaningful behaviour. That means that the goal is to improve people’ lives by helping them achieve more independence and access to the things that matter to them." },
@@ -1548,24 +1430,20 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", content: "The Side by Side Therapy Process" },
       { type: "paragraph", content: "At Side by Side Therapy we determine which of our 4 streams of ABA service (IBI/Comprehensive ABA, Focused ABA, Parent Coaching or Behaviour Consultation) will meet your child and family’s needs. We write programs specifically for each client. Each program is different." },
       { type: "paragraph", content: "You are able to use your Ontario Autism Program (OAP) funding with Side by Side Therapy. We will help you navigate the process and will ensure that our services fall within the OAP guidelines." },
-      { type: "paragraph", content: "Connect with Side by Side today to schedule your free no obligation consultation." },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags ABA, Applied Behaviour Analysis, asd, autism, BCBA, Challenging Behaviour, ibi, language, Ontario Autism Program, OT, Research, Side by Side Therapy, strategies" },
-      { type: "heading", content: "One Reply to “IBI and ABA: What’s the difference?”" },
-      { type: "list", content: "", items: ["This is a very insightful and informative comment. Thank you to the author for sharing this information."] }
+      { type: "paragraph", content: "Connect with Side by Side today to schedule your free no obligation consultation." }
     ]
   },
   {
     title: "Early Start Denver Model (ESDM): Unleash Potential!",
     slug: "early-start-denver-model-esdm-unleash-potential",
     youtubeVideoId: "nEVXxgIZ_rQ",
-    date: "August 9, 2024",
+    date: "August 9, 2020",
     summary: "The brain has a unique property called neuroplasticity. Children under 5 have the easiest time with neuroplasticity. Even with an autism diagnosis, significant life-changing gains are possible through early intervention using the Early Start Denver Model.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/early-start-denver-model-esdm-unleash-potential/",
     category: "Early Intervention",
     readTime: "4 minutes",
     author: "Lindsey Malc",
     content: [
-      { type: "paragraph", content: "# Early Start Denver Model (ESDM): Unleash Potential!" },
       { type: "paragraph", content: "The brain has a unique property called neuroplasticity. This means that our brains are constantly able to change and grow. Children under 5 years old have the easiest time with neuroplasticity. Even when the child has been diagnosed with autism, it is possible to make significant gains that are life changing. We can achieve this through early intervention. Specifically by using the Early Start Denver Model, we can begin even before a diagnosis is made." },
       { type: "paragraph", content: "Within a therapeutic environment, the autistic child presents a higher chance of developing language, cognition, and social interaction abilities. We can teach skills to overcome the challenges associated with the autism diagnosis. But the essential thing is for the intervention to begin early on." },
       { type: "heading", content: "ESDM: The earlier, the better" },
@@ -1587,13 +1465,7 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", content: "We see the best results up to the age of five years, as that is when the child’s brain is most malleable. We can unleash the learning potential in therapy and limit the effects of the autism diagnosis. As a result, the overall quality of life can improve, thanks to the newly learned skills." },
       { type: "paragraph", content: "The benefits of early intervention using the Early Start Denver Model in autistic children are obvious. The earlier the child enters a structured, therapeutic environment, the better his/her progress will be. Parents should actively collaborate with the therapist, practicing taught strategies at home and helping their children unleash their full potential." },
       { type: "paragraph", content: "To learn more about how Side by Side Therapy can help your child with an Early Start Denver Model program, please connect with us!" },
-      { type: "paragraph", content: "Categories Autism Spectrum Disorder, Early Intervention, Early Start Denver ModelTags ABA, autism, Challenging Behaviour, Early Intervention, language, Lindsey Malc, Side by Side Therapy, Speech, strategies" },
-      { type: "heading", content: "4 Replies to “Early Start Denver Model (ESDM): Unleash Potential!”" },
-      { type: "list", content: "", items: ["Great!"] },
-      { type: "list", content: "", items: ["Hi there! I could have sworn I’ve been to this web site before but after going through many of the posts I realized it’s new to me."] },
       { type: "paragraph", content: "Nonetheless, I’m definitely delighted I discovered it and I’ll be book-marking it and checking back regularly!" },
-      { type: "list", content: "", items: ["Thank you! Please feel free to check out our YouTube connect as well @ https://youtu.be/nL1N8duBEPQ And don’t forget to subscribe for the latest content!"] },
-      { type: "list", content: "", items: ["Wonderful goods from you, man. I’ve understand your"] },
       { type: "paragraph", content: "stuff previous to and you’re just extremely great. I really like what you’ve" },
       { type: "paragraph", content: "acquired here, certainly like what you are saying and" },
       { type: "paragraph", content: "the way in which you say it. You make it entertaining and you still take care of" },
@@ -1605,14 +1477,13 @@ export const blogPosts: BlogPost[] = [
     title: "Autism: What's More Important — Equality or Equity?",
     slug: "autism-equality-equity",
     youtubeVideoId: "Fgm5R7ZnlyU",
-    date: "April 13, 2024",
+    date: "April 13, 2020",
     summary: "Equality and equity are often understood as synonymous, but they are very different. This post explores the importance of equity over equality when supporting autistic individuals, including modifications and accommodations.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/autism-equality-equity/",
     category: "Understanding Autism",
     readTime: "6 minutes",
     author: "Lindsey Malc",
     content: [
-      { type: "paragraph", content: "# Autism: what’s more important equality or equity?" },
       { type: "paragraph", content: "Equality and equity are words that are often understood as being synonymous as they both have the implication of fairness, however, the two meanings are actually very different. Equality means to have the same opportunities as everyone else. Equity speaks to ensuring that everyone has the opportunities they need to be successful." },
       { type: "paragraph", content: "There have been many political movements that have espoused equal rights: women’s groups, minority groups, autism advocacy groups and other disability rights groups." },
       { type: "paragraph", content: "With equality, it is assumed that everyone has the same starting point and should be treated in exactly the same way. While with equity, the belief is that not all people start at the same point and for that reason, each person should receive (based on their distinct abilities) what they need to be successful. In understanding the difference between the two, we can conclude that fairness does not mean equality." },
@@ -1630,24 +1501,20 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", content: "The One Size Fits All Band-Aid Lesson – Ask the children to share their most serious injury: some may say a broken arm, a dislocated shoulder or a cut on the forehead. Once the injuries have been acknowledged, explain to them that your solution to heal them is to provide them each with a band-aid." },
       { type: "paragraph", content: "This solution will most likely raise some confusion to the children, as how is a band-aid supposed to fix a broken arm or a dislocated shoulder? This unhelpful solution shows that there is not one solution to all situations and that each situation needs to be addressed in it’s own way. Even though using the same solution (the band-aid) may in theory seem fair, how can this “equal” method of treating three different injuries be acceptable? All that is accomplished is that only a small number of people actually get the help they need while the rest of the group suffers." },
       { type: "paragraph", content: "Once again, it is important to remember that there is a difference between equality and equity. Fairness can only truly be gained with compromises and modifications which ensure that all people are indeed given the tools they need to be successful. Would you not agree to a person with bad eyesight getting glasses or a non-english speaker having a translator at the hospital? It is a similar situation when making adjustments for autistic children and others with exceptionalities." },
-      { type: "paragraph", content: "We know that not all people are born the same, and in keeping this in mind, we need to continue to work towards levelling the playing field to ensure actual fairness is received." },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags ABA, Applied Behaviour Analysis, ASD, asd, autism, Autism Spectrum Disorder, Challenging Behaviour, Ontario Autism Program, Speech, Speech Therapy" },
-      { type: "heading", content: "2 Replies to “Autism: what’s more important equality or equity?”" },
-      { type: "list", content: "", items: ["Pingback: What does masking autism mean? - Side by Side ABA Therapy near me", "Thanks for sharing. I read many of your blog posts, cool, your blog is very good."] }
+      { type: "paragraph", content: "We know that not all people are born the same, and in keeping this in mind, we need to continue to work towards levelling the playing field to ensure actual fairness is received." }
     ]
   },
   {
     title: "Autism and Memory: Amazing Superpowers of a Child with Autism",
     slug: "autism-memory",
     youtubeVideoId: "j1plYPrufUc",
-    date: "April 7, 2024",
+    date: "April 7, 2020",
     summary: "Guest post by Dr. Tracy Alloway exploring the working memory profile of children with autism, how their brains develop differently, and the unique strengths that can give them advantages in certain areas.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/autism-memory/",
     category: "Understanding Autism",
     readTime: "4 minutes",
     author: "Dr. Tracy Alloway",
     content: [
-      { type: "paragraph", content: "# Autism and Memory: Can you guess the amazing superpowers of a child with autism?" },
       { type: "paragraph", content: "This post was written by Dr. Tracy Alloway. She is an award-winning psychologist, professor, author, and TEDx speaker. She has published 13 books and over 100 scientific articles on the brain and memory. Her research has also been featured on BBC, Good Morning America, the Today Show, Forbes, Bloomberg, The Washington Post, and Newsweek, and many others." },
       { type: "paragraph", content: "Autism is characterized by a difficulty to recognize and respond appropriately to social and emotional cues, which causes problems with social interactions. Yes, they have unique strengths that can give them an advantage in certain areas. Watch a clip." },
       { type: "paragraph", content: "Working Memory and the Brain: from Understanding Working Memory" },
@@ -1667,21 +1534,19 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", content: "Courchesne, E., & Pierce, K. (2005). Brain overgrowth in autism during a critical time in development: implications for frontal pyramidal neuron and interneuron development and connectivity. International Journal of Developmental Neuroscience, 23, 153-170." },
       { type: "paragraph", content: "Koshino, H., et al. (2005). Functional connectivity in an fMRI working memory task in high-functioning autism. Neuroimage, 24, 810–821." },
       { type: "paragraph", content: "Koshino, H., et al. (2008). fMRI investigation of working memory for faces in autism: visual coding and underconnectivity with frontal areas. Cerebral Cortex, 18, 289-300." },
-      { type: "paragraph", content: "Luna, B., Minshew, N.J., Garver, K.E., Lazar, N.A., Thulborn, K.R., Eddy, W.F., & Sweeney, J. (2002). Neocortical system abnormalities in autism: an fMRI study of spatial working memory. Neurology, 59, 834-840." },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags asd, autism, Autism Spectrum Disorder, Guest post, language, OT, Research, strategies" }
+      { type: "paragraph", content: "Luna, B., Minshew, N.J., Garver, K.E., Lazar, N.A., Thulborn, K.R., Eddy, W.F., & Sweeney, J. (2002). Neocortical system abnormalities in autism: an fMRI study of spatial working memory. Neurology, 59, 834-840." }
     ]
   },
   {
     title: "Applied Behaviour Analysis: 59 Terms Translated",
     slug: "applied-behaviour-analysis-translated",
-    date: "January 20, 2024",
+    date: "January 20, 2020",
     summary: "There are so many terms and acronyms in the world of applied behaviour analysis. This comprehensive glossary translates 59 common ABA terms and phrases for easy understanding by parents and caregivers.",
     url: "https://www.sidebysidetherapy.ca/autism-spectrum-disorder/applied-behaviour-analysis-translated/",
     category: "ABA Therapy",
     readTime: "7 minutes",
     author: "Lindsey Malc",
     content: [
-      { type: "paragraph", content: "# Applied Behaviour Analysis: 59 Terms and phrases translated for easy understanding" },
       { type: "paragraph", content: "There are so many terms and acronyms that you’ll be encountering when you enter the world of applied behaviour analysis. It can be very confusing, especially because some of the words that are commonly used in ABA are used with another meaning in common language. I’m going to give the definitions in terms of children but they can be applied to anyone (adult or child)." },
       { type: "heading", content: "Applied Behaviour Analysis Definitions of Common Words/Phrases:" },
       { type: "paragraph", content: "ABA Therapy: Applied Behaviour Analysis is the application of the sciences of learning and behaviour to teach, increase or decrease behaviours that are meaningful to the client and their family." },
@@ -1744,18 +1609,8 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", content: "VB MAPP (Verbal Behavior Milestones Assessment and Placement Program): This is a curriculum assessment that is based on Skinner’s Verbal Behaviour. It was created by Dr. Mark Sundberg. Similar to the ABLLS-r it tests whether the child has specific language skills. The sections or domains of the assessment are based on Skinner’s verbal Operants. The assessment is divided into 5 parts: Milestones Assessment, Barriers Assessment, Transition Assessment, Task Analysis & Supporting Skills and Placement & IEP Goals." },
       { type: "paragraph", content: "Verbal Behaviour: A branch of applied behaviour analysis based on the work of B.F. Skinner. Skinner identified verbal operants or different parts of our language, each serving a different purpose or function. There are many verbal operants but the basic ones are: mands, tacts, echoics and intraverbals." },
       { type: "paragraph", content: "If you’re embarking on your applied behaviour analysis adventure and would like to discuss anything with us, please contact us for a no-charge 30 minute consultation." },
-      { type: "paragraph", content: "Categories Autism Spectrum DisorderTags ABA, aba therapy, Applied Behaviour Analysis, autism, Autism Spectrum Disorder, BCBA, Behaviour Intervention Plan, Challenging Behaviour, language, lindsay malc, Research, Side by Side Therapy, strategies" },
-      { type: "heading", content: "10 Replies to “Applied Behaviour Analysis: 59 Terms and phrases translated for easy understanding”" },
       { type: "list", content: "", items: ["Generally I don’t read post on blogs, however I wish to say that this write-up very pressured me to try and do it! Your writing style has been surprised me. Thanks, very nice post."] },
-      { type: "list", content: "", items: ["I discovered your site web site on the search engines and check several of your early posts. Always maintain on the really good operate. I recently extra encourage Feed to my MSN News Reader. Seeking toward reading a lot more from you later on!…"] },
-      { type: "list", content: "", items: ["Thank you for your comment! Please feel free to check out our YouTube channel for some great informative videos on Autism Therapy. Including Behavioural Therapy (ABA Therapy), Speech Therapy (ST), Occupational Therapy (OT) and much much more! @ https://www.youtube.com/c/SidebySideTherapy-Autism-and-ABA-Therapy-Services"] },
-      { type: "list", content: "", items: ["eos dignissimos deleniti voluptas et deleniti sit neque corporis quia totam iusto non maxime laborum itaque itaque. vitae labore ab quidem ratione quas et similique est omnis eum quae vel et voluptas."] },
-      { type: "list", content: "", items: ["Thank you for your comment! Please feel free to check out our YouTube channel for some great informative videos on Autism Therapy. Including Behavioural Therapy (ABA Therapy), Speech Therapy (ST), Occupational Therapy (OT) and much much more! @ https://www.youtube.com/c/SidebySideTherapy-Autism-and-ABA-Therapy-Services"] },
-      { type: "list", content: "", items: ["I got what you intend, regards for putting up. Woh I am delighted to find this website through google."] },
-      { type: "list", content: "", items: ["I like this web site its a master peace ! Glad I detected this on google ."] },
-      { type: "list", content: "", items: ["Its fantastic as your other articles : D, appreciate it for putting up."] },
-      { type: "list", content: "", items: ["It’s nearly impossible to find knowledgeable individuals with this topic, however, you be understood as guess what happens you’re talking about! Thanks"] },
-      { type: "list", content: "", items: ["Hi there, simply become aware of your blog thru Google, and found that it is truly informative. I’m gonna be careful for brussels. I will be grateful should you continue this in future. Lots of other folks can be benefited out of your writing. Cheers!"] }
+      { type: "list", content: "", items: ["It’s nearly impossible to find knowledgeable individuals with this topic, however, you be understood as guess what happens you’re talking about! Thanks"] }
     ]
   }
 ];
