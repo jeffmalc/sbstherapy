@@ -74,6 +74,7 @@ const Header = () => {
         setIsAnimating(false);
         setIsServicesOpen(false);
         setIsFundingOpen(false);
+      }, 300);
     } else {
       setIsMenuOpen(true);
     }
