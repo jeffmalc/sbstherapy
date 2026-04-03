@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Menu, X, Phone, ChevronDown, Brain, MessageCircle, HandHeart, Gamepad2, Heart, Users, GraduationCap, BookOpen, ChevronRight } from "lucide-react";
+import { Menu, X, Phone, ChevronDown, Brain, MessageCircle, HandHeart, Gamepad2, Heart, Users, GraduationCap, BookOpen, ChevronRight, ExternalLink, DollarSign, Award } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
