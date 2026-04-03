@@ -47,7 +47,7 @@ const Header = () => {
     { name: "Service Areas", href: "/#service-area" },
     { name: "About", href: "/about" },
     { name: "Prices", href: "/prices" },
-    { name: "OAP Guide", href: "/oap" },
+    { name: "Funding", href: "/oap", isDropdown: true },
     { name: "Our Team", href: "/team" },
     { name: "Blog", href: "/blog" },
     { name: "FAQ", href: "/faq" },
