@@ -23,7 +23,7 @@ const serviceItems = [
 
 const fundingItems = [
   { name: "Ontario Autism Program (OAP)", href: "/oap", icon: Award, external: false },
-  { name: "Special Services at Home", href: "https://www.ontario.ca/page/special-services-home#section-0", icon: ExternalLink, external: true },
+  { name: "Special Services at Home (SSAH)", href: "/ssah", icon: HandHeart, external: false },
 ];
 
 const Header = () => {
