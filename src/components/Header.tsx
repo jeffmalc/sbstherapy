@@ -21,9 +21,15 @@ const serviceItems = [
   { name: "Psycho-Educational Assessments", href: "/services/psycho-educational-assessments", icon: BookOpen },
 ];
 
+const fundingItems = [
+  { name: "Ontario Autism Program (OAP)", href: "/oap", icon: Award, external: false },
+  { name: "Special Services at Home", href: "https://www.ontario.ca/page/special-services-home#section-0", icon: ExternalLink, external: true },
+];
+
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isServicesOpen, setIsServicesOpen] = useState(false);
+  const [isFundingOpen, setIsFundingOpen] = useState(false);
   const [isAnimating, setIsAnimating] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
