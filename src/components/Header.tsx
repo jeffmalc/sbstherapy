@@ -86,6 +86,7 @@ const Header = () => {
       setIsMenuOpen(false);
       setIsAnimating(false);
       setIsServicesOpen(false);
+      setIsFundingOpen(false);
     }, 300);
   };
 
