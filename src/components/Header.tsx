@@ -134,15 +134,41 @@ const Header = () => {
               </DropdownMenuContent>
             </DropdownMenu>
 
-            {navLinks.slice(1).map((link) => (
-              <a
-                key={link.name}
-                href={link.href}
-                className="text-foreground/80 hover:text-primary font-medium transition-colors duration-300"
-              >
-                {link.name}
-              </a>
-            ))}
+            {navLinks.slice(1).map((link) => {
+              if ((link as any).isDropdown && link.name === "Funding") {
+                return (
+                  <DropdownMenu key={link.name}>
+                    <DropdownMenuTrigger className="flex items-center gap-1 text-foreground/80 hover:text-primary font-medium transition-colors duration-300 outline-none">
+                      Funding
+                      <ChevronDown className="h-4 w-4" />
+                    </DropdownMenuTrigger>
+                    <DropdownMenuContent align="start" className="w-72">
+                      {fundingItems.map((item) => (
+                        <DropdownMenuItem key={item.name} asChild>
+                          <a
+                            href={item.href}
+                            {...(item.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                            className="flex items-center gap-3 cursor-pointer"
+                          >
+                            <item.icon className="h-4 w-4 text-primary" />
+                            <span>{item.name}</span>
+                          </a>
+                        </DropdownMenuItem>
+                      ))}
+                    </DropdownMenuContent>
+                  </DropdownMenu>
+                );
+              }
+              return (
+                <a
+                  key={link.name}
+                  href={link.href}
+                  className="text-foreground/80 hover:text-primary font-medium transition-colors duration-300"
+                >
+                  {link.name}
+                </a>
+              );
+            })}
           </nav>
 
           {/* CTA */}
