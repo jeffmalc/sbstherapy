@@ -278,18 +278,61 @@ const Header = () => {
                 </div>
 
                 {/* Other nav links */}
-                {navLinks.slice(1).map((link, index) => (
-                  <a
-                    key={link.name}
-                    href={link.href}
-                    className="mobile-menu-item group flex items-center justify-between p-4 rounded-xl text-foreground hover:bg-muted/50 font-medium transition-all duration-200 hover:translate-x-1"
-                    onClick={handleLinkClick}
-                    style={{ animationDelay: `${150 + index * 50}ms` }}
-                  >
-                    <span>{link.name}</span>
-                    <ChevronRight className="h-4 w-4 text-muted-foreground group-hover:text-primary transition-colors" />
-                  </a>
-                ))}
+                {navLinks.slice(1).map((link, index) => {
+                  if ((link as any).isDropdown && link.name === "Funding") {
+                    return (
+                      <div key={link.name} className="mobile-menu-item" style={{ animationDelay: `${150 + index * 50}ms` }}>
+                        <button
+                          className="group flex items-center justify-between w-full p-4 rounded-xl text-foreground hover:bg-muted/50 font-medium transition-all duration-200"
+                          onClick={() => setIsFundingOpen(!isFundingOpen)}
+                        >
+                          <span className="flex items-center gap-3">
+                            Funding
+                            <span className="text-xs text-muted-foreground bg-muted px-2 py-0.5 rounded-full">
+                              {fundingItems.length}
+                            </span>
+                          </span>
+                          <ChevronDown className={`h-5 w-5 text-muted-foreground transition-transform duration-300 ${isFundingOpen ? 'rotate-180 text-primary' : ''}`} />
+                        </button>
+                        <div className={`overflow-hidden transition-all duration-300 ease-out ${isFundingOpen ? 'max-h-[200px] opacity-100' : 'max-h-0 opacity-0'}`}>
+                          <div className="ml-4 mt-1 mb-2 pl-4 border-l-2 border-primary/30 space-y-1">
+                            {fundingItems.map((item, i) => (
+                              <a
+                                key={item.name}
+                                href={item.href}
+                                {...(item.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                                className="group flex items-center gap-3 p-3 rounded-lg text-foreground/80 hover:text-foreground hover:bg-gradient-to-r hover:from-primary/5 hover:to-transparent transition-all duration-200 hover:translate-x-1"
+                                onClick={handleLinkClick}
+                                style={{
+                                  opacity: isFundingOpen ? 1 : 0,
+                                  transform: isFundingOpen ? 'translateX(0)' : 'translateX(-10px)',
+                                  transition: `all 200ms ease-out ${i * 30}ms`
+                                }}
+                              >
+                                <div className="p-2 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors duration-200">
+                                  <item.icon className="h-4 w-4" />
+                                </div>
+                                <span className="text-sm font-medium">{item.name}</span>
+                              </a>
+                            ))}
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  }
+                  return (
+                    <a
+                      key={link.name}
+                      href={link.href}
+                      className="mobile-menu-item group flex items-center justify-between p-4 rounded-xl text-foreground hover:bg-muted/50 font-medium transition-all duration-200 hover:translate-x-1"
+                      onClick={handleLinkClick}
+                      style={{ animationDelay: `${150 + index * 50}ms` }}
+                    >
+                      <span>{link.name}</span>
+                      <ChevronRight className="h-4 w-4 text-muted-foreground group-hover:text-primary transition-colors" />
+                    </a>
+                  );
+                })}
               </div>
               
               {/* Divider */}
