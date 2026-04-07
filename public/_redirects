@@ -39,11 +39,17 @@
 /ontario-autism-program                        /oap                               301
 /ontario-autism-program/                       /oap                               301
 
-# Policy pages (redirect to home or create if needed)
-/privacy-policy                                /                                  301
-/privacy-policy/                               /                                  301
-/cookie-policy                                 /                                  301
-/cookie-policy/                                /                                  301
+# SSAH redirects
+/special-services-at-home                      /ssah                              301
+/special-services-at-home/                     /ssah                              301
+/ssah-funding                                  /ssah                              301
+/ssah-funding/                                 /ssah                              301
+
+# Pricing page redirects
+/pricing                                       /prices                            301
+/pricing/                                      /prices                            301
+/rates                                         /prices                            301
+/rates/                                        /prices                            301
 
 # WordPress common paths
 /wp-admin/*                                    /                                  301
