@@ -77,6 +77,7 @@ const Footer = () => {
               <li><a href="tel:647-955-5995" className="hover:text-primary-foreground transition-colors">647-955-5995</a></li>
               <li><a href="mailto:info@sidebysidetherapy.ca" className="hover:text-primary-foreground transition-colors">info@sidebysidetherapy.ca</a></li>
               <li>Greater Toronto Area</li>
+              <li><a href="/careers" className="hover:text-primary-foreground transition-colors font-medium">Careers – We're Hiring!</a></li>
             </ul>
           </div>
         </div>

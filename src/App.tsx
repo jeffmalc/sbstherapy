@@ -27,6 +27,7 @@ import BCBAMentorship from "./pages/services/BCBAMentorship";
 import PsychoEducationalAssessments from "./pages/services/PsychoEducationalAssessments";
 import ServiceAreaPage from "./pages/ServiceAreaPage";
 import Prices from "./pages/Prices";
+import Careers from "./pages/Careers";
 
 const queryClient = new QueryClient();
 
@@ -57,6 +58,7 @@ const App = () => (
               <Route path="/services/bcba-mentorship" element={<BCBAMentorship />} />
               <Route path="/services/psycho-educational-assessments" element={<PsychoEducationalAssessments />} />
               <Route path="/service-area/:slug" element={<ServiceAreaPage />} />
+              <Route path="/careers" element={<Careers />} />
               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
               
               {/* Legacy WordPress redirects */}
@@ -87,6 +89,8 @@ const App = () => (
               <Route path="/ssah-funding" element={<Navigate to="/ssah" replace />} />
               <Route path="/pricing" element={<Navigate to="/prices" replace />} />
               <Route path="/rates" element={<Navigate to="/prices" replace />} />
+              <Route path="/careers-side-by-side-therapy-in-toronto" element={<Navigate to="/careers" replace />} />
+              <Route path="/aba-therapy-careers-at-side-by-side-therapy" element={<Navigate to="/careers" replace />} />
 
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
