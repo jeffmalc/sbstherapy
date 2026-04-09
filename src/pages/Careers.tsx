@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -5,7 +6,13 @@ import PageTransition from "@/components/PageTransition";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Phone, Mail, MapPin, Clock, DollarSign, Briefcase, GraduationCap, Heart, Users, CheckCircle, Star } from "lucide-react";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { Label } from "@/components/ui/label";
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
+import { Phone, Mail, MapPin, Clock, DollarSign, Briefcase, GraduationCap, Heart, Users, CheckCircle, Star, Loader2, Send } from "lucide-react";
+import { supabase } from "@/integrations/supabase/client";
+import { toast } from "sonner";
 
 interface JobPosting {
   id: string;
@@ -174,6 +181,47 @@ const benefits = [
 ];
 
 const Careers = () => {
+  const [isDialogOpen, setIsDialogOpen] = useState(false);
+  const [selectedPosition, setSelectedPosition] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+    resumeText: "",
+  });
+
+  const handleApplyClick = (position: string) => {
+    setSelectedPosition(position);
+    setIsDialogOpen(true);
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+
+    try {
+      const { data, error } = await supabase.functions.invoke("send-application", {
+        body: {
+          ...formData,
+          position: selectedPosition,
+        },
+      });
+
+      if (error) throw error;
+
+      toast.success("Application submitted successfully! We'll be in touch soon.");
+      setIsDialogOpen(false);
+      setFormData({ name: "", email: "", phone: "", message: "", resumeText: "" });
+    } catch (error) {
+      console.error("Error submitting application:", error);
+      toast.error("There was an error submitting your application. Please try again or email us directly.");
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   const jobPostingSchemas = jobPostings.map((job) => ({
     "@context": "https://schema.org",
     "@type": "JobPosting",
@@ -223,7 +271,7 @@ const Careers = () => {
     responsibilities: job.responsibilities.join(", "),
     industry: "Healthcare",
     occupationalCategory: "29-1129.00",
-    directApply: false,
+    directApply: true,
   }));
 
   return (
@@ -268,11 +316,14 @@ const Careers = () => {
                 <Button size="lg" variant="secondary" className="text-lg px-8" asChild>
                   <a href="#openings">View Open Positions</a>
                 </Button>
-                <Button size="lg" variant="outline" className="text-lg px-8 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10" asChild>
-                  <a href="mailto:info@sidebysidetherapy.ca">
-                    <Mail className="mr-2 h-5 w-5" />
-                    Send Your Resume
-                  </a>
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="text-lg px-8 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10"
+                  onClick={() => handleApplyClick("General Application")}
+                >
+                  <Mail className="mr-2 h-5 w-5" />
+                  Send Your Resume
                 </Button>
               </div>
             </div>
@@ -349,7 +400,6 @@ const Careers = () => {
 
                     {/* Job Details */}
                     <div className="p-6 md:p-8 grid md:grid-cols-2 gap-6">
-                      {/* Responsibilities */}
                       <div>
                         <h4 className="font-semibold mb-3 flex items-center gap-2">
                           <CheckCircle className="h-5 w-5 text-primary" />
@@ -365,7 +415,6 @@ const Careers = () => {
                         </ul>
                       </div>
 
-                      {/* Qualifications */}
                       <div>
                         <h4 className="font-semibold mb-3 flex items-center gap-2">
                           <GraduationCap className="h-5 w-5 text-primary" />
@@ -400,11 +449,13 @@ const Careers = () => {
                     {/* Apply CTA */}
                     <div className="px-6 md:px-8 pb-6 md:pb-8">
                       <div className="flex flex-col sm:flex-row gap-3">
-                        <Button variant="hero" size="lg" asChild>
-                          <a href={`mailto:info@sidebysidetherapy.ca?subject=Application: ${job.title} (${job.referenceId})`}>
-                            <Mail className="mr-2 h-4 w-4" />
-                            Apply Now
-                          </a>
+                        <Button
+                          variant="hero"
+                          size="lg"
+                          onClick={() => handleApplyClick(`${job.title} (${job.referenceId})`)}
+                        >
+                          <Send className="mr-2 h-4 w-4" />
+                          Apply Now
                         </Button>
                         <Button variant="outline" size="lg" asChild>
                           <a href="tel:647-955-5995">
@@ -429,11 +480,14 @@ const Careers = () => {
               We're always interested in hearing from talented therapists and behaviour analysts. Send us your resume and we'll keep it on file for future opportunities.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" variant="secondary" className="text-lg px-8" asChild>
-                <a href="mailto:info@sidebysidetherapy.ca?subject=General Application – Side by Side Therapy">
-                  <Mail className="mr-2 h-5 w-5" />
-                  Send Your Resume
-                </a>
+              <Button
+                size="lg"
+                variant="secondary"
+                className="text-lg px-8"
+                onClick={() => handleApplyClick("General Application")}
+              >
+                <Mail className="mr-2 h-5 w-5" />
+                Send Your Resume
               </Button>
               <Button size="lg" variant="outline" className="text-lg px-8 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10" asChild>
                 <a href="tel:647-955-5995">
@@ -445,6 +499,95 @@ const Careers = () => {
           </div>
         </section>
       </main>
+
+      {/* Application Form Dialog */}
+      <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
+        <DialogContent className="sm:max-w-lg max-h-[90vh] overflow-y-auto">
+          <DialogHeader>
+            <DialogTitle className="text-xl font-bold">Apply Now</DialogTitle>
+            <DialogDescription className="text-muted-foreground">
+              Applying for: <span className="font-semibold text-foreground">{selectedPosition}</span>
+            </DialogDescription>
+          </DialogHeader>
+
+          <form onSubmit={handleSubmit} className="space-y-4 mt-2">
+            <div className="space-y-2">
+              <Label htmlFor="name">Full Name *</Label>
+              <Input
+                id="name"
+                required
+                maxLength={100}
+                placeholder="Your full name"
+                value={formData.name}
+                onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+              />
+            </div>
+
+            <div className="space-y-2">
+              <Label htmlFor="email">Email Address *</Label>
+              <Input
+                id="email"
+                type="email"
+                required
+                maxLength={255}
+                placeholder="your.email@example.com"
+                value={formData.email}
+                onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+              />
+            </div>
+
+            <div className="space-y-2">
+              <Label htmlFor="phone">Phone Number</Label>
+              <Input
+                id="phone"
+                type="tel"
+                maxLength={20}
+                placeholder="(647) 555-1234"
+                value={formData.phone}
+                onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
+              />
+            </div>
+
+            <div className="space-y-2">
+              <Label htmlFor="message">Cover Letter / Message</Label>
+              <Textarea
+                id="message"
+                maxLength={2000}
+                placeholder="Tell us about yourself and why you're interested in this position..."
+                rows={4}
+                value={formData.message}
+                onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+              />
+            </div>
+
+            <div className="space-y-2">
+              <Label htmlFor="resumeText">Resume / Qualifications Summary</Label>
+              <Textarea
+                id="resumeText"
+                maxLength={5000}
+                placeholder="Paste your resume or summarize your relevant experience, certifications, and education..."
+                rows={6}
+                value={formData.resumeText}
+                onChange={(e) => setFormData({ ...formData, resumeText: e.target.value })}
+              />
+            </div>
+
+            <Button type="submit" className="w-full" size="lg" disabled={isSubmitting}>
+              {isSubmitting ? (
+                <>
+                  <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                  Submitting...
+                </>
+              ) : (
+                <>
+                  <Send className="mr-2 h-4 w-4" />
+                  Submit Application
+                </>
+              )}
+            </Button>
+          </form>
+        </DialogContent>
+      </Dialog>
 
       <Footer />
     </PageTransition>
