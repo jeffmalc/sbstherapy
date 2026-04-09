@@ -480,7 +480,7 @@ const Team = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" variant="secondary" className="text-lg px-8" asChild>
-                  <a href="https://www.sidebysidetherapy.ca/careers-side-by-side-therapy-in-toronto/" target="_blank" rel="noopener noreferrer">
+                  <a href="/careers">
                     <Briefcase className="mr-2 h-5 w-5" />
                     View Career Opportunities
                   </a>
