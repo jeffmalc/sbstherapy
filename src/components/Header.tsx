@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Menu, X, Phone, ChevronDown, Brain, MessageCircle, HandHeart, Gamepad2, Heart, Users, GraduationCap, BookOpen, ChevronRight, ExternalLink, DollarSign, Award } from "lucide-react";
+import { Menu, X, Phone, ChevronDown, Brain, MessageCircle, HandHeart, Heart, Users, GraduationCap, BookOpen, ChevronRight, ExternalLink, DollarSign, Award } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -14,7 +14,7 @@ const serviceItems = [
   { name: "Applied Behaviour Analysis", href: "/services/aba-therapy", icon: Brain },
   { name: "Speech Therapy", href: "/services/speech-therapy", icon: MessageCircle },
   { name: "Occupational Therapy", href: "/services/occupational-therapy", icon: HandHeart },
-  { name: "Therapeutic Recreation", href: "/services/therapeutic-recreation", icon: Gamepad2 },
+  
   { name: "Respite Services", href: "/services/respite-services", icon: Heart },
   { name: "Social Skills Training", href: "/services/social-skills-training", icon: Users },
   { name: "BCBA Mentorship & Supervision", href: "/services/bcba-mentorship", icon: GraduationCap },

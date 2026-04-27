@@ -83,12 +83,6 @@ const teamDisciplines = [
     hiring: false
   },
   {
-    title: "Therapeutic Recreation Specialists",
-    description: "Recreation Therapists engage with your child to address social, emotional, cognitive and physical development using recreation and leisure as therapeutic modalities.",
-    icon: Heart,
-    hiring: false
-  },
-  {
     title: "Psychometrists",
     description: "Our psycho-educational assessment specialists work with children to establish learning baselines, identify areas of difficulty, and suggest strategies for educational success.",
     icon: GraduationCap,
@@ -369,7 +363,7 @@ const Team = () => {
               </h2>
               <p className="text-lg text-muted-foreground">
                 Our team of BCBAs, Senior Therapists, Instructor Therapists, Speech-Language Pathologists, 
-                Occupational Therapists, Recreation Therapists, and Respite Workers work together to ensure 
+                Occupational Therapists, and Respite Workers work together to ensure 
                 comprehensive care for your child and family.
               </p>
             </div>

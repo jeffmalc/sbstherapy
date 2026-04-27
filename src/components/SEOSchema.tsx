@@ -201,7 +201,7 @@ const SEOSchema = () => {
         "name": "What services does Side by Side Therapy offer?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "We offer Applied Behaviour Analysis, Speech Therapy, Occupational Therapy, Psycho-Educational Assessments, Therapeutic Recreation, Respite Services, Social Skills Training, and BCBA Mentorship & Supervision."
+          "text": "We offer Applied Behaviour Analysis, Speech Therapy, Occupational Therapy, Psycho-Educational Assessments, Respite Services, Social Skills Training, and BCBA Mentorship & Supervision."
         }
       },
       {

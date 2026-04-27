@@ -1,4 +1,4 @@
-import { Brain, BookOpen, MessageCircle, HandHeart, Gamepad2, Users, GraduationCap, Heart, ArrowRight } from "lucide-react";
+import { Brain, BookOpen, MessageCircle, HandHeart, Users, GraduationCap, Heart, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { StaggeredItem } from "@/components/AnimatedSection";
@@ -24,13 +24,6 @@ const services = [
     description: "Addressing challenges that prevent your child from being successful at school and home with targeted interventions.",
     color: "accent",
     link: "/services/occupational-therapy",
-  },
-  {
-    icon: Gamepad2,
-    title: "Therapeutic Recreation",
-    description: "Recreation therapists engage with your child to address social, emotional, cognitive and physical development through play.",
-    color: "primary",
-    link: "/services/therapeutic-recreation",
   },
   {
     icon: Heart,
