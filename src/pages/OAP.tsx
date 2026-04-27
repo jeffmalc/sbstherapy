@@ -487,7 +487,7 @@ const OAP = () => {
                 <div>
                   <h4 className="font-bold text-amber-800 dark:text-amber-200 mb-2">Important Notice</h4>
                   <p className="text-sm text-amber-700 dark:text-amber-300">
-                    This guide is provided for informational purposes only and was last updated in January 2025. 
+                    This guide is provided for informational purposes only and was last updated in April 2026. 
                     For the most current information about the Ontario Autism Program, please visit the 
                     <a href="https://www.ontario.ca/page/ontario-autism-program" target="_blank" rel="noopener noreferrer" className="underline ml-1 hover:text-amber-900">
                       official Ontario government website
