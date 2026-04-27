@@ -7,7 +7,7 @@ const coreValues = [
   {
     icon: Target,
     title: "Trans-Disciplinary Approach",
-    description: "Our therapists from ABA, Speech, OT, and Recreation work as a unified team to address all aspects of your child's development."
+    description: "Our therapists from ABA, Speech, and OT work as a unified team to address all aspects of your child's development."
   },
   {
     icon: Heart,
@@ -34,7 +34,7 @@ const disciplines = [
   { name: "ABA Therapy", desc: "Behaviour analysis & skill building", link: "/services/aba-therapy" },
   { name: "Speech Therapy", desc: "Communication & language development", link: "/services/speech-therapy" },
   { name: "Occupational Therapy", desc: "Independence & daily living skills", link: "/services/occupational-therapy" },
-  { name: "Therapeutic Recreation", desc: "Learning through play & recreation", link: "/services/therapeutic-recreation" },
+  
   { name: "Respite Services", desc: "Quality care & family support", link: "/services/respite-services" },
 ];
 
@@ -88,7 +88,7 @@ const About = () => {
             <p className="text-muted-foreground mb-6 leading-relaxed">
               Side by Side Therapy is a transdisciplinary team of paediatric therapists who work with parents and their special needs children 
               to teach skills that will improve the child and family's quality of life. We have therapists from <strong className="text-foreground">five disciplines</strong>: 
-              Applied Behaviour Analysis, Speech-Language Pathology, Occupational Therapy, Therapeutic Recreation and Respite.
+              Applied Behaviour Analysis, Speech-Language Pathology, Occupational Therapy and Respite.
             </p>
             
             <p className="text-muted-foreground mb-8 leading-relaxed">

@@ -35,7 +35,7 @@ const coreValues = [
   {
     icon: Users,
     title: "Trans-Disciplinary Approach",
-    description: "Our therapists from ABA, Speech, OT, and Recreation work as a unified team, sharing knowledge and strategies to provide comprehensive, coordinated care."
+    description: "Our therapists from ABA, Speech, and OT work as a unified team, sharing knowledge and strategies to provide comprehensive, coordinated care."
   },
   {
     icon: Lightbulb,
@@ -68,7 +68,7 @@ const timeline = [
   {
     year: "2022",
     title: "Comprehensive Services",
-    description: "We added Therapeutic Recreation and expanded our Respite Services, providing families with more comprehensive support options."
+    description: "We expanded our Respite Services, providing families with more comprehensive support options."
   },
   {
     year: "2023",

@@ -62,7 +62,7 @@ const Footer = () => {
               <li><a href="/services/aba-therapy" className="hover:text-primary-foreground transition-colors">ABA Therapy</a></li>
               <li><a href="/services/speech-therapy" className="hover:text-primary-foreground transition-colors">Speech Therapy</a></li>
               <li><a href="/services/occupational-therapy" className="hover:text-primary-foreground transition-colors">Occupational Therapy</a></li>
-              <li><a href="/services/therapeutic-recreation" className="hover:text-primary-foreground transition-colors">Therapeutic Recreation</a></li>
+              
               <li><a href="/services/respite-services" className="hover:text-primary-foreground transition-colors">Respite Services</a></li>
               <li><a href="/services/social-skills-training" className="hover:text-primary-foreground transition-colors">Social Skills Training</a></li>
               <li><a href="/services/bcba-mentorship" className="hover:text-primary-foreground transition-colors">BCBA Mentorship</a></li>

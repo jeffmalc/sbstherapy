@@ -46,7 +46,7 @@ const benefits = [
 const generateCityFAQs = (cityName: string, regionName: string) => [
   {
     question: `What autism therapy services are available in ${cityName}?`,
-    answer: `Side by Side Therapy offers comprehensive in-home autism services in ${cityName}, including ABA therapy, speech therapy, occupational therapy, therapeutic recreation, and respite services. All our therapists are certified professionals who come directly to your home.`
+    answer: `Side by Side Therapy offers comprehensive in-home autism services in ${cityName}, including ABA therapy, speech therapy, occupational therapy, and respite services. All our therapists are certified professionals who come directly to your home.`
   },
   {
     question: `Is ABA therapy in ${cityName} covered by OAP funding?`,
@@ -100,7 +100,7 @@ const generateCityKeywords = (cityName: string, regionName: string, nearbyAreas:
     `OAP funding ${cityName}`,
     `Ontario Autism Program ${cityName}`,
     `respite care ${cityName}`,
-    `therapeutic recreation ${cityName}`,
+    
     `social skills training ${cityName}`,
     `autism therapy ${regionName} Region`,
     `ABA therapy ${regionName}`,

@@ -369,7 +369,7 @@ const Team = () => {
               </h2>
               <p className="text-lg text-muted-foreground">
                 Our team of BCBAs, Senior Therapists, Instructor Therapists, Speech-Language Pathologists, 
-                Occupational Therapists, Recreation Therapists, and Respite Workers work together to ensure 
+                Occupational Therapists, and Respite Workers work together to ensure 
                 comprehensive care for your child and family.
               </p>
             </div>

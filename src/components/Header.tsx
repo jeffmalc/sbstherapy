@@ -14,7 +14,7 @@ const serviceItems = [
   { name: "Applied Behaviour Analysis", href: "/services/aba-therapy", icon: Brain },
   { name: "Speech Therapy", href: "/services/speech-therapy", icon: MessageCircle },
   { name: "Occupational Therapy", href: "/services/occupational-therapy", icon: HandHeart },
-  { name: "Therapeutic Recreation", href: "/services/therapeutic-recreation", icon: Gamepad2 },
+  
   { name: "Respite Services", href: "/services/respite-services", icon: Heart },
   { name: "Social Skills Training", href: "/services/social-skills-training", icon: Users },
   { name: "BCBA Mentorship & Supervision", href: "/services/bcba-mentorship", icon: GraduationCap },
