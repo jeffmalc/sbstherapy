@@ -1,4 +1,4 @@
-import { Brain, BookOpen, MessageCircle, HandHeart, Gamepad2, Users, GraduationCap, Heart, ArrowRight } from "lucide-react";
+import { Brain, BookOpen, MessageCircle, HandHeart, Users, GraduationCap, Heart, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { StaggeredItem } from "@/components/AnimatedSection";
