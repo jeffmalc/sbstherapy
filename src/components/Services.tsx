@@ -26,13 +26,6 @@ const services = [
     link: "/services/occupational-therapy",
   },
   {
-    icon: Gamepad2,
-    title: "Therapeutic Recreation",
-    description: "Recreation therapists engage with your child to address social, emotional, cognitive and physical development through play.",
-    color: "primary",
-    link: "/services/therapeutic-recreation",
-  },
-  {
     icon: Heart,
     title: "Respite Services",
     description: "Providing caregivers a much-needed break while your child enjoys fun, engaging activities with trained professionals.",

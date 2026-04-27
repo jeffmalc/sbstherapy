@@ -83,12 +83,6 @@ const teamDisciplines = [
     hiring: false
   },
   {
-    title: "Therapeutic Recreation Specialists",
-    description: "Recreation Therapists engage with your child to address social, emotional, cognitive and physical development using recreation and leisure as therapeutic modalities.",
-    icon: Heart,
-    hiring: false
-  },
-  {
     title: "Psychometrists",
     description: "Our psycho-educational assessment specialists work with children to establish learning baselines, identify areas of difficulty, and suggest strategies for educational success.",
     icon: GraduationCap,

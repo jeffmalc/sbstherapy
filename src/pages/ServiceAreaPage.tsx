@@ -24,11 +24,6 @@ const services = [
     link: "/services/occupational-therapy"
   },
   {
-    name: "Therapeutic Recreation",
-    description: "Fun, engaging activities that promote learning",
-    link: "/services/therapeutic-recreation"
-  },
-  {
     name: "Respite Services",
     description: "Quality care and family support when you need a break",
     link: "/services/respite-services"
@@ -180,7 +175,7 @@ const ServiceAreaPage = () => {
       "Speech-Language Pathology",
       "Occupational Therapy",
       "Autism Services",
-      "Therapeutic Recreation",
+      
       "Respite Care"
     ],
     "priceRange": "$$",

@@ -104,11 +104,6 @@ const disciplines = [
     link: "/services/occupational-therapy"
   },
   {
-    name: "Therapeutic Recreation",
-    description: "Recreation Therapists treat and maintain physical, cognitive, social and emotional wellbeing through recreational activities, achieving goals while using the vehicle of play and motivation.",
-    link: "/services/therapeutic-recreation"
-  },
-  {
     name: "Respite Services",
     description: "Every family needs time to rest and rejuvenate. Our respite workers provide quality care with specialized training, allowing children to expand their experiences while parents get a well-deserved break.",
     link: "/services/respite-services"

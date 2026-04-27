@@ -10,8 +10,10 @@
 /occupational-therapy-in-toronto/              /services/occupational-therapy     301
 /psycho-educational-assessment-in-toronto      /services/psycho-educational-assessments  301
 /psycho-educational-assessment-in-toronto/     /services/psycho-educational-assessments  301
-/therapeutic-recreation-in-toronto             /services/therapeutic-recreation   301
-/therapeutic-recreation-in-toronto/            /services/therapeutic-recreation   301
+/therapeutic-recreation-in-toronto             /                                  301
+/therapeutic-recreation-in-toronto/            /                                  301
+/services/therapeutic-recreation               /                                  301
+/services/therapeutic-recreation/              /                                  301
 /respite-in-toronto                            /services/respite-services         301
 /respite-in-toronto/                           /services/respite-services         301
 /social-skills-training-in-toronto             /services/social-skills-training   301
