@@ -391,7 +391,7 @@ const OAP = () => {
                 </p>
               </div>
               
-              <div className="grid md:grid-cols-3 gap-6 mb-12">
+              <div className="grid md:grid-cols-2 gap-6 mb-12">
                 <Card className="border-primary/20 bg-gradient-to-br from-primary/5 to-transparent">
                   <CardContent className="p-6 text-center">
                     <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center mx-auto mb-4">
@@ -407,26 +407,6 @@ const OAP = () => {
                       <a href="tel:1-833-425-2445" className="flex items-center justify-center gap-2 text-primary hover:text-primary/80">
                         <Phone className="h-4 w-4" />
                         1-833-425-2445
-                      </a>
-                    </div>
-                  </CardContent>
-                </Card>
-                
-                <Card className="border-secondary/20 bg-gradient-to-br from-secondary/5 to-transparent">
-                  <CardContent className="p-6 text-center">
-                    <div className="w-12 h-12 rounded-full bg-secondary/20 flex items-center justify-center mx-auto mb-4">
-                      <Phone className="h-6 w-6 text-secondary" />
-                    </div>
-                    <h3 className="font-bold mb-2">Central Resource Team</h3>
-                    <p className="text-sm text-muted-foreground mb-4">For childhood budgets and interim funding</p>
-                    <div className="space-y-2 text-sm">
-                      <a href="mailto:oap@ontario.ca" className="flex items-center justify-center gap-2 text-secondary hover:text-secondary/80">
-                        <Mail className="h-4 w-4" />
-                        oap@ontario.ca
-                      </a>
-                      <a href="tel:1-888-444-4530" className="flex items-center justify-center gap-2 text-secondary hover:text-secondary/80">
-                        <Phone className="h-4 w-4" />
-                        1-888-444-4530
                       </a>
                     </div>
                   </CardContent>
