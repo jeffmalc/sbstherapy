@@ -40,7 +40,7 @@ export const serviceAreas: ServiceArea[] = [
     name: "East York",
     slug: "east-york",
     region: "Toronto",
-    description: "East York's family-friendly neighborhoods are served by our compassionate autism therapy team. We provide in-home ABA therapy, speech therapy, and therapeutic recreation services throughout the area.",
+    description: "East York's family-friendly neighborhoods are served by our compassionate autism therapy team. We provide in-home ABA therapy, speech therapy throughout the area.",
     nearbyAreas: ["Toronto", "Scarborough", "North York"]
   },
 
@@ -79,7 +79,7 @@ export const serviceAreas: ServiceArea[] = [
     name: "Markham",
     slug: "markham",
     region: "York",
-    description: "Markham's growing community benefits from our comprehensive autism therapy programs. Our therapists provide culturally-sensitive, in-home ABA therapy, speech therapy, and therapeutic recreation throughout Markham and Unionville.",
+    description: "Markham's growing community benefits from our comprehensive autism therapy programs. Our therapists provide culturally-sensitive, in-home ABA therapy, speech therapy throughout Markham and Unionville.",
     nearbyAreas: ["Richmond Hill", "Vaughan", "Scarborough", "Stouffville"]
   },
   {
@@ -114,7 +114,7 @@ export const serviceAreas: ServiceArea[] = [
     name: "Stouffville",
     slug: "stouffville",
     region: "York",
-    description: "Stouffville and Whitchurch-Stouffville families receive dedicated autism therapy services at home. We bring ABA therapy, therapeutic recreation, and family support services to your door.",
+    description: "Stouffville and Whitchurch-Stouffville families receive dedicated autism therapy services at home. We bring ABA therapy, and family support services to your door.",
     nearbyAreas: ["Markham", "Uxbridge", "Aurora", "Pickering"]
   },
   {
@@ -135,7 +135,7 @@ export const serviceAreas: ServiceArea[] = [
     name: "East Gwillimbury",
     slug: "east-gwillimbury",
     region: "York",
-    description: "East Gwillimbury's growing communities receive personalized autism therapy services at home. Our team provides ABA therapy, speech therapy, and therapeutic recreation in Holland Landing, Sharon, and Queensville.",
+    description: "East Gwillimbury's growing communities receive personalized autism therapy services at home. Our team provides ABA therapy, speech therapy in Holland Landing, Sharon, and Queensville.",
     nearbyAreas: ["Newmarket", "Georgina", "Aurora", "Uxbridge"]
   },
 
@@ -151,7 +151,7 @@ export const serviceAreas: ServiceArea[] = [
     name: "Burlington",
     slug: "burlington",
     region: "Halton",
-    description: "Burlington's waterfront community is served by our experienced autism therapy team. We provide comprehensive in-home ABA therapy, speech-language pathology, and therapeutic recreation services.",
+    description: "Burlington's waterfront community is served by our experienced autism therapy team. We provide comprehensive in-home ABA therapy, speech-language pathology.",
     nearbyAreas: ["Oakville", "Hamilton", "Milton", "Mississauga"]
   },
   {
@@ -172,7 +172,7 @@ export const serviceAreas: ServiceArea[] = [
     name: "Georgetown",
     slug: "georgetown",
     region: "Halton",
-    description: "Georgetown families access our full range of autism therapy services without leaving home. We deliver personalized ABA therapy, speech therapy, and therapeutic recreation throughout this historic community.",
+    description: "Georgetown families access our full range of autism therapy services without leaving home. We deliver personalized ABA therapy, speech therapy throughout this historic community.",
     nearbyAreas: ["Halton Hills", "Brampton", "Milton", "Acton"]
   },
 
@@ -195,7 +195,7 @@ export const serviceAreas: ServiceArea[] = [
     name: "Whitby",
     slug: "whitby",
     region: "Durham",
-    description: "Whitby families receive personalized autism therapy services in the comfort of home. Our therapists deliver ABA therapy, occupational therapy, and therapeutic recreation throughout Brooklin and downtown Whitby.",
+    description: "Whitby families receive personalized autism therapy services in the comfort of home. Our therapists deliver ABA therapy, occupational therapy throughout Brooklin and downtown Whitby.",
     nearbyAreas: ["Ajax", "Oshawa", "Pickering", "Clarington"]
   },
   {
@@ -216,7 +216,7 @@ export const serviceAreas: ServiceArea[] = [
     name: "Uxbridge",
     slug: "uxbridge",
     region: "Durham",
-    description: "Uxbridge Township families benefit from our in-home autism therapy services. We bring ABA therapy, therapeutic recreation, and comprehensive family support to this scenic community.",
+    description: "Uxbridge Township families benefit from our in-home autism therapy services. We bring ABA therapy, and comprehensive family support to this scenic community.",
     nearbyAreas: ["Stouffville", "Pickering", "Scugog", "East Gwillimbury"]
   },
   {
