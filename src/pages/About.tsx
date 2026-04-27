@@ -314,7 +314,7 @@ const About = () => {
               </div>
               <div className="text-center">
                 <Users className="h-12 w-12 mx-auto mb-4 opacity-80" />
-                <div className="text-4xl md:text-5xl font-bold mb-2">500+</div>
+                <div className="text-4xl md:text-5xl font-bold mb-2">150+</div>
                 <p className="text-primary-foreground/80">Families Served</p>
               </div>
               <div className="text-center">
