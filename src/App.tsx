@@ -71,7 +71,7 @@ const App = () => (
               <Route path="/occupational-therapy" element={<Navigate to="/services/occupational-therapy" replace />} />
               <Route path="/occupational-therapy-in-toronto" element={<Navigate to="/services/occupational-therapy" replace />} />
               <Route path="/psycho-educational-assessment-in-toronto" element={<Navigate to="/services/psycho-educational-assessments" replace />} />
-              <Route path="/therapeutic-recreation-in-toronto" element={<Navigate to="/services/therapeutic-recreation" replace />} />
+              <Route path="/therapeutic-recreation-in-toronto" element={<Navigate to="/" replace />} />
               <Route path="/respite-in-toronto" element={<Navigate to="/services/respite-services" replace />} />
               <Route path="/respite" element={<Navigate to="/services/respite-services" replace />} />
               <Route path="/social-skills-training-in-toronto" element={<Navigate to="/services/social-skills-training" replace />} />
