@@ -93,6 +93,12 @@ const Footer = () => {
             >
               Privacy Policy
             </a>
+            <a 
+              href="/sitemap" 
+              className="text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors underline-offset-2 hover:underline"
+            >
+              Sitemap
+            </a>
           </div>
           <p className="text-sm text-primary-foreground/60 flex items-center gap-1">
             Made with <Heart className="h-4 w-4 text-accent fill-accent" /> in <a href="/service-area/toronto" className="hover:text-primary-foreground transition-colors underline-offset-2 hover:underline">Toronto</a>
