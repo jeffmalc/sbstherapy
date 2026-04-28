@@ -28,6 +28,7 @@ import PsychoEducationalAssessments from "./pages/services/PsychoEducationalAsse
 import ServiceAreaPage from "./pages/ServiceAreaPage";
 import Prices from "./pages/Prices";
 import Careers from "./pages/Careers";
+import Sitemap from "./pages/Sitemap";
 
 const queryClient = new QueryClient();
 
@@ -60,6 +61,7 @@ const App = () => (
               <Route path="/service-area/:slug" element={<ServiceAreaPage />} />
               <Route path="/careers" element={<Careers />} />
               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+              <Route path="/sitemap" element={<Sitemap />} />
               
               {/* Legacy WordPress redirects */}
               <Route path="/about-us" element={<Navigate to="/about" replace />} />
