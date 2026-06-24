@@ -4,6 +4,8 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
+import { AuthProvider } from "@/hooks/useAuth";
+import ProtectedRoute from "@/components/ProtectedRoute";
 import BackToTop from "./components/BackToTop";
 import GoogleAnalytics from "./components/GoogleAnalytics";
 import PageTransition from "./components/PageTransition";
@@ -29,8 +31,13 @@ import ServiceAreaPage from "./pages/ServiceAreaPage";
 import Prices from "./pages/Prices";
 import Careers from "./pages/Careers";
 import Sitemap from "./pages/Sitemap";
+import Auth from "./pages/Auth";
 
 const queryClient = new QueryClient();
+
+const Protected = ({ children }: { children: React.ReactNode }) => (
+  <ProtectedRoute>{children}</ProtectedRoute>
+);
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
@@ -39,67 +46,73 @@ const App = () => (
         <Toaster />
         <Sonner />
         <BrowserRouter>
-          <PageTransition>
-            <Routes>
-              <Route path="/" element={<Index />} />
-              <Route path="/prices" element={<Prices />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/oap" element={<OAP />} />
-              <Route path="/ssah" element={<SSAH />} />
-              <Route path="/faq" element={<FAQPage />} />
-              <Route path="/team" element={<Team />} />
-              <Route path="/blog" element={<Blog />} />
-              <Route path="/blog/:slug" element={<BlogPostPage />} />
-              <Route path="/services/aba-therapy" element={<ABATherapy />} />
-              <Route path="/services/speech-therapy" element={<SpeechTherapy />} />
-              <Route path="/services/occupational-therapy" element={<OccupationalTherapy />} />
-              <Route path="/services/therapeutic-recreation" element={<Navigate to="/" replace />} />
-              <Route path="/services/respite-services" element={<RespiteServices />} />
-              <Route path="/services/social-skills-training" element={<SocialSkillsTraining />} />
-              <Route path="/services/bcba-mentorship" element={<BCBAMentorship />} />
-              <Route path="/services/psycho-educational-assessments" element={<PsychoEducationalAssessments />} />
-              <Route path="/service-area/:slug" element={<ServiceAreaPage />} />
-              <Route path="/careers" element={<Careers />} />
-              <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-              <Route path="/sitemap" element={<Sitemap />} />
-              
-              {/* Legacy WordPress redirects */}
-              <Route path="/about-us" element={<Navigate to="/about" replace />} />
-              <Route path="/applied-behaviour-analysis" element={<Navigate to="/services/aba-therapy" replace />} />
-              <Route path="/aba-therapy" element={<Navigate to="/services/aba-therapy" replace />} />
-              <Route path="/aba" element={<Navigate to="/services/aba-therapy" replace />} />
-              <Route path="/speech-therapy" element={<Navigate to="/services/speech-therapy" replace />} />
-              <Route path="/speech-therapy-in-toronto" element={<Navigate to="/services/speech-therapy" replace />} />
-              <Route path="/occupational-therapy" element={<Navigate to="/services/occupational-therapy" replace />} />
-              <Route path="/occupational-therapy-in-toronto" element={<Navigate to="/services/occupational-therapy" replace />} />
-              <Route path="/psycho-educational-assessment-in-toronto" element={<Navigate to="/services/psycho-educational-assessments" replace />} />
-              <Route path="/therapeutic-recreation-in-toronto" element={<Navigate to="/" replace />} />
-              <Route path="/respite-in-toronto" element={<Navigate to="/services/respite-services" replace />} />
-              <Route path="/respite" element={<Navigate to="/services/respite-services" replace />} />
-              <Route path="/social-skills-training-in-toronto" element={<Navigate to="/services/social-skills-training" replace />} />
-              <Route path="/social-skills" element={<Navigate to="/services/social-skills-training" replace />} />
-              <Route path="/bcba-mentorship-and-supervision-in-toronto" element={<Navigate to="/services/bcba-mentorship" replace />} />
-              <Route path="/contact" element={<Navigate to="/#contact" replace />} />
-              <Route path="/contact-us" element={<Navigate to="/#contact" replace />} />
-              <Route path="/our-team" element={<Navigate to="/team" replace />} />
-              <Route path="/meet-the-team" element={<Navigate to="/team" replace />} />
-              <Route path="/faqs" element={<Navigate to="/faq" replace />} />
-              <Route path="/frequently-asked-questions" element={<Navigate to="/faq" replace />} />
-              <Route path="/oap-funding" element={<Navigate to="/oap" replace />} />
-              <Route path="/ontario-autism-program" element={<Navigate to="/oap" replace />} />
-              <Route path="/special-services-at-home" element={<Navigate to="/ssah" replace />} />
-              <Route path="/ssah-funding" element={<Navigate to="/ssah" replace />} />
-              <Route path="/pricing" element={<Navigate to="/prices" replace />} />
-              <Route path="/rates" element={<Navigate to="/prices" replace />} />
-              <Route path="/careers-side-by-side-therapy-in-toronto" element={<Navigate to="/careers" replace />} />
-              <Route path="/aba-therapy-careers-at-side-by-side-therapy" element={<Navigate to="/careers" replace />} />
+          <AuthProvider>
+            <PageTransition>
+              <Routes>
+                {/* Public auth route */}
+                <Route path="/auth" element={<Auth />} />
 
-              {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-              <Route path="*" element={<NotFound />} />
-            </Routes>
-          </PageTransition>
-          <GoogleAnalytics />
-          <BackToTop />
+                {/* Gated routes */}
+                <Route path="/" element={<Protected><Index /></Protected>} />
+                <Route path="/prices" element={<Protected><Prices /></Protected>} />
+                <Route path="/about" element={<Protected><About /></Protected>} />
+                <Route path="/oap" element={<Protected><OAP /></Protected>} />
+                <Route path="/ssah" element={<Protected><SSAH /></Protected>} />
+                <Route path="/faq" element={<Protected><FAQPage /></Protected>} />
+                <Route path="/team" element={<Protected><Team /></Protected>} />
+                <Route path="/blog" element={<Protected><Blog /></Protected>} />
+                <Route path="/blog/:slug" element={<Protected><BlogPostPage /></Protected>} />
+                <Route path="/services/aba-therapy" element={<Protected><ABATherapy /></Protected>} />
+                <Route path="/services/speech-therapy" element={<Protected><SpeechTherapy /></Protected>} />
+                <Route path="/services/occupational-therapy" element={<Protected><OccupationalTherapy /></Protected>} />
+                <Route path="/services/therapeutic-recreation" element={<Navigate to="/" replace />} />
+                <Route path="/services/respite-services" element={<Protected><RespiteServices /></Protected>} />
+                <Route path="/services/social-skills-training" element={<Protected><SocialSkillsTraining /></Protected>} />
+                <Route path="/services/bcba-mentorship" element={<Protected><BCBAMentorship /></Protected>} />
+                <Route path="/services/psycho-educational-assessments" element={<Protected><PsychoEducationalAssessments /></Protected>} />
+                <Route path="/service-area/:slug" element={<Protected><ServiceAreaPage /></Protected>} />
+                <Route path="/careers" element={<Protected><Careers /></Protected>} />
+                <Route path="/privacy-policy" element={<Protected><PrivacyPolicy /></Protected>} />
+                <Route path="/sitemap" element={<Protected><Sitemap /></Protected>} />
+
+                {/* Legacy WordPress redirects */}
+                <Route path="/about-us" element={<Navigate to="/about" replace />} />
+                <Route path="/applied-behaviour-analysis" element={<Navigate to="/services/aba-therapy" replace />} />
+                <Route path="/aba-therapy" element={<Navigate to="/services/aba-therapy" replace />} />
+                <Route path="/aba" element={<Navigate to="/services/aba-therapy" replace />} />
+                <Route path="/speech-therapy" element={<Navigate to="/services/speech-therapy" replace />} />
+                <Route path="/speech-therapy-in-toronto" element={<Navigate to="/services/speech-therapy" replace />} />
+                <Route path="/occupational-therapy" element={<Navigate to="/services/occupational-therapy" replace />} />
+                <Route path="/occupational-therapy-in-toronto" element={<Navigate to="/services/occupational-therapy" replace />} />
+                <Route path="/psycho-educational-assessment-in-toronto" element={<Navigate to="/services/psycho-educational-assessments" replace />} />
+                <Route path="/therapeutic-recreation-in-toronto" element={<Navigate to="/" replace />} />
+                <Route path="/respite-in-toronto" element={<Navigate to="/services/respite-services" replace />} />
+                <Route path="/respite" element={<Navigate to="/services/respite-services" replace />} />
+                <Route path="/social-skills-training-in-toronto" element={<Navigate to="/services/social-skills-training" replace />} />
+                <Route path="/social-skills" element={<Navigate to="/services/social-skills-training" replace />} />
+                <Route path="/bcba-mentorship-and-supervision-in-toronto" element={<Navigate to="/services/bcba-mentorship" replace />} />
+                <Route path="/contact" element={<Navigate to="/#contact" replace />} />
+                <Route path="/contact-us" element={<Navigate to="/#contact" replace />} />
+                <Route path="/our-team" element={<Navigate to="/team" replace />} />
+                <Route path="/meet-the-team" element={<Navigate to="/team" replace />} />
+                <Route path="/faqs" element={<Navigate to="/faq" replace />} />
+                <Route path="/frequently-asked-questions" element={<Navigate to="/faq" replace />} />
+                <Route path="/oap-funding" element={<Navigate to="/oap" replace />} />
+                <Route path="/ontario-autism-program" element={<Navigate to="/oap" replace />} />
+                <Route path="/special-services-at-home" element={<Navigate to="/ssah" replace />} />
+                <Route path="/ssah-funding" element={<Navigate to="/ssah" replace />} />
+                <Route path="/pricing" element={<Navigate to="/prices" replace />} />
+                <Route path="/rates" element={<Navigate to="/prices" replace />} />
+                <Route path="/careers-side-by-side-therapy-in-toronto" element={<Navigate to="/careers" replace />} />
+                <Route path="/aba-therapy-careers-at-side-by-side-therapy" element={<Navigate to="/careers" replace />} />
+
+                {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+                <Route path="*" element={<Protected><NotFound /></Protected>} />
+              </Routes>
+            </PageTransition>
+            <GoogleAnalytics />
+            <BackToTop />
+          </AuthProvider>
         </BrowserRouter>
       </TooltipProvider>
     </HelmetProvider>
