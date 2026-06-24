@@ -1,40 +1,54 @@
 import { createContext, useContext, useEffect, useState, ReactNode } from "react";
-import type { Session, User } from "@supabase/supabase-js";
-import { supabase } from "@/integrations/supabase/client";
 
 interface AuthContextValue {
-  session: Session | null;
-  user: User | null;
+  authed: boolean;
   loading: boolean;
+  signIn: (password: string) => boolean;
   signOut: () => Promise<void>;
 }
+
+const STORAGE_KEY = "sbs-site-auth";
+const SITE_PASSWORD = "sidebyside2026";
 
 const AuthContext = createContext<AuthContextValue | undefined>(undefined);
 
 export const AuthProvider = ({ children }: { children: ReactNode }) => {
-  const [session, setSession] = useState<Session | null>(null);
+  const [authed, setAuthed] = useState(false);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, newSession) => {
-      setSession(newSession);
-      setLoading(false);
-    });
-
-    supabase.auth.getSession().then(({ data: { session: existing } }) => {
-      setSession(existing);
-      setLoading(false);
-    });
-
-    return () => subscription.unsubscribe();
+    try {
+      setAuthed(localStorage.getItem(STORAGE_KEY) === "1");
+    } catch {
+      // ignore
+    }
+    setLoading(false);
   }, []);
 
+  const signIn = (password: string) => {
+    if (password === SITE_PASSWORD) {
+      try {
+        localStorage.setItem(STORAGE_KEY, "1");
+      } catch {
+        // ignore
+      }
+      setAuthed(true);
+      return true;
+    }
+    return false;
+  };
+
   const signOut = async () => {
-    await supabase.auth.signOut();
+    try {
+      localStorage.removeItem(STORAGE_KEY);
+    } catch {
+      // ignore
+    }
+    setAuthed(false);
   };
 
   return (
-    <AuthContext.Provider value={{ session, user: session?.user ?? null, loading, signOut }}>
+    <AuthContext.Provider value={{ authed, loading, signIn, signOut }}>
       {children}
     </AuthContext.Provider>
   );
